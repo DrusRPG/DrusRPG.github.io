@@ -12,9 +12,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Update apt
-        run: apt update
+        run: sudo apt-get update
       - name: Download Hugo
-        run: apt install hugo
+        run: sudo apt-get install hugo
       - name: Test Hugo
         run: hugo version 
       - name: Final
