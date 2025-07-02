@@ -15,8 +15,17 @@ jobs:
         run: sudo apt-get update
       - name: Download Hugo
         run: sudo apt-get install hugo
-      - name: Test Hugo
-        run: hugo version 
-      - name: Final
-        run: echo "Finished!"
-
+      - name: Enter dir
+        run: cd $GITHUB_WORKSPACE/DrusMagie
+      - name: Build server
+        run: hugo build
+      - name: Create dir
+        run: mkdir ../../deploy
+      - name: Copy over
+        run: cp -r $GITHUB_WORKSPACE/DrusMagie/public ../../deploy
+      - name: Move over
+        run: cd ../../deploy
+      - name: Git init
+        run: git init
+      - name: Git set upstream
+        run: git push --set-upstream origin github-pages
