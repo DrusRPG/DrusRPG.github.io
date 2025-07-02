@@ -15,10 +15,8 @@ jobs:
         run: sudo apt-get update
       - name: Download Hugo
         run: sudo apt-get install hugo
-      - name: Enter dir
-        run: cd $GITHUB_WORKSPACE/DrusMagie
       - name: Build server
-        run: hugo build
+        run:  cd $GITHUB_WORKSPACE/DrusMagie && hugo
       - name: Create dir
         run: mkdir ../../deploy
       - name: Copy over
