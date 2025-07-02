@@ -12,11 +12,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Update apt
-        uses: apt update
+        run: apt update
       - name: Download Hugo
-        uses: apt install hugo
+        run: apt install hugo
       - name: Test Hugo
-        uses: hugo version 
+        run: hugo version 
       - name: Final
-        uses: echo "Finished!"
+        run: echo "Finished!"
 
