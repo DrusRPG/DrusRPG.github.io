@@ -12,18 +12,9 @@ stages:
   - build_drus_website
 
 jobs:
-  # Define a job named 'my_apt_job'.
-  # Jobs are the fundamental building blocks of a pipeline.
   build_drus_website:
     stage: build
-    # The 'script' section contains the main commands that the job will execute.
     script:
       - cd DrusMagie
       - hugo server
   
-    # The 'only' keyword specifies when to run this job.
-    # 'branches' means this job will only run when changes are pushed to a branch.
-    # This is the default behavior for push events, but explicitly stating it
-    # can improve clarity.
-  only:
-    - master
