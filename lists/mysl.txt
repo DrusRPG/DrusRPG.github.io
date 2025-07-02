@@ -1,0 +1,41 @@
+základní:
+	neslyšitelnost
+	iluze vůně/pachu
+	iluze únavy
+	povzbuzení
+	telekineze - předmět
+	čtení současné myšlenky
+	sugesce myšlenky
+	vystrašení
+	uklidnění
+	hypnóza - spánek
+	meditace
+	mentální útok
+pokročilá:
+	neviditelnost
+	zmatení
+	iluze zvuku
+	iluze obrazu/scény
+	iluze hmatového vjemu
+	hromadná iluze vůně/pachu
+	telekineze organismu
+	čtení nedávné myšlenky
+	sugesce názoru
+	telepatická domluva
+	cit mysli
+	sugesce vzteku
+	sugesce přátelství
+	sugesce odporu
+	hypnóza - ovládnutí
+	mentální obrana - sugesce a útoky na smysly
+mistrovská:
+	mentální obrana - iluze a hypnózy
+	hromadná zraková iluze
+	hromadná zvuková iluze
+	čtení mysli
+	amnézie
+	telepatická kontrola
+	telepatické propojení
+	telepatický prostor
+	hypnóza - přesvědčení
+	značka mysli

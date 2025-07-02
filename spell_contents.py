@@ -1,0 +1,63 @@
+from glob import glob
+import string
+
+def save(fname, data):
+    with open(fname, "w") as f:
+        f.write(data)
+
+
+school_template = open("templates/school_of_magic_header.md").read()
+
+
+
+input_files = [
+    ("Magie Času", "cas"),
+    ("Magie Prostoru", "prostor"),
+    ("Magie Života", "zivot"),
+    ("Magie Smrti", "smrt"),
+    ("Magie Hmoty", "hmota"),
+    ("Magie Mysli", "mysl"),
+]
+
+def split_spells(spell_file_lines):
+    split = {}
+    current = []
+    current_name = None
+    for line in spell_file_lines:
+        # skip pure-whitespace lines
+        if line.isspace():
+            continue
+        if len(line) == 0:
+            continue
+
+        if line[0] in string.whitespace:
+            current.append(line.strip())
+        else:
+            if current_name is not None:
+                split[current_name] = current
+            current_name = line.strip()
+            current = []
+    if current_name is not None:
+        split[current_name] = current
+
+    return split
+
+
+
+
+
+for magic_school_name, magic_school_file in input_files:
+    school_out = school_template.replace("$NAME", magic_school_name)
+
+    spells = split_spells(open(f"lists/{magic_school_file}.txt").read().splitlines())
+    
+
+    for spell_tier, spell_list in spells.items():
+        school_out += '\n'.join([f"\n## {spell_tier.title()}", *["* " + spell.title() for spell in spell_list]]) 
+
+    save(f"DrusMagie/content/magic/{magic_school_file}.md", school_out)
+
+
+
+    
+
