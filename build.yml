@@ -1,0 +1,22 @@
+name: Hue Hue Hue
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build_drus_website:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Update apt
+        uses: apt update
+      - name: Download Hugo
+        uses: apt install hugo
+      - name: Test Hugo
+        uses: hugo version 
+      - name: Final
+        uses: echo "Finished!"
+
