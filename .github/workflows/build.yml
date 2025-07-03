@@ -16,9 +16,9 @@ jobs:
       - name: Update apt
         run: sudo apt-get update -qq
       - name: Download Hugo
-        run: sudo apt-get install hugo python3
+        run: sudo apt-get install -q hugo python3
       - name: Change dir
-        run:  cd $GITHUB_WORKSPACE
+        run: cd $GITHUB_WORKSPACE
       - name: Update spell contents
         run: python3 spell_contents.py
       - name: Build server
@@ -27,8 +27,8 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }} # Built-in token for same-repo operations
-          publish_dir:  $GITHUB_WORKSPACE/DrusMagie # The directory to publish
+          publish_dir: . # The directory to publish
           publish_branch: github-pages # The target branch
-          user_name: 'github-actions[bot]' # Recommended bot name
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          user_name: 'Mistr vodíkové bomby[bot]' # Recommended bot name
+          user_email: '╰(*°▽°*)╯[bot]@chad.org'
           commit_message: 'Deploying the Drus Site (Based) 😉'
