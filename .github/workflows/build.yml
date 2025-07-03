@@ -22,7 +22,7 @@ jobs:
       - name: Update spell contents
         run: python3 spell_contents.py
       - name: Build server
-        run: cd DrusMagie && hugo
+        run: cd DrusMagie && hugo --baseURL ${{ steps.pages.outputs.base_url }}
       - name: Create dir
         run: mkdir ../../deploy
       - name: Copy over
