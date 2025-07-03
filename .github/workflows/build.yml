@@ -16,11 +16,11 @@ jobs:
       - name: Update apt
         run: sudo apt-get update -qq
       - name: Download Hugo
-        run: sudo apt-get install hugo python
+        run: sudo apt-get install hugo python3
       - name: Build server
         run:  cd $GITHUB_WORKSPACE
       - name: Update spell contents
-        run: python spell_contents.py
+        run: python3 spell_contents.py
       - name: Build server
         run: cd DrusMagie && hugo
       - name: Create dir
