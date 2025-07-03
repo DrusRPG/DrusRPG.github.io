@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          submodules: recursive
       - name: Update apt
         run: sudo apt-get update -qq
       - name: Download Hugo
@@ -29,7 +31,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }} # Built-in token for same-repo operations
-          publish_dir: . # The directory to publish
+          publish_dir: ./DrusMagie # The directory to publish
           publish_branch: github-pages # The target branch
           user_name: 'Mistr vodíkové bomby[bot]' # Recommended bot name
           user_email: '╰(*°▽°*)╯[bot]@chad.org'
