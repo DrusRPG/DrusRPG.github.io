@@ -17,8 +17,10 @@ jobs:
           submodules: recursive
       - name: Update apt
         run: sudo apt-get update -qq
+      - name: Download Python3
+        run: sudo apt-get install -q python3
       - name: Download Hugo
-        run: sudo apt-get install -q hugo python3
+        run: sudo snap install hugo
       - name: Change dir
         run: cd $GITHUB_WORKSPACE
       - name: Test find
