@@ -19,6 +19,8 @@ jobs:
         run: sudo apt-get install -q hugo python3
       - name: Change dir
         run: cd $GITHUB_WORKSPACE
+      - name: Test find
+        run: find . *
       - name: Update spell contents
         run: python3 spell_contents.py
       - name: Build server
