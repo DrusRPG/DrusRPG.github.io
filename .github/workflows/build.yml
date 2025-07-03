@@ -17,12 +17,12 @@ jobs:
         run: sudo apt-get update -qq
       - name: Download Hugo
         run: sudo apt-get install hugo python3
-      - name: Build server
+      - name: Change dir
         run:  cd $GITHUB_WORKSPACE
       - name: Update spell contents
         run: python3 spell_contents.py
       - name: Build server
-        run: cd DrusMagie && hugo
+        run: cd DrusMagie && hugo --baseURL "https://drusrpg.github.io"
       - name: Create dir
         run: mkdir ../../deploy
       - name: Copy over
