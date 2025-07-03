@@ -1,0 +1,37 @@
+základní:
+	požehnání rychlosti
+	požehnání síly
+	požehnání zraku
+	požehnání sluchu
+	požehnání přitažlivosti
+	požehnání výdrže
+	zacelení ran
+	zastavení krvácení
+	srůst kosti
+	odhal jed
+	odhal nemoc
+	odhal infekci
+	světlo
+	příkaz neživému
+pokročilá:
+	požehnání přesnosti
+	magická zbroj
+	narovnání kosti
+	obnova svalu
+	obnova kůže
+	uzdrav nemoc
+	odhal těžkou nemoc
+	odstraň infekci
+	odstraň jed
+	meditace
+	povolání neživého
+	ovládnutí neživého
+	požehnání smyslů
+mistrovská:
+	obnova orgánu
+	obnova kosti
+	regenerace
+	pomoc živých tvorů
+	značka života
+	stvoření neživého
+

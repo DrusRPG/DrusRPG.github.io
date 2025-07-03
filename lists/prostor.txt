@@ -1,0 +1,33 @@
+základní:
+	teleportace objektu
+	přivolání objektu
+	změna tvaru objektu
+	zmenšení vzdálenosti
+	zvětšení vzdálenosti
+	neprostupná bariéra
+	změna dráhy objektu
+	levitace
+	přitahující pole
+	odpuzující pole
+pokročilá:
+	prostorová trhlina
+	zacelení trhliny
+	teleportace sebe
+	teleportace organismu - dotyk
+	přivolání organismu
+	teleportační brána - dohled
+	odvrácení útoků
+	zvětšení objektu
+	zmenšení objektu
+	zvuková bariéra
+	světelná bariéra
+	sférická bariéra
+	sférická zvuková bariéra
+	meditace
+	protorový tunel
+mistrovská:
+	zvětšení organismu
+	změnšení organismu
+	teleportační brána - paměť
+	cit prostoru - prohledávání, co je kolem sesílajícího mága
+	značka prostoru
