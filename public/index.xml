@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Drus</title>
+    <link>https://drusrpg.github.io/</link>
+    <description>Recent content on Drus</description>
+    <image>
+      <title>Drus</title>
+      <url>https://drusrpg.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://drusrpg.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en</language>
+    <atom:link href="https://drusrpg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Magie Času</title>
+      <link>https://drusrpg.github.io/magic/cas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://drusrpg.github.io/magic/cas/</guid>
+      <description>&lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Zrychli Sebe&lt;/li&gt;
+&lt;li&gt;Zrychli Objekt - Dohled&lt;/li&gt;
+&lt;li&gt;Zpomal Sebe&lt;/li&gt;
+&lt;li&gt;Zestárnutí Objektu - Dotyk&lt;/li&gt;
+&lt;li&gt;Omládnutí Objektu - Dotyk&lt;/li&gt;
+&lt;li&gt;Náhled Do Minulosti Místa&lt;/li&gt;
+&lt;li&gt;Náhled Do Minulosti Objektu&lt;/li&gt;
+&lt;li&gt;Zrychli Organismus - Dotyk&lt;/li&gt;
+&lt;li&gt;Zpomal Organismus - Dotyk&lt;/li&gt;
+&lt;li&gt;Zastavení Sebe V Čase&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pokročilá&#34;&gt;Pokročilá:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Zrychli Organismus - Dohled&lt;/li&gt;
+&lt;li&gt;Zrychli Proces - Dohled&lt;/li&gt;
+&lt;li&gt;Zpomal Proces - Dohled&lt;/li&gt;
+&lt;li&gt;Prodloužení Procesu - Dohled&lt;/li&gt;
+&lt;li&gt;Zkrácení Procesu - Dohled&lt;/li&gt;
+&lt;li&gt;Zpomal Organismus - Dohled&lt;/li&gt;
+&lt;li&gt;Zestárnutí Organismu - Dotyk&lt;/li&gt;
+&lt;li&gt;Omládnutí Organismu - Dotyk&lt;/li&gt;
+&lt;li&gt;Zestárnutí Objektu - Dohled&lt;/li&gt;
+&lt;li&gt;Omládnutí Objektu - Dohled&lt;/li&gt;
+&lt;li&gt;Náhled Do Budoucnosti Objektu&lt;/li&gt;
+&lt;li&gt;Náhled Do Budoucnosti Místa&lt;/li&gt;
+&lt;li&gt;Náhled Do Minulosti Organismu&lt;/li&gt;
+&lt;li&gt;Zastavení Objektu V Čase&lt;/li&gt;
+&lt;li&gt;Přesunutí Objektu V Čase&lt;/li&gt;
+&lt;li&gt;Přesunutí Sebe V Čase&lt;/li&gt;
+&lt;li&gt;Meditace&lt;/li&gt;
+&lt;li&gt;Změna Hlasu&lt;/li&gt;
+&lt;li&gt;Zpomalení Místa&lt;/li&gt;
+&lt;li&gt;Zrychlení Místa&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mistrovská&#34;&gt;Mistrovská:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Náhled Do Budoucnosti Organismu&lt;/li&gt;
+&lt;li&gt;Náhled Do Minulosti/Budoucnosti Pro Ostatní&lt;/li&gt;
+&lt;li&gt;Zestárnutí Místa - Dohled&lt;/li&gt;
+&lt;li&gt;Omládnutí Místa - Dohled&lt;/li&gt;
+&lt;li&gt;Zastavení Organismu V Čase&lt;/li&gt;
+&lt;li&gt;Přesunutí Organismu V Čase&lt;/li&gt;
+&lt;li&gt;Značka Času&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Magie Hmoty</title>
+      <link>https://drusrpg.github.io/magic/hmota/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://drusrpg.github.io/magic/hmota/</guid>
+      <description>&lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ohnivá Střela&lt;/li&gt;
+&lt;li&gt;Ohnivá Stěna&lt;/li&gt;
+&lt;li&gt;Ohnivý Plášť&lt;/li&gt;
+&lt;li&gt;Ohnivý Prstenec&lt;/li&gt;
+&lt;li&gt;Zapálení - Dotyk&lt;/li&gt;
+&lt;li&gt;Cit Ohně&lt;/li&gt;
+&lt;li&gt;Ledová Střela&lt;/li&gt;
+&lt;li&gt;Ledová Stěna&lt;/li&gt;
+&lt;li&gt;Ledový Plášť&lt;/li&gt;
+&lt;li&gt;Ledový Prstenec&lt;/li&gt;
+&lt;li&gt;Vodní Prstenec&lt;/li&gt;
+&lt;li&gt;Vodní Plášť&lt;/li&gt;
+&lt;li&gt;Zamražení - Dotyk&lt;/li&gt;
+&lt;li&gt;Cit Vody&lt;/li&gt;
+&lt;li&gt;Poryv Větru&lt;/li&gt;
+&lt;li&gt;Větrný Plášť&lt;/li&gt;
+&lt;li&gt;Tlakový Prstenec&lt;/li&gt;
+&lt;li&gt;Cit Vzduchu&lt;/li&gt;
+&lt;li&gt;Kamenná Střela&lt;/li&gt;
+&lt;li&gt;Kammená Kůže&lt;/li&gt;
+&lt;li&gt;Kamenná Stěna&lt;/li&gt;
+&lt;li&gt;Kamenný Prstenec&lt;/li&gt;
+&lt;li&gt;Cit Země&lt;/li&gt;
+&lt;li&gt;Elektrický Výboj&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pokročilá&#34;&gt;Pokročilá:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Proud Ohně&lt;/li&gt;
+&lt;li&gt;Ohnivá Koule&lt;/li&gt;
+&lt;li&gt;Ohnivá Zbraň&lt;/li&gt;
+&lt;li&gt;Pole Ohně&lt;/li&gt;
+&lt;li&gt;Zapálení - Dohled&lt;/li&gt;
+&lt;li&gt;Roztavení - Dotyk&lt;/li&gt;
+&lt;li&gt;Ohnivé Vězení&lt;/li&gt;
+&lt;li&gt;Proud Vody&lt;/li&gt;
+&lt;li&gt;Ledová Zbraň&lt;/li&gt;
+&lt;li&gt;Ledová Zbroj&lt;/li&gt;
+&lt;li&gt;Ledová Smršť&lt;/li&gt;
+&lt;li&gt;Ledové Vězení&lt;/li&gt;
+&lt;li&gt;Náledí&lt;/li&gt;
+&lt;li&gt;Zamražení - Dohled&lt;/li&gt;
+&lt;li&gt;Podchlazení - Dotyk&lt;/li&gt;
+&lt;li&gt;Tlaková Vlna&lt;/li&gt;
+&lt;li&gt;Cyklon&lt;/li&gt;
+&lt;li&gt;Ovládnutí Větru&lt;/li&gt;
+&lt;li&gt;Kouřová Clona&lt;/li&gt;
+&lt;li&gt;Eroze - Dotyk&lt;/li&gt;
+&lt;li&gt;Kamenná Smršť&lt;/li&gt;
+&lt;li&gt;Zemětřesení&lt;/li&gt;
+&lt;li&gt;Kamenná Zbraň&lt;/li&gt;
+&lt;li&gt;Kamenná Zbroj&lt;/li&gt;
+&lt;li&gt;Kamenné Vězení&lt;/li&gt;
+&lt;li&gt;Zkamenění - Dotyk&lt;/li&gt;
+&lt;li&gt;Blesk&lt;/li&gt;
+&lt;li&gt;Meditace&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mistrovská&#34;&gt;Mistrovská:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ovládnutí Ohně&lt;/li&gt;
+&lt;li&gt;Výbuch - Dohled&lt;/li&gt;
+&lt;li&gt;Roztavení - Dohled&lt;/li&gt;
+&lt;li&gt;Ovládnutí Vody&lt;/li&gt;
+&lt;li&gt;Přílivová Vlna&lt;/li&gt;
+&lt;li&gt;Podchlazení - Dohled&lt;/li&gt;
+&lt;li&gt;Uragán&lt;/li&gt;
+&lt;li&gt;Imploze - Dohled&lt;/li&gt;
+&lt;li&gt;Eroze - Dohled&lt;/li&gt;
+&lt;li&gt;Ovládni Zemi&lt;/li&gt;
+&lt;li&gt;Tekutý Písek - Dohled&lt;/li&gt;
+&lt;li&gt;Zkamenění - Dohled&lt;/li&gt;
+&lt;li&gt;Bouřka&lt;/li&gt;
+&lt;li&gt;Kulový Blesk&lt;/li&gt;
+&lt;li&gt;Značka Hmoty&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Magie Mysli</title>
+      <link>https://drusrpg.github.io/magic/mysl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://drusrpg.github.io/magic/mysl/</guid>
+      <description>&lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Neslyšitelnost&lt;/li&gt;
+&lt;li&gt;Iluze Vůně/Pachu&lt;/li&gt;
+&lt;li&gt;Iluze Únavy&lt;/li&gt;
+&lt;li&gt;Povzbuzení&lt;/li&gt;
+&lt;li&gt;Telekineze - Předmět&lt;/li&gt;
+&lt;li&gt;Čtení Současné Myšlenky&lt;/li&gt;
+&lt;li&gt;Sugesce Myšlenky&lt;/li&gt;
+&lt;li&gt;Vystrašení&lt;/li&gt;
+&lt;li&gt;Uklidnění&lt;/li&gt;
+&lt;li&gt;Hypnóza - Spánek&lt;/li&gt;
+&lt;li&gt;Meditace&lt;/li&gt;
+&lt;li&gt;Mentální Útok&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pokročilá&#34;&gt;Pokročilá:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Neviditelnost&lt;/li&gt;
+&lt;li&gt;Zmatení&lt;/li&gt;
+&lt;li&gt;Iluze Zvuku&lt;/li&gt;
+&lt;li&gt;Iluze Obrazu/Scény&lt;/li&gt;
+&lt;li&gt;Iluze Hmatového Vjemu&lt;/li&gt;
+&lt;li&gt;Hromadná Iluze Vůně/Pachu&lt;/li&gt;
+&lt;li&gt;Telekineze Organismu&lt;/li&gt;
+&lt;li&gt;Čtení Nedávné Myšlenky&lt;/li&gt;
+&lt;li&gt;Sugesce Názoru&lt;/li&gt;
+&lt;li&gt;Telepatická Domluva&lt;/li&gt;
+&lt;li&gt;Cit Mysli&lt;/li&gt;
+&lt;li&gt;Sugesce Vzteku&lt;/li&gt;
+&lt;li&gt;Sugesce Přátelství&lt;/li&gt;
+&lt;li&gt;Sugesce Odporu&lt;/li&gt;
+&lt;li&gt;Hypnóza - Ovládnutí&lt;/li&gt;
+&lt;li&gt;Mentální Obrana - Sugesce A Útoky Na Smysly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mistrovská&#34;&gt;Mistrovská:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Mentální Obrana - Iluze A Hypnózy&lt;/li&gt;
+&lt;li&gt;Hromadná Zraková Iluze&lt;/li&gt;
+&lt;li&gt;Hromadná Zvuková Iluze&lt;/li&gt;
+&lt;li&gt;Čtení Mysli&lt;/li&gt;
+&lt;li&gt;Amnézie&lt;/li&gt;
+&lt;li&gt;Telepatická Kontrola&lt;/li&gt;
+&lt;li&gt;Telepatické Propojení&lt;/li&gt;
+&lt;li&gt;Telepatický Prostor&lt;/li&gt;
+&lt;li&gt;Hypnóza - Přesvědčení&lt;/li&gt;
+&lt;li&gt;Značka Mysli&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Magie Prostoru</title>
+      <link>https://drusrpg.github.io/magic/prostor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://drusrpg.github.io/magic/prostor/</guid>
+      <description>&lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Teleportace Objektu&lt;/li&gt;
+&lt;li&gt;Přivolání Objektu&lt;/li&gt;
+&lt;li&gt;Změna Tvaru Objektu&lt;/li&gt;
+&lt;li&gt;Zmenšení Vzdálenosti&lt;/li&gt;
+&lt;li&gt;Zvětšení Vzdálenosti&lt;/li&gt;
+&lt;li&gt;Neprostupná Bariéra&lt;/li&gt;
+&lt;li&gt;Změna Dráhy Objektu&lt;/li&gt;
+&lt;li&gt;Levitace&lt;/li&gt;
+&lt;li&gt;Přitahující Pole&lt;/li&gt;
+&lt;li&gt;Odpuzující Pole&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pokročilá&#34;&gt;Pokročilá:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Prostorová Trhlina&lt;/li&gt;
+&lt;li&gt;Zacelení Trhliny&lt;/li&gt;
+&lt;li&gt;Teleportace Sebe&lt;/li&gt;
+&lt;li&gt;Teleportace Organismu - Dotyk&lt;/li&gt;
+&lt;li&gt;Přivolání Organismu&lt;/li&gt;
+&lt;li&gt;Teleportační Brána - Dohled&lt;/li&gt;
+&lt;li&gt;Odvrácení Útoků&lt;/li&gt;
+&lt;li&gt;Zvětšení Objektu&lt;/li&gt;
+&lt;li&gt;Zmenšení Objektu&lt;/li&gt;
+&lt;li&gt;Zvuková Bariéra&lt;/li&gt;
+&lt;li&gt;Světelná Bariéra&lt;/li&gt;
+&lt;li&gt;Sférická Bariéra&lt;/li&gt;
+&lt;li&gt;Sférická Zvuková Bariéra&lt;/li&gt;
+&lt;li&gt;Meditace&lt;/li&gt;
+&lt;li&gt;Protorový Tunel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mistrovská&#34;&gt;Mistrovská:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Zvětšení Organismu&lt;/li&gt;
+&lt;li&gt;Změnšení Organismu&lt;/li&gt;
+&lt;li&gt;Teleportační Brána - Paměť&lt;/li&gt;
+&lt;li&gt;Cit Prostoru - Prohledávání, Co Je Kolem Sesílajícího Mága&lt;/li&gt;
+&lt;li&gt;Značka Prostoru&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Magie Smrti</title>
+      <link>https://drusrpg.github.io/magic/smrt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://drusrpg.github.io/magic/smrt/</guid>
+      <description>&lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Slabost - Dohled&lt;/li&gt;
+&lt;li&gt;Nepřesnost - Dohled&lt;/li&gt;
+&lt;li&gt;Hluchota - Dohled&lt;/li&gt;
+&lt;li&gt;Prokletí Čichu - Dohled&lt;/li&gt;
+&lt;li&gt;Křeč Svalu - Dotyk&lt;/li&gt;
+&lt;li&gt;Povolání Zombie&lt;/li&gt;
+&lt;li&gt;Oživ Malého Tvora (Do Velikosti Kočky)&lt;/li&gt;
+&lt;li&gt;Povolání Duše&lt;/li&gt;
+&lt;li&gt;Obnov Nemrtvého&lt;/li&gt;
+&lt;li&gt;Exploze Nemrtvého&lt;/li&gt;
+&lt;li&gt;Paralyzační Jed - Na Zbraň, Dotyk&lt;/li&gt;
+&lt;li&gt;Vysátí Života - Dotyk&lt;/li&gt;
+&lt;li&gt;Tma&lt;/li&gt;
+&lt;li&gt;Vysátí Mrtvého&lt;/li&gt;
+&lt;li&gt;Vysátí Nemrtvého&lt;/li&gt;
+&lt;li&gt;Cit Smrti&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pokročilá&#34;&gt;Pokročilá:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Slepota - Dohled&lt;/li&gt;
+&lt;li&gt;Dezorientace - Dohled&lt;/li&gt;
+&lt;li&gt;Nešikovnost - Dohled&lt;/li&gt;
+&lt;li&gt;Ztráta Rovnováhy - Dohled&lt;/li&gt;
+&lt;li&gt;Strach - Dohled&lt;/li&gt;
+&lt;li&gt;Horečka - Dohled&lt;/li&gt;
+&lt;li&gt;Křeč Svalu - Dohled&lt;/li&gt;
+&lt;li&gt;Vyčerpání - Dotyk&lt;/li&gt;
+&lt;li&gt;Zranitelnost - Dohled&lt;/li&gt;
+&lt;li&gt;Povolání Ghůla&lt;/li&gt;
+&lt;li&gt;Oživ Středně Velkého Tvora (Do Velikosti Velkého Psa)&lt;/li&gt;
+&lt;li&gt;Spoutání Duše Ke Svojí Vůli&lt;/li&gt;
+&lt;li&gt;Oživ Člověka&lt;/li&gt;
+&lt;li&gt;Jed Do Nemrtvého&lt;/li&gt;
+&lt;li&gt;Smrtelný Jed - Na Zbraň, Dotyk&lt;/li&gt;
+&lt;li&gt;Tržná Rána - Dotyk&lt;/li&gt;
+&lt;li&gt;Vidění Ve Tmě - Na Sebe&lt;/li&gt;
+&lt;li&gt;Meditace&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mistrovská&#34;&gt;Mistrovská:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Neštěstí&lt;/li&gt;
+&lt;li&gt;Mdloby&lt;/li&gt;
+&lt;li&gt;Paralýza&lt;/li&gt;
+&lt;li&gt;Oživ Organismus&lt;/li&gt;
+&lt;li&gt;Spoutání Duše/Nemrtvého K Vůli Jiného&lt;/li&gt;
+&lt;li&gt;Značka Smrti&lt;/li&gt;
+&lt;li&gt;Tržná Rána - Dohled&lt;/li&gt;
+&lt;li&gt;Vysátí Života - Dohled&lt;/li&gt;
+&lt;li&gt;Vidění Ve Tmě - Ostatní&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;velmistrovská&#34;&gt;Velmistrovská:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hey Hey Hey!&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Magie Života</title>
+      <link>https://drusrpg.github.io/magic/zivot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://drusrpg.github.io/magic/zivot/</guid>
+      <description>&lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Požehnání Rychlosti&lt;/li&gt;
+&lt;li&gt;Požehnání Síly&lt;/li&gt;
+&lt;li&gt;Požehnání Zraku&lt;/li&gt;
+&lt;li&gt;Požehnání Sluchu&lt;/li&gt;
+&lt;li&gt;Požehnání Přitažlivosti&lt;/li&gt;
+&lt;li&gt;Požehnání Výdrže&lt;/li&gt;
+&lt;li&gt;Zacelení Ran&lt;/li&gt;
+&lt;li&gt;Zastavení Krvácení&lt;/li&gt;
+&lt;li&gt;Srůst Kosti&lt;/li&gt;
+&lt;li&gt;Odhal Jed&lt;/li&gt;
+&lt;li&gt;Odhal Nemoc&lt;/li&gt;
+&lt;li&gt;Odhal Infekci&lt;/li&gt;
+&lt;li&gt;Světlo&lt;/li&gt;
+&lt;li&gt;Příkaz Neživému&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pokročilá&#34;&gt;Pokročilá:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Požehnání Přesnosti&lt;/li&gt;
+&lt;li&gt;Magická Zbroj&lt;/li&gt;
+&lt;li&gt;Narovnání Kosti&lt;/li&gt;
+&lt;li&gt;Obnova Svalu&lt;/li&gt;
+&lt;li&gt;Obnova Kůže&lt;/li&gt;
+&lt;li&gt;Uzdrav Nemoc&lt;/li&gt;
+&lt;li&gt;Odhal Těžkou Nemoc&lt;/li&gt;
+&lt;li&gt;Odstraň Infekci&lt;/li&gt;
+&lt;li&gt;Odstraň Jed&lt;/li&gt;
+&lt;li&gt;Meditace&lt;/li&gt;
+&lt;li&gt;Povolání Neživého&lt;/li&gt;
+&lt;li&gt;Ovládnutí Neživého&lt;/li&gt;
+&lt;li&gt;Požehnání Smyslů&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mistrovská&#34;&gt;Mistrovská:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Obnova Orgánu&lt;/li&gt;
+&lt;li&gt;Obnova Kosti&lt;/li&gt;
+&lt;li&gt;Regenerace&lt;/li&gt;
+&lt;li&gt;Pomoc Živých Tvorů&lt;/li&gt;
+&lt;li&gt;Značka Života&lt;/li&gt;
+&lt;li&gt;Stvoření Neživého&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
