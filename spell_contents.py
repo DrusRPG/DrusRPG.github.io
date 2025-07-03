@@ -1,5 +1,6 @@
-from glob import glob
+import os
 import string
+import pathlib
 
 def save(fname, data):
     with open(fname, "w") as f:
@@ -44,7 +45,8 @@ def split_spells(spell_file_lines):
 
 
 
-
+out_path = pathlib.Path("DrusMagie/content/magic")
+out_path.mkdir(parents=True, exist_ok=True)
 
 for magic_school_name, magic_school_file in input_files:
     school_out = school_template.replace("$NAME", magic_school_name)
@@ -55,7 +57,7 @@ for magic_school_name, magic_school_file in input_files:
     for spell_tier, spell_list in spells.items():
         school_out += '\n'.join([f"\n## {spell_tier.title()}", *["* " + spell.title() for spell in spell_list]]) 
 
-    save(f"DrusMagie/content/magic/{magic_school_file}.md", school_out)
+    save(out_path/f"{magic_school_file}.md", school_out)
 
 
 
