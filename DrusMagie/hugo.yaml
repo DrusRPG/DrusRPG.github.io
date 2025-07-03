@@ -75,7 +75,7 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/DrusRPG/DrusRPG.github.io"
 
   cover:
     hidden: true # hide everywhere but not in structured data
