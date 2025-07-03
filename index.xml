@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Drus</title>
-    <link>https://examplesite.com/</link>
+    <link>https://drusrpg.github.io/</link>
     <description>Recent content on Drus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="https://examplesite.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://drusrpg.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Magie Času</title>
-      <link>https://examplesite.com/magic/cas/</link>
+      <link>https://drusrpg.github.io/magic/cas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/magic/cas/</guid>
+      <guid>https://drusrpg.github.io/magic/cas/</guid>
       <description>Základní: Zrychli Sebe Zrychli Objekt - Dohled Zpomal Sebe Zestárnutí Objektu - Dotyk Omládnutí Objektu - Dotyk Náhled Do Minulosti Místa Náhled Do Minulosti Objektu Zrychli Organismus - Dotyk Zpomal Organismus - Dotyk Zastavení Sebe V Čase Pokročilá: Zrychli Organismus - Dohled Zrychli Proces - Dohled Zpomal Proces - Dohled Prodloužení Procesu - Dohled Zkrácení Procesu - Dohled Zpomal Organismus - Dohled Zestárnutí Organismu - Dotyk Omládnutí Organismu - Dotyk Zestárnutí Objektu - Dohled Omládnutí Objektu - Dohled Náhled Do Budoucnosti Objektu Náhled Do Budoucnosti Místa Náhled Do Minulosti Organismu Zastavení Objektu V Čase Přesunutí Objektu V Čase Přesunutí Sebe V Čase Meditace Změna Hlasu Zpomalení Místa Zrychlení Místa Mistrovská: Náhled Do Budoucnosti Organismu Náhled Do Minulosti/Budoucnosti Pro Ostatní Zestárnutí Místa - Dohled Omládnutí Místa - Dohled Zastavení Organismu V Čase Přesunutí Organismu V Čase Značka Času </description>
     </item>
     <item>
       <title>Magie Hmoty</title>
-      <link>https://examplesite.com/magic/hmota/</link>
+      <link>https://drusrpg.github.io/magic/hmota/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/magic/hmota/</guid>
+      <guid>https://drusrpg.github.io/magic/hmota/</guid>
       <description>Základní: Ohnivá Střela Ohnivá Stěna Ohnivý Plášť Ohnivý Prstenec Zapálení - Dotyk Cit Ohně Ledová Střela Ledová Stěna Ledový Plášť Ledový Prstenec Vodní Prstenec Vodní Plášť Zamražení - Dotyk Cit Vody Poryv Větru Větrný Plášť Tlakový Prstenec Cit Vzduchu Kamenná Střela Kammená Kůže Kamenná Stěna Kamenný Prstenec Cit Země Elektrický Výboj Pokročilá: Proud Ohně Ohnivá Koule Ohnivá Zbraň Pole Ohně Zapálení - Dohled Roztavení - Dotyk Ohnivé Vězení Proud Vody Ledová Zbraň Ledová Zbroj Ledová Smršť Ledové Vězení Náledí Zamražení - Dohled Podchlazení - Dotyk Tlaková Vlna Cyklon Ovládnutí Větru Kouřová Clona Eroze - Dotyk Kamenná Smršť Zemětřesení Kamenná Zbraň Kamenná Zbroj Kamenné Vězení Zkamenění - Dotyk Blesk Meditace Mistrovská: Ovládnutí Ohně Výbuch - Dohled Roztavení - Dohled Ovládnutí Vody Přílivová Vlna Podchlazení - Dohled Uragán Imploze - Dohled Eroze - Dohled Ovládni Zemi Tekutý Písek - Dohled Zkamenění - Dohled Bouřka Kulový Blesk Značka Hmoty </description>
     </item>
     <item>
       <title>Magie Mysli</title>
-      <link>https://examplesite.com/magic/mysl/</link>
+      <link>https://drusrpg.github.io/magic/mysl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/magic/mysl/</guid>
+      <guid>https://drusrpg.github.io/magic/mysl/</guid>
       <description>Základní: Neslyšitelnost Iluze Vůně/Pachu Iluze Únavy Povzbuzení Telekineze - Předmět Čtení Současné Myšlenky Sugesce Myšlenky Vystrašení Uklidnění Hypnóza - Spánek Meditace Mentální Útok Pokročilá: Neviditelnost Zmatení Iluze Zvuku Iluze Obrazu/Scény Iluze Hmatového Vjemu Hromadná Iluze Vůně/Pachu Telekineze Organismu Čtení Nedávné Myšlenky Sugesce Názoru Telepatická Domluva Cit Mysli Sugesce Vzteku Sugesce Přátelství Sugesce Odporu Hypnóza - Ovládnutí Mentální Obrana - Sugesce A Útoky Na Smysly Mistrovská: Mentální Obrana - Iluze A Hypnózy Hromadná Zraková Iluze Hromadná Zvuková Iluze Čtení Mysli Amnézie Telepatická Kontrola Telepatické Propojení Telepatický Prostor Hypnóza - Přesvědčení Značka Mysli </description>
     </item>
     <item>
       <title>Magie Prostoru</title>
-      <link>https://examplesite.com/magic/prostor/</link>
+      <link>https://drusrpg.github.io/magic/prostor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/magic/prostor/</guid>
+      <guid>https://drusrpg.github.io/magic/prostor/</guid>
       <description>Základní: Teleportace Objektu Přivolání Objektu Změna Tvaru Objektu Zmenšení Vzdálenosti Zvětšení Vzdálenosti Neprostupná Bariéra Změna Dráhy Objektu Levitace Přitahující Pole Odpuzující Pole Pokročilá: Prostorová Trhlina Zacelení Trhliny Teleportace Sebe Teleportace Organismu - Dotyk Přivolání Organismu Teleportační Brána - Dohled Odvrácení Útoků Zvětšení Objektu Zmenšení Objektu Zvuková Bariéra Světelná Bariéra Sférická Bariéra Sférická Zvuková Bariéra Meditace Protorový Tunel Mistrovská: Zvětšení Organismu Změnšení Organismu Teleportační Brána - Paměť Cit Prostoru - Prohledávání, Co Je Kolem Sesílajícího Mága Značka Prostoru </description>
     </item>
     <item>
       <title>Magie Smrti</title>
-      <link>https://examplesite.com/magic/smrt/</link>
+      <link>https://drusrpg.github.io/magic/smrt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/magic/smrt/</guid>
+      <guid>https://drusrpg.github.io/magic/smrt/</guid>
       <description>Základní: Slabost - Dohled Nepřesnost - Dohled Hluchota - Dohled Prokletí Čichu - Dohled Křeč Svalu - Dotyk Povolání Zombie Oživ Malého Tvora (Do Velikosti Kočky) Povolání Duše Obnov Nemrtvého Exploze Nemrtvého Paralyzační Jed - Na Zbraň, Dotyk Vysátí Života - Dotyk Tma Vysátí Mrtvého Vysátí Nemrtvého Cit Smrti Pokročilá: Slepota - Dohled Dezorientace - Dohled Nešikovnost - Dohled Ztráta Rovnováhy - Dohled Strach - Dohled Horečka - Dohled Křeč Svalu - Dohled Vyčerpání - Dotyk Zranitelnost - Dohled Povolání Ghůla Oživ Středně Velkého Tvora (Do Velikosti Velkého Psa) Spoutání Duše Ke Svojí Vůli Oživ Člověka Jed Do Nemrtvého Smrtelný Jed - Na Zbraň, Dotyk Tržná Rána - Dotyk Vidění Ve Tmě - Na Sebe Meditace Mistrovská: Neštěstí Mdloby Paralýza Oživ Organismus Spoutání Duše/Nemrtvého K Vůli Jiného Značka Smrti Tržná Rána - Dohled Vysátí Života - Dohled Vidění Ve Tmě - Ostatní Velmistrovská: Hey Hey Hey!</description>
     </item>
     <item>
       <title>Magie Života</title>
-      <link>https://examplesite.com/magic/zivot/</link>
+      <link>https://drusrpg.github.io/magic/zivot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/magic/zivot/</guid>
+      <guid>https://drusrpg.github.io/magic/zivot/</guid>
       <description>Základní: Požehnání Rychlosti Požehnání Síly Požehnání Zraku Požehnání Sluchu Požehnání Přitažlivosti Požehnání Výdrže Zacelení Ran Zastavení Krvácení Srůst Kosti Odhal Jed Odhal Nemoc Odhal Infekci Světlo Příkaz Neživému Pokročilá: Požehnání Přesnosti Magická Zbroj Narovnání Kosti Obnova Svalu Obnova Kůže Uzdrav Nemoc Odhal Těžkou Nemoc Odstraň Infekci Odstraň Jed Meditace Povolání Neživého Ovládnutí Neživého Požehnání Smyslů Mistrovská: Obnova Orgánu Obnova Kosti Regenerace Pomoc Živých Tvorů Značka Života Stvoření Neživého </description>
     </item>
   </channel>
