@@ -16,9 +16,13 @@ jobs:
       - name: Update apt
         run: sudo apt-get update -qq
       - name: Download Hugo
-        run: sudo apt-get install hugo
+        run: sudo apt-get install hugo python
       - name: Build server
-        run:  cd $GITHUB_WORKSPACE/DrusMagie && hugo
+        run:  cd $GITHUB_WORKSPACE
+      - name: Update spell contents
+        run: python spell_contents.py
+      - name: Build server
+        run: cd DrusMagie && hugo
       - name: Create dir
         run: mkdir ../../deploy
       - name: Copy over
