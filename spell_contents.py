@@ -1,16 +1,18 @@
-import os
 import string
 import pathlib
 
+
+# save the given string with the given filename
 def save(fname, data):
     with open(fname, "w") as f:
         f.write(data)
 
 
+# a Hugo markdown template for rendering a magic school
 school_template = open("templates/school_of_magic_header.md").read()
 
 
-
+# input files: (School name, spell list name, first header image, second header image) 
 input_files = [
     ("Magie Času", "cas", "clock.jpg", "ancient_times1.jpeg"),
     ("Magie Prostoru", "prostor", "prostor.jpg", "ancient_times2.jpeg"),
@@ -20,6 +22,15 @@ input_files = [
     ("Magie Mysli", "mysl", "neural.jpg", "ancient_times6.jpeg"),
 ]
 
+
+# ... take the lines of the read spell file, and split them into a dictionary of type
+# {
+#       spell_tier_1: [spell1, spell2, ...],
+#       spell_tier_2: [...],
+#       ...
+# }
+# Spell tiers have no defined names - each line that has no indentation is considered to be a spell type, ...
+# ... and all lines below it are considered to be spells in that category.
 def split_spells(spell_file_lines):
     split = {}
     current = []
@@ -44,39 +55,51 @@ def split_spells(spell_file_lines):
     return split
 
 
-touch_spell_replace = "{{<dotyk_tooltip>}}"
-see_spell_replace = "{{<pohled_tooltip>}}"
+# if a spell is of the form **** - keyword, we replace the ' - keyword' with the given replacement template
+# this can be a simple string, or a {{<XXX>}} for a hugo template in 'DrusMagie/layouts/_shortcodes/*'
+replace_keywords = {
+    "dotyk": "{{<dotyk_tooltip>}}",
+    "dohled": "{{<dohled_tooltip>}}"
+}
 
-
+# create the output directory
 out_path = pathlib.Path("DrusMagie/content/magic")
 out_path.mkdir(parents=True, exist_ok=True)
 
+
+# go over all individual schools
 for magic_school_name, magic_school_file, magic_school_image, magic_school_image_2 in input_files:
     school_out = school_template.replace("$NAME", magic_school_name).replace("$IMAGE_FIRST", f"{magic_school_image}").replace("$IMAGE_SECOND", f"/images/{magic_school_image_2}")
 
+    # split the spells into dict[spell_tier_string : str, spells : list]
     spells = split_spells(open(f"lists/{magic_school_file}.txt").read().splitlines())
-        
+    
+    
     for spell_tier_list in spells.values():
+        # go over all spells in this tier
         for i in range(len(spell_tier_list)):
             spell = spell_tier_list[i]
+            # split around -
             parts = spell.split("-")
+            # only one part -> nothing to replace anyway.
             if len(parts) == 1:
                 result = spell.title()
             else:
-                if "dotyk" in parts[-1]:
-                    result = " ".join(map(lambda x: x.title(), parts[:-1])) + f" {touch_spell_replace}"
-                elif "dohled" in parts[-1]:
-                    result = " ".join(map(lambda x: x.title(), parts[:-1])) + f" {see_spell_replace}"
+                # see whether the last part matches a replacement keyword
+                for replace_keyword, replacement in replace_keywords.items():
+                    if replace_keyword in parts[-1]:
+                        result = " ".join(map(lambda x: x.title(), parts[:-1])) + f" {replacement}"
+                        break
                 else:
-                    result = " ".join(map(lambda x: x.title(), parts[:-1]))
+                    # if not, just join the parts back together
+                    result = " ".join(map(lambda x: x.title(), parts))
+            
+            # save the result
             spell_tier_list[i] = result     
 
+    # save the spells as hugo markdown. This includes a header for each spell tier and a markdown list for all the individual spells
     for spell_tier, spell_list in spells.items():
         school_out += '\n'.join([f"\n## {spell_tier.title()}", *["* " + spell for spell in spell_list]]) 
 
+    # save the resulting markdown
     save(out_path/f"{magic_school_file}.md", school_out)
-
-
-
-    
-
