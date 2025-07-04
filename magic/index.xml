@@ -17,7 +17,8 @@
       <link>https://drusrpg.github.io/magic/cas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://drusrpg.github.io/magic/cas/</guid>
-      <description>&lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
+      <description>&lt;div id=&#34;background-overlay&#34; style=&#34;background-image: url(/images/ancient_times1.jpeg)&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Zrychli Sebe&lt;/li&gt;
 &lt;li&gt;Zrychli Objekt  &lt;span class=&#34;icon-tooltip&#34;&gt;
@@ -120,7 +121,8 @@
       <link>https://drusrpg.github.io/magic/hmota/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://drusrpg.github.io/magic/hmota/</guid>
-      <description>&lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
+      <description>&lt;div id=&#34;background-overlay&#34; style=&#34;background-image: url(/images/ancient_times2.jpeg)&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Ohnivá Střela&lt;/li&gt;
 &lt;li&gt;Ohnivá Stěna&lt;/li&gt;
@@ -251,7 +253,8 @@
       <link>https://drusrpg.github.io/magic/mysl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://drusrpg.github.io/magic/mysl/</guid>
-      <description>&lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
+      <description>&lt;div id=&#34;background-overlay&#34; style=&#34;background-image: url(/images/ancient_times1.jpeg)&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Neslyšitelnost&lt;/li&gt;
 &lt;li&gt;Iluze Vůně/Pachu&lt;/li&gt;
@@ -304,7 +307,8 @@
       <link>https://drusrpg.github.io/magic/prostor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://drusrpg.github.io/magic/prostor/</guid>
-      <description>&lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
+      <description>&lt;div id=&#34;background-overlay&#34; style=&#34;background-image: url(/images/ancient_times2.jpeg)&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Teleportace Objektu&lt;/li&gt;
 &lt;li&gt;Přivolání Objektu&lt;/li&gt;
@@ -355,7 +359,8 @@
       <link>https://drusrpg.github.io/magic/smrt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://drusrpg.github.io/magic/smrt/</guid>
-      <description>&lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
+      <description>&lt;div id=&#34;background-overlay&#34; style=&#34;background-image: url(/images/ancient_times4.jpeg)&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Slabost  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
@@ -473,7 +478,8 @@
       <link>https://drusrpg.github.io/magic/zivot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://drusrpg.github.io/magic/zivot/</guid>
-      <description>&lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
+      <description>&lt;div id=&#34;background-overlay&#34; style=&#34;background-image: url(/images/ancient_times3.jpeg)&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Požehnání Rychlosti&lt;/li&gt;
 &lt;li&gt;Požehnání Síly&lt;/li&gt;
