@@ -23,7 +23,7 @@
 &lt;li&gt;Zrychli Sebe&lt;/li&gt;
 &lt;li&gt;Zrychli Objekt  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Zpomal Sebe&lt;/li&gt;
 &lt;li&gt;Zestárnutí Objektu  &lt;span class=&#34;icon-tooltip&#34;&gt;
@@ -50,27 +50,27 @@
 &lt;ul&gt;
 &lt;li&gt;Zrychli Organismus  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Zrychli Proces  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Zpomal Proces  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Prodloužení Procesu  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Zkrácení Procesu  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Zpomal Organismus  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Zestárnutí Organismu  &lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
@@ -82,11 +82,11 @@
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Zestárnutí Objektu  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Omládnutí Objektu  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Náhled Do Budoucnosti Objektu&lt;/li&gt;
 &lt;li&gt;Náhled Do Budoucnosti Místa&lt;/li&gt;
@@ -105,11 +105,11 @@
 &lt;li&gt;Náhled Do Minulosti/Budoucnosti Pro Ostatní&lt;/li&gt;
 &lt;li&gt;Zestárnutí Místa  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Omládnutí Místa  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Zastavení Organismu V Čase&lt;/li&gt;
 &lt;li&gt;Přesunutí Organismu V Čase&lt;/li&gt;
@@ -163,7 +163,7 @@
 &lt;li&gt;Pole Ohně&lt;/li&gt;
 &lt;li&gt;Zapálení  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Roztavení  &lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
@@ -178,7 +178,7 @@
 &lt;li&gt;Náledí&lt;/li&gt;
 &lt;li&gt;Zamražení  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Podchlazení  &lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
@@ -209,35 +209,35 @@
 &lt;li&gt;Ovládnutí Ohně&lt;/li&gt;
 &lt;li&gt;Výbuch  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Roztavení  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Ovládnutí Vody&lt;/li&gt;
 &lt;li&gt;Přílivová Vlna&lt;/li&gt;
 &lt;li&gt;Podchlazení  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Uragán&lt;/li&gt;
 &lt;li&gt;Imploze  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Eroze  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Ovládni Zemi&lt;/li&gt;
 &lt;li&gt;Tekutý Písek  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Zkamenění  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Bouřka&lt;/li&gt;
 &lt;li&gt;Kulový Blesk&lt;/li&gt;
@@ -260,12 +260,12 @@
 &lt;li&gt;Iluze Vůně/Pachu&lt;/li&gt;
 &lt;li&gt;Iluze Únavy&lt;/li&gt;
 &lt;li&gt;Povzbuzení&lt;/li&gt;
-&lt;li&gt;Telekineze&lt;/li&gt;
+&lt;li&gt;Telekineze   Předmět&lt;/li&gt;
 &lt;li&gt;Čtení Současné Myšlenky&lt;/li&gt;
 &lt;li&gt;Sugesce Myšlenky&lt;/li&gt;
 &lt;li&gt;Vystrašení&lt;/li&gt;
 &lt;li&gt;Uklidnění&lt;/li&gt;
-&lt;li&gt;Hypnóza&lt;/li&gt;
+&lt;li&gt;Hypnóza   Spánek&lt;/li&gt;
 &lt;li&gt;Meditace&lt;/li&gt;
 &lt;li&gt;Mentální Útok&lt;/li&gt;
 &lt;/ul&gt;
@@ -285,12 +285,12 @@
 &lt;li&gt;Sugesce Vzteku&lt;/li&gt;
 &lt;li&gt;Sugesce Přátelství&lt;/li&gt;
 &lt;li&gt;Sugesce Odporu&lt;/li&gt;
-&lt;li&gt;Hypnóza&lt;/li&gt;
-&lt;li&gt;Mentální Obrana&lt;/li&gt;
+&lt;li&gt;Hypnóza   Ovládnutí&lt;/li&gt;
+&lt;li&gt;Mentální Obrana   Sugesce A Útoky Na Smysly&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;mistrovská&#34;&gt;Mistrovská:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Mentální Obrana&lt;/li&gt;
+&lt;li&gt;Mentální Obrana   Iluze A Hypnózy&lt;/li&gt;
 &lt;li&gt;Hromadná Zraková Iluze&lt;/li&gt;
 &lt;li&gt;Hromadná Zvuková Iluze&lt;/li&gt;
 &lt;li&gt;Čtení Mysli&lt;/li&gt;
@@ -298,7 +298,7 @@
 &lt;li&gt;Telepatická Kontrola&lt;/li&gt;
 &lt;li&gt;Telepatické Propojení&lt;/li&gt;
 &lt;li&gt;Telepatický Prostor&lt;/li&gt;
-&lt;li&gt;Hypnóza&lt;/li&gt;
+&lt;li&gt;Hypnóza   Přesvědčení&lt;/li&gt;
 &lt;li&gt;Značka Mysli&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
@@ -333,7 +333,7 @@
 &lt;li&gt;Přivolání Organismu&lt;/li&gt;
 &lt;li&gt;Teleportační Brána  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Odvrácení Útoků&lt;/li&gt;
 &lt;li&gt;Zvětšení Objektu&lt;/li&gt;
@@ -349,8 +349,8 @@
 &lt;ul&gt;
 &lt;li&gt;Zvětšení Organismu&lt;/li&gt;
 &lt;li&gt;Změnšení Organismu&lt;/li&gt;
-&lt;li&gt;Teleportační Brána&lt;/li&gt;
-&lt;li&gt;Cit Prostoru&lt;/li&gt;
+&lt;li&gt;Teleportační Brána   Paměť&lt;/li&gt;
+&lt;li&gt;Cit Prostoru   Prohledávání, Co Je Kolem Sesílajícího Mága&lt;/li&gt;
 &lt;li&gt;Značka Prostoru&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
@@ -364,19 +364,19 @@
 &lt;ul&gt;
 &lt;li&gt;Slabost  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Nepřesnost  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Hluchota  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Prokletí Čichu  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Křeč Svalu  &lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
@@ -404,31 +404,31 @@
 &lt;ul&gt;
 &lt;li&gt;Slepota  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Dezorientace  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Nešikovnost  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Ztráta Rovnováhy  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Strach  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Horečka  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Křeč Svalu  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Vyčerpání  &lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
@@ -436,7 +436,7 @@
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Zranitelnost  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Povolání Ghůla&lt;/li&gt;
 &lt;li&gt;Oživ Středně Velkého Tvora (Do Velikosti Velkého Psa)&lt;/li&gt;
@@ -451,7 +451,7 @@
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Vidění Ve Tmě&lt;/li&gt;
+&lt;li&gt;Vidění Ve Tmě   Na Sebe&lt;/li&gt;
 &lt;li&gt;Meditace&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;mistrovská&#34;&gt;Mistrovská:&lt;/h2&gt;
@@ -464,13 +464,13 @@
 &lt;li&gt;Značka Smrti&lt;/li&gt;
 &lt;li&gt;Tržná Rána  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Vysátí Života  &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Pohled&lt;/span&gt;
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Vidění Ve Tmě&lt;/li&gt;
+&lt;li&gt;Vidění Ve Tmě   Ostatní&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>
