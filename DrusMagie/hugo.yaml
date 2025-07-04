@@ -67,6 +67,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: false # hide on single page
 
+  
+  customCSS:
+    - assets/css/extended.css
+
   # for search
   # https://fusejs.io/api/options.html
   fuseOpts:
