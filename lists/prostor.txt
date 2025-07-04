@@ -24,7 +24,7 @@ pokročilá:
 	sférická bariéra
 	sférická zvuková bariéra
 	meditace
-	protorový tunel
+	prostorový tunel
 mistrovská:
 	zvětšení organismu
 	změnšení organismu

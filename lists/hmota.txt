@@ -68,3 +68,6 @@ mistrovská:
 	bouřka
 	kulový blesk
 	značka hmoty
+velmistrovská:
+	atomová bomba
+
