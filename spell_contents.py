@@ -16,8 +16,8 @@ input_files = [
     ("Magie Prostoru", "prostor", "prostor.jpg", "ancient_times2.jpeg"),
     ("Magie Života", "zivot", "light.jpg", "ancient_times3.jpeg"),
     ("Magie Smrti", "smrt", "dark.jpg", "ancient_times4.jpeg"),
-    ("Magie Hmoty", "hmota", "matter.jpg", "ancient_times2.jpeg"),
-    ("Magie Mysli", "mysl", "neural.jpg", "ancient_times1.jpeg"),
+    ("Magie Hmoty", "hmota", "matter.jpg", "ancient_times5.jpeg"),
+    ("Magie Mysli", "mysl", "neural.jpg", "ancient_times6.jpeg"),
 ]
 
 def split_spells(spell_file_lines):
