@@ -12,12 +12,12 @@ school_template = open("templates/school_of_magic_header.md").read()
 
 
 input_files = [
-    ("Magie Času", "cas", "clock.jpg"),
-    ("Magie Prostoru", "prostor", "prostor.jpg"),
-    ("Magie Života", "zivot", "light.jpg"),
-    ("Magie Smrti", "smrt", "dark.jpg"),
-    ("Magie Hmoty", "hmota", "matter.jpg"),
-    ("Magie Mysli", "mysl", "neural.jpg"),
+    ("Magie Času", "cas", "clock.jpg", "ancient_times1.jpeg"),
+    ("Magie Prostoru", "prostor", "prostor.jpg", "ancient_times2.jpeg"),
+    ("Magie Života", "zivot", "light.jpg", "ancient_times3.jpeg"),
+    ("Magie Smrti", "smrt", "dark.jpg", "ancient_times4.jpeg"),
+    ("Magie Hmoty", "hmota", "matter.jpg", "ancient_times2.jpeg"),
+    ("Magie Mysli", "mysl", "neural.jpg", "ancient_times1.jpeg"),
 ]
 
 def split_spells(spell_file_lines):
@@ -51,8 +51,8 @@ see_spell_replace = "{{<pohled_tooltip>}}"
 out_path = pathlib.Path("DrusMagie/content/magic")
 out_path.mkdir(parents=True, exist_ok=True)
 
-for magic_school_name, magic_school_file, magic_school_image in input_files:
-    school_out = school_template.replace("$NAME", magic_school_name).replace("$IMAGE", f"{magic_school_image}")
+for magic_school_name, magic_school_file, magic_school_image, magic_school_image_2 in input_files:
+    school_out = school_template.replace("$NAME", magic_school_name).replace("$IMAGE_FIRST", f"{magic_school_image}").replace("$IMAGE_SECOND", f"/images/{magic_school_image_2}")
 
     spells = split_spells(open(f"lists/{magic_school_file}.txt").read().splitlines())
         

@@ -23,8 +23,9 @@ title: "$NAME"
 # ShowRssButtonInSectionTermList: true
 # UseHugoToc: true
 cover:
-    image: "$IMAGE" # image path/url
+    image: "$IMAGE_FIRST" # image path/url
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
 ---
 
+<div id="background-overlay" style="background-image: url($IMAGE_SECOND)"></div>
