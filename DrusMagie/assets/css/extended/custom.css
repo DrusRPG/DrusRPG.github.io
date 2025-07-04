@@ -62,6 +62,6 @@ body {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    animation: 20s linear 0s 1 aWildDrusHasAppeared;
+    animation: 3600s linear 0s 1 aWildDrusHasAppeared;
     z-index: -1;
 }
