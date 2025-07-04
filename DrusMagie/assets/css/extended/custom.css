@@ -1,0 +1,39 @@
+.icon-tooltip {
+    position: relative;
+    display: inline-block; /* Allows the icon to sit naturally in text flow */
+    cursor: help; /* Optional: indicates it's interactive */
+}
+
+.icon-tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px; /* Adjust as needed */
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position the tooltip above the icon */
+    left: 50%;
+    margin-left: -60px; /* Half of the width to center it */
+    opacity: 0;
+    transition: opacity 0.3s; /* Smooth fade-in */
+}
+
+/* Arrow for the tooltip */
+.icon-tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.icon-tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}

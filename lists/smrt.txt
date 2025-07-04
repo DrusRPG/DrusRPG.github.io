@@ -44,5 +44,3 @@ mistrovská:
 	tržná rána - dohled
 	vysátí života - dohled
 	vidění ve tmě - ostatní
-velmistrovská:
-	hey hey hey!

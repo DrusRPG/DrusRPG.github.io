@@ -44,6 +44,9 @@ def split_spells(spell_file_lines):
     return split
 
 
+touch_spell_replace = "{{<dotyk_tooltip>}}"
+see_spell_replace = "{{<pohled_tooltip>}}"
+
 
 out_path = pathlib.Path("DrusMagie/content/magic")
 out_path.mkdir(parents=True, exist_ok=True)
@@ -52,10 +55,24 @@ for magic_school_name, magic_school_file, magic_school_image in input_files:
     school_out = school_template.replace("$NAME", magic_school_name).replace("$IMAGE", f"{magic_school_image}")
 
     spells = split_spells(open(f"lists/{magic_school_file}.txt").read().splitlines())
-    
+        
+    for spell_tier_list in spells.values():
+        for i in range(len(spell_tier_list)):
+            spell = spell_tier_list[i]
+            parts = spell.split("-")
+            if len(parts) == 1:
+                result = spell.title()
+            else:
+                if "dotyk" in parts[-1]:
+                    result = " ".join(map(lambda x: x.title(), parts[:-1])) + f" {touch_spell_replace}"
+                elif "dohled" in parts[-1]:
+                    result = " ".join(map(lambda x: x.title(), parts[:-1])) + f" {see_spell_replace}"
+                else:
+                    result = " ".join(map(lambda x: x.title(), parts[:-1]))
+            spell_tier_list[i] = result     
 
     for spell_tier, spell_list in spells.items():
-        school_out += '\n'.join([f"\n## {spell_tier.title()}", *["* " + spell.title() for spell in spell_list]]) 
+        school_out += '\n'.join([f"\n## {spell_tier.title()}", *["* " + spell for spell in spell_list]]) 
 
     save(out_path/f"{magic_school_file}.md", school_out)
 
