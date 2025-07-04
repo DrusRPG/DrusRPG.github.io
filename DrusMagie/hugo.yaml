@@ -56,7 +56,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Drus Magie"
-    Content: Hype!
+    Content: Based.
 
   socialIcons:
     - name: github
