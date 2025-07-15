@@ -1,41 +1,43 @@
 základní:
-	neslyšitelnost
-	iluze vůně/pachu
-	iluze únavy
-	povzbuzení
+	neslyšitelnost -- iluze
+	iluze vůně/pachu/chuti -- iluze
+	iluze zvuku -- iluze
+	malá zraková iluze -- iluze
+	sugesce únavy -- sugesce
+	sugesce povzbuzení -- sugesce
+	sugesce odhodlání -- sugesce
+	sugesce myšlenky -- sugesce
+	sugesce strachu -- sugesce
+	sugesce klidu -- sugesce
+	čtení současné myšlenky -- mentální_magie
+	mentální útok -- mentální_magie
+	hypnóza - spánek -- hypnóza
+	mentální obrana - sugesce a iluze
 	telekineze - předmět
-	čtení současné myšlenky
-	sugesce myšlenky
-	vystrašení
-	uklidnění
-	hypnóza - spánek
 	meditace
-	mentální útok
 pokročilá:
-	neviditelnost
-	zmatení
-	iluze zvuku
-	iluze obrazu/scény
-	iluze hmatového vjemu
-	hromadná iluze vůně/pachu
-	telekineze organismu
-	čtení nedávné myšlenky
-	sugesce názoru
+	neviditelnost -- iluze
+	velká zraková iluze -- iluze
+	iluze hmatového vjemu -- iluze
+	zmatení -- mentální_magie
+	čtení nedávné myšlenky -- mentální_magie
+	sugesce názoru -- sugesce
+	výpadek paměti -- mentální_magie
 	telepatická domluva
-	cit mysli
-	sugesce vzteku
-	sugesce přátelství
-	sugesce odporu
-	hypnóza - ovládnutí
-	mentální obrana - sugesce a útoky na smysly
+	cit mysli -- mentální_magie
+	sugesce vzteku -- sugesce
+	sugesce přátelství -- sugesce
+	sugesce odporu -- sugesce
+	hypnóza - ovládnutí -- hypnóza
+	hypnóza - amnézie -- hypnóza
+	mentální obrana - mentální magie a hypnózy
+	telekineze - organismus
 mistrovská:
-	mentální obrana - iluze a hypnózy
-	hromadná zraková iluze
-	hromadná zvuková iluze
-	čtení mysli
-	amnézie
-	telepatická kontrola
+	hromadná iluze -- iluze
+	hromadná sugesce -- sugesce
+	čtení mysli -- mentální_magie
+	telepatická kontrola -- mentální_magie
 	telepatické propojení
 	telepatický prostor
-	hypnóza - přesvědčení
+	hypnóza - přesvědčení -- hypnóza
 	značka mysli

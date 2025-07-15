@@ -4,30 +4,40 @@ základní:
 	změna tvaru objektu
 	zmenšení vzdálenosti
 	zvětšení vzdálenosti
-	neprostupná bariéra
+	neprostupná bariéra -- bariéra
 	změna dráhy objektu
-	levitace
+	levitace -- sesílatel
+	levitace - předmět
 	přitahující pole
 	odpuzující pole
+	přitažení
+	odhození
+	sražení
 pokročilá:
 	prostorová trhlina
 	zacelení trhliny
+	odpuzující zbroj
 	teleportace sebe
-	teleportace organismu - dotyk
+	teleportace organismu
 	přivolání organismu
-	teleportační brána - dohled
 	odvrácení útoků
 	zvětšení objektu
 	zmenšení objektu
-	zvuková bariéra
-	světelná bariéra
-	sférická bariéra
-	sférická zvuková bariéra
+	bariéra propouštějící zvuk -- bariéra
+	světelná bariéra -- bariéra
+	sférická bariéra -- bariéra
 	meditace
 	prostorový tunel
+	cit prostoru - prohledávání, co je kolem sesílajícího mága
 mistrovská:
 	zvětšení organismu
 	změnšení organismu
-	teleportační brána - paměť
-	cit prostoru - prohledávání, co je kolem sesílajícího mága
+	změna tvaru organismu
+	bariérové vězení -- bariéra
+	jednosměrná bariéra -- bariéra
+	teleportační brána -- dohled
+	hromadné přitažení
+	hromadné odhození
+	hromadné sražení
 	značka prostoru
+	

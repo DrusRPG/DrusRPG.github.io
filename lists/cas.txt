@@ -1,28 +1,28 @@
 základní:
 	zrychli sebe
-	zrychli objekt - dohled
+	zrychli objekt -- dohled
 	zpomal sebe
-	zestárnutí objektu - dotyk
-	omládnutí objektu - dotyk
-	náhled do minulosti místa
-	náhled do minulosti objektu
-	zrychli organismus - dotyk
-	zpomal organismus - dotyk
+	zestárnutí objektu -- dotyk
+	omládnutí objektu -- dotyk
+	náhled do minulosti místa -- nahlížení
+	náhled do minulosti objektu -- nahlížení
+	zrychli organismus -- dotyk
+	zpomal organismus -- dotyk
 	zastavení sebe v čase
 pokročilá:
-	zrychli organismus - dohled
-	zrychli proces - dohled
-	zpomal proces - dohled
-	prodloužení procesu - dohled
-	zkrácení procesu - dohled
-	zpomal organismus - dohled
-	zestárnutí organismu - dotyk
-	omládnutí organismu - dotyk
-	zestárnutí objektu - dohled
-	omládnutí objektu - dohled
-	náhled do budoucnosti objektu
-	náhled do budoucnosti místa
-	náhled do minulosti organismu
+	zrychli organismus -- dohled
+	zrychli proces -- dohled
+	zpomal proces -- dohled
+	prodloužení procesu -- dohled
+	zkrácení procesu -- dohled
+	zpomal organismus -- dohled
+	zestárnutí organismu -- dotyk
+	omládnutí organismu -- dotyk
+	zestárnutí objektu -- dohled
+	omládnutí objektu -- dohled
+	náhled do budoucnosti objektu -- nahlížení
+	náhled do budoucnosti místa -- nahlížení
+	náhled do minulosti organismu -- nahlížení
 	zastavení objektu v čase
 	přesunutí objektu v čase
 	přesunutí sebe v čase
@@ -31,10 +31,10 @@ pokročilá:
 	zpomalení místa
 	zrychlení místa
 mistrovská:
-	náhled do budoucnosti organismu
+	náhled do budoucnosti organismu -- nahlížení
 	náhled do minulosti/budoucnosti pro ostatní
-	zestárnutí místa - dohled
-	omládnutí místa - dohled
+	zestárnutí místa -- dohled
+	omládnutí místa -- dohled
 	zastavení organismu v čase
 	přesunutí organismu v čase
 	značka času

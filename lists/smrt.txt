@@ -1,46 +1,49 @@
 základní:
-	slabost - dohled
-	nepřesnost - dohled
-	hluchota - dohled
-	prokletí čichu - dohled
-	křeč svalu - dotyk
-	povolání zombie
-	oživ malého tvora (do velikosti kočky)
+	slabost -- dohled -- prokletí
+	nepřesnost -- dohled -- prokletí
+	hluchota -- dohled -- prokletí
+	prokletí čichu -- dohled -- prokletí
+	křeč svalu -- dotyk
+	povolání zombie -- nemrtvý
+	oživ malého tvora (do velikosti kočky) -- nemrtvý
 	povolání duše
 	obnov nemrtvého
 	exploze nemrtvého
-	paralyzační jed - na zbraň, dotyk
-	vysátí života - dotyk
+	paralyzační jed -- zbraň -- dotyk -- jed
+	vysátí života -- dotyk
 	tma
-	vysátí mrtvého
-	vysátí nemrtvého
+	vysátí mrtvého -- dotyk
+	vysátí nemrtvého -- dotyk
 	cit smrti
 pokročilá:
-	slepota - dohled
-	dezorientace - dohled
-	nešikovnost - dohled
-	ztráta rovnováhy - dohled
-	strach - dohled
-	horečka - dohled
-	křeč svalu - dohled
-	vyčerpání - dotyk
-	zranitelnost - dohled
-	povolání ghůla
-	oživ středně velkého tvora (do velikosti velkého psa)
+	slepota -- dohled -- prokletí
+	dezorientace -- dohled -- prokletí
+	nešikovnost -- dohled -- prokletí
+	ztráta rovnováhy -- dohled -- prokletí
+	strach -- dohled -- prokletí
+	horečka -- dohled
+	křeč svalu -- dohled
+	vyčerpání -- dotyk -- prokletí
+	zranitelnost -- dohled -- prokletí
+	povolání ghůla -- nemrtvý
+	oživ středně velkého tvora (do velikosti velkého psa) -- nemrtvý
 	spoutání duše ke svojí vůli
-	oživ člověka
+	oživ člověka -- nemrtvý
 	jed do nemrtvého
-	smrtelný jed - na zbraň, dotyk
-	tržná rána - dotyk
-	vidění ve tmě - na sebe
+	smrtelný jed -- zbraň -- jed -- dotyk
+	dusivý oblak -- dohled -- jed
+	tržná rána -- dotyk
+	vidění ve tmě -- sesílatel
 	meditace
 mistrovská:
-	neštěstí
-	mdloby
-	paralýza
-	oživ organismus
+	neštěstí -- dohled -- prokletí
+	mdloby -- dohled -- prokletí
+	vyčerpání -- dohled -- prokletí
+	smrtící oblak -- dohle -- jed
+	paralýza -- dohled
+	oživ organismus -- nemrtvý
 	spoutání duše/nemrtvého k vůli jiného
 	značka smrti
 	tržná rána - dohled
 	vysátí života - dohled
-	vidění ve tmě - ostatní
+	vidění ve tmě - ostatní -- dohled
