@@ -6,6 +6,7 @@ základní:
 	požehnání přitažlivosti -- požehnání
 	požehnání výdrže -- požehnání
 	požehnání zručnosti - koordinace pohybů -- požehnání
+	požehnání neživému -- požehnání
 	zacelení ran -- léčení
 	zastavení krvácení -- léčení
 	srůst kosti -- léčení
@@ -13,13 +14,18 @@ základní:
 	odhal nemoc
 	odhal infekci
 	proud světla
-	příkaz neživému
+	stvoření/povolání malého neživého - do velikosti loutky -- neživý
+	příkaz neživému - stráž
+	příkaz neživému - ochrana
+	příkaz neživému - následování
+	zrušení příkazu neživému
+	zapuzení neživého
 	cit života
+	cit neživých
 pokročilá:
 	požehnání přesnosti - jemná motorika -- požehnání
 	utlumení bolesti -- požehnání
 	požehnání smyslů -- požehnání
-	požehnání neživému -- požehnání
 	neoslnitelnost -- požehnání
 	magická zbroj
 	narovnání kosti -- léčení
@@ -30,7 +36,9 @@ pokročilá:
 	odstraň infekci -- léčení
 	odstraň jed -- léčení
 	meditace
-	povolání neživého
+	stvoření/povolání středně velkého neživého - do velikosti velkého chrliče -- neživý
+	stvoření/povolání hejna malých neživých -- neživý
+	čtení paměti neživého
 	ovládnutí neživého
 	aura světla
 mistrovská:
@@ -42,5 +50,6 @@ mistrovská:
 	uzdrav těžkou nemoc -- léčení
 	pomoc živých tvorů
 	značka života
-	stvoření neživého
-	neživá zbroj
+	stvoření/povolání velkého neživého -- neživý
+	stvoření/povolání hejna středních neživých -- neživý
+	neživá zbroj -- neživý

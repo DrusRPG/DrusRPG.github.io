@@ -76,6 +76,7 @@ replace_keywords = {
     "zbraň": "{{<zbran_tooltip>}}",
     "požehnání": "{{<pozehnani_tooltip>}}",
     "léčení": "{{<leceni_tooltip>}}",
+    "neživý": "{{<nezivy_tooltip>}}",
     "prokletí": "{{<prokleti_tooltip>}}",
     "nemrtvý": "{{<nemrtvy_tooltip>}}",
     "jed": "{{<jed_tooltip>}}",
