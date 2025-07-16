@@ -54,12 +54,37 @@ def split_spells(spell_file_lines):
 
     return split
 
+def replace_spell_tags(spellpart):
+    for replace_keyword, replacement in replace_keywords.items():
+        # see whether the selected part matches a replacement keyword
+        if replace_keyword in spellpart:
+            result = f" {replacement}"
+            break
+        else:
+            # if not, just join the parts back together
+            result = spellpart
+    return result
 
-# if a spell is of the form **** - keyword, we replace the ' - keyword' with the given replacement template
+
+# if a spell is of the form **** -- keyword, we replace the ' -- keyword' with the given replacement template
 # this can be a simple string, or a {{<XXX>}} for a hugo template in 'DrusMagie/layouts/_shortcodes/*'
 replace_keywords = {
     "dotyk": "{{<dotyk_tooltip>}}",
-    "dohled": "{{<dohled_tooltip>}}"
+    "dohled": "{{<dohled_tooltip>}}",
+    "paměť": "{{<pamet_tooltip>}}",
+    "sesilatel": "{{<sesilatel_tooltip>}}",
+    "zbraň": "{{<zbran_tooltip>}}",
+    "požehnání": "{{<pozehnani_tooltip>}}",
+    "léčení": "{{<leceni_tooltip>}}",
+    "prokletí": "{{<prokleti_tooltip>}}",
+    "nemrtvý": "{{<nemrtvy_tooltip>}}",
+    "jed": "{{<jed_tooltip>}}",
+    "hypnóza": "{{<hypnoza_tooltip>}}",
+    "iluze": "{{<iluze_tooltip>}}",
+    "sugesce": "{{<sugesce_tooltip>}}",
+    "mentální_magie": "{{<mentalni_magie_tooltip>}}",
+    "bariéra": "{{<bariera_tooltip>}}",
+    "nahlížení": "{{<nahlizeni_tooltip>}}"
 }
 
 # create the output directory
@@ -79,20 +104,17 @@ for magic_school_name, magic_school_file, magic_school_image, magic_school_image
         # go over all spells in this tier
         for i in range(len(spell_tier_list)):
             spell = spell_tier_list[i]
-            # split around -
-            parts = spell.split("-")
+            # split around --
+            parts = spell.split("--")
             # only one part -> nothing to replace anyway.
             if len(parts) == 1:
                 result = spell.title()
             else:
                 # see whether the last part matches a replacement keyword
-                for replace_keyword, replacement in replace_keywords.items():
-                    if replace_keyword in parts[-1]:
-                        result = " ".join(map(lambda x: x.title(), parts[:-1])) + f" {replacement}"
-                        break
-                else:
-                    # if not, just join the parts back together
-                    result = " ".join(map(lambda x: x.title(), parts))
+                spell_name = spellparts[0]
+                tags = parts[1:]
+                replaced_tags = list(map(lambda x: replace_spell_tags(x), tags))
+                result = " ".join([spell_name] + replaced_tags[:])
             
             # save the result
             spell_tier_list[i] = result     

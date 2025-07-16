@@ -3,7 +3,7 @@ základní:
 	ohnivá stěna
 	ohnivý plášť
 	ohnivý prstenec
-	zapálení - dotyk
+	zapálení -- dotyk
 	cit ohně
 	ledová střela
 	ledová stěna
@@ -11,7 +11,7 @@ základní:
 	ledový prstenec
 	vodní prstenec
 	vodní plášť
-	zamražení - dotyk
+	zamražení -- dotyk
 	cit vody
 	poryv větru
 	větrný plášť
@@ -28,8 +28,8 @@ pokročilá:
 	ohnivá koule
 	ohnivá zbraň
 	pole ohně
-	zapálení - dohled
-	roztavení - dotyk
+	zapálení -- dohled
+	roztavení -- dotyk
 	ohnivé vězení
 	proud vody
 	ledová zbraň
@@ -37,37 +37,34 @@ pokročilá:
 	ledová smršť
 	ledové vězení
 	náledí
-	zamražení - dohled
-	podchlazení - dotyk
+	zamražení -- dohled
+	podchlazení -- dotyk
 	tlaková vlna
 	cyklon
 	ovládnutí větru
 	kouřová clona
-	eroze - dotyk
+	eroze -- dotyk
 	kamenná smršť
 	zemětřesení
 	kamenná zbraň
 	kamenná zbroj
 	kamenné vězení
-	zkamenění - dotyk
+	zkamenění -- dotyk
 	blesk
 	meditace
 mistrovská:
 	ovládnutí ohně
-	výbuch - dohled
-	roztavení - dohled
+	výbuch -- dohled
+	roztavení -- dohled
 	ovládnutí vody
 	přílivová vlna
-	podchlazení - dohled
+	podchlazení -- dohled
 	uragán
-	imploze - dohled
-	eroze - dohled
+	imploze -- dohled
+	eroze -- dohled
 	ovládni zemi
-	tekutý písek - dohled
-	zkamenění - dohled
+	tekutý písek -- dohled
+	zkamenění -- dohled
 	bouřka
 	kulový blesk
 	značka hmoty
-velmistrovská:
-	atomová bomba
-

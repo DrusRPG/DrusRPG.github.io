@@ -1,37 +1,46 @@
 základní:
-	požehnání rychlosti
-	požehnání síly
-	požehnání zraku
-	požehnání sluchu
-	požehnání přitažlivosti
-	požehnání výdrže
-	zacelení ran
-	zastavení krvácení
-	srůst kosti
+	požehnání rychlosti -- požehnání
+	požehnání síly -- požehnání
+	požehnání zraku -- požehnání
+	požehnání sluchu -- požehnání
+	požehnání přitažlivosti -- požehnání
+	požehnání výdrže -- požehnání
+	požehnání zručnosti - koordinace pohybů -- požehnání
+	zacelení ran -- léčení
+	zastavení krvácení -- léčení
+	srůst kosti -- léčení
 	odhal jed
 	odhal nemoc
 	odhal infekci
-	světlo
+	proud světla
 	příkaz neživému
+	cit života
 pokročilá:
-	požehnání přesnosti
+	požehnání přesnosti - jemná motorika -- požehnání
+	utlumení bolesti -- požehnání
+	požehnání smyslů -- požehnání
+	požehnání neživému -- požehnání
+	neoslnitelnost -- požehnání
 	magická zbroj
-	narovnání kosti
-	obnova svalu
-	obnova kůže
-	uzdrav nemoc
+	narovnání kosti -- léčení
+	obnova svalu -- léčení
+	obnova kůže -- léčení
+	uzdrav nemoc -- léčení
 	odhal těžkou nemoc
-	odstraň infekci
-	odstraň jed
+	odstraň infekci -- léčení
+	odstraň jed -- léčení
 	meditace
 	povolání neživého
 	ovládnutí neživého
-	požehnání smyslů
+	aura světla
 mistrovská:
-	obnova orgánu
-	obnova kosti
-	regenerace
+	štěstí -- požehnání
+	neúnavnost -- požehnání
+	obnova orgánu -- léčení
+	obnova kosti -- léčení
+	regenerace -- léčení
+	uzdrav těžkou nemoc -- léčení
 	pomoc živých tvorů
 	značka života
 	stvoření neživého
-
+	neživá zbroj
