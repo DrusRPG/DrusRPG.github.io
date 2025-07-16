@@ -741,6 +741,10 @@
     🌟
     &lt;span class=&#34;tooltiptext&#34;&gt;Požehnání&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;požehnání neživému   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🌟
+    &lt;span class=&#34;tooltiptext&#34;&gt;Požehnání&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;zacelení ran   &lt;span class=&#34;icon-tooltip&#34;&gt;
     ⚕️
     &lt;span class=&#34;tooltiptext&#34;&gt;Léčení&lt;/span&gt;
@@ -757,8 +761,17 @@
 &lt;li&gt;Odhal Nemoc&lt;/li&gt;
 &lt;li&gt;Odhal Infekci&lt;/li&gt;
 &lt;li&gt;Proud Světla&lt;/li&gt;
-&lt;li&gt;Příkaz Neživému&lt;/li&gt;
+&lt;li&gt;stvoření/povolání malého neživého - do velikosti loutky   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🗿
+    &lt;span class=&#34;tooltiptext&#34;&gt;Neživý&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Příkaz Neživému - Stráž&lt;/li&gt;
+&lt;li&gt;Příkaz Neživému - Ochrana&lt;/li&gt;
+&lt;li&gt;Příkaz Neživému - Následování&lt;/li&gt;
+&lt;li&gt;Zrušení Příkazu Neživému&lt;/li&gt;
+&lt;li&gt;Zapuzení Neživého&lt;/li&gt;
 &lt;li&gt;Cit Života&lt;/li&gt;
+&lt;li&gt;Cit Neživých&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;pokročilá&#34;&gt;Pokročilá:&lt;/h2&gt;
 &lt;ul&gt;
@@ -771,10 +784,6 @@
     &lt;span class=&#34;tooltiptext&#34;&gt;Požehnání&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;požehnání smyslů   &lt;span class=&#34;icon-tooltip&#34;&gt;
-    🌟
-    &lt;span class=&#34;tooltiptext&#34;&gt;Požehnání&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;požehnání neživému   &lt;span class=&#34;icon-tooltip&#34;&gt;
     🌟
     &lt;span class=&#34;tooltiptext&#34;&gt;Požehnání&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
@@ -809,7 +818,15 @@
     &lt;span class=&#34;tooltiptext&#34;&gt;Léčení&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Meditace&lt;/li&gt;
-&lt;li&gt;Povolání Neživého&lt;/li&gt;
+&lt;li&gt;stvoření/povolání středně velkého neživého - do velikosti velkého chrliče   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🗿
+    &lt;span class=&#34;tooltiptext&#34;&gt;Neživý&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;stvoření/povolání hejna malých neživých   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🗿
+    &lt;span class=&#34;tooltiptext&#34;&gt;Neživý&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Čtení Paměti Neživého&lt;/li&gt;
 &lt;li&gt;Ovládnutí Neživého&lt;/li&gt;
 &lt;li&gt;Aura Světla&lt;/li&gt;
 &lt;/ul&gt;
@@ -841,8 +858,18 @@
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Pomoc Živých Tvorů&lt;/li&gt;
 &lt;li&gt;Značka Života&lt;/li&gt;
-&lt;li&gt;Stvoření Neživého&lt;/li&gt;
-&lt;li&gt;Neživá Zbroj&lt;/li&gt;
+&lt;li&gt;stvoření/povolání velkého neživého   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🗿
+    &lt;span class=&#34;tooltiptext&#34;&gt;Neživý&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;stvoření/povolání hejna středních neživých   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🗿
+    &lt;span class=&#34;tooltiptext&#34;&gt;Neživý&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;neživá zbroj   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🗿
+    &lt;span class=&#34;tooltiptext&#34;&gt;Neživý&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
