@@ -39,11 +39,11 @@ mistrovská:
 	neštěstí -- dohled -- prokletí
 	mdloby -- dohled -- prokletí
 	vyčerpání -- dohled -- prokletí
-	smrtící oblak -- dohle -- jed
+	smrtící oblak -- dohled -- jed
 	paralýza -- dohled
 	oživ organismus -- nemrtvý
 	spoutání duše/nemrtvého k vůli jiného
 	značka smrti
-	tržná rána - dohled
-	vysátí života - dohled
+	tržná rána -- dohled
+	vysátí života -- dohled
 	vidění ve tmě - ostatní -- dohled
