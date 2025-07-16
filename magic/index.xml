@@ -683,10 +683,13 @@
       🐈‍⬛
       &lt;span class=&#34;tooltiptext&#34;&gt;Prokletí&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;smrtící oblak   dohle   &lt;span class=&#34;icon-tooltip&#34;&gt;
-    ☠️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Jed&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;smrtící oblak   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      ☠️
+      &lt;span class=&#34;tooltiptext&#34;&gt;Jed&lt;/span&gt;
+  &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;paralýza   &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
@@ -697,8 +700,14 @@
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Spoutání Duše/Nemrtvého K Vůli Jiného&lt;/li&gt;
 &lt;li&gt;Značka Smrti&lt;/li&gt;
-&lt;li&gt;Tržná Rána - Dohled&lt;/li&gt;
-&lt;li&gt;Vysátí Života - Dohled&lt;/li&gt;
+&lt;li&gt;tržná rána   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;vysátí života   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;vidění ve tmě - ostatní   &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
