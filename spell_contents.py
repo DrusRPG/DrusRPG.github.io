@@ -111,7 +111,7 @@ for magic_school_name, magic_school_file, magic_school_image, magic_school_image
                 result = spell.title()
             else:
                 # see whether the last part matches a replacement keyword
-                spell_name = spellparts[0]
+                spell_name = parts[0]
                 tags = parts[1:]
                 replaced_tags = list(map(lambda x: replace_spell_tags(x), tags))
                 result = " ".join([spell_name] + replaced_tags[:])
