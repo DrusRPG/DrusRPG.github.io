@@ -72,7 +72,7 @@ replace_keywords = {
     "dotyk": "{{<dotyk_tooltip>}}",
     "dohled": "{{<dohled_tooltip>}}",
     "paměť": "{{<pamet_tooltip>}}",
-    "sesilatel": "{{<sesilatel_tooltip>}}",
+    "sesílatel": "{{<sesilatel_tooltip>}}",
     "zbraň": "{{<zbran_tooltip>}}",
     "požehnání": "{{<pozehnani_tooltip>}}",
     "léčení": "{{<leceni_tooltip>}}",
