@@ -429,7 +429,10 @@
     &lt;span class=&#34;tooltiptext&#34;&gt;Bariéra&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Změna Dráhy Objektu&lt;/li&gt;
-&lt;li&gt;levitace   sesílatel&lt;/li&gt;
+&lt;li&gt;levitace   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧙‍♂️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Levitace - Předmět&lt;/li&gt;
 &lt;li&gt;Přitahující Pole&lt;/li&gt;
 &lt;li&gt;Odpuzující Pole&lt;/li&gt;
@@ -657,7 +660,10 @@
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;vidění ve tmě   sesílatel&lt;/li&gt;
+&lt;li&gt;vidění ve tmě   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧙‍♂️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Meditace&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;mistrovská&#34;&gt;Mistrovská:&lt;/h2&gt;
