@@ -109,7 +109,11 @@
 &lt;li&gt;Zastavení Objektu V Čase&lt;/li&gt;
 &lt;li&gt;Přesunutí Objektu V Čase&lt;/li&gt;
 &lt;li&gt;Přesunutí Sebe V Čase&lt;/li&gt;
-&lt;li&gt;Meditace&lt;/li&gt;
+&lt;li&gt;meditace   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧘
+    &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;Změna Hlasu&lt;/li&gt;
 &lt;li&gt;Zpomalení Místa&lt;/li&gt;
 &lt;li&gt;Zrychlení Místa&lt;/li&gt;
@@ -131,7 +135,11 @@
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Zastavení Organismu V Čase&lt;/li&gt;
 &lt;li&gt;Přesunutí Organismu V Čase&lt;/li&gt;
-&lt;li&gt;Značka Času&lt;/li&gt;
+&lt;li&gt;značka času   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧘
+    &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>
@@ -340,7 +348,7 @@
       &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🧙‍
+      🧘
       &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -418,8 +426,16 @@
       &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
-&lt;li&gt;Elektrický Výboj&lt;/li&gt;
-&lt;li&gt;Statické Pole&lt;/li&gt;
+&lt;li&gt;elektrický výboj   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🗲
+    &lt;span class=&#34;tooltiptext&#34;&gt;Blesk&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;statické pole   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🗲
+    &lt;span class=&#34;tooltiptext&#34;&gt;Blesk&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;pokročilá&#34;&gt;Pokročilá:&lt;/h2&gt;
 &lt;ul&gt;
@@ -560,7 +576,7 @@
     &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
 &lt;/span&gt;
   &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🧙‍
+      🧘
       &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -599,7 +615,7 @@
       &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🧙‍
+      🧘
       &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -624,7 +640,7 @@
       &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🧙‍
+      🧘
       &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -687,7 +703,7 @@
 &lt;/span&gt;
 &lt;/li&gt;
 &lt;li&gt;meditace   &lt;span class=&#34;icon-tooltip&#34;&gt;
-    🧙‍
+    🧘
     &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
 &lt;/span&gt;
 &lt;/li&gt;
@@ -699,7 +715,7 @@
     &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
 &lt;/span&gt;
   &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🧙‍
+      🧘
       &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -728,7 +744,7 @@
       &lt;span class=&#34;tooltiptext&#34;&gt;Voda&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🧙‍
+      🧘
       &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -756,7 +772,7 @@
       &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🧙‍
+      🧘
       &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -781,7 +797,7 @@
     &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
 &lt;/span&gt;
   &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🧙‍
+      🧘
       &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -809,7 +825,7 @@
       &lt;span class=&#34;tooltiptext&#34;&gt;Blesk&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🧙‍
+      🧘
       &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -824,7 +840,7 @@
 &lt;/span&gt;
 &lt;/li&gt;
 &lt;li&gt;značka hmoty   &lt;span class=&#34;icon-tooltip&#34;&gt;
-    🧙‍
+    🧘
     &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
 &lt;/span&gt;
 &lt;/li&gt;
@@ -892,7 +908,11 @@
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Mentální Obrana - Sugesce A Iluze&lt;/li&gt;
 &lt;li&gt;Telekineze - Předmět&lt;/li&gt;
-&lt;li&gt;Meditace&lt;/li&gt;
+&lt;li&gt;meditace   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧘
+    &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;pokročilá&#34;&gt;Pokročilá:&lt;/h2&gt;
 &lt;ul&gt;
@@ -976,7 +996,11 @@
    🧿
     &lt;span class=&#34;tooltiptext&#34;&gt;Hypnóza&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Značka Mysli&lt;/li&gt;
+&lt;li&gt;značka mysli   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧘
+    &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>
@@ -1031,7 +1055,11 @@
     🧱
     &lt;span class=&#34;tooltiptext&#34;&gt;Bariéra&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Meditace&lt;/li&gt;
+&lt;li&gt;meditace   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧘
+    &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;Prostorový Tunel&lt;/li&gt;
 &lt;li&gt;Cit Prostoru - Prohledávání, Co Je Kolem Sesílajícího Mága&lt;/li&gt;
 &lt;/ul&gt;
@@ -1055,7 +1083,11 @@
 &lt;li&gt;Hromadné Přitažení&lt;/li&gt;
 &lt;li&gt;Hromadné Odhození&lt;/li&gt;
 &lt;li&gt;Hromadné Sražení&lt;/li&gt;
-&lt;li&gt;Značka Prostoru&lt;/li&gt;
+&lt;li&gt;značka prostoru   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧘
+    &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>
@@ -1232,7 +1264,11 @@
     🧙‍♂️
     &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Meditace&lt;/li&gt;
+&lt;li&gt;meditace   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧘
+    &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;mistrovská&#34;&gt;Mistrovská:&lt;/h2&gt;
 &lt;ul&gt;
@@ -1273,7 +1309,11 @@
     &lt;span class=&#34;tooltiptext&#34;&gt;Nemrtvý&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Spoutání Duše/Nemrtvého K Vůli Jiného&lt;/li&gt;
-&lt;li&gt;Značka Smrti&lt;/li&gt;
+&lt;li&gt;značka smrti   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧘
+    &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;tržná rána   &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
@@ -1400,7 +1440,11 @@
     ⚕️
     &lt;span class=&#34;tooltiptext&#34;&gt;Léčení&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Meditace&lt;/li&gt;
+&lt;li&gt;meditace   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧘
+    &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;stvoření/povolání středně velkého neživého - do velikosti velkého chrliče   &lt;span class=&#34;icon-tooltip&#34;&gt;
     🗿
     &lt;span class=&#34;tooltiptext&#34;&gt;Neživý&lt;/span&gt;
@@ -1440,7 +1484,11 @@
     &lt;span class=&#34;tooltiptext&#34;&gt;Léčení&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Pomoc Živých Tvorů&lt;/li&gt;
-&lt;li&gt;Značka Života&lt;/li&gt;
+&lt;li&gt;značka života   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧘
+    &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;stvoření/povolání velkého neživého   &lt;span class=&#34;icon-tooltip&#34;&gt;
     🗿
     &lt;span class=&#34;tooltiptext&#34;&gt;Neživý&lt;/span&gt;
