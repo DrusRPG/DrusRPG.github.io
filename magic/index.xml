@@ -214,7 +214,7 @@
   &lt;/span&gt;
 &lt;/li&gt;
 &lt;li&gt;ledová střela   &lt;span class=&#34;icon-tooltip&#34;&gt;
-    ❄
+    ❄️
     &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
 &lt;/span&gt;
 &lt;/li&gt;
@@ -222,12 +222,12 @@
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      ❄
+      ❄️
       &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
 &lt;li&gt;ledový prstenec   &lt;span class=&#34;icon-tooltip&#34;&gt;
-    ❄
+    ❄️
     &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
 &lt;/span&gt;
 &lt;/li&gt;
@@ -238,7 +238,7 @@
       🗡️
       &lt;span class=&#34;tooltiptext&#34;&gt;Zbraň&lt;/span&gt;
   &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      ❄
+      ❄️
       &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -246,7 +246,7 @@
     🧙‍♂️
     &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      ❄
+      ❄️
       &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;icon-tooltip&#34;&gt;
@@ -271,7 +271,7 @@
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      ❄
+      ❄️
       &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -279,7 +279,7 @@
     🧙‍♂️
     &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      ❄
+      ❄️
       &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;icon-tooltip&#34;&gt;
@@ -288,7 +288,7 @@
   &lt;/span&gt;
 &lt;/li&gt;
 &lt;li&gt;poryv větru   &lt;span class=&#34;icon-tooltip&#34;&gt;
-    🌬
+    💨
     &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
 &lt;/span&gt;
 &lt;/li&gt;
@@ -296,12 +296,12 @@
     🧙‍♂️
     &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🌬
+      💨
       &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
 &lt;li&gt;tlakový prstenec   &lt;span class=&#34;icon-tooltip&#34;&gt;
-    🌬
+    💨
     &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
 &lt;/span&gt;
 &lt;/li&gt;
@@ -309,7 +309,7 @@
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🌬
+      💨
       &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -317,7 +317,7 @@
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🌬
+      💨
       &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -328,7 +328,7 @@
       🗡️
       &lt;span class=&#34;tooltiptext&#34;&gt;Zbraň&lt;/span&gt;
   &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🌬
+      💨
       &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -336,7 +336,7 @@
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🌬
+      💨
       &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -344,7 +344,7 @@
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🌬
+      💨
       &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;icon-tooltip&#34;&gt;
@@ -356,7 +356,7 @@
     🧙‍♂️
     &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🌬
+      💨
       &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -509,7 +509,7 @@
       🗡️
       &lt;span class=&#34;tooltiptext&#34;&gt;Zbraň&lt;/span&gt;
   &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      ❄
+      ❄️
       &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -517,12 +517,12 @@
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      ❄
+      ❄️
       &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
 &lt;li&gt;ledová smršť   &lt;span class=&#34;icon-tooltip&#34;&gt;
-    ❄
+    ❄️
     &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
 &lt;/span&gt;
 &lt;/li&gt;
@@ -530,7 +530,7 @@
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      ❄
+      ❄️
       &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -538,7 +538,7 @@
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      ❄
+      ❄️
       &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -546,7 +546,7 @@
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      ❄
+      ❄️
       &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -554,12 +554,12 @@
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      ❄
+      ❄️
       &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
 &lt;li&gt;tlaková vlna   &lt;span class=&#34;icon-tooltip&#34;&gt;
-    🌬
+    💨
     &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
 &lt;/span&gt;
 &lt;/li&gt;
@@ -567,12 +567,12 @@
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🌬
+      💨
       &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
 &lt;li&gt;ovládnutí větru   &lt;span class=&#34;icon-tooltip&#34;&gt;
-    🌬
+    💨
     &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
 &lt;/span&gt;
   &lt;span class=&#34;icon-tooltip&#34;&gt;
@@ -584,7 +584,7 @@
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🌬
+      💨
       &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -595,7 +595,7 @@
       🗡️
       &lt;span class=&#34;tooltiptext&#34;&gt;Zbraň&lt;/span&gt;
   &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🌬
+      💨
       &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -603,7 +603,7 @@
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🌬
+      💨
       &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -611,7 +611,7 @@
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🌬
+      💨
       &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;icon-tooltip&#34;&gt;
@@ -623,7 +623,7 @@
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🌬
+      💨
       &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -736,7 +736,7 @@
   &lt;/span&gt;
 &lt;/li&gt;
 &lt;li&gt;ovládnutí vody   &lt;span class=&#34;icon-tooltip&#34;&gt;
-    ❄
+    ❄️
     &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
 &lt;/span&gt;
   &lt;span class=&#34;icon-tooltip&#34;&gt;
@@ -760,7 +760,7 @@
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      ❄
+      ❄️
       &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -768,7 +768,7 @@
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🌬
+      💨
       &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
   &lt;/span&gt;
   &lt;span class=&#34;icon-tooltip&#34;&gt;
@@ -780,7 +780,7 @@
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🌬
+      💨
       &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
@@ -788,7 +788,7 @@
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🌬
+      💨
       &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
   &lt;/span&gt;
 &lt;/li&gt;
