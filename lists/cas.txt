@@ -26,7 +26,7 @@ pokročilá:
 	zastavení objektu v čase
 	přesunutí objektu v čase
 	přesunutí sebe v čase
-	meditace
+	meditace -- soustředění
 	změna hlasu
 	zpomalení místa
 	zrychlení místa
@@ -37,4 +37,4 @@ mistrovská:
 	omládnutí místa -- dohled
 	zastavení organismu v čase
 	přesunutí organismu v čase
-	značka času
+	značka času -- soustředění

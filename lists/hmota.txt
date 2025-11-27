@@ -35,8 +35,8 @@ základní:
 	proud písku -- země
 	příkop -- dotyk -- země
 	cit země -- sesílatel -- země
-	elektrický výboj
-	statické pole
+	elektrický výboj -- blesk
+	statické pole -- blesk
 pokročilá:
 	proud ohně -- oheň
 	ohnivá smršť -- oheň

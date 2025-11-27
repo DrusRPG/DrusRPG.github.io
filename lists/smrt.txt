@@ -34,7 +34,7 @@ pokročilá:
 	dusivý oblak -- dohled -- jed
 	tržná rána -- dotyk
 	vidění ve tmě -- sesílatel
-	meditace
+	meditace -- soustředění
 mistrovská:
 	neštěstí -- dohled -- prokletí
 	mdloby -- dohled -- prokletí
@@ -43,7 +43,7 @@ mistrovská:
 	paralýza -- dohled
 	oživ organismus -- nemrtvý
 	spoutání duše/nemrtvého k vůli jiného
-	značka smrti
+	značka smrti -- soustředění
 	tržná rána -- dohled
 	vysátí života -- dohled
 	vidění ve tmě - ostatní -- dohled

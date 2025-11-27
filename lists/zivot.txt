@@ -35,7 +35,7 @@ pokročilá:
 	odhal těžkou nemoc
 	odstraň infekci -- léčení
 	odstraň jed -- léčení
-	meditace
+	meditace -- soustředění
 	stvoření/povolání středně velkého neživého - do velikosti velkého chrliče -- neživý
 	stvoření/povolání hejna malých neživých -- neživý
 	čtení paměti neživého
@@ -49,7 +49,7 @@ mistrovská:
 	regenerace -- léčení
 	uzdrav těžkou nemoc -- léčení
 	pomoc živých tvorů
-	značka života
+	značka života -- soustředění
 	stvoření/povolání velkého neživého -- neživý
 	stvoření/povolání hejna středních neživých -- neživý
 	neživá zbroj -- neživý

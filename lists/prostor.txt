@@ -26,7 +26,7 @@ pokročilá:
 	bariéra propouštějící zvuk -- bariéra
 	světelná bariéra -- bariéra
 	sférická bariéra -- bariéra
-	meditace
+	meditace -- soustředění
 	prostorový tunel
 	cit prostoru - prohledávání, co je kolem sesílajícího mága
 mistrovská:
@@ -39,5 +39,5 @@ mistrovská:
 	hromadné přitažení
 	hromadné odhození
 	hromadné sražení
-	značka prostoru
+	značka prostoru -- soustředění
 	

@@ -14,7 +14,7 @@ základní:
 	hypnóza - spánek -- hypnóza
 	mentální obrana - sugesce a iluze
 	telekineze - předmět
-	meditace
+	meditace -- soustředění
 pokročilá:
 	neviditelnost -- iluze
 	velká zraková iluze -- iluze
@@ -40,4 +40,4 @@ mistrovská:
 	telepatické propojení
 	telepatický prostor
 	hypnóza - přesvědčení -- hypnóza
-	značka mysli
+	značka mysli -- soustředění
