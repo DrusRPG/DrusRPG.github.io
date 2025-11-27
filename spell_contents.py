@@ -84,6 +84,13 @@ replace_keywords = {
     "iluze": "{{<iluze_tooltip>}}",
     "sugesce": "{{<sugesce_tooltip>}}",
     "mentální_magie": "{{<mentalni_magie_tooltip>}}",
+    "blesk": "{{<blesk_tooltip>}}",
+    "oheň": "{{<ohen_tooltip>}}",
+    "led": "{{<led_tooltip>}}",
+    "země": "{{<zeme_tooltip>}}",
+    "voda": "{{<voda_tooltip>}}",
+    "vzduch": "{{<vzduch_tooltip>}}",
+    "soustředění": "{{<soustredeni_tooltip>}}",
     "bariéra": "{{<bariera_tooltip>}}",
     "nahlížení": "{{<nahlizeni_tooltip>}}"
 }

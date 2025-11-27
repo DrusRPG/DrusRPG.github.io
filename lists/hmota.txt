@@ -1,70 +1,92 @@
 základní:
-	ohnivá střela
-	ohnivá stěna
-	ohnivý plášť
-	ohnivý prstenec
-	zapálení -- dotyk
-	cit ohně
-	ledová střela
-	ledová stěna
-	ledový plášť
-	ledový prstenec
-	vodní prstenec
-	vodní plášť
-	zamražení -- dotyk
-	cit vody
-	poryv větru
-	větrný plášť
-	tlakový prstenec
-	cit vzduchu
-	kamenná střela
-	kammená kůže
-	kamenná stěna
-	kamenný prstenec
-	cit země
+	ohnivá střela -- oheň
+	ohnivá stěna -- dohled -- oheň
+	ohnivý plášť -- sesílatel -- oheň
+	ohnivý prstenec -- oheň
+	ohnivá zbraň -- dohled -- zbraň -- oheň
+	proud uhlíků -- oheň
+	ohnivý bič -- oheň
+	zapálení -- dotyk -- oheň
+	cit ohně -- sesílatel -- oheň
+	ledová střela -- led
+	ledová stěna -- dohled -- led
+	ledový prstenec -- led
+	ledová zbraň -- dohled -- zbraň -- led
+	vodní/ledový plášť -- sesílatel -- led -- voda
+	déšť -- dohled -- voda
+	vodní prstenec -- voda
+	zamražení -- dotyk -- led
+	cit vody -- sesílatel -- led -- voda
+	poryv větru -- vzduch
+	větrný plášť -- sesílatel -- vzduch
+	tlakový prstenec -- vzduch
+	vysušení -- dohled -- vzduch
+	kondenzace -- dohled -- vzduch
+	plynulost pohybu -- dohled -- zbraň -- vzduch
+	protivítr -- dohled -- vzduch
+	meluzína -- dohled -- vzduch -- soustředění
+	cit vzduchu -- sesílatel -- vzduch
+	kamenná střela -- země
+	kamenná kůže -- dohled -- země
+	kamenná stěna -- dohled -- země
+	kamenný prstenec -- země
+	kamenná zbraň -- dohled -- zbraň -- země
+	pole bahna -- dohled -- země
+	proud písku -- země
+	příkop -- dotyk -- země
+	cit země -- sesílatel -- země
 	elektrický výboj
+	statické pole
 pokročilá:
-	proud ohně
-	ohnivá koule
-	ohnivá zbraň
-	pole ohně
-	zapálení -- dohled
-	roztavení -- dotyk
-	ohnivé vězení
-	proud vody
-	ledová zbraň
-	ledová zbroj
-	ledová smršť
-	ledové vězení
-	náledí
-	zamražení -- dohled
-	podchlazení -- dotyk
-	tlaková vlna
-	cyklon
-	ovládnutí větru
-	kouřová clona
-	eroze -- dotyk
-	kamenná smršť
-	zemětřesení
-	kamenná zbraň
-	kamenná zbroj
-	kamenné vězení
-	zkamenění -- dotyk
-	blesk
-	meditace
+	proud ohně -- oheň
+	ohnivá smršť -- oheň
+	ohnivá koule -- oheň
+	hromadná ohnivá zbraň -- dohled -- zbraň -- oheň
+	pole ohně -- dohled -- oheň
+	zapálení -- dohled -- oheň
+	roztavení -- dotyk -- oheň
+	ohnivé vězení -- dohled -- oheň
+	proud vody -- voda
+	hromadná ledová zbraň -- dohled -- zbraň -- led
+	ledová zbroj -- dohled -- led
+	ledová smršť -- led
+	ledové vězení -- dohled -- led
+	náledí -- dohled -- led
+	zamražení -- dohled -- led
+	podchlazení -- dotyk -- led
+	tlaková vlna -- vzduch
+	cyklon -- dohled -- vzduch
+	ovládnutí větru -- vzduch -- soustředění
+	kouřová clona -- dohled -- vzduch
+	hromadná plynulost pohybu -- dohled -- zbraň -- vzduch
+	hromadný protivítr -- dohled -- vzduch
+	vzduchová bublina -- dohled -- vzduch -- soustředění
+	eroze -- dotyk -- vzduch
+	kamenná smršť -- země
+	zemětřesení -- dohled -- země -- soustředění
+	hromadná kamenná zbraň -- dohled -- zbraň -- země
+	kamenná zbroj -- dohled -- země
+	kamenné vězení -- dohled -- země
+	střela balvanem -- země
+	příkop -- dohled -- země
+	zkamenění -- dotyk -- země
+	blesk -- blesk
+	proud výbojů -- blesk
+	meditace -- soustředění
 mistrovská:
-	ovládnutí ohně
-	výbuch -- dohled
-	roztavení -- dohled
-	ovládnutí vody
-	přílivová vlna
-	podchlazení -- dohled
-	uragán
-	imploze -- dohled
-	eroze -- dohled
-	ovládni zemi
-	tekutý písek -- dohled
-	zkamenění -- dohled
-	bouřka
-	kulový blesk
-	značka hmoty
+	ovládnutí ohně -- oheň -- soustředění
+	výbuch -- dohled -- oheň
+	roztavení -- dohled -- oheň
+	ovládnutí vody -- led -- voda -- soustředění
+	přílivová vlna -- dohled -- voda
+	podchlazení -- dohled -- led
+	uragán -- dohled -- vzduch -- soustředění
+	imploze -- dohled -- vzduch
+	eroze -- dohled -- vzduch
+	ovládni zemi -- země -- soustředění
+	tekutý písek -- dohled -- země
+	zkamenění -- dohled -- země
+	bouřka -- dohled -- blesk -- soustředění
+	kulový blesk -- blesk
+	řetězový blesk -- blesk
+	značka hmoty -- soustředění
