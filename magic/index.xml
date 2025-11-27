@@ -9,7 +9,7 @@
       <url>https://drusrpg.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://drusrpg.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.148.1</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <atom:link href="https://drusrpg.github.io/magic/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -142,124 +142,692 @@
       <description>&lt;div id=&#34;background-overlay&#34; style=&#34;background-image: url(/images/ancient_times5.jpeg)&#34;&gt;&lt;/div&gt;
 &lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Ohnivá Střela&lt;/li&gt;
-&lt;li&gt;Ohnivá Stěna&lt;/li&gt;
-&lt;li&gt;Ohnivý Plášť&lt;/li&gt;
-&lt;li&gt;Ohnivý Prstenec&lt;/li&gt;
+&lt;li&gt;ohnivá střela   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🔥
+    &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;ohnivá stěna   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🔥
+      &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;ohnivý plášť   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧙‍♂️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🔥
+      &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;ohnivý prstenec   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🔥
+    &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;ohnivá zbraň   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🗡️
+      &lt;span class=&#34;tooltiptext&#34;&gt;Zbraň&lt;/span&gt;
+  &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🔥
+      &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;proud uhlíků   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🔥
+    &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;ohnivý bič   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🔥
+    &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;zapálení   &lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Cit Ohně&lt;/li&gt;
-&lt;li&gt;Ledová Střela&lt;/li&gt;
-&lt;li&gt;Ledová Stěna&lt;/li&gt;
-&lt;li&gt;Ledový Plášť&lt;/li&gt;
-&lt;li&gt;Ledový Prstenec&lt;/li&gt;
-&lt;li&gt;Vodní Prstenec&lt;/li&gt;
-&lt;li&gt;Vodní Plášť&lt;/li&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🔥
+      &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;cit ohně   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧙‍♂️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🔥
+      &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;ledová střela   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    ❄
+    &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;ledová stěna   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      ❄
+      &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;ledový prstenec   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    ❄
+    &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;ledová zbraň   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🗡️
+      &lt;span class=&#34;tooltiptext&#34;&gt;Zbraň&lt;/span&gt;
+  &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      ❄
+      &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;vodní/ledový plášť   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧙‍♂️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      ❄
+      &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      💧
+      &lt;span class=&#34;tooltiptext&#34;&gt;Voda&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;déšť   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      💧
+      &lt;span class=&#34;tooltiptext&#34;&gt;Voda&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;vodní prstenec   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    💧
+    &lt;span class=&#34;tooltiptext&#34;&gt;Voda&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;zamražení   &lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Cit Vody&lt;/li&gt;
-&lt;li&gt;Poryv Větru&lt;/li&gt;
-&lt;li&gt;Větrný Plášť&lt;/li&gt;
-&lt;li&gt;Tlakový Prstenec&lt;/li&gt;
-&lt;li&gt;Cit Vzduchu&lt;/li&gt;
-&lt;li&gt;Kamenná Střela&lt;/li&gt;
-&lt;li&gt;Kammená Kůže&lt;/li&gt;
-&lt;li&gt;Kamenná Stěna&lt;/li&gt;
-&lt;li&gt;Kamenný Prstenec&lt;/li&gt;
-&lt;li&gt;Cit Země&lt;/li&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      ❄
+      &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;cit vody   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧙‍♂️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      ❄
+      &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      💧
+      &lt;span class=&#34;tooltiptext&#34;&gt;Voda&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;poryv větru   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🌬
+    &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;větrný plášť   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧙‍♂️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🌬
+      &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;tlakový prstenec   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🌬
+    &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;vysušení   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🌬
+      &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;kondenzace   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🌬
+      &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;plynulost pohybu   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🗡️
+      &lt;span class=&#34;tooltiptext&#34;&gt;Zbraň&lt;/span&gt;
+  &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🌬
+      &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;protivítr   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🌬
+      &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;meluzína   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🌬
+      &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🧙‍
+      &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;cit vzduchu   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧙‍♂️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🌬
+      &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;kamenná střela   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🪨
+    &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;kamenná kůže   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🪨
+      &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;kamenná stěna   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🪨
+      &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;kamenný prstenec   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🪨
+    &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;kamenná zbraň   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🗡️
+      &lt;span class=&#34;tooltiptext&#34;&gt;Zbraň&lt;/span&gt;
+  &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🪨
+      &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;pole bahna   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🪨
+      &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;proud písku   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🪨
+    &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;příkop   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🖐️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🪨
+      &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;cit země   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧙‍♂️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🪨
+      &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;Elektrický Výboj&lt;/li&gt;
+&lt;li&gt;Statické Pole&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;pokročilá&#34;&gt;Pokročilá:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Proud Ohně&lt;/li&gt;
-&lt;li&gt;Ohnivá Koule&lt;/li&gt;
-&lt;li&gt;Ohnivá Zbraň&lt;/li&gt;
-&lt;li&gt;Pole Ohně&lt;/li&gt;
+&lt;li&gt;proud ohně   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🔥
+    &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;ohnivá smršť   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🔥
+    &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;ohnivá koule   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🔥
+    &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;hromadná ohnivá zbraň   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🗡️
+      &lt;span class=&#34;tooltiptext&#34;&gt;Zbraň&lt;/span&gt;
+  &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🔥
+      &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;pole ohně   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🔥
+      &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;zapálení   &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🔥
+      &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;roztavení   &lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Ohnivé Vězení&lt;/li&gt;
-&lt;li&gt;Proud Vody&lt;/li&gt;
-&lt;li&gt;Ledová Zbraň&lt;/li&gt;
-&lt;li&gt;Ledová Zbroj&lt;/li&gt;
-&lt;li&gt;Ledová Smršť&lt;/li&gt;
-&lt;li&gt;Ledové Vězení&lt;/li&gt;
-&lt;li&gt;Náledí&lt;/li&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🔥
+      &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;ohnivé vězení   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🔥
+      &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;proud vody   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    💧
+    &lt;span class=&#34;tooltiptext&#34;&gt;Voda&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;hromadná ledová zbraň   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🗡️
+      &lt;span class=&#34;tooltiptext&#34;&gt;Zbraň&lt;/span&gt;
+  &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      ❄
+      &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;ledová zbroj   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      ❄
+      &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;ledová smršť   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    ❄
+    &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;ledové vězení   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      ❄
+      &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;náledí   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      ❄
+      &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;zamražení   &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      ❄
+      &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;podchlazení   &lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Tlaková Vlna&lt;/li&gt;
-&lt;li&gt;Cyklon&lt;/li&gt;
-&lt;li&gt;Ovládnutí Větru&lt;/li&gt;
-&lt;li&gt;Kouřová Clona&lt;/li&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      ❄
+      &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;tlaková vlna   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🌬
+    &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;cyklon   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🌬
+      &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;ovládnutí větru   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🌬
+    &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🧙‍
+      &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;kouřová clona   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🌬
+      &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;hromadná plynulost pohybu   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🗡️
+      &lt;span class=&#34;tooltiptext&#34;&gt;Zbraň&lt;/span&gt;
+  &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🌬
+      &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;hromadný protivítr   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🌬
+      &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;vzduchová bublina   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🌬
+      &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🧙‍
+      &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;eroze   &lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Kamenná Smršť&lt;/li&gt;
-&lt;li&gt;Zemětřesení&lt;/li&gt;
-&lt;li&gt;Kamenná Zbraň&lt;/li&gt;
-&lt;li&gt;Kamenná Zbroj&lt;/li&gt;
-&lt;li&gt;Kamenné Vězení&lt;/li&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🌬
+      &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;kamenná smršť   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🪨
+    &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;zemětřesení   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🪨
+      &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🧙‍
+      &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;hromadná kamenná zbraň   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🗡️
+      &lt;span class=&#34;tooltiptext&#34;&gt;Zbraň&lt;/span&gt;
+  &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🪨
+      &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;kamenná zbroj   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🪨
+      &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;kamenné vězení   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🪨
+      &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;střela balvanem   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🪨
+    &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;příkop   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🪨
+      &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;zkamenění   &lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Blesk&lt;/li&gt;
-&lt;li&gt;Meditace&lt;/li&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🪨
+      &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;blesk   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🗲
+    &lt;span class=&#34;tooltiptext&#34;&gt;Blesk&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;proud výbojů   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🗲
+    &lt;span class=&#34;tooltiptext&#34;&gt;Blesk&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;meditace   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧙‍
+    &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;mistrovská&#34;&gt;Mistrovská:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Ovládnutí Ohně&lt;/li&gt;
+&lt;li&gt;ovládnutí ohně   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🔥
+    &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🧙‍
+      &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;výbuch   &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🔥
+      &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;roztavení   &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Ovládnutí Vody&lt;/li&gt;
-&lt;li&gt;Přílivová Vlna&lt;/li&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🔥
+      &lt;span class=&#34;tooltiptext&#34;&gt;Oheň&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;ovládnutí vody   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    ❄
+    &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      💧
+      &lt;span class=&#34;tooltiptext&#34;&gt;Voda&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🧙‍
+      &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;přílivová vlna   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      💧
+      &lt;span class=&#34;tooltiptext&#34;&gt;Voda&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;podchlazení   &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Uragán&lt;/li&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      ❄
+      &lt;span class=&#34;tooltiptext&#34;&gt;Led&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;uragán   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🌬
+      &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🧙‍
+      &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;imploze   &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🌬
+      &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;eroze   &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Ovládni Zemi&lt;/li&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🌬
+      &lt;span class=&#34;tooltiptext&#34;&gt;Vzduch&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;ovládni zemi   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🪨
+    &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🧙‍
+      &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;tekutý písek   &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🪨
+      &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;zkamenění   &lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Bouřka&lt;/li&gt;
-&lt;li&gt;Kulový Blesk&lt;/li&gt;
-&lt;li&gt;Značka Hmoty&lt;/li&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🪨
+      &lt;span class=&#34;tooltiptext&#34;&gt;Země&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;bouřka   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🗲
+      &lt;span class=&#34;tooltiptext&#34;&gt;Blesk&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🧙‍
+      &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;kulový blesk   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🗲
+    &lt;span class=&#34;tooltiptext&#34;&gt;Blesk&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;řetězový blesk   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🗲
+    &lt;span class=&#34;tooltiptext&#34;&gt;Blesk&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;značka hmoty   &lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧙‍
+    &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>
