@@ -1,153 +1,96 @@
 základní:
 	slabost -- dohled -- prokletí
+		- Sesílatel oslabí všechny údery cíle a sníží jeho celkovou fyzickou výdrž. Nijak nebrání v mentální činnosti.
 	nepřesnost -- dohled -- prokletí
+		- Sesílatel zhorší schopnost jemné motoriky cíle. Komplikuje schopnosti jako je míření střelných zbraní, odemykání zámků a kapsářství. Doba trvání požehnání podle situace.
 	hluchota -- dohled -- prokletí
+		- Zasažená bytost nic neuslyší
 	prokletí čichu -- dohled -- prokletí
+		- Zasažená bytost nic neucítí
 	křeč svalu -- dotyk
+		- Zasažený kosterní sval se stáhne a přestane fungovat. Nejlépe funguje na část těla (stehno, předloktí...). Cílit na konkrétní sval/větší množství svalů je náročnější
 	povolání zombie -- nemrtvý
+		- Přivolá zombie, která poslouchá rozkazy sesilatele
 	oživ malého tvora (do velikosti kočky) -- nemrtvý
+		- “Vyléčí” zraněného nemrtvého do neporušeného stavu
+		- Z tvora se stane nemrtvý pod kontrolou sesilatele
 	povolání duše
+		- Sesílatel přivolá vědomí zesnulého cíle a poskytne mu nehmotnou magickou formu schopnou řeči
 	obnov nemrtvého
+		- “Vyléčí” zraněného nemrtvého do neporušeného stavu
 	exploze nemrtvého
+		- Rozpráší nemrtvého, kousky mohou zranit cíle v okolí. Explodovaného nemrtvého nelze obnovit
 	paralyzační jed -- zbraň -- dotyk -- jed
+		- Na dotyk nebo na zbraň, postupně od místa dotyku/zranění nebude zasažená bytost moct hýbat svaly
 	vysátí života -- dotyk
+		- Převádí životní sílu zasaženého sesílateli, doplňuje energii
 	tma
+		- Sešle do okolí magickou tmu, ve které nikdo nic neuvidí a běžné zdroje světla (louče, lampy...) ji neprosvítí
 	vysátí mrtvého -- dotyk
+		- Převádí zbytkovou životní energii z mrtvého těla (ať už bylo živé nebo nemrtvé), instantně toto tělo zničí, doplňuje energii
 	vysátí nemrtvého -- dotyk
+		- Převádí sílu udržující nemrtvého sesílateli, doplňuje energii
 	cit smrti
+		- Odhalí mrtvoly, nemrtvé, duše, a místo nedávné smrti v okolí
 pokročilá:
 	slepota -- dohled -- prokletí
+		- Zasažená bytost nic neuvidí
 	dezorientace -- dohled -- prokletí
+		- Zasažená bytost ztratí přehled o tom, kde je, a kterým směrem se má pohybovat
 	nešikovnost -- dohled -- prokletí
+		- Zasažená bytost nebude schopná správně ovládat zbraně a nástroje a ztratí jemnou motoriku
 	ztráta rovnováhy -- dohled -- prokletí
+		- Zasažená bytost úplně ztratí smysl pro rovnováhu. Pokud vidí a je na rovné podlaze, tak se stěží udrží na nohou, jinak padá a nezvládne se zvednout
 	strach -- dohled -- prokletí
+		- Zasažená bytost dostane strašlivý strach a bude se snažit hned zmizet z místa
 	horečka -- dohled
+		- Zasažená bytost onemocní horečkou, se všemi jejími projevy jako je únava, zimnice, lehká dezorientace.
 	křeč svalu -- dohled
+		- Zasažený kosterní sval se stáhne a přestane fungovat. Nejlépe funguje na část těla (stehno, předloktí...). Cílit na konkrétní sval/větší množství svalů je náročnější
 	vyčerpání -- dotyk -- prokletí
+		- na cíl padne po dobu trvání kouzla únava, která oblivňuje fyzické i mentální schopnosti cíle
 	zranitelnost -- dohled -- prokletí
+		- Zásahy zbraněmi a kouzly způsobí větší zranění než by způsobily normálně
 	povolání ghůla -- nemrtvý
+		- Přivolá ghůla, který poslouchá rozkazy sesílatele
 	oživ středně velkého tvora (do velikosti velkého psa) -- nemrtvý
+		- Z tvora se stane nemrtvý pod kontrolou sesílatele
 	spoutání duše ke svojí vůli
+		- Přivolaná duše bude poslouchat rozkazy sesílatele
 	oživ člověka -- nemrtvý
+		- Z mrtvého těla se stává nemrtvý pod kontrolou sesílatele. Myslím, že jsme se někdy bavili o tom, že si tihle nemrtví zachovávají některé schopnosti, jako třeba kovář, ale idk jestli to pořád platí
 	jed do nemrtvého
+		- Napustí nemrtvého jedem. Všechna zranění jím způsobená budou otrávená a exploze takového nemrtvého rozmetá jed po okolí
 	smrtelný jed -- zbraň -- jed -- dotyk
+		- Na dotyk nebo na zbraň, bude se postupně šířit z místa dotyku/zranění, až zasaženého zabije
 	dusivý oblak -- dohled -- jed
+		- vytvoří v cílové oblasti magický oblak dráždivého plynu, který dusí ty, kteří se ho nadýchají. Efekt oblaku je podobný jako kouř z ohně.
 	tržná rána -- dotyk
+		- Způsobí hlubokou ránu v místě dotyku
 	vidění ve tmě -- sesílatel
-	meditace
+		- Sesílatel uvidí ve tmě (včetně magické tmy) jako za jasného dne
+	meditace -- soustředění
+		- forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě.
 mistrovská:
 	neštěstí -- dohled -- prokletí
+		- Sesílatel prokleje cíl neštěstím. Neštěstí se může projevovat nešťastnou trajektorií vlastních i nepřátelských projektilů a obecně vlivem náhodného elementu v neprospěch cíle. Doba trvání prokletí podle situace.
 	mdloby -- dohled -- prokletí
-	vyčerpání -- dohled -- prokletí
-	smrtící oblak -- dohled -- jed
-	paralýza -- dohled
-	oživ organismus -- nemrtvý
-	spoutání duše/nemrtvého k vůli jiného
-	značka smrti
-	tržná rána - dohled
-	vysátí života - dohled
-	vidění ve tmě - ostatní -- dohled
-
-
-Magie smrti
-
-Základní: lze seslat hodně základních kouzel, než se mág vyčerpá
-Slabost: 
-		- Sesílatel oslabí všechny údery cíle a sníží jeho celkovou výdrž.
-Nepřesnost: 
-		- Sesílatel zhorší schopnost jemné motoriky cíle. Komplikuje schopnosti jako je míření střelných zbraní, odemykání zámků a kapsářství. Doba trvání požehnání podle situace.
-Hluchota: 
-		- Zasažená bytost nic neuslyší
-Prokletí čichu: 
-		- Zasažená bytost nic neucítí
-Křeč svalu: 
-		- Zasažený kosterní sval se stáhne a přestane fungovat. Nejlépe funguje na část těla (stehno, předloktí...). Cílit na konkrétní sval/větší množství svalů je náročnější
-Povolání zombie: 
-		- Přivolá zombie, která poslouchá rozkazy sesilatele
-Oživ malého tvora: 
-		- Z tvora se stane nemrtvý pod kontrolou sesilatele
-Přivolá duši: 
-		- Idk what a fucking duše is nebo co se s ní dá dělat. Sesilatel ji nekontroluje
-Obnov nemrtvého: 
-		- “Vyléčí” zraněného nemrtvého do neporušeného stavu
-Exploze nemrtvého: 
-		- Rozpráší nemrtvého, kousky mohou zranit cíle v okolí. Explodovaného nemrtvého nelze obnovit
-Paralyzační jed: 
-		- Na dotyk nebo na zbraň, postupně od místa dotyku/zranění nebude zasažená bytost moct hýbat svaly
-Vysátí života: 
-		- Převádí životní sílu zasaženého sesílateli, doplňuje energii
-Tma: 
-		- Sešle do okolí magickou tmu, ve které nikdo nic neuvidí a běžné zdroje světla (louče, lampy...) ji neprosvítí
-Vysátí mrtvého: 
-		- Honestly idk co tohle dělá, vždycky jsem myslel, že to je na vysátí nemrtvého
-Vysátí nemrtvého: 
-		- Převádí sílu udržující nemrtvého sesílateli, doplňuje energii
-Cit smrti: 
-		- Odhalí mrtvoly, nemrtvé, duše??, a místo nedávné smrti v okolí
-
-
-Pokročilá: 
-		- lze seslat omezené množství kouzel, než se mág vyčerpá
-Slepota: 
-		- Zasažená bytost nic neuvidí
-Dezorientace: 
-		- Zasažená bytost ztratí přehled o tom, kde je, a kterým směrem se má pohybovat
-Nešikovnost: 
-		- Zasažená bytost nebude schopná správně ovládat zbraně a nástroje a ztratí jemnou motoriku
-Ztráta rovnováhy: 
-		- Zasažená bytost úplně ztratí smysl pro rovnováhu. Pokud vidí a je na rovné podlaze, tak se stěží udrží na nohou, jinak padá a nezvládne se zvednout
-Strach: 
-		- Zasažená bytost dostane strašlivý strach a bude se snažit hned zmizet z místa
-Horečka: 
-		- Idk jakej má být efektivní rozdíl mezi horečkou, slabostí a vyčerpáním. Jestli tam je něco kromě teploty
-Křeč svalu: 
-		- Zasažený kosterní sval se stáhne a přestane fungovat. Nejlépe funguje na část těla (stehno, předloktí...). Cílit na konkrétní sval/větší množství svalů je náročnější
-Vyčerpání: 
-		- Again idk, o kolik vyčerpanější budou tady oproti slabosti
-Zranitelnost: 
-		- Zásahy zbraněmi a kouzly způsobí větší zranění než by způsobily normálně
-Povolání ghůla: 
-		- Přivolá ghůla, který poslouchá rozkazy sesílatele
-Oživ středně velkého tvora: 
-		- Z tvora se stane nemrtvý pod kontrolou sesílatele
-Spoutání duše ke svojí vůli: 
-		- Přivolaná duše bude poslouchat rozkazy sesílatele
-Oživ člověka: 
-		- Z mrtvého těla se stává nemrtvý pod kontrolou sesílatele. Myslím, že jsme se někdy bavili o tom, že si tihle nemrtví zachovávají některé schopnosti, jako třeba kovář, ale idk jestli to pořád platí
-Jed do nemrtvého: 
-		- Napustí nemrtvého jedem. Všechna zranění jím způsobená budou otrávená a exploze takového nemrtvého rozmetá jed po okolí
-Smrtelný jed: 
-		- Na dotyk nebo na zbraň, bude se postupně šířit z místa dotyku/zranění, až zasaženého zabije
-Dusivý oblak: 
-		- Sám jsem zvědav
-Tržná rána: 
-		- Způsobí hlubokou ránu v místě dotyku
-Vidění ve tmě: 
-		- Sesílatel uvidí ve tmě (včetně magické tmy) jako za jasného dne
-Meditace: 
-		- Vyžaduje klid a koncentraci, rychlejší odpočinek než spánek Dlouhodobě ale nelze jen meditovat, občas je potřeba i spát
-
-
-Mistrovská: Podle úrovbě a zkušeností mága lze seslat pět až deset mistrovských kouzel, než se mág vyčerpá
-Neštěstí: 
-		- Idk co všechno se těm lidem bude dít
-Mdloby: 
 		- Zasažený okamžitě ztratí vědomí
-Vyčerpání: 
-		- Stejný jako u pokročilých
-Smrtící oblak: 
-		- Mám představu, ale rád si to nechám vysvětlit
-Paralýza: 
+	vyčerpání -- dohled -- prokletí
+		- na cíl padne po dobu trvání kouzla únava, která oblivňuje fyzické i mentální schopnosti cíle
+	smrtící oblak -- dohled -- jed
+		- vytvoří v cílové oblasti magický oblak jedovatého plynu, který otráví ty, kteří se ho nadýchají. Potence jedu je závislá na schopnostech sesílatele a době expozice.
+	paralýza -- dohled
 		- Zasaženému okamžitě přestanou fungovat všechny svaly kromě dýchacích
-Oživ organismus: 
+	oživ organismus -- nemrtvý
 		- Z jakkoli velké mrtvoly se stane nemrtvý pod kontrolou sesílatele
-Spoutání duše/nemrtvého k vůli jiného: 
+	spoutání duše/nemrtvého k vůli jiného
 		- Převede kontrolu nad duší/nemrtvým ze sesílatele na vybraný cíl
-Značka smrti: 
-		- Lze seslat na organismus, mrtvolu, nemrtvé a nástroje. Značka slouží jako přímý mágův dotyk, i když je mág na úplně jiném místě
-Tržná rána: 
+	značka smrti
+		- Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv. ***Značka života*** trvá věčně, ale sesílatel současně může mít pouze tolik značek, kolik si dokáže okamžitě kdykoliv vybavit, v případě zapomnění značka zaniká.
+	tržná rána - dohled
 		- Způsobí hlubokou ránu na vybraném místě
-Vysátí života: 
+	vysátí života - dohled
 		- Převádí životní sílu zasaženého sesílateli, doplňuje energii
-Vidění ve tmě: 
+	vidění ve tmě - ostatní -- dohled
 		- Umožní vybranému cíli vidět ve tmě (včetně magické tmy) jako za jasného dne
