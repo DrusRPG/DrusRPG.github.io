@@ -88,9 +88,9 @@ mistrovská:
 		- Převede kontrolu nad duší/nemrtvým ze sesílatele na vybraný cíl
 	značka smrti -- soustředění
 		- Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv. ***Značka života*** trvá věčně, ale sesílatel současně může mít pouze tolik značek, kolik si dokáže okamžitě kdykoliv vybavit, v případě zapomnění značka zaniká.
-	tržná rána - dohled
+	tržná rána -- dohled
 		- Způsobí hlubokou ránu na vybraném místě
-	vysátí života - dohled
+	vysátí života -- dohled
 		- Převádí životní sílu zasaženého sesílateli, doplňuje energii
 	vidění ve tmě - ostatní -- dohled
 		- Umožní vybranému cíli vidět ve tmě (včetně magické tmy) jako za jasného dne

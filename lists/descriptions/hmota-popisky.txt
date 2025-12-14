@@ -31,7 +31,7 @@ základní:
 		- Sesílatel po dobu trvání kouzla vytváří mrak nad sílovou oblastí, ze kterého prší. Intenzita deště, rozsah oblasti a délka trvání kouzla závisí na schopnostech sesílatele.
 	vodní prstenec -- voda
 		- Sesílatel vyšle do všech směrů od sebe vlnu vody. Výška, do které voda vystoupá od země, je standardně 1,5m, poloměr prstence závisí na schopnostech sesílatele, standardně 5m.
-	zamražení -- dotyk --led
+	zamražení -- dotyk -- led
 		- Sesílatel dotykem pokryje cílový objekt kompaktní vrstvou ledu.
 	cit vody -- sesílatel -- led -- voda
 		- Sesílatel získá magický smysl, kterým je schopen vnímat přítomnost a stav vody ve všech skupenstvích kolem sebe.
