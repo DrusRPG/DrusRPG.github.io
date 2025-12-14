@@ -12,8 +12,7 @@ základní:
 	povolání zombie -- nemrtvý
 		- Přivolá zombie, která poslouchá rozkazy sesilatele
 	oživ malého tvora (do velikosti kočky) -- nemrtvý
-		- “Vyléčí” zraněného nemrtvého do neporušeného stavu
-		- Z tvora se stane nemrtvý pod kontrolou sesilatele
+		- “Vyléčí” zraněného nemrtvého do neporušeného stavu. Z tvora se stane nemrtvý pod kontrolou sesilatele
 	povolání duše
 		- Sesílatel přivolá vědomí zesnulého cíle a poskytne mu nehmotnou magickou formu schopnou řeči
 	obnov nemrtvého
