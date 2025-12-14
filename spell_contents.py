@@ -22,6 +22,38 @@ input_files = [
     ("Magie Mysli", "mysl", "neural.jpg", "ancient_times6.jpeg"),
 ]
 
+description_files = [
+    ("Magie Času", "cas-popisky"),
+    ("Magie Prostoru", "prostor-popisky"),
+    ("Magie Života", "zivot-popisky"),
+    ("Magie Smrti", "smrt-popisky"),
+    ("Magie Hmoty", "hmota-popisky"),
+    ("Magie Mysli", "mysl-popisky"),
+]
+
+def split_descriptions(description_file_lines):
+    description_dict = {}
+    current_spell = None
+    current_spell_description = []
+    for line in description_file_lines:
+        # skip pure-whitespace lines
+        if line.isspace():
+            continue
+        if len(line) == 0:
+            continue
+        # skip lines with spell ranks (e.g. "Základní:")
+        if line.strip().endswith(":"):
+            continue
+        
+        if line.strip().startswith("- "):
+            current_spell_description.append(line.strip()[2:])
+            if current_spell is not None:
+                description_dict[current_spell] = '\n'.join(current_spell_description).strip()
+        else:
+            current_spell = line.strip()
+            current_spell_description = []
+            
+    return description_dict
 
 # ... take the lines of the read spell file, and split them into a dictionary of type
 # {
@@ -99,6 +131,13 @@ replace_keywords = {
 out_path = pathlib.Path("DrusMagie/content/magic")
 out_path.mkdir(parents=True, exist_ok=True)
 
+# first, process all description files to create a mapping of spell name -> description
+spell_descriptions = {}
+spell_names = {}
+for magic_school_name, description_file in description_files:
+    descriptions = split_descriptions(open(f"lists/descriptions/{description_file}.txt").read().splitlines())
+    spell_descriptions.update(descriptions)
+
 
 # go over all individual schools
 for magic_school_name, magic_school_file, magic_school_image, magic_school_image_2 in input_files:
@@ -125,11 +164,23 @@ for magic_school_name, magic_school_file, magic_school_image, magic_school_image
                 result = " ".join([spell_name] + replaced_tags[:])
             
             # save the result
-            spell_tier_list[i] = result     
+            spell_tier_list[i] = result
+            spell_names[result] = spell
 
     # save the spells as hugo markdown. This includes a header for each spell tier and a markdown list for all the individual spells
+#    for spell_tier, spell_list in spells.items():
+#        ##school_out += '\n'.join([f"\n## {spell_tier.title()}", *["* " + [spell](a spell_descriptions[spell.strip()]) for spell in spell_list]]) 
+#        school_out += '\n'.join([
+#            f"\n## {spell_tier.title()}",
+#            ##*(f"* {spell} — {spell_descriptions.get(spell.strip(), '')}" for spell in spell_list)
+#            *(f"* {[spell](a spell_descriptions.get(spell_names.get(spell.strip()), ''))}" for spell in spell_list)
+#        ])
+
     for spell_tier, spell_list in spells.items():
-        school_out += '\n'.join([f"\n## {spell_tier.title()}", *["* " + spell for spell in spell_list]]) 
+        school_out += '\n'.join([
+            f"\n## {spell_tier.title()}",
+            *(f"* [{spell}]({spell_descriptions[spell_names[spell.strip()]]})" for spell in spell_list)
+        ])
 
     # save the resulting markdown
     save(out_path/f"{magic_school_file}.md", school_out)
