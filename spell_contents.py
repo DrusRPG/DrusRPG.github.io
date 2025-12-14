@@ -1,5 +1,6 @@
 import string
 import pathlib
+import html
 
 
 # save the given string with the given filename
@@ -169,7 +170,33 @@ for magic_school_name, magic_school_file, magic_school_image, magic_school_image
 
     # save the spells as hugo markdown. This includes a header for each spell tier and a markdown list for all the individual spells
     for spell_tier, spell_list in spells.items():
-        school_out += '\n'.join([f"\n## {spell_tier.title()}", *["* " + spell for spell in spell_list]])
+        #school_out += '\n'.join([f"\n## {spell_tier.title()}", *["* " + spell for spell in spell_list]])
+        # Build a list for this tier where each spell may have a hover tooltip
+        items = []
+        for spell in spell_list:
+            # Lookup the original/raw spell name to find a description
+            desc_key = spell_names.get(spell, spell).strip()
+            desc = spell_descriptions.get(desc_key, "")
+
+            if desc:
+                # Keep Hugo shortcodes ({{<...>}}) intact by splitting them off from the visible text
+                if "{{" in spell:
+                    visible, suffix = spell.split("{{", 1)
+                    suffix = "{{" + suffix
+                else:
+                    visible = spell
+                    suffix = ""
+
+                # Escape the description for safe inclusion in a title attribute and collapse newlines
+                escaped_desc = html.escape(desc, quote=True).replace('\n', ' ')
+
+                item = f"* <span title=\"{escaped_desc}\">{visible.strip()}</span>{suffix}"
+            else:
+                item = f"* {spell}"
+
+            items.append(item)
+
+        school_out += '\n'.join([f"\n## {spell_tier.title()}", *items])
 
 #    for spell_tier, spell_list in spells.items():
 #        ##school_out += '\n'.join([f"\n## {spell_tier.title()}", *["* " + [spell](a spell_descriptions[spell.strip()]) for spell in spell_list]]) 
