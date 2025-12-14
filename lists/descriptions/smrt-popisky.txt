@@ -86,7 +86,7 @@ mistrovská:
 		- Z jakkoli velké mrtvoly se stane nemrtvý pod kontrolou sesílatele
 	spoutání duše/nemrtvého k vůli jiného
 		- Převede kontrolu nad duší/nemrtvým ze sesílatele na vybraný cíl
-	značka smrti
+	značka smrti -- soustředění
 		- Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv. ***Značka života*** trvá věčně, ale sesílatel současně může mít pouze tolik značek, kolik si dokáže okamžitě kdykoliv vybavit, v případě zapomnění značka zaniká.
 	tržná rána - dohled
 		- Způsobí hlubokou ránu na vybraném místě

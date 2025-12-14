@@ -28,7 +28,7 @@ pokročilá:
 	sférická bariéra -- bariéra
 	meditace -- soustředění
 	prostorový tunel
-	cit prostoru - prohledávání, co je kolem sesílajícího mága
+	cit prostoru
 mistrovská:
 	zvětšení organismu
 	změnšení organismu

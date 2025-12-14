@@ -29,7 +29,7 @@ základní:
 		- Sesílatel sobě nebo cíli obrní smysly proti kouzlům sugescí a iluzí.
 	telekineze - předmět
 		- Umožňuje sesílateli pomalu a plynule pohybovat cílovým předmětem. Sesílatel se na předmět musí soustředit.
-	meditace
+	meditace -- soustředění
 		- Forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě.
 pokročilá:
 	neviditelnost -- iluze
@@ -79,5 +79,5 @@ mistrovská:
 		- Umožňuje telepatickou domluvou zahrnout více cílů. Všichni pak uslyší výrazné současné myšlenky všech ostatních.
 	hypnóza - přesvědčení -- hypnóza
 		- Sesílatel udržící s cílem nepřerušený oční kontakt může ovlivnit stav vědomí cíle a využít toho k měnění či podsouvání myšlenek a názorů cíli. Pokud nejsou tyto nové myšlenky či názory výrazně v rozporu s přesvědčením nebo přirozeností cíle, pak cíli zůstává navždy. Rychlost zhypnotizování a délka efektu závisí na schopnostech sesílatele. Může mít obrovský vliv na charakter cíle.
-	značka mysli
+	značka mysli -- soustředění
 		- Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv.

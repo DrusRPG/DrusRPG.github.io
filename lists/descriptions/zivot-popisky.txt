@@ -70,7 +70,7 @@ pokročilá:
 		- Sesílatel odstraní z těla cíle zárodečné patogeny a zánět infikovaných ran.
 	odstraň jed -- léčení
 		- Sesílatel odstraní z těla cíle jed. Při sesílání musí sesílatel znát charakter jedu, který chce odstranit.
-	meditace -- sesílatel
+	meditace -- soustředění
 		- Forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě.
 	stvoření/povolání středně velkého neživého - do velikosti velkého chrliče -- neživý
 		- Sesílatel vytvoří neživého do velikosti velkého chrliče pomocí ***Stvoření středně velkého neživého***. Neživý může být z materiálů dřevo, hlína, kámen nebo kov. Musí mít fyzickou podobnost s živým organismem (například had, kočka, pes, chrlič). Neživý bude stále svázán fyzikálními vlastnostmi svého materiálu a tvaru (například chrlič nebude moct létat, i když má křídla). Po vytvoření neživého (vdechnutí mu života) ho sesílatel může kdykoliv znovu na pohled rozhýbat, ovládat (dávat mu pokyny, neverbální) a opět převést do nehybné formy pomocí ***Povolání neživého.***
@@ -97,7 +97,7 @@ mistrovská:
 		- Sesílatel uzdraví jednu konkrétní těžkou nemoc nebo symptomy těžké nemoci, které se v těle cíle vyskytují. Mezi těžké nemoci spadají například dýmějový mor, tuberkulóza, černé neštovice.
 	pomoc živých tvorů
 		- Sesílatel se magicky propojí se živými zvířaty v okolí a vnutí jim pocit, že patří do jejich smečky/hejna. V případě ohrožení sesílatele ho zvířata mohou bránit. Lépe funguje na méně inteligentní zvířata, efekt na vyšší savce je menší, efekt na tvora dostatečně inteligentního, aby byl schopen řeči, je zanedbatelný.
-	značka života
+	značka života -- soustředění
 		- Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv. ***Značka života*** trvá věčně, ale sesílatel současně může mít pouze tolik značek, kolik si dokáže okamžitě kdykoliv vybavit, v případě zapomnění značka zaniká.
 	stvoření/povolání velkého neživého -- neživý
 		- Sesílatel vytvoří neživého bez limitu velikosti (velikost neživého určuje náročnost) pomocí ***Stvoření velkého neživého***. Neživý může být z materiálů dřevo, hlína, kámen nebo kov. Musí mít fyzickou podobnost s živým organismem (například socha, medvěd, strom, wyverna). Neživý bude stále svázán fyzikálními vlastnostmi svého materiálu a tvaru (například wyverna nebude moct létat, i když má křídla). Po vytvoření neživého (vdechnutí mu života) ho sesílatel může kdykoliv znovu na pohled rozhýbat, ovládat (dávat mu pokyny, neverbální) a opět převést do nehybné formy pomocí ***Povolání neživého.***

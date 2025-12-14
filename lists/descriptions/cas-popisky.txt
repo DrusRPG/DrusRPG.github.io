@@ -17,7 +17,7 @@ základní:
 		- sesílatel zpomalí plynutí času pro cílový organismus, který se tak ostatním bude zdát rychlejší.
 	zpomal organismus -- dotyk
 		- sesílatel zrychlí plynutí času pro cílový organismus, který se tak ostatním bude zdát pomalejší.
-	zastavení sebe v čase
+	zastavení sebe v čase -- sesílatel
 		- sesílatel pro sebe na krátkou chvíli zastaví plynutí času, čímž zamrzne na místě, nemůže být nijak zraněn a ani většina jiných interakcí na něj nebude mít efekt. Po skončení pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.
 pokročilá:
 	zrychli organismus -- dohled
@@ -52,7 +52,7 @@ pokročilá:
 		- sesílatel donutí cílový objekt udělat skok časem dopředu. Objekt po dobu trvání kouzla přestane existovat a objeví se znovu po uplynutí kouzla. Poté pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.
 	přesunutí sebe v čase
 		- sesílatel udělá skok časem dopředu. Sesílatel po dobu trvání kouzla přestane existovat a objeví se znovu po uplynutí kouzla. Poté pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.
-	meditace
+	meditace -- soustředění
 		- forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě.
 	změna hlasu
 		- sesílatel změní frekvenci a tedy i tón svého hlasu. Se značnou praxí a dobrým sluchem lze imitovat jiné osoby.
@@ -73,5 +73,5 @@ mistrovská:
 		- sesílatel pro cílový organismus na krátkou chvíli zastaví plynutí času. Cíl zamrzne na místě, nemůže být nijak zraněn a ani většina jiných interakcí na něj nebude mít efekt. Po skončení pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.
 	přesunutí organismu v čase
 		- sesílatel donutí cílový organismus udělat skok časem dopředu. Cíl po dobu trvání kouzla přestane existovat a objeví se znovu po uplynutí kouzla. Poté pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.
-	značka času
+	značka času -- soustředění
 		- Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv.

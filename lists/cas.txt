@@ -8,7 +8,7 @@ základní:
 	náhled do minulosti objektu -- nahlížení
 	zrychli organismus -- dotyk
 	zpomal organismus -- dotyk
-	zastavení sebe v čase
+	zastavení sebe v čase -- sesílatel
 pokročilá:
 	zrychli organismus -- dohled
 	zrychli proces -- dohled
