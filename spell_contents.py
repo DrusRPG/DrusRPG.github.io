@@ -168,8 +168,8 @@ for magic_school_name, magic_school_file, magic_school_image, magic_school_image
             spell_names[result] = spell
 
     # save the spells as hugo markdown. This includes a header for each spell tier and a markdown list for all the individual spells
-#    for spell_tier, spell_list in spells.items():
-#        school_out += '\n'.join([f"\n## {spell_tier.title()}", *["* " + spell for spell in spell_list]])
+    for spell_tier, spell_list in spells.items():
+        school_out += '\n'.join([f"\n## {spell_tier.title()}", *["* " + spell for spell in spell_list]])
 
 #    for spell_tier, spell_list in spells.items():
 #        ##school_out += '\n'.join([f"\n## {spell_tier.title()}", *["* " + [spell](a spell_descriptions[spell.strip()]) for spell in spell_list]]) 
@@ -179,11 +179,11 @@ for magic_school_name, magic_school_file, magic_school_image, magic_school_image
 #            *(f"* {[spell](a spell_descriptions.get(spell_names.get(spell.strip()), ''))}" for spell in spell_list)
 #        ])
 
-    for spell_tier, spell_list in spells.items():
-        school_out += '\n'.join([
-            f"\n## {spell_tier.title()}",
-            *(f"* {[{spell}]({spell_descriptions[spell_names[spell.strip()]]})}" for spell in spell_list)
-        ])
+#    for spell_tier, spell_list in spells.items():
+#        school_out += '\n'.join([
+#            f"\n## {spell_tier.title()}",
+#            *(f"* {[{spell}]({spell_descriptions[spell_names[spell.strip()]]})}" for spell in spell_list)
+#        ])
 
     # save the resulting markdown
     save(out_path/f"{magic_school_file}.md", school_out)
