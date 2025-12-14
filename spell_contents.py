@@ -170,13 +170,13 @@ for magic_school_name, magic_school_file, magic_school_image, magic_school_image
 
     # save the spells as hugo markdown. This includes a header for each spell tier and a markdown list for all the individual spells
     for spell_tier, spell_list in spells.items():
-        #school_out += '\n'.join([f"\n## {spell_tier.title()}", *["* " + spell for spell in spell_list]])
         # Build a list for this tier where each spell may have a hover tooltip
         items = []
         for spell in spell_list:
             # Lookup the original/raw spell name to find a description
-            desc_key = spell_names.get(spell, spell).strip()
-            desc = spell_descriptions.get(desc_key, "")
+            desc_key = spell_names[spell]
+            if desc_key:
+                desc = spell_descriptions[desc_key]
 
             if desc:
                 # Keep Hugo shortcodes ({{<...>}}) intact by splitting them off from the visible text
@@ -197,20 +197,6 @@ for magic_school_name, magic_school_file, magic_school_image, magic_school_image
             items.append(item)
 
         school_out += '\n'.join([f"\n## {spell_tier.title()}", *items])
-
-#    for spell_tier, spell_list in spells.items():
-#        ##school_out += '\n'.join([f"\n## {spell_tier.title()}", *["* " + [spell](a spell_descriptions[spell.strip()]) for spell in spell_list]]) 
-#        school_out += '\n'.join([
-#            f"\n## {spell_tier.title()}",
-#            ##*(f"* {spell} — {spell_descriptions.get(spell.strip(), '')}" for spell in spell_list)
-#            *(f"* {[spell](a spell_descriptions.get(spell_names.get(spell.strip()), ''))}" for spell in spell_list)
-#        ])
-
-#    for spell_tier, spell_list in spells.items():
-#        school_out += '\n'.join([
-#            f"\n## {spell_tier.title()}",
-#            *(f"* {[{spell}]({spell_descriptions[spell_names[spell.strip()]]})}" for spell in spell_list)
-#        ])
 
     # save the resulting markdown
     save(out_path/f"{magic_school_file}.md", school_out)
