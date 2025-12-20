@@ -1,38 +1,38 @@
 základní:
 	teleportace objektu
 	přivolání objektu
-	změna tvaru objektu
-	zmenšení vzdálenosti
-	zvětšení vzdálenosti
+	změna tvaru objektu -- zakřivení
+	zmenšení vzdálenosti -- zakřivení
+	zvětšení vzdálenosti -- zakřivení
 	neprostupná bariéra -- bariéra
-	změna dráhy objektu
+	změna dráhy objektu -- zakřivení
 	levitace -- sesílatel
 	levitace - předmět
-	přitahující pole
-	odpuzující pole
+	přitahující pole -- zakřivení
+	odpuzující pole -- zakřivení
 	přitažení
 	odhození
 	sražení
 pokročilá:
 	prostorová trhlina
 	zacelení trhliny
-	odpuzující zbroj
+	odpuzující zbroj -- zakřivení
 	teleportace sebe
 	teleportace organismu
 	přivolání organismu
-	odvrácení útoků
-	zvětšení objektu
-	zmenšení objektu
+	odvrácení útoků -- zakřivení
+	zvětšení objektu -- zakřivení
+	zmenšení objektu -- zakřivení
 	bariéra propouštějící zvuk -- bariéra
 	světelná bariéra -- bariéra
 	sférická bariéra -- bariéra
 	meditace -- soustředění
-	prostorový tunel
+	prostorový tunel -- zakřivení
 	cit prostoru
 mistrovská:
-	zvětšení organismu
-	změnšení organismu
-	změna tvaru organismu
+	zvětšení organismu -- zakřivení
+	zmenšení organismu -- zakřivení
+	změna tvaru organismu -- zakřivení
 	bariérové vězení -- bariéra
 	jednosměrná bariéra -- bariéra
 	teleportační brána -- dohled

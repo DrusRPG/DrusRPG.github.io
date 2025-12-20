@@ -125,6 +125,7 @@ replace_keywords = {
     "vzduch": "{{<vzduch_tooltip>}}",
     "soustředění": "{{<soustredeni_tooltip>}}",
     "bariéra": "{{<bariera_tooltip>}}",
+    "zakřivení": "{{<zakriveni_tooltip>}}",
     "nahlížení": "{{<nahlizeni_tooltip>}}"
 }
 
