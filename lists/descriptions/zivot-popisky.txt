@@ -1,6 +1,8 @@
 základní:
 	požehnání rychlosti -- požehnání
-		- Sesílatel zvýší fyzickou rychlost pohybu cíle kouzla. Doba trvání požehnání přibližně jedna pronásledovací sekvence. Všechna požehnání jsou v základu na dotyk.
+		- Sesílatel zvýší fyzickou rychlost pohybu cíle kouzla. 
+		- Doba trvání požehnání přibližně jedna pronásledovací sekvence. 
+		- Všechna požehnání jsou v základu na dotyk.
 	požehnání síly -- požehnání
 		- Sesílatel zvýší fyzickou sílu cíle kouzla. Doba trvání požehnání přibližně jedna potyčka, boj. Všechna požehnání jsou v základu na dotyk.
 	požehnání zraku -- požehnání

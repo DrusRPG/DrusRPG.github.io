@@ -49,7 +49,7 @@ def split_descriptions(description_file_lines):
         if line.strip().startswith("- "):
             current_spell_description.append(line.strip()[2:])
             if current_spell is not None:
-                description_dict[current_spell] = '\n'.join(current_spell_description).strip()
+                description_dict[current_spell] = "<br>".join(current_spell_description).strip()
         else:
             current_spell = line.strip()
             current_spell_description = []
@@ -189,9 +189,9 @@ for magic_school_name, magic_school_file, magic_school_image, magic_school_image
                     suffix = ""
 
                 # Escape the description for safe inclusion in a title attribute and collapse newlines
-                escaped_desc = html.escape(desc, quote=True).replace('\n', ' ')
+                escaped_desc = desc # html.escape(desc, quote=True).replace('\n', ' ')
 
-                item = f"* <span class=\"tooltip\">{visible.strip()} <span class=\"tooltiptext\">{escaped_desc}</span></span>{suffix}"
+                item = f"* <span data-html=\"true\" class=\"tooltip\">{visible.strip()} <span class=\"tooltiptext\">{escaped_desc}</span></span>{suffix}"
             else:
                 item = f"* {spell}"
 
