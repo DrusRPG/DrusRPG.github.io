@@ -69,7 +69,7 @@ params:
 
   
   customCSS:
-    - assets/css/extended/custom.css
+    - assets/css/extended.css
 
   # for search
   # https://fusejs.io/api/options.html
