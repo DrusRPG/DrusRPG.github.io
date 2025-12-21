@@ -4,7 +4,7 @@
     cursor: help; /* Optional: indicates it's interactive */
 }
 
-.icon-tooltip .tooltiptext {
+.icon-tooltip .tooltiptext .title {
     visibility: hidden;
     width: 120px; /* Adjust as needed */
     background-color: #555;
@@ -22,7 +22,7 @@
 }
 
 /* Arrow for the tooltip */
-.icon-tooltip .tooltiptext::after {
+.icon-tooltip .tooltiptext::after .title::after {
     content: "";
     position: absolute;
     top: 100%; /* At the bottom of the tooltip */
@@ -33,7 +33,7 @@
     border-color: #555 transparent transparent transparent;
 }
 
-.icon-tooltip:hover .tooltiptext {
+.icon-tooltip:hover .tooltiptext .title {
     visibility: visible;
     opacity: 1;
 }
