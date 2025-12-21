@@ -1,77 +1,84 @@
 základní:
 	zrychli sebe
-		- sesílatel zpomalí plynutí času pro sebe, čímž se ostatním bude zdát rychlejší.
+		- Sesílatel zpomalí plynutí času pro sebe, čímž se ostatním bude zdát rychlejší.
 	zrychli objekt -- dohled
-		- sesílatel zpomalí plynutí času pro daný objekt, který se tak ostatním bude zdát rychlejší
-	zpomal sebe
-		- sesílatel zrychlí plynutí času pro sebe, čímž se ostatním bude zdát pomalejší.
+		- Sesílatel zpomalí plynutí času pro daný objekt, který se tak ostatním bude zdát rychlejší
+	zpomal sebe -- sesílatel
+		- Sesílatel zrychlí plynutí času pro sebe, čímž se ostatním bude zdát pomalejší.
+	prodloužení procesu -- dohled
+		- Sesílatel prodlouží trvání cílového procesu. Příkladem procesu je třeba hoření dřeva, sesílání kouzla...
+	zkrácení procesu -- dohled
+		- Sesílatel zkrátí trvání cílového procesu. Příkladem procesu je třeba hoření dřeva, sesílání kouzla...
 	zestárnutí objektu -- dotyk
-		- sesílatel uvede objekt do stavu, v jakém bude v sesílatelem zvolené budoucnosti. Větší zestárnutí vyžaduje dramaticky více energie.
+		- Sesílatel uvede objekt do stavu, v jakém bude v sesílatelem zvolené budoucnosti. Větší zestárnutí vyžaduje dramaticky více energie.
+	přesunutí sebe v čase -- sesílatel
+		- Sesílatel udělá skok časem dopředu. Sesílatel po dobu trvání kouzla přestane existovat a objeví se znovu po uplynutí kouzla. Poté pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.
 	omládnutí objektu -- dotyk
-		- sesílatel uvede objekt do stavu, v jakém byl v sesílatelem zvolené minulosti. Větší omládnutí vyžaduje dramaticky více energie.
+		- Sesílatel uvede objekt do stavu, v jakém byl v sesílatelem zvolené minulosti. Větší omládnutí vyžaduje dramaticky více energie.
 	náhled do minulosti místa -- nahlížení
-		- sesílatel vidí vizi, v níž nahlíží na to, co se na daném místě dělo v sesílatelem zvolené minulosti. Vzdálenější minulost vyžaduje dramaticky více energie.
+		- Sesílatel vidí vizi, v níž nahlíží na to, co se na daném místě dělo v sesílatelem zvolené minulosti. Vzdálenější minulost vyžaduje dramaticky více energie.
 	náhled do minulosti objektu -- nahlížení
-		- sesílatel vidí vizi, v níž nahlíží na to, co se dělo s daným objektem v sesílatelem zvolené minulosti. Nelze použít ke stopování objektu bez dalších znalostí okolností. Vzdálenější minulost vyžaduje dramaticky více energie.
+		- Sesílatel vidí vizi, v níž nahlíží na to, co se dělo s daným objektem v sesílatelem zvolené minulosti. Nelze použít ke stopování objektu bez dalších znalostí okolností. Vzdálenější minulost vyžaduje dramaticky více energie.
 	zrychli organismus -- dotyk
-		- sesílatel zpomalí plynutí času pro cílový organismus, který se tak ostatním bude zdát rychlejší.
+		- Sesílatel zpomalí plynutí času pro cílový organismus, který se tak ostatním bude zdát rychlejší.
 	zpomal organismus -- dotyk
-		- sesílatel zrychlí plynutí času pro cílový organismus, který se tak ostatním bude zdát pomalejší.
+		- Sesílatel zrychlí plynutí času pro cílový organismus, který se tak ostatním bude zdát pomalejší.
 	zastavení sebe v čase -- sesílatel
-		- sesílatel pro sebe na krátkou chvíli zastaví plynutí času, čímž zamrzne na místě, nemůže být nijak zraněn a ani většina jiných interakcí na něj nebude mít efekt. Po skončení pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.
+		- Sesílatel pro sebe na krátkou chvíli zastaví plynutí času, čímž zamrzne na místě, nemůže být nijak zraněn a ani většina jiných interakcí na něj nebude mít efekt. Po skončení pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.
+	změna hlasu -- sesílatel
+		- Sesílatel změní frekvenci a tedy i tón svého hlasu. Se značnou praxí a dobrým sluchem lze imitovat jiné osoby.
 pokročilá:
 	zrychli organismus -- dohled
-		- sesílatel zpomalí plynutí času pro cílový organismus, který se tak ostatním bude zdát rychlejší.
+		- Sesílatel zpomalí plynutí času pro cílový organismus, který se tak ostatním bude zdát rychlejší.
 	zrychli proces -- dohled
-		- sesílatel zpomalí plynutí času pro cílový proces, který se tak ostatním bude zdát rychlejší. Příkladem procesu je třeba tok vody v potoce, hoření dřeva, louhování čaje...
+		- Sesílatel zpomalí plynutí času pro cílový proces, který se tak ostatním bude zdát rychlejší. Příkladem procesu je třeba tok vody v potoce, hoření dřeva, louhování čaje...
 	zpomal proces -- dohled
-		- sesílatel zrychlí plynutí času pro cílový proces, který se tak ostatním bude zdát pomalejší. Příkladem procesu je třeba tok vody v potoce, hoření dřeva, louhování čaje...
-	prodloužení procesu -- dohled
-		- sesílatel prodlouží trvání cílového procesu. Příkladem procesu je třeba hoření dřeva, sesílání kouzla...
-	zkrácení procesu -- dohled
-		- sesílatel zkrátí trvání cílového procesu. Příkladem procesu je třeba hoření dřeva, sesílání kouzla...
+		- Sesílatel zrychlí plynutí času pro cílový proces, který se tak ostatním bude zdát pomalejší. Příkladem procesu je třeba tok vody v potoce, hoření dřeva, louhování čaje...
 	zpomal organismus -- dohled
-		- sesílatel zrychlí plynutí času pro cílový organismus, který se tak ostatním bude zdát pomalejší.
+		- Sesílatel zrychlí plynutí času pro cílový organismus, který se tak ostatním bude zdát pomalejší.
 	zestárnutí organismu -- dotyk
-		- sesílatel uvede cílový organismus do stavu, v jakém bude v sesílatelem zvolené budoucnosti. Větší zestárnutí vyžaduje dramaticky více energie.
+		- Sesílatel dotykem uvede cílový organismus do stavu, v jakém bude v sesílatelem zvolené budoucnosti. Větší zestárnutí vyžaduje dramaticky více energie.
 	omládnutí organismu -- dotyk
-		- sesílatel uvede cílový organismus do stavu, v jakém byl v sesílatelem zvolené minulosti. Větší omládnutí vyžaduje dramaticky více energie.
+		- Sesílatel dotykem uvede cílový organismus do stavu, v jakém byl v sesílatelem zvolené minulosti. Větší omládnutí vyžaduje dramaticky více energie.
 	zestárnutí objektu -- dohled
-		- sesílatel uvede objekt do stavu, v jakém bude v sesílatelem zvolené budoucnosti. Větší zestárnutí vyžaduje dramaticky více energie.
+		- Sesílatel pohledem uvede objekt do stavu, v jakém bude v sesílatelem zvolené budoucnosti. Větší zestárnutí vyžaduje dramaticky více energie.
 	omládnutí objektu -- dohled
-		- sesílatel uvede objekt do stavu, v jakém byl v sesílatelem zvolené minulosti. Větší omládnutí vyžaduje dramaticky více energie.
+		- Sesílatel pohledem uvede objekt do stavu, v jakém byl v sesílatelem zvolené minulosti. Větší omládnutí vyžaduje dramaticky více energie.
 	náhled do budoucnosti objektu -- nahlížení
-		- sesílatel vidí vizi, v níž nahlíží na to, co se bude dít s daným objektem v sesílatelem zvolené budoucnosti. Pokud budoucnost závisí na rozhodnutí jakýchkoliv osob a není pevně daná, zobrazují se všechny možnosti. To vede k tomu, že budoucnost leckdy působí zcela zamlžěně a nezřetelně. Zkušení mágové ale dokáží rozeznat, pokud je nějaká možnost výrazně pravděpodobnější než ostatní. Vzdálenější minulost vyžaduje dramaticky více energie.
+		- Sesílatel vidí vizi, v níž nahlíží na to, co se bude dít s daným objektem v sesílatelem zvolené budoucnosti. Pokud budoucnost závisí na rozhodnutí jakýchkoliv osob a není pevně daná, zobrazují se všechny možnosti. To vede k tomu, že budoucnost leckdy působí zcela zamlžěně a nezřetelně. Zkušení mágové ale dokáží rozeznat, pokud je nějaká možnost výrazně pravděpodobnější než ostatní. Vzdálenější minulost vyžaduje dramaticky více energie.
 	náhled do budoucnosti místa -- nahlížení
-		- sesílatel vidí vizi, v níž nahlíží na to, co se bude dít na daném místě v sesílatelem zvolené budoucnosti. Pokud budoucnost závisí na rozhodnutí jakýchkoliv osob a není pevně daná, zobrazují se všechny možnosti. To vede k tomu, že budoucnost leckdy působí zcela zamlžěně a nezřetelně. Zkušení mágové ale dokáží rozeznat, pokud je nějaká možnost výrazně pravděpodobnější než ostatní. Vzdálenější minulost vyžaduje dramaticky více energie.
+		- Sesílatel vidí vizi, v níž nahlíží na to, co se bude dít na daném místě v sesílatelem zvolené budoucnosti. Pokud budoucnost závisí na rozhodnutí jakýchkoliv osob a není pevně daná, zobrazují se všechny možnosti. To vede k tomu, že budoucnost leckdy působí zcela zamlžěně a nezřetelně. Zkušení mágové ale dokáží rozeznat, pokud je nějaká možnost výrazně pravděpodobnější než ostatní. Vzdálenější minulost vyžaduje dramaticky více energie.
 	náhled do minulosti organismu -- nahlížení
-		- sesílatel vidí vizi, v níž nahlíží na to, co se dělo s cílovým organismem v sesílatelem zvolené minulosti. Nelze použít ke stopování cíle bez dalších znalostí okolností. Vzdálenější minulost vyžaduje dramaticky více energie.
-	zastavení objektu v čase
-		- sesílatel pro cílový objekt na krátkou chvíli zastaví plynutí času. Daný objekt zamrzne na místě, nemůže být nijak poškozen a ani většina jiných interakcí na něj nebude mít efekt. Po skončení pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.
-	přesunutí objektu v čase
-		- sesílatel donutí cílový objekt udělat skok časem dopředu. Objekt po dobu trvání kouzla přestane existovat a objeví se znovu po uplynutí kouzla. Poté pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.
-	přesunutí sebe v čase
-		- sesílatel udělá skok časem dopředu. Sesílatel po dobu trvání kouzla přestane existovat a objeví se znovu po uplynutí kouzla. Poté pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.
+		- Sesílatel vidí vizi, v níž nahlíží na to, co se dělo s cílovým organismem v sesílatelem zvolené minulosti. Nelze použít ke stopování cíle bez dalších znalostí okolností. Vzdálenější minulost vyžaduje dramaticky více energie.
+	zastavení objektu v čase -- dohled
+		- Sesílatel pro cílový objekt na krátkou chvíli zastaví plynutí času. Daný objekt zamrzne na místě, nemůže být nijak poškozen a ani většina jiných interakcí na něj nebude mít efekt. Po skončení pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.
+	přesunutí objektu v čase -- dohled
+		- Sesílatel donutí cílový objekt udělat skok časem dopředu. Objekt po dobu trvání kouzla přestane existovat a objeví se znovu po uplynutí kouzla. Poté pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.
 	meditace -- soustředění
-		- forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě.
-	změna hlasu
-		- sesílatel změní frekvenci a tedy i tón svého hlasu. Se značnou praxí a dobrým sluchem lze imitovat jiné osoby.
-	zpomalení místa
-		- sesílatel po dobu kouzla zpomalí všechny objekty, organismy a procesy na daném místě. Čím více se toho na daném místě odehrává, tím je kouzlo energeticky náročnější.
-	zrychlení místa
-		- sesílatel po dobu kouzla zrychlí všechny objekty, organismy a procesy na daném místě. Čím více se toho na daném místě odehrává, tím je kouzlo energeticky náročnější.
+		- Forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě.
+	zpomalení místa -- dohled
+		- Sesílatel po dobu kouzla zpomalí všechny objekty, organismy a procesy na daném místě. Čím více se toho na daném místě odehrává, tím je kouzlo energeticky náročnější.
+	zrychlení místa -- dohled
+		- Sesílatel po dobu kouzla zrychlí všechny objekty, organismy a procesy na daném místě. Čím více se toho na daném místě odehrává, tím je kouzlo energeticky náročnější.
 mistrovská:
+	zestárnutí organismu -- dohled
+		- Sesílatel pohledem uvede cílový organismus do stavu, v jakém bude v sesílatelem zvolené budoucnosti. Větší zestárnutí vyžaduje dramaticky více energie.
+	omládnutí organismu -- dohled
+		- Sesílatel pohledem uvede cílový organismus do stavu, v jakém byl v sesílatelem zvolené minulosti. Větší omládnutí vyžaduje dramaticky více energie.
 	náhled do budoucnosti organismu -- nahlížení
-		- sesílatel vidí vizi, v níž nahlíží na to, co se bude dít s cílovým organismem v sesílatelem zvolené budoucnosti. Pokud budoucnost závisí na rozhodnutí jakýchkoliv osob a není pevně daná, zobrazují se všechny možnosti. To vede k tomu, že budoucnost leckdy působí zcela zamlžěně a nezřetelně. Zkušení mágové ale dokáží rozeznat, pokud je nějaká možnost výrazně pravděpodobnější než ostatní. Vzdálenější minulost vyžaduje dramaticky více energie.
+		- Sesílatel vidí vizi, v níž nahlíží na to, co se bude dít s cílovým organismem v sesílatelem zvolené budoucnosti. Pokud budoucnost závisí na rozhodnutí jakýchkoliv osob a není pevně daná, zobrazují se všechny možnosti. To vede k tomu, že budoucnost leckdy působí zcela zamlžěně a nezřetelně. Zkušení mágové ale dokáží rozeznat, pokud je nějaká možnost výrazně pravděpodobnější než ostatní. Vzdálenější minulost vyžaduje dramaticky více energie.
 	náhled do minulosti/budoucnosti pro ostatní
-		- sesílatel umožní cílovém organismu nahlížet na stejnou vizi, kterou má sesílatel v rámci sesílaného náhledového kouzla. Pokud cílový organismus má jak vizi ovlivnit, ovlivní jí to pro oba pozorovatele.
+		- Sesílatel umožní cílovém organismu nahlížet na stejnou vizi, kterou má sesílatel v rámci sesílaného náhledového kouzla. Pokud cílový organismus má jak vizi ovlivnit, ovlivní jí to pro oba pozorovatele.
 	zestárnutí místa -- dohled
-		- sesílatel uvede všechny objekty, organismy a procesy na daném místě do stavu, v jakém budou v sesílatelem zvolené budoucnosti. Čím více se toho na daném místě odehrává, tím je kouzlo energeticky náročnější. Větší zestárnutí vyžaduje dramaticky více energie.
+		- Sesílatel uvede všechny objekty, organismy a procesy na daném místě do stavu, v jakém budou v sesílatelem zvolené budoucnosti. Čím více se toho na daném místě odehrává, tím je kouzlo energeticky náročnější. Větší zestárnutí vyžaduje dramaticky více energie.
 	omládnutí místa -- dohled
-		- sesílatel uvede všechny objekty, organismy a procesy na daném místě do stavu, v jakém byly v sesílatelem zvolené minulosti. Čím více se toho na daném místě odehrává, tím je kouzlo energeticky náročnější. Větší omládnutí vyžaduje dramaticky více energie.
+		- Sesílatel uvede všechny objekty, organismy a procesy na daném místě do stavu, v jakém byly v sesílatelem zvolené minulosti. Čím více se toho na daném místě odehrává, tím je kouzlo energeticky náročnější. Větší omládnutí vyžaduje dramaticky více energie.
 	zastavení organismu v čase
-		- sesílatel pro cílový organismus na krátkou chvíli zastaví plynutí času. Cíl zamrzne na místě, nemůže být nijak zraněn a ani většina jiných interakcí na něj nebude mít efekt. Po skončení pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.
+		- Sesílatel pro cílový organismus na krátkou chvíli zastaví plynutí času. Cíl zamrzne na místě, nemůže být nijak zraněn a ani většina jiných interakcí na něj nebude mít efekt. Po skončení pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.
 	přesunutí organismu v čase
-		- sesílatel donutí cílový organismus udělat skok časem dopředu. Cíl po dobu trvání kouzla přestane existovat a objeví se znovu po uplynutí kouzla. Poté pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.
+		- Sesílatel donutí cílový organismus udělat skok časem dopředu. Cíl po dobu trvání kouzla přestane existovat a objeví se znovu po uplynutí kouzla. Poté pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.
+	stázové pole -- dohled
+		- Sesílatel vytvoří sférické pole kolem cílového místa. V tomto poli běží čas pro všechny organismy, objekty a procesy stejně rychle. To typicky znamená nezrychleně a nezpomaleně, ale sesílatel může zároveň se stázovým polem seslat kouzlo upravující tok času v daném místě a tím ovlivnit vlastnosti tohoto pole. Ruší všechny efekty ovlivňující tok času v oblasti, včetně magického stárnutí či mládnutí. Objekty a organismy přesunuté v čase se znovu okamžitě objeví, jako by kouzlo způsobující jejich přesunutí právě uplynulo.
 	značka času -- soustředění
 		- Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv.
+
