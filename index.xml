@@ -20,124 +20,157 @@
       <description>&lt;div id=&#34;background-overlay&#34; style=&#34;background-image: url(/images/ancient_times1.jpeg)&#34;&gt;&lt;/div&gt;
 &lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Zrychli Sebe &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel zpomalí plynutí času pro sebe, čímž se ostatním bude zdát rychlejší.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zrychli objekt &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel zpomalí plynutí času pro daný objekt, který se tak ostatním bude zdát rychlejší&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Zrychli Sebe &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel zpomalí plynutí času pro sebe, čímž se ostatním bude zdát rychlejší.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zrychli objekt &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel zpomalí plynutí času pro daný objekt, který se tak ostatním bude zdát rychlejší&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Zpomal Sebe &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel zrychlí plynutí času pro sebe, čímž se ostatním bude zdát pomalejší.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zestárnutí objektu &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel uvede objekt do stavu, v jakém bude v sesílatelem zvolené budoucnosti. Větší zestárnutí vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zpomal sebe &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel zrychlí plynutí času pro sebe, čímž se ostatním bude zdát pomalejší.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧙‍♂️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;prodloužení procesu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel prodlouží trvání cílového procesu. Příkladem procesu je třeba hoření dřeva, sesílání kouzla&amp;hellip;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zkrácení procesu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel zkrátí trvání cílového procesu. Příkladem procesu je třeba hoření dřeva, sesílání kouzla&amp;hellip;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zestárnutí objektu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel uvede objekt do stavu, v jakém bude v sesílatelem zvolené budoucnosti. Větší zestárnutí vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;omládnutí objektu &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel uvede objekt do stavu, v jakém byl v sesílatelem zvolené minulosti. Větší omládnutí vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;přesunutí sebe v čase &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel udělá skok časem dopředu. Sesílatel po dobu trvání kouzla přestane existovat a objeví se znovu po uplynutí kouzla. Poté pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧙‍♂️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;omládnutí objektu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel uvede objekt do stavu, v jakém byl v sesílatelem zvolené minulosti. Větší omládnutí vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;náhled do minulosti místa &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel vidí vizi, v níž nahlíží na to, co se na daném místě dělo v sesílatelem zvolené minulosti. Vzdálenější minulost vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;náhled do minulosti místa &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel vidí vizi, v níž nahlíží na to, co se na daném místě dělo v sesílatelem zvolené minulosti. Vzdálenější minulost vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🔮
     &lt;span class=&#34;tooltiptext&#34;&gt;Nahlížení&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;náhled do minulosti objektu &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel vidí vizi, v níž nahlíží na to, co se dělo s daným objektem v sesílatelem zvolené minulosti. Nelze použít ke stopování objektu bez dalších znalostí okolností. Vzdálenější minulost vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;náhled do minulosti objektu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel vidí vizi, v níž nahlíží na to, co se dělo s daným objektem v sesílatelem zvolené minulosti. Nelze použít ke stopování objektu bez dalších znalostí okolností. Vzdálenější minulost vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🔮
     &lt;span class=&#34;tooltiptext&#34;&gt;Nahlížení&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zrychli organismus &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel zpomalí plynutí času pro cílový organismus, který se tak ostatním bude zdát rychlejší.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zrychli organismus &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel zpomalí plynutí času pro cílový organismus, který se tak ostatním bude zdát rychlejší.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zpomal organismus &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel zrychlí plynutí času pro cílový organismus, který se tak ostatním bude zdát pomalejší.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zpomal organismus &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel zrychlí plynutí času pro cílový organismus, který se tak ostatním bude zdát pomalejší.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zastavení sebe v čase &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel pro sebe na krátkou chvíli zastaví plynutí času, čímž zamrzne na místě, nemůže být nijak zraněn a ani většina jiných interakcí na něj nebude mít efekt. Po skončení pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zastavení sebe v čase &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel pro sebe na krátkou chvíli zastaví plynutí času, čímž zamrzne na místě, nemůže být nijak zraněn a ani většina jiných interakcí na něj nebude mít efekt. Po skončení pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧙‍♂️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;změna hlasu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel změní frekvenci a tedy i tón svého hlasu. Se značnou praxí a dobrým sluchem lze imitovat jiné osoby.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🧙‍♂️
     &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;pokročilá&#34;&gt;Pokročilá:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zrychli organismus &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel zpomalí plynutí času pro cílový organismus, který se tak ostatním bude zdát rychlejší.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zrychli organismus &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel zpomalí plynutí času pro cílový organismus, který se tak ostatním bude zdát rychlejší.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zrychli proces &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel zpomalí plynutí času pro cílový proces, který se tak ostatním bude zdát rychlejší. Příkladem procesu je třeba tok vody v potoce, hoření dřeva, louhování čaje&amp;hellip;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zrychli proces &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel zpomalí plynutí času pro cílový proces, který se tak ostatním bude zdát rychlejší. Příkladem procesu je třeba tok vody v potoce, hoření dřeva, louhování čaje&amp;hellip;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zpomal proces &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel zrychlí plynutí času pro cílový proces, který se tak ostatním bude zdát pomalejší. Příkladem procesu je třeba tok vody v potoce, hoření dřeva, louhování čaje&amp;hellip;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zpomal proces &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel zrychlí plynutí času pro cílový proces, který se tak ostatním bude zdát pomalejší. Příkladem procesu je třeba tok vody v potoce, hoření dřeva, louhování čaje&amp;hellip;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;prodloužení procesu &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel prodlouží trvání cílového procesu. Příkladem procesu je třeba hoření dřeva, sesílání kouzla&amp;hellip;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zpomal organismus &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel zrychlí plynutí času pro cílový organismus, který se tak ostatním bude zdát pomalejší.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zkrácení procesu &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel zkrátí trvání cílového procesu. Příkladem procesu je třeba hoření dřeva, sesílání kouzla&amp;hellip;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
-    👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zpomal organismus &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel zrychlí plynutí času pro cílový organismus, který se tak ostatním bude zdát pomalejší.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
-    👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zestárnutí organismu &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel uvede cílový organismus do stavu, v jakém bude v sesílatelem zvolené budoucnosti. Větší zestárnutí vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zestárnutí organismu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel dotykem uvede cílový organismus do stavu, v jakém bude v sesílatelem zvolené budoucnosti. Větší zestárnutí vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;omládnutí organismu &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel uvede cílový organismus do stavu, v jakém byl v sesílatelem zvolené minulosti. Větší omládnutí vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;omládnutí organismu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel dotykem uvede cílový organismus do stavu, v jakém byl v sesílatelem zvolené minulosti. Větší omládnutí vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zestárnutí objektu &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel uvede objekt do stavu, v jakém bude v sesílatelem zvolené budoucnosti. Větší zestárnutí vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zestárnutí objektu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel pohledem uvede objekt do stavu, v jakém bude v sesílatelem zvolené budoucnosti. Větší zestárnutí vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;omládnutí objektu &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel uvede objekt do stavu, v jakém byl v sesílatelem zvolené minulosti. Větší omládnutí vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;omládnutí objektu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel pohledem uvede objekt do stavu, v jakém byl v sesílatelem zvolené minulosti. Větší omládnutí vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;náhled do budoucnosti objektu &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel vidí vizi, v níž nahlíží na to, co se bude dít s daným objektem v sesílatelem zvolené budoucnosti. Pokud budoucnost závisí na rozhodnutí jakýchkoliv osob a není pevně daná, zobrazují se všechny možnosti. To vede k tomu, že budoucnost leckdy působí zcela zamlžěně a nezřetelně. Zkušení mágové ale dokáží rozeznat, pokud je nějaká možnost výrazně pravděpodobnější než ostatní. Vzdálenější minulost vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;náhled do budoucnosti objektu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel vidí vizi, v níž nahlíží na to, co se bude dít s daným objektem v sesílatelem zvolené budoucnosti. Pokud budoucnost závisí na rozhodnutí jakýchkoliv osob a není pevně daná, zobrazují se všechny možnosti. To vede k tomu, že budoucnost leckdy působí zcela zamlžěně a nezřetelně. Zkušení mágové ale dokáží rozeznat, pokud je nějaká možnost výrazně pravděpodobnější než ostatní. Vzdálenější minulost vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🔮
     &lt;span class=&#34;tooltiptext&#34;&gt;Nahlížení&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;náhled do budoucnosti místa &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel vidí vizi, v níž nahlíží na to, co se bude dít na daném místě v sesílatelem zvolené budoucnosti. Pokud budoucnost závisí na rozhodnutí jakýchkoliv osob a není pevně daná, zobrazují se všechny možnosti. To vede k tomu, že budoucnost leckdy působí zcela zamlžěně a nezřetelně. Zkušení mágové ale dokáží rozeznat, pokud je nějaká možnost výrazně pravděpodobnější než ostatní. Vzdálenější minulost vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;náhled do budoucnosti místa &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel vidí vizi, v níž nahlíží na to, co se bude dít na daném místě v sesílatelem zvolené budoucnosti. Pokud budoucnost závisí na rozhodnutí jakýchkoliv osob a není pevně daná, zobrazují se všechny možnosti. To vede k tomu, že budoucnost leckdy působí zcela zamlžěně a nezřetelně. Zkušení mágové ale dokáží rozeznat, pokud je nějaká možnost výrazně pravděpodobnější než ostatní. Vzdálenější minulost vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🔮
     &lt;span class=&#34;tooltiptext&#34;&gt;Nahlížení&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;náhled do minulosti organismu &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel vidí vizi, v níž nahlíží na to, co se dělo s cílovým organismem v sesílatelem zvolené minulosti. Nelze použít ke stopování cíle bez dalších znalostí okolností. Vzdálenější minulost vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;náhled do minulosti organismu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel vidí vizi, v níž nahlíží na to, co se dělo s cílovým organismem v sesílatelem zvolené minulosti. Nelze použít ke stopování cíle bez dalších znalostí okolností. Vzdálenější minulost vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🔮
     &lt;span class=&#34;tooltiptext&#34;&gt;Nahlížení&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Zastavení Objektu V Čase &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel pro cílový objekt na krátkou chvíli zastaví plynutí času. Daný objekt zamrzne na místě, nemůže být nijak poškozen a ani většina jiných interakcí na něj nebude mít efekt. Po skončení pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Přesunutí Objektu V Čase &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel donutí cílový objekt udělat skok časem dopředu. Objekt po dobu trvání kouzla přestane existovat a objeví se znovu po uplynutí kouzla. Poté pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Přesunutí Sebe V Čase &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel udělá skok časem dopředu. Sesílatel po dobu trvání kouzla přestane existovat a objeví se znovu po uplynutí kouzla. Poté pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zastavení objektu v čase &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel pro cílový objekt na krátkou chvíli zastaví plynutí času. Daný objekt zamrzne na místě, nemůže být nijak poškozen a ani většina jiných interakcí na něj nebude mít efekt. Po skončení pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;přesunutí objektu v čase &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel donutí cílový objekt udělat skok časem dopředu. Objekt po dobu trvání kouzla přestane existovat a objeví se znovu po uplynutí kouzla. Poté pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;meditace &lt;span class=&#34;tooltiptext&#34;&gt;Forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🧘
     &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
 &lt;/span&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Změna Hlasu &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel změní frekvenci a tedy i tón svého hlasu. Se značnou praxí a dobrým sluchem lze imitovat jiné osoby.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Zpomalení Místa &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel po dobu kouzla zpomalí všechny objekty, organismy a procesy na daném místě. Čím více se toho na daném místě odehrává, tím je kouzlo energeticky náročnější.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Zrychlení Místa &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel po dobu kouzla zrychlí všechny objekty, organismy a procesy na daném místě. Čím více se toho na daném místě odehrává, tím je kouzlo energeticky náročnější.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zpomalení místa &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel po dobu kouzla zpomalí všechny objekty, organismy a procesy na daném místě. Čím více se toho na daném místě odehrává, tím je kouzlo energeticky náročnější.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zrychlení místa &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel po dobu kouzla zrychlí všechny objekty, organismy a procesy na daném místě. Čím více se toho na daném místě odehrává, tím je kouzlo energeticky náročnější.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;mistrovská&#34;&gt;Mistrovská:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;náhled do budoucnosti organismu &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel vidí vizi, v níž nahlíží na to, co se bude dít s cílovým organismem v sesílatelem zvolené budoucnosti. Pokud budoucnost závisí na rozhodnutí jakýchkoliv osob a není pevně daná, zobrazují se všechny možnosti. To vede k tomu, že budoucnost leckdy působí zcela zamlžěně a nezřetelně. Zkušení mágové ale dokáží rozeznat, pokud je nějaká možnost výrazně pravděpodobnější než ostatní. Vzdálenější minulost vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zestárnutí organismu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel pohledem uvede cílový organismus do stavu, v jakém bude v sesílatelem zvolené budoucnosti. Větší zestárnutí vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;omládnutí organismu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel pohledem uvede cílový organismus do stavu, v jakém byl v sesílatelem zvolené minulosti. Větší omládnutí vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;náhled do budoucnosti organismu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel vidí vizi, v níž nahlíží na to, co se bude dít s cílovým organismem v sesílatelem zvolené budoucnosti. Pokud budoucnost závisí na rozhodnutí jakýchkoliv osob a není pevně daná, zobrazují se všechny možnosti. To vede k tomu, že budoucnost leckdy působí zcela zamlžěně a nezřetelně. Zkušení mágové ale dokáží rozeznat, pokud je nějaká možnost výrazně pravděpodobnější než ostatní. Vzdálenější minulost vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🔮
     &lt;span class=&#34;tooltiptext&#34;&gt;Nahlížení&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Náhled Do Minulosti/Budoucnosti Pro Ostatní &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel umožní cílovém organismu nahlížet na stejnou vizi, kterou má sesílatel v rámci sesílaného náhledového kouzla. Pokud cílový organismus má jak vizi ovlivnit, ovlivní jí to pro oba pozorovatele.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zestárnutí místa &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel uvede všechny objekty, organismy a procesy na daném místě do stavu, v jakém budou v sesílatelem zvolené budoucnosti. Čím více se toho na daném místě odehrává, tím je kouzlo energeticky náročnější. Větší zestárnutí vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Náhled Do Minulosti/Budoucnosti Pro Ostatní &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel umožní cílovém organismu nahlížet na stejnou vizi, kterou má sesílatel v rámci sesílaného náhledového kouzla. Pokud cílový organismus má jak vizi ovlivnit, ovlivní jí to pro oba pozorovatele.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zestárnutí místa &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel uvede všechny objekty, organismy a procesy na daném místě do stavu, v jakém budou v sesílatelem zvolené budoucnosti. Čím více se toho na daném místě odehrává, tím je kouzlo energeticky náročnější. Větší zestárnutí vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;omládnutí místa &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel uvede všechny objekty, organismy a procesy na daném místě do stavu, v jakém byly v sesílatelem zvolené minulosti. Čím více se toho na daném místě odehrává, tím je kouzlo energeticky náročnější. Větší omládnutí vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;omládnutí místa &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel uvede všechny objekty, organismy a procesy na daném místě do stavu, v jakém byly v sesílatelem zvolené minulosti. Čím více se toho na daném místě odehrává, tím je kouzlo energeticky náročnější. Větší omládnutí vyžaduje dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Zastavení Organismu V Čase &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel pro cílový organismus na krátkou chvíli zastaví plynutí času. Cíl zamrzne na místě, nemůže být nijak zraněn a ani většina jiných interakcí na něj nebude mít efekt. Po skončení pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Přesunutí Organismu V Čase &lt;span class=&#34;tooltiptext&#34;&gt;sesílatel donutí cílový organismus udělat skok časem dopředu. Cíl po dobu trvání kouzla přestane existovat a objeví se znovu po uplynutí kouzla. Poté pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Zastavení Organismu V Čase &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel pro cílový organismus na krátkou chvíli zastaví plynutí času. Cíl zamrzne na místě, nemůže být nijak zraněn a ani většina jiných interakcí na něj nebude mít efekt. Po skončení pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Přesunutí Organismu V Čase &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel donutí cílový organismus udělat skok časem dopředu. Cíl po dobu trvání kouzla přestane existovat a objeví se znovu po uplynutí kouzla. Poté pokračuje v pohybu a procesech, jaké byly tímto kouzlem přerušeny.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;stázové pole &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel vytvoří sférické pole kolem cílového místa. V tomto poli běží čas pro všechny organismy, objekty a procesy stejně rychle. To typicky znamená nezrychleně a nezpomaleně, ale sesílatel může zároveň se stázovým polem seslat kouzlo upravující tok času v daném místě a tím ovlivnit vlastnosti tohoto pole. Ruší všechny efekty ovlivňující tok času v oblasti, včetně magického stárnutí či mládnutí. Objekty a organismy přesunuté v čase se znovu okamžitě objeví, jako by kouzlo způsobující jejich přesunutí právě uplynulo.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;značka času &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🧘
     &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
