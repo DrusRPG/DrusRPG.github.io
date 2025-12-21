@@ -905,12 +905,21 @@
    🧠
     &lt;span class=&#34;tooltiptext&#34;&gt;Mentální Magie&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;hypnóza - spánek &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel udržící s cílem nepřerušený oční kontakt může ovlivnit stav vědomí cíle a využít toho k jeho uspání. Rychlost zhypnotizování a délka efektu závisí na schopnostech sesílatele.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;hypnóza - spánek &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel udržující s cílem nepřerušený oční kontakt může ovlivnit stav vědomí cíle a využít toho k jeho uspání. Rychlost zhypnotizování a délka efektu závisí na schopnostech sesílatele.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
    🧿
     &lt;span class=&#34;tooltiptext&#34;&gt;Hypnóza&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Mentální Obrana - Sugesce A Iluze &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel sobě nebo cíli obrní smysly proti kouzlům sugescí a iluzí.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Telekineze - Předmět &lt;span class=&#34;tooltiptext&#34;&gt;Umožňuje sesílateli pomalu a plynule pohybovat cílovým předmětem. Sesílatel se na předmět musí soustředit.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;telekineze - předmět &lt;span class=&#34;tooltiptext&#34;&gt;Umožňuje sesílateli pomalu a plynule pohybovat cílovým předmětem. Pohybování většími objekty je energeticky náročnější. Vyžaduje sesílatelovu plnou pozornost.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧘
+    &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;hromadná telekineze - předměty &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatelova &lt;em&gt;&lt;strong&gt;Telekineze - předmět&lt;/strong&gt;&lt;/em&gt; může pomalu a plynule hýbat několika předměty najednou. Počet předmětů a celková váha, se kterými dokáže sesílatel pohybovat, je závislá na schopnostech sesílatele. Vyžaduje sesílatelovu plnou pozornost.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧘
+    &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;meditace &lt;span class=&#34;tooltiptext&#34;&gt;Forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🧘
     &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
@@ -964,16 +973,22 @@
     💡
     &lt;span class=&#34;tooltiptext&#34;&gt;Sugesce&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;hypnóza - ovládnutí &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel udržící s cílem nepřerušený oční kontakt může ovlivnit stav vědomí cíle a využít toho k ovládnutí jeho těla na krátkou dobu. Rychlost zhypnotizování a délka efektu závisí na schopnostech sesílatele. Sesílatel si zpětně může uvědomovat, že byl ovládnut.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;hypnóza - ovládnutí &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel udržující s cílem nepřerušený oční kontakt může ovlivnit stav vědomí cíle a využít toho k ovládnutí jeho těla na krátkou dobu. Rychlost zhypnotizování a délka efektu závisí na schopnostech sesílatele. Sesílatel si zpětně může uvědomovat, že byl ovládnut.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
    🧿
     &lt;span class=&#34;tooltiptext&#34;&gt;Hypnóza&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;hypnóza - amnézie &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel udržící s cílem nepřerušený oční kontakt může ovlivnit stav vědomí cíle a využít toho k odstranění nějaké vzpomínky cíle. Rychlost zhypnotizování a rozsah efektu závisí na schopnostech sesílatele. Odstranění některých vzpomínek může mít obrovský vliv na charakter cíle.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;hypnóza - amnézie &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel udržující s cílem nepřerušený oční kontakt může ovlivnit stav vědomí cíle a využít toho k odstranění nějaké vzpomínky cíle. Rychlost zhypnotizování a rozsah efektu závisí na schopnostech sesílatele. Odstranění některých vzpomínek může mít obrovský vliv na charakter cíle.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
    🧿
     &lt;span class=&#34;tooltiptext&#34;&gt;Hypnóza&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Mentální Obrana - Mentální Magie A Hypnózy &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel sobě nebo cíli obrní smysly proti kouzlům hypnózy a manipulace s myšlenkami.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Telekineze - Organismus &lt;span class=&#34;tooltiptext&#34;&gt;Umožňuje sesílateli pomalu a plynule pohybovat cílovým organismem. Sesílatel se na cíl musí soustředit.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;telekineze - organismus &lt;span class=&#34;tooltiptext&#34;&gt;Umožňuje sesílateli pomalu a plynule pohybovat cílovým organismem. Sesílatel se na cíl musí plně soustředit.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧘
+    &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Hromadná Telekineze - Organismy &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatelova &lt;em&gt;&lt;strong&gt;Telekineze - organismus&lt;/strong&gt;&lt;/em&gt; může pomalu a plynule hýbat několika organismy najednou. Počet organismy a celková váha, se kterými dokáže sesílatel pohybovat, je závislá na schopnostech sesílatele. Vyžaduje sesílatelovu plnou pozornost.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Pokročilá Telekineze - Předmět &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatelova &lt;em&gt;&lt;strong&gt;Telekineze - předmět&lt;/strong&gt;&lt;/em&gt; či &lt;em&gt;&lt;strong&gt;Hromadná telekineze - předměty&lt;/strong&gt;&lt;/em&gt; je natolik pokročilá, že umožňuje rychlý a neplynulý pohyb předmětem, a nevyžaduje sesílatelovu plnou pozornost.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;mistrovská&#34;&gt;Mistrovská:&lt;/h2&gt;
 &lt;ul&gt;
@@ -981,7 +996,7 @@
     🌀
     &lt;span class=&#34;tooltiptext&#34;&gt;Iluze&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;hromadná sugesce &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel může libovolné kouzlo sugesce použít na více cílů v okolí dle své volby. Náročnost iluze a počet cílů dramaticky zvyšují energetickou náročnost kouzla.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;hromadná sugesce &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel může libovolné kouzlo sugesce použít na více cílů v okolí dle své volby. Náročnost sugesce a počet cílů dramaticky zvyšují energetickou náročnost kouzla.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     💡
     &lt;span class=&#34;tooltiptext&#34;&gt;Sugesce&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
@@ -993,11 +1008,27 @@
    🧠
     &lt;span class=&#34;tooltiptext&#34;&gt;Mentální Magie&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Telepatické Propojení &lt;span class=&#34;tooltiptext&#34;&gt;Umožňuje sesílateli a cíli po dobu dobu trvání kouzla číst si navzájem výrazné současné myšlenky. Efektivně tak umožňuje mluvit spolu beze slov. Sesílatel je s cílem spojen a po dobu trvání kouzla se od sebe mohou libovolně vzdálit.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Telepatický Prostor &lt;span class=&#34;tooltiptext&#34;&gt;Umožňuje telepatickou domluvou zahrnout více cílů. Všichni pak uslyší výrazné současné myšlenky všech ostatních.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;hypnóza - přesvědčení &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel udržící s cílem nepřerušený oční kontakt může ovlivnit stav vědomí cíle a využít toho k měnění či podsouvání myšlenek a názorů cíli. Pokud nejsou tyto nové myšlenky či názory výrazně v rozporu s přesvědčením nebo přirozeností cíle, pak cíli zůstává navždy. Rychlost zhypnotizování a délka efektu závisí na schopnostech sesílatele. Může mít obrovský vliv na charakter cíle.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;telepatické propojení &lt;span class=&#34;tooltiptext&#34;&gt;Umožňuje sesílateli a cíli po dobu dobu trvání kouzla číst si navzájem výrazné současné myšlenky. Efektivně tak umožňuje mluvit spolu beze slov. Sesílatel je s cílem spojen a po dobu trvání kouzla se od sebe mohou libovolně vzdálit.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+   🧠
+    &lt;span class=&#34;tooltiptext&#34;&gt;Mentální Magie&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;telepatický prostor &lt;span class=&#34;tooltiptext&#34;&gt;Umožňuje telepatickou domluvou zahrnout více cílů. Všichni pak uslyší výrazné současné myšlenky všech ostatních.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+   🧠
+    &lt;span class=&#34;tooltiptext&#34;&gt;Mentální Magie&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;hypnóza - přesvědčení &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel udržující s cílem nepřerušený oční kontakt může ovlivnit stav vědomí cíle a využít toho k měnění či podsouvání myšlenek a názorů cíli. Pokud nejsou tyto nové myšlenky či názory výrazně v rozporu s přesvědčením nebo přirozeností cíle, pak cíli zůstává navždy. Rychlost zhypnotizování a délka efektu závisí na schopnostech sesílatele. Může mít obrovský vliv na charakter cíle.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
    🧿
     &lt;span class=&#34;tooltiptext&#34;&gt;Hypnóza&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Pokročilá Telekineze - Organismus &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatelova &lt;em&gt;&lt;strong&gt;Telekineze - organismus&lt;/strong&gt;&lt;/em&gt; či &lt;em&gt;&lt;strong&gt;Hromadná telekineze - organismy&lt;/strong&gt;&lt;/em&gt; je natolik pokročilá, že umožňuje rychlý a neplynulý pohyb organismem, a nevyžaduje sesílatelovu plnou pozornost.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;telekineze - konstrukt &lt;span class=&#34;tooltiptext&#34;&gt;Umožňuje sesílateli telekineticky pohybovat jednotlivými částmi konstruktu tak, že sesílatel imituje přirozený pohyb všěch částí. Vyžaduje sesílatelovu plnou pozornost.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧘
+    &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;projekce mysli mimo tělo &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel přesune své vědomí do bodu či objektu mimo své tělo. Všechny jeho smysly se přesunou do tohoto bodu, je tedy možné např. vidět za roh, a sesílatel může ve svém přesunutém vědomí sesílat jednodušší kouzla. Sesílatelovo tělo po dobu kouzla zůstává v bezvědomí, ovšem poskytuje energii potřebnou k udržování projekce a ostatních kouzel. Při vyčerpání sesílatele dochází k jeho smrti, a sesílatel ve své projekci rostoucí únavu necítí.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧙‍♂️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;značka mysli &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🧘
@@ -1381,7 +1412,7 @@
       <description>&lt;div id=&#34;background-overlay&#34; style=&#34;background-image: url(/images/ancient_times3.jpeg)&#34;&gt;&lt;/div&gt;
 &lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;požehnání rychlosti &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel zvýší fyzickou rychlost pohybu cíle kouzla.&lt;br&gt;Doba trvání požehnání přibližně jedna pronásledovací sekvence.&lt;br&gt;Všechna požehnání jsou v základu na dotyk.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;požehnání rychlosti &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel zvýší fyzickou rychlost pohybu cíle kouzla.&amp;lt;br&amp;gt;Doba trvání požehnání přibližně jedna pronásledovací sekvence.&amp;lt;br&amp;gt;Všechna požehnání jsou v základu na dotyk.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🌟
     &lt;span class=&#34;tooltiptext&#34;&gt;Požehnání&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
