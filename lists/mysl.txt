@@ -13,7 +13,8 @@ základní:
 	mentální útok -- mentální_magie
 	hypnóza - spánek -- hypnóza
 	mentální obrana - sugesce a iluze
-	telekineze - předmět
+	telekineze - předmět -- soustředění
+	hromadná telekineze - předměty -- soustředění
 	meditace -- soustředění
 pokročilá:
 	neviditelnost -- iluze
@@ -27,17 +28,22 @@ pokročilá:
 	cit mysli -- mentální_magie
 	sugesce vzteku -- sugesce
 	sugesce přátelství -- sugesce
-	sugesce odporu -- sugesce
+	sugesce odporu -- sugesce 
 	hypnóza - ovládnutí -- hypnóza
 	hypnóza - amnézie -- hypnóza
 	mentální obrana - mentální magie a hypnózy
-	telekineze - organismus
+	telekineze - organismus -- soustředění
+	hromadná telekineze - organismy
+	pokročilá telekineze - předmět
 mistrovská:
 	hromadná iluze -- iluze
 	hromadná sugesce -- sugesce
 	čtení mysli -- mentální_magie
 	telepatická kontrola -- mentální_magie
-	telepatické propojení
-	telepatický prostor
+	telepatické propojení -- mentální_magie
+	telepatický prostor -- mentální_magie
 	hypnóza - přesvědčení -- hypnóza
+	pokročilá telekineze - organismus
+	telekineze - konstrukt -- soustředění
+	projekce mysli mimo tělo -- sesílatel
 	značka mysli -- soustředění

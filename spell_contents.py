@@ -189,7 +189,7 @@ for magic_school_name, magic_school_file, magic_school_image, magic_school_image
                     suffix = ""
 
                 # Escape the description for safe inclusion in a title attribute and collapse newlines
-                escaped_desc = desc # html.escape(desc, quote=True).replace('\n', ' ')
+                escaped_desc = html.escape(desc, quote=True).replace('\n', ' ')
 
                 item = f"* <span data-html=\"true\" class=\"tooltip\">{visible.strip()} <span class=\"tooltiptext\">{escaped_desc}</span></span>{suffix}"
             else:
