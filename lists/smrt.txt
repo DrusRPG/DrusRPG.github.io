@@ -3,35 +3,35 @@ základní:
 	nepřesnost -- dohled -- prokletí
 	hluchota -- dohled -- prokletí
 	prokletí čichu -- dohled -- prokletí
-	křeč svalu -- dotyk
 	povolání zombie -- nemrtvý
-	oživ malého tvora (do velikosti kočky) -- nemrtvý
+	oživ malého tvora -- nemrtvý
 	povolání duše
-	obnov nemrtvého
-	exploze nemrtvého
-	paralyzační jed -- zbraň -- dotyk -- jed
+	obnov nemrtvého -- dotyk
+	exploze nemrtvého -- dohled
+	paralyzační jed -- dotyk -- zbraň -- jed
+	křeč svalu -- dotyk
 	vysátí života -- dotyk
-	tma
 	vysátí mrtvého -- dotyk
 	vysátí nemrtvého -- dotyk
-	cit smrti
+	tma -- dohled
+	cit smrti -- sesílatel
 pokročilá:
 	slepota -- dohled -- prokletí
 	dezorientace -- dohled -- prokletí
 	nešikovnost -- dohled -- prokletí
 	ztráta rovnováhy -- dohled -- prokletí
 	strach -- dohled -- prokletí
-	horečka -- dohled
-	křeč svalu -- dohled
 	vyčerpání -- dotyk -- prokletí
 	zranitelnost -- dohled -- prokletí
 	povolání ghůla -- nemrtvý
-	oživ středně velkého tvora (do velikosti velkého psa) -- nemrtvý
-	spoutání duše ke svojí vůli
+	oživ středně velkého tvora -- nemrtvý
+	spoutání duše ke svojí vůli -- dohled
 	oživ člověka -- nemrtvý
-	jed do nemrtvého
-	smrtelný jed -- zbraň -- jed -- dotyk
+	jed do nemrtvého -- dohled -- jed
+	smrtelný jed -- dotyk -- zbraň -- jed
 	dusivý oblak -- dohled -- jed
+	horečka -- dohled
+	křeč svalu -- dohled
 	tržná rána -- dotyk
 	vidění ve tmě -- sesílatel
 	meditace -- soustředění
@@ -39,11 +39,11 @@ mistrovská:
 	neštěstí -- dohled -- prokletí
 	mdloby -- dohled -- prokletí
 	vyčerpání -- dohled -- prokletí
+	oživ organismus -- nemrtvý
+	spoutání duše/nemrtvého k vůli jiného -- dohled
 	smrtící oblak -- dohled -- jed
 	paralýza -- dohled
-	oživ organismus -- nemrtvý
-	spoutání duše/nemrtvého k vůli jiného
-	značka smrti -- soustředění
 	tržná rána -- dohled
-	vysátí života -- dohled
-	vidění ve tmě - ostatní -- dohled
+	vysátí energie pohledem -- dohled
+	vidění ve tmě - ostatní -- dotyk
+	značka smrti -- soustředění
