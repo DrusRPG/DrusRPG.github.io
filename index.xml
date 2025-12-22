@@ -1207,169 +1207,190 @@
       <description>&lt;div id=&#34;background-overlay&#34; style=&#34;background-image: url(/images/ancient_times4.jpeg)&#34;&gt;&lt;/div&gt;
 &lt;h2 id=&#34;základní&#34;&gt;Základní:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;slabost &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel oslabí všechny údery cíle a sníží jeho celkovou fyzickou výdrž. Nijak nebrání v mentální činnosti.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;slabost &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel oslabí všechny údery cíle a sníží jeho celkovou fyzickou výdrž. Nijak nebrání v mentální činnosti. Doba trvání prokletí závisí na situaci a schopnostech sesílatele.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
       🐈‍⬛
       &lt;span class=&#34;tooltiptext&#34;&gt;Prokletí&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;nepřesnost &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel zhorší schopnost jemné motoriky cíle. Komplikuje schopnosti jako je míření střelných zbraní, odemykání zámků a kapsářství. Doba trvání požehnání podle situace.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;nepřesnost &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel zhorší schopnost jemné motoriky cíle.  Komplikuje schopnosti jako je míření střelných zbraní, odemykání zámků a kapsářství. Doba trvání prokletí závisí na situaci a schopnostech sesílatele.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
       🐈‍⬛
       &lt;span class=&#34;tooltiptext&#34;&gt;Prokletí&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;hluchota &lt;span class=&#34;tooltiptext&#34;&gt;Zasažená bytost nic neuslyší&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;hluchota &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel prokleje cílovou bytost tak, že po dobu trvání kouzla nic neuslyší. Doba trvání prokletí závisí na situaci a schopnostech sesílatele.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
       🐈‍⬛
       &lt;span class=&#34;tooltiptext&#34;&gt;Prokletí&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;prokletí čichu &lt;span class=&#34;tooltiptext&#34;&gt;Zasažená bytost nic neucítí&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;prokletí čichu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel prokleje cílovou bytost tak, že po dobu trvání kouzla nic neucítí. Doba trvání prokletí závisí na situaci a schopnostech sesílatele.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
       🐈‍⬛
       &lt;span class=&#34;tooltiptext&#34;&gt;Prokletí&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;křeč svalu &lt;span class=&#34;tooltiptext&#34;&gt;Zasažený kosterní sval se stáhne a přestane fungovat. Nejlépe funguje na část těla (stehno, předloktí&amp;hellip;). Cílit na konkrétní sval/větší množství svalů je náročnější&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;povolání zombie &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel vytvoří z mrtvoly v dohledu zombie pod kontrolou sesílatele. Zombie je jednoduchý nemrtvý, který se pohybuje typicky pomalu a je schopen vykonávat jen velmi jednoduché příkazy.  Je vhodný jen jako základní služebník, k boji jsou použitelní jen ve velkém počtu. V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu a vyžadují dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧟
+    &lt;span class=&#34;tooltiptext&#34;&gt;Nemrtvý&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;oživ malého tvora &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel z malého mrtvého tvora (do velikosti kočky) vytvoří nemrtvého pod kontrolou sesílatele. Tento tvor je ve vykonávání příkazů omezen inteligencí, jakou měl před smrtí, a fyzickými omezeními.  Pro svou dobrou inteligenci jsou jako služebníci oblíbeni havrani. V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu a vyžadují dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧟
+    &lt;span class=&#34;tooltiptext&#34;&gt;Nemrtvý&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Povolání Duše &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel přivolá vědomí zesnulého cíle a poskytne mu nehmotnou magickou formu schopnou řeči. Povolaná duše nemá žádnou povinnost poslouchat sesílatele ani s ním jinak spolupracovat, k tomu je potřeba seslat &lt;em&gt;&lt;strong&gt;Spoutání duše ke svojí vůli&lt;/strong&gt;&lt;/em&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;obnov nemrtvého &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel vyléčí zraněného nemrtvého do neporušeného stavu. Větší zranění a delší doba rozkladu a vyžadují dramaticky vyžadují dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;povolání zombie &lt;span class=&#34;tooltiptext&#34;&gt;Přivolá zombie, která poslouchá rozkazy sesilatele&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
-    🧟
-    &lt;span class=&#34;tooltiptext&#34;&gt;Nemrtvý&lt;/span&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;exploze nemrtvého &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel pohledem zničí nemrtvého, který se rozprskne do sprchy úštěpků tkání a kostí, které mohou zranit cíle v okolí. Explodovaného nemrtvého nelze obnovit. Pokud se sesílatel snaží zničit nemrtvého patřícího jinému mágovi, dochází k souboji vůle mezi oběma mágy. Schopnost chránit svého nemrtvého před zničením jiným mágem závisí na schopnostech obou mágů a vzdálenosti majitele a jeho nemrtvého.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;oživ malého tvora (do velikosti kočky) &lt;span class=&#34;tooltiptext&#34;&gt;“Vyléčí” zraněného nemrtvého do neporušeného stavu. Z tvora se stane nemrtvý pod kontrolou sesilatele&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
-    🧟
-    &lt;span class=&#34;tooltiptext&#34;&gt;Nemrtvý&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Povolání Duše &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel přivolá vědomí zesnulého cíle a poskytne mu nehmotnou magickou formu schopnou řeči&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Obnov Nemrtvého &lt;span class=&#34;tooltiptext&#34;&gt;“Vyléčí” zraněného nemrtvého do neporušeného stavu&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Exploze Nemrtvého &lt;span class=&#34;tooltiptext&#34;&gt;Rozpráší nemrtvého, kousky mohou zranit cíle v okolí. Explodovaného nemrtvého nelze obnovit&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;paralyzační jed &lt;span class=&#34;tooltiptext&#34;&gt;Na dotyk nebo na zbraň, postupně od místa dotyku/zranění nebude zasažená bytost moct hýbat svaly&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
-    🗡️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Zbraň&lt;/span&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;paralyzační jed &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel dorykem očaruje cílovou zbraň magickým jedem, který při zásahu zbraní postupně od místa zranění ochrnuje svaly zasažené bytosti. Lze seslat též dotykem ruky, kdy si lze do role zbraně dosadit sesílatelův nehet. V takovém případě se ale musí dotknout kůže, nefunguje přes textil. Rychlost šíření jedu závisí na rozsahu rány a schopnostech sesílatele.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    🖐️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🖐️
-      &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
+      🗡️
+      &lt;span class=&#34;tooltiptext&#34;&gt;Zbraň&lt;/span&gt;
   &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
       ☠️
       &lt;span class=&#34;tooltiptext&#34;&gt;Jed&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;vysátí života &lt;span class=&#34;tooltiptext&#34;&gt;Převádí životní sílu zasaženého sesílateli, doplňuje energii&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;křeč svalu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel dotykem donutí cílový kosterní sval se stáhnout a ten přestane fungovat. Nejlépe funguje na část těla (stehno, předloktí&amp;hellip;).  Cílit na konkrétní sval/větší množství svalů je náročnější.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Tma &lt;span class=&#34;tooltiptext&#34;&gt;Sešle do okolí magickou tmu, ve které nikdo nic neuvidí a běžné zdroje světla (louče, lampy&amp;hellip;) ji neprosvítí&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;vysátí mrtvého &lt;span class=&#34;tooltiptext&#34;&gt;Převádí zbytkovou životní energii z mrtvého těla (ať už bylo živé nebo nemrtvé), instantně toto tělo zničí, doplňuje energii&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;vysátí života &lt;span class=&#34;tooltiptext&#34;&gt;Po dobu trvání kouzla sesílatel vysává životní sílu zasaženého, sobě doplňuje energii. Rychlost vysávání života závisí na schopnostech sesílatele. Životní energie s sebou nese esenci někoho jiného, a to se ve velkém množství má tendenci na sesílateli projevit. Po vysátí stromu bude sesílatel mít zdřevěnělé končetiny, po vysátí někoho opravdu hloupého bude mít nějakou dobu problém se soustředit, při vysátí někoho opravdu nešťastného bude mít sesílatel depresi apod. Při častém vysávání velkého množství energie může dojít k trvalým změnám na sesílateli. Doporučuje se s tímto kouzlem zacházet opatrně a mezi použitími mít alespoň několik dní pauzy.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;vysátí nemrtvého &lt;span class=&#34;tooltiptext&#34;&gt;Převádí sílu udržující nemrtvého sesílateli, doplňuje energii&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;vysátí mrtvého &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel vysaje zbytkovou životní energii z mrtvého těla (ať už bylo živé nebo nemrtvé), čímž si doplňuje energii. Rychlost vysávání mrtvého závisí na schopnostech sesílatele. Toto tělo se instantně rozpadne na prach a nemůže být nadále použito pro jakákoliv jiná kouzla. Množství energie získané z mrtvol je typicky malé, narozdíl od &lt;em&gt;&lt;strong&gt;Vysátí života&lt;/strong&gt;&lt;/em&gt; ovšem nenese esenci mrtvoly, dá se tedy snadno opakovat bez rizika vedlejších účinků.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Cit Smrti &lt;span class=&#34;tooltiptext&#34;&gt;Odhalí mrtvoly, nemrtvé, duše, a místo nedávné smrti v okolí&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;vysátí nemrtvého &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel vysaje z cílového nemrtvého magickou energii, která ho udržuje při neživotě. Sesílateli toto doplňuje energii. Rychlost vysávání nemrtvého závisí na schopnostech sesílatele. Vysátý nemrtvý není tímto kouzlem zničen, pouze převeden zpět do mrtvého stavu. Energie získaná z tohoto kouzla nenese ničí esenci, dá se tedy snadno opakovat bez rizika vedlejších účinků. Pokud se sesílatel snaží vysát nemrtvého patřícího jinému mágovi, dochází k souboji vůle mezi oběma mágy. Schopnost chránit svého nemrtvého před vysátím jiným mágem závisí na schopnostech obou mágů a vzdálenosti majitele a jeho nemrtvého.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    🖐️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;tma &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel vytvoří v cílovém místě magickou tmu, ve které nikdo nic neuvidí. Běžné zdroje světla (louče, lampy, slunce&amp;hellip;) magickou tmu neprosvítí, při kontaktu s magickým světlem vítězí kouzlo schopnějšího mága.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;cit smrti &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel na chvíli získá magický smysl, kterým vnímá přítomnost smrti ve svém okolí. Odhalí mrtvoly, nemrtvé, duše, a výrazná místa nedávné smrti v okolí.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧙‍♂️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;pokročilá&#34;&gt;Pokročilá:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;slepota &lt;span class=&#34;tooltiptext&#34;&gt;Zasažená bytost nic neuvidí&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;slepota &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel prokleje cílovou bytost tak, že po dobu trvání kouzla nic neuvidí. Doba trvání prokletí závisí na situaci a schopnostech sesílatele.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
       🐈‍⬛
       &lt;span class=&#34;tooltiptext&#34;&gt;Prokletí&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;dezorientace &lt;span class=&#34;tooltiptext&#34;&gt;Zasažená bytost ztratí přehled o tom, kde je, a kterým směrem se má pohybovat&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;dezorientace &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel prokleje cílovou bytost tak, že po dobu trvání kouzla ztratí přehled o tom, kde je, a kterým směrem se má pohybovat. Doba trvání prokletí závisí na situaci a schopnostech sesílatele.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
       🐈‍⬛
       &lt;span class=&#34;tooltiptext&#34;&gt;Prokletí&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;nešikovnost &lt;span class=&#34;tooltiptext&#34;&gt;Zasažená bytost nebude schopná správně ovládat zbraně a nástroje a ztratí jemnou motoriku&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;nešikovnost &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel po dobu trvání kouzla výrazně zhorší schopnost cílové bytosti správně ovládat zbraně a nástroje, ta navíc ztratí jemnou motoriku. Doba trvání prokletí závisí na situaci a schopnostech sesílatele.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
       🐈‍⬛
       &lt;span class=&#34;tooltiptext&#34;&gt;Prokletí&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;ztráta rovnováhy &lt;span class=&#34;tooltiptext&#34;&gt;Zasažená bytost úplně ztratí smysl pro rovnováhu. Pokud vidí a je na rovné podlaze, tak se stěží udrží na nohou, jinak padá a nezvládne se zvednout&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;ztráta rovnováhy &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel po dobu trvání kouzla výrazně naruší rovnováhu cílové bytosti. Pokud vidí a je na rovné podlaze, tak se stěží udrží na nohou, jinak padá a nezvládne se zvednout. Doba trvání prokletí závisí na situaci a schopnostech sesílatele.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
       🐈‍⬛
       &lt;span class=&#34;tooltiptext&#34;&gt;Prokletí&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;strach &lt;span class=&#34;tooltiptext&#34;&gt;Zasažená bytost dostane strašlivý strach a bude se snažit hned zmizet z místa&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;strach &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel po dobu trvání kouzla naplní cílovou bytost zdrcujícím strachem. Různé cíle na strach mohou reagovat různě, od úprku přes zamrznutí až po brutální a nekoordinovaný útok. Doba trvání prokletí závisí na situaci a schopnostech sesílatele.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
       🐈‍⬛
       &lt;span class=&#34;tooltiptext&#34;&gt;Prokletí&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;horečka &lt;span class=&#34;tooltiptext&#34;&gt;Zasažená bytost onemocní horečkou, se všemi jejími projevy jako je únava, zimnice, lehká dezorientace.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
-    👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;křeč svalu &lt;span class=&#34;tooltiptext&#34;&gt;Zasažený kosterní sval se stáhne a přestane fungovat. Nejlépe funguje na část těla (stehno, předloktí&amp;hellip;). Cílit na konkrétní sval/větší množství svalů je náročnější&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
-    👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;vyčerpání &lt;span class=&#34;tooltiptext&#34;&gt;na cíl padne po dobu trvání kouzla únava, která oblivňuje fyzické i mentální schopnosti cíle&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;vyčerpání &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel dotykem po dobu trvání kouzla způsobí cílové bytosti těžkou únavu, která oblivňuje fyzické i mentální schopnosti cíle. Pokud je cílem mág, vyčerpání mu ztěžuje či zcela brání v kouzlení, ačkoliv fyzicky energii na kouzlení má. Doba trvání prokletí závisí na situaci a schopnostech sesílatele.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
       🐈‍⬛
       &lt;span class=&#34;tooltiptext&#34;&gt;Prokletí&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zranitelnost &lt;span class=&#34;tooltiptext&#34;&gt;Zásahy zbraněmi a kouzly způsobí větší zranění než by způsobily normálně&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zranitelnost &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel prokleje cílovou bytost tak, že jí zásahy zbraněmi a kouzly způsobí větší zranění než by způsobily normálně. Doba trvání prokletí závisí na situaci a schopnostech sesílatele.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
       🐈‍⬛
       &lt;span class=&#34;tooltiptext&#34;&gt;Prokletí&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;povolání ghůla &lt;span class=&#34;tooltiptext&#34;&gt;Přivolá ghůla, který poslouchá rozkazy sesílatele&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;povolání ghůla &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel vytvoří z mrtvoly v dohledu ghůla pod kontrolou sesílatele. Ghůl je základní bojový nemrtvý, který v procesu oživování získa ostřejší zuby, prsty se mu přetvoří na kostěné drápy a pánev se překroutí, aby lépe vyhovovala pohybu po čtyřech.  Ghůl je určen k boji a není vybaven inteligencí na plnění komplikovanějších příkazů. Naopak v boji či při sledování umí dobře fungovat jako smečka. Ghůlové se rychle pohybují po čtyřech, dobře skáčou a šplhají. Navíc mají zostřené smysly na detekci živých, což jim umožňuje dobře se orientovat i ve tmě, včetně magické tmy. V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu a vyžadují dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🧟
     &lt;span class=&#34;tooltiptext&#34;&gt;Nemrtvý&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;oživ středně velkého tvora (do velikosti velkého psa) &lt;span class=&#34;tooltiptext&#34;&gt;Z tvora se stane nemrtvý pod kontrolou sesílatele&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;oživ středně velkého tvora &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel ze středně velkého mrtvého tvora (do velikosti velkého psa) vytvoří nemrtvého pod kontrolou sesílatele. Tento tvor je ve vykonávání příkazů omezen inteligencí, jakou měl před smrtí, a fyzickými omezeními.  Pro svou dobrou inteligenci jsou oblíbené psovité a lasicovité šelmy. V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu a vyžadují dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🧟
     &lt;span class=&#34;tooltiptext&#34;&gt;Nemrtvý&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Spoutání Duše Ke Svojí Vůli &lt;span class=&#34;tooltiptext&#34;&gt;Přivolaná duše bude poslouchat rozkazy sesílatele&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;oživ člověka &lt;span class=&#34;tooltiptext&#34;&gt;Z mrtvého těla se stává nemrtvý pod kontrolou sesílatele. Myslím, že jsme se někdy bavili o tom, že si tihle nemrtví zachovávají některé schopnosti, jako třeba kovář, ale idk jestli to pořád platí&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;spoutání duše ke svojí vůli &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel podstoupí souboj vůle s duší povolanou pomocí kouzla &lt;em&gt;&lt;strong&gt;Povolání duše&lt;/strong&gt;&lt;/em&gt;. Pokud uspěje, převede duši pod svou kontrolu. Duše pod kontrolou sesílatele se mu nemůže vzepřít, odpovídá na jeho otázky a dělá, co jí sesílatel přikáže. Vzhledem k jejímu nehmotnému stavu je služba od duše limitovaná na příjemného konverzačního partnera.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;oživ člověka &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel z mrtvého humanoida vytvoří nemrtvého pod kontrolou sesílatele. Tímto kouzlem je možno oživit libovolného inteligentního humanoida velikostně srovnatelného s člověkem (orka ještě ano, krola už ne) Cílový nemrtvý je ve vykonávání příkazů omezen inteligencí, jakou měl před smrtí, a fyzickými omezeními. Nemrtvý si zachovává mundání schopnosti, které měl před smrtí (kovář bude umět stále stejně vykovat meč apod.), ale nevztahuje se na schopnost nemrtvých mágů kouzlit. V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu a vyžadují dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🧟
     &lt;span class=&#34;tooltiptext&#34;&gt;Nemrtvý&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Jed Do Nemrtvého &lt;span class=&#34;tooltiptext&#34;&gt;Napustí nemrtvého jedem. Všechna zranění jím způsobená budou otrávená a exploze takového nemrtvého rozmetá jed po okolí&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;smrtelný jed &lt;span class=&#34;tooltiptext&#34;&gt;Na dotyk nebo na zbraň, bude se postupně šířit z místa dotyku/zranění, až zasaženého zabije&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
-    🗡️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Zbraň&lt;/span&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;jed do nemrtvého &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel pohledem sešle jedové kouzlo, které zná, na nemrtvého pod svou kontrolou. Všechna zranění nemrtvým způsobená budou otrávená a exploze takového nemrtvého rozmetá jed po okolí.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
       ☠️
       &lt;span class=&#34;tooltiptext&#34;&gt;Jed&lt;/span&gt;
+  &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;smrtelný jed &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel dorykem očaruje cílovou zbraň magickým jedem, který při zásahu zbraní postupně od místa zranění způsobuje nekrózu svalů zasažené bytosti, až na konec cíl zabije. Lze seslat též dotykem ruky, kdy si lze do role zbraně dosadit sesílatelův nehet. V takovém případě se ale musí dotknout kůže, nefunguje přes textil. Rychlost šíření jedu závisí na rozsahu rány a schopnostech sesílatele.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    🖐️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
+      🗡️
+      &lt;span class=&#34;tooltiptext&#34;&gt;Zbraň&lt;/span&gt;
   &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🖐️
-      &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
+      ☠️
+      &lt;span class=&#34;tooltiptext&#34;&gt;Jed&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;dusivý oblak &lt;span class=&#34;tooltiptext&#34;&gt;vytvoří v cílové oblasti magický oblak dráždivého plynu, který dusí ty, kteří se ho nadýchají. Efekt oblaku je podobný jako kouř z ohně.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;dusivý oblak &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel vytvoří v cílové oblasti magický oblak dráždivého plynu, který dusí ty, kteří se ho nadýchají. Efekt oblaku je podobný jako kouř z ohně a při krátké expozici se se nemagicky špatně odstraňuje z těla zasaženého, jeho efekt trvá pár dní. Dokud oblaku sesílatel věnuje plnou pozornost, je schopen držet ho na cílovém místě a pomalu s ním hýbat. Při přerušení koncentrace se oblak volně šíří s větrem a už ho nejde znovy získat pod kontrolu. Potence jedu je závislá na schopnostech sesílatele a době expozice.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
       ☠️
       &lt;span class=&#34;tooltiptext&#34;&gt;Jed&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;tržná rána &lt;span class=&#34;tooltiptext&#34;&gt;Způsobí hlubokou ránu v místě dotyku&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;horečka &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel po dobu trvání kouzla způsobí bytosti horečku se všemi jejími projevy jako je únava, zimnice, lehká dezorientace. Doba trvání kouzla závisí na schopnostech sesílatele.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;křeč svalu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel pohledem donutí cílový kosterní sval se stáhnout a ten přestane fungovat. Nejlépe funguje na část těla (stehno, předloktí&amp;hellip;).  Cílit na konkrétní sval/větší množství svalů je náročnější.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;tržná rána &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel dotykem způsobí cíli hlubokou tržnou ránu v místě dotyku.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;vidění ve tmě &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel uvidí ve tmě (včetně magické tmy) jako za jasného dne&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;vidění ve tmě &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel získá magický zrak, kterým vidí ve tmě (včetně magické tmy) jako za jasného dne.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🧙‍♂️
     &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
@@ -1381,60 +1402,63 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;mistrovská&#34;&gt;Mistrovská:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;neštěstí &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel prokleje cíl neštěstím. Neštěstí se může projevovat nešťastnou trajektorií vlastních i nepřátelských projektilů a obecně vlivem náhodného elementu v neprospěch cíle. Doba trvání prokletí podle situace.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;neštěstí &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel prokleje cíl neštěstím, které ho bude sužovat, dokud prokletí trvá. Neštěstí se může projevovat nešťastnou trajektorií vlastních i nepřátelských projektilů a obecně vlivem náhodného elementu v neprospěch cíle.  Doba trvání prokletí závisí na situaci a schopnostech sesílatele.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
       🐈‍⬛
       &lt;span class=&#34;tooltiptext&#34;&gt;Prokletí&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;mdloby &lt;span class=&#34;tooltiptext&#34;&gt;Zasažený okamžitě ztratí vědomí&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;mdloby &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel prokleje cílový organismus tak, že cíl okamžitě ztratí vědomí a není schopen se probrat, dokud prokletí trvá. Doba trvání prokletí závisí na situaci a schopnostech sesílatele.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
       🐈‍⬛
       &lt;span class=&#34;tooltiptext&#34;&gt;Prokletí&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;vyčerpání &lt;span class=&#34;tooltiptext&#34;&gt;na cíl padne po dobu trvání kouzla únava, která oblivňuje fyzické i mentální schopnosti cíle&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;vyčerpání &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel pohledem po dobu trvání kouzla způsobí cílové bytosti těžkou únavu, která oblivňuje fyzické i mentální schopnosti cíle. Pokud je cílem mág, vyčerpání mu ztěžuje či zcela brání v kouzlení, ačkoliv fyzicky energii na kouzlení má. Doba trvání prokletí závisí na situaci a schopnostech sesílatele.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
       🐈‍⬛
       &lt;span class=&#34;tooltiptext&#34;&gt;Prokletí&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;smrtící oblak &lt;span class=&#34;tooltiptext&#34;&gt;vytvoří v cílové oblasti magický oblak jedovatého plynu, který otráví ty, kteří se ho nadýchají. Potence jedu je závislá na schopnostech sesílatele a době expozice.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;oživ organismus &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel z libovolně velkého mrtvého tvora (velikost nemrtvého určuje náročnost) vytvoří nemrtvého pod kontrolou sesílatele. Tento tvor je ve vykonávání příkazů omezen inteligencí, jakou měl před smrtí, a fyzickými omezeními.  Umožňuje oživit i inteligentní či pseudo-inteligentní humanoidy znatelně větší než člověk (krol, trol). V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu a vyžadují dramaticky více energie.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    🧟
+    &lt;span class=&#34;tooltiptext&#34;&gt;Nemrtvý&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;spoutání duše/nemrtvého k vůli jiného &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel se vzdá kontroly nad duší nebo nemrtvým a přiváže ho k vůli někoho jiného. Novým pánem nemrtvého může být kdokoliv, nemusí ovládat magii smrti. Převést nemrtvého pod kontrolu kontramága stále vyžaduje nejdříve kontramága prokouzlit do bezvědomí. Nemrtvý bude poslouchat pokyny svého nového pána, jakkoliv mu je pán je schopen předat. Tzn. jiní mágové smrti mohou nemrtvého ovládat myšlenkou, mágové mysli zase třeba sugescemi.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;smrtící oblak &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel vytvoří v cílové oblasti magický oblak jedovatého plynu, který otráví ty, kteří se ho nadýchají. Jed se dobře váže do krve a i při krátké expozici se se nemagicky špatně odstraňuje z těla zasaženého, jeho efekt trvá pár dní. I pokud je expozice velmi krátká a účinky jedu nejsou smrtící, zasažený trpí neskutečnými bolestmi, které ho vyřazují z běžného provozu. Dokud oblaku sesílatel věnuje plnou pozornost, je schopen držet ho na cílovém místě a pomalu s ním hýbat. Při přerušení koncentrace se oblak volně šíří s větrem a už ho nejde znovy získat pod kontrolu. Potence jedu je závislá na schopnostech sesílatele a době expozice.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
       ☠️
       &lt;span class=&#34;tooltiptext&#34;&gt;Jed&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;paralýza &lt;span class=&#34;tooltiptext&#34;&gt;Zasaženému okamžitě přestanou fungovat všechny svaly kromě dýchacích&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;paralýza &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel po dobu trvání kouzla uvede cílovou bytost do nehybného stavu tím, že cíli okamžitě přestanou fungovat všechny svaly kromě dýchacích. Doba trvání závisí na schopnostech sesílatele. Energetická náročnost závisí na velikosti cílové bytosti.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;oživ organismus &lt;span class=&#34;tooltiptext&#34;&gt;Z jakkoli velké mrtvoly se stane nemrtvý pod kontrolou sesílatele&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
-    🧟
-    &lt;span class=&#34;tooltiptext&#34;&gt;Nemrtvý&lt;/span&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;tržná rána &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel pohledem způsobí cíli hlubokou tržnou ránu.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;Spoutání Duše/Nemrtvého K Vůli Jiného &lt;span class=&#34;tooltiptext&#34;&gt;Převede kontrolu nad duší/nemrtvým ze sesílatele na vybraný cíl&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;značka smrti &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv. &lt;em&gt;&lt;strong&gt;Značka života&lt;/strong&gt;&lt;/em&gt; trvá věčně, ale sesílatel současně může mít pouze tolik značek, kolik si dokáže okamžitě kdykoliv vybavit, v případě zapomnění značka zaniká.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;vysátí energie pohledem &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel získává možnost sesílat své libovolné vysávající kouzlo pohledem.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    👁️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;vidění ve tmě - ostatní &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel po dobu trvání kouzla dodává cílové bytosti magický zrak, kterým vidí ve tmě (včetně magické tmy) jako za jasného dne. Umožní vybranému cíli vidět ve tmě (včetně magické tmy) jako za jasného dne.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
+    🖐️
+    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;značka smrti &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv. &lt;em&gt;&lt;strong&gt;Značka smrti&lt;/strong&gt;&lt;/em&gt; trvá věčně, ale sesílatel současně může mít pouze tolik značek, kolik si dokáže okamžitě kdykoliv vybavit, v případě zapomnění značka zaniká. Vyžaduje sesílatelovu plnou koncentraci.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🧘
     &lt;span class=&#34;tooltiptext&#34;&gt;Soustředění&lt;/span&gt;
 &lt;/span&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;tržná rána &lt;span class=&#34;tooltiptext&#34;&gt;Způsobí hlubokou ránu na vybraném místě&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
-    👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;vysátí života &lt;span class=&#34;tooltiptext&#34;&gt;Převádí životní sílu zasaženého sesílateli, doplňuje energii&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
-    👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;vidění ve tmě - ostatní &lt;span class=&#34;tooltiptext&#34;&gt;Umožní vybranému cíli vidět ve tmě (včetně magické tmy) jako za jasného dne&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
-    👁️
-    &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
-&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>
