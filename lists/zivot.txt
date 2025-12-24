@@ -19,7 +19,7 @@ základní:
 	příkaz neživému - následování -- dohled
 	zrušení příkazu neživému -- dohled
 	zapuzení neživého -- dotyk
-	proud světla
+	proud světla -- projektil
 	cit života -- sesílatel
 	cit neživých -- sesílatel
 pokročilá:

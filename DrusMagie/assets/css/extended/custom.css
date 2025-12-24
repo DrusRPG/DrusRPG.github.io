@@ -55,7 +55,7 @@
     position: absolute;
     z-index: 1;
     bottom: 125%; /* Position the tooltip above the icon */
-    left: 50%;
+    left: 15%;
     margin-left: -60px; /* Half of the width to center it */
     opacity: 0;
     transition: opacity 0.3s; /* Smooth fade-in */
