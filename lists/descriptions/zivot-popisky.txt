@@ -1,132 +1,192 @@
 základní:
 	požehnání rychlosti -- dotyk -- požehnání
-		- Sesílatel zvýší fyzickou rychlost pohybu cíle kouzla. Doba trvání požehnání přibližně jedna pronásledovací sekvence. Všechna požehnání jsou v základu na dotyk.
+		- Sesílatel zvýší fyzickou rychlost pohybu cíle kouzla. 
+		- Doba trvání požehnání přibližně jedna pronásledovací sekvence. 
+		- Všechna požehnání jsou v základu na dotyk.
 	požehnání síly -- dotyk -- požehnání
-		- Sesílatel zvýší fyzickou sílu cíle kouzla. Doba trvání požehnání přibližně jedna potyčka, boj. Všechna požehnání jsou v základu na dotyk.
+		- Sesílatel zvýší fyzickou sílu cíle kouzla. 
+		- Doba trvání požehnání přibližně jedna potyčka, boj. 
+		- Všechna požehnání jsou v základu na dotyk.
 	požehnání zraku -- dotyk -- požehnání
-		- Sesílatel posílí přirozenou schopnost cíle vidět. Zlepšení zraku především v šeru a horších optických podmínkách. Zlepšuje rozeznávání objektů na dálku. Doba trvání požehnání podle situace. Všechna požehnání jsou v základu na dotyk.
+		- Sesílatel posílí přirozenou schopnost cíle vidět. 
+		- Zlepšení zraku především v šeru a horších optických podmínkách. Zlepšuje rozeznávání objektů na dálku. 
+		- Doba trvání požehnání podle situace. 
+		- Všechna požehnání jsou v základu na dotyk.
 	požehnání sluchu -- dotyk -- požehnání
-		- Sesílatel posílí přirozenou schopnost cíle slyšet. Schopnost vnímat tiší zvuky, lépe lokalizovat zdroj zvuku, lépe porozumět tiché řeči například při odposlechu. Doba trvání požehnání podle situace. Všechna požehnání jsou v základu na dotyk.
+		- Sesílatel posílí přirozenou schopnost cíle slyšet. 
+		- Schopnost vnímat tiší zvuky, lépe lokalizovat zdroj zvuku, lépe porozumět tiché řeči například při odposlechu. 
+		- Doba trvání požehnání podle situace. 
+		- Všechna požehnání jsou v základu na dotyk.
 	požehnání přitažlivosti -- dotyk -- požehnání
-		- Sesílatel posílí přirozenou fyzickou atraktivitu cíle. Vhodné v situacích jako je svádění či odlákání pozornosti. Doba trvání požehnání podle situace. Všechna požehnání jsou v základu na dotyk.
+		- Sesílatel posílí přirozenou fyzickou atraktivitu cíle. 
+		- Vhodné v situacích jako je svádění či odlákání pozornosti. 
+		- Doba trvání požehnání podle situace. 
+		- Všechna požehnání jsou v základu na dotyk.
 	požehnání výdrže -- dotyk -- požehnání
-		- Sesílatel zvýší fyzickou vytrvalost cíle. Umožňuje déle vykonávat náročné aktivity jako například běh, boj či sesílání kouzel. Doba trvání požehnání podle situace. Všechna požehnání jsou v základu na dotyk.
+		- Sesílatel zvýší fyzickou vytrvalost cíle. 
+		- Umožňuje déle vykonávat náročné aktivity jako například běh, boj či sesílání kouzel. 
+		- Doba trvání požehnání podle situace. 
+		- Všechna požehnání jsou v základu na dotyk.
 	požehnání zručnosti -- dotyk - koordinace pohybů -- požehnání
-		- Sesílatel zlepší schopnost cíle koordinovat své pohyby. Pomáhá v situacích jako je akrobacie, rovnováha, šplh, úskoky a vrhání. Doba trvání požehnání přibližně jedna potyčka, boj. Všechna požehnání jsou v základu na dotyk.
+		- Sesílatel zlepší schopnost cíle koordinovat své pohyby. 
+		- Pomáhá v situacích jako je akrobacie, rovnováha, šplh, úskoky a vrhání. 
+		- Doba trvání požehnání přibližně jedna potyčka, boj. 
+		- Všechna požehnání jsou v základu na dotyk.
 	požehnání neživému -- dotyk -- požehnání
-		- Sesílatel sešle jiné požehnání, které zná, cílené na neživého. Bez tohoto kouzla není možné neživého požehnat a toto kouzlo samo o sobě požehnat nedokáže. Vhodná požehnání jsou síla, rychlost a obratnost. Všechna požehnání jsou v základu na dotyk.
+		- Sesílatel sešle jiné požehnání, které zná, cílené na neživého. Bez tohoto kouzla není možné neživého požehnat a toto kouzlo samo o sobě požehnat nedokáže. 
+		- Vhodná požehnání jsou síla, rychlost a obratnost. 
+		- Všechna požehnání jsou v základu na dotyk.
 	zacelení ran -- dotyk -- léčení
-		- Sesílatel zacelí oděrky a rány na těle, spojí tkáň poškozené kůže, zastaví vlásečnicová krvácení. Toto kouzlo nedokáže obnovit větší poškození kůže, svalu, orgánu či kosti. Nedokáže zastavit masivní krvácení.
+		- Sesílatel zacelí oděrky a rány na těle, spojí tkáň poškozené kůže, zastaví vlásečnicová krvácení. 
+		- Toto kouzlo nedokáže obnovit větší poškození kůže, svalu, orgánu či kosti. 
+		- Nedokáže zastavit masivní krvácení, k tomu je potřeba nejdříve seslat ***Zastavení krvácení***.
 	zastavení krvácení -- dotyk -- léčení
-		- Sesílatel zastaví krvácení jakéhokoliv rozsahu, rozsah krvácení určuje náročnost kouzla. Toto kouzlo nedokáže obnovit velká poškození či ztráty cév viz ***Obnova orgánu***.
+		- Sesílatel zastaví krvácení jakéhokoliv rozsahu, rozsah krvácení určuje náročnost kouzla. 
+		- Toto kouzlo nedokáže obnovit velká poškození či ztráty cév viz ***Obnova orgánu***.
 	srůst kosti -- dotyk -- léčení
-		- Sesílatel propojí dvě či více rozlomené části kosti. U otevřených či tříštivých zlomenin nemusí být úlomky správně narovnané, to je třeba udělat fyzicky nebo lépe pomocí kouzla ***Narovnej kost.*** Toto kouzlo nedokáže nahradit chybějící části kostí, s čímž pomůže kouzlo ***Obnovit kost***.
+		- Sesílatel propojí dvě či více rozlomené části kosti. 
+		- U otevřených či tříštivých zlomenin nemusí být úlomky správně narovnané, to je třeba udělat fyzicky nebo lépe pomocí kouzla ***Narovnej kost.*** 
+		- Toto kouzlo nedokáže nahradit chybějící části kostí, s čímž pomůže kouzlo ***Obnovit kost***.
 	odhal jed -- dohled
-		- Sesílatel odhalí přítomnost a druh jedu v těle ať už živém či mrtvém. Delší dobu po smrti již nemusí být jed odhalitelný.
+		- Sesílatel odhalí přítomnost a druh jedu v těle ať už živém či mrtvém. 
+		- Delší dobu po smrti již nemusí být jed odhalitelný.
 	odhal nemoc -- dohled
-		- Odhal přítomnost a druh nemoci v těle ať už živém či mrtvém. Mezi nemoci spadají například zažívací potíže, chřipka, angína. Delší dobu po smrti již nemusí být nemoc odhalitelná.
+		- Odhal přítomnost a druh nemoci v těle ať už živém či mrtvém. 
+		- Mezi nemoci spadají například zažívací potíže, chřipka, angína. 
+		- Delší dobu po smrti již nemusí být nemoc odhalitelná.
 	odhal infekci -- dohled
-		- Sesílatel odhalí přítomnost a rozsah infekce či sepse v těle ať už živém či mrtvém. Delší dobu po smrti již nemusí být infekce odhalitelná.
+		- Sesílatel odhalí přítomnost a rozsah infekce či sepse v těle ať už živém či mrtvém. 
+		- Delší dobu po smrti již nemusí být infekce odhalitelná.
 	stvoření/povolání malého neživého -- neživý
-		- Sesílatel vytvoří neživého do velikosti loutky pomocí ***Stvoření malého neživého***. Neživý může být z materiálů dřevo, hlína, kámen nebo kov. Musí mít fyzickou podobnost s živým organismem (například brouk, loutka, pták, krysa). Neživý bude stále svázán fyzikálními vlastnostmi svého materiálu a tvaru (například pták nebude moct létat, i když má křídla). Po vytvoření neživého (vdechnutí mu života) ho sesílatel může kdykoliv znovu na pohled rozhýbat, ovládat (dávat mu pokyny, neverbální) a opět převést do nehybné formy pomocí ***Povolání neživého.***
+		- Sesílatel vytvoří neživého do velikosti loutky pomocí ***Stvoření malého neživého***. 
+		- Neživý může být z materiálů dřevo, hlína, kámen nebo kov. Musí mít fyzickou podobnost s živým organismem (například brouk, loutka, pták, krysa). 
+		- Neživý bude stále svázán fyzikálními vlastnostmi svého materiálu a tvaru (například pták nebude moct létat, i když má křídla). 
+		- Po vytvoření neživého (vdechnutí mu života) ho sesílatel může kdykoliv znovu na pohled rozhýbat, ovládat (dávat mu pokyny, neverbální) a opět převést do nehybné formy pomocí ***Povolání neživého.***
 	příkaz neživému - stráž -- dohled
-		- Sesílatel dá neživému příkaz, který platí až do ***Zrušení příkazu neživému.*** Neživý bude střežit nějaké místo nebo předmět zvolený sesílatelem, a v případě ohrožení začne fyzicky bránit.
+		- Sesílatel dá neživému příkaz, který platí až do ***Zrušení příkazu neživému***. Neživý bude střežit nějaké místo nebo předmět zvolený sesílatelem, a v případě ohrožení začne fyzicky bránit.
 	příkaz neživému - ochrana -- dohled
-		- Sesílatel dá neživému příkaz, který platí až do ***Zrušení příkazu neživému.*** Neživý bude chránit nějakou osobu zvolenou sesílatelem, a v případě ohrožení začne fyzicky bránit.
+		- Sesílatel dá neživému příkaz, který platí až do ***Zrušení příkazu neživému***. Neživý bude chránit nějakou osobu zvolenou sesílatelem, a v případě ohrožení začne fyzicky bránit.
 	příkaz neživému - následování -- dohled
-		- Sesílatel dá neživému příkaz, který platí až do ***Zrušení příkazu neživému.*** Neživý bude následovat nebo pronásledovat osobu nebo zvíře, které sesílatel zvolil.
+		- Sesílatel dá neživému příkaz, který platí až do ***Zrušení příkazu neživému***. Neživý bude následovat nebo pronásledovat osobu nebo zvíře, které sesílatel zvolil.
 	zrušení příkazu neživému -- dohled
 		- Sesílatel zruší dříve seslaný ***Příkaz neživému***, funguje na vlastní i cizí neživé (úspěch závisí na síle mága a neživého)
 	zapuzení neživého -- dotyk
 		- Sesílatel dotykem převede neživého zpět do dormantní (neaktivní) formy.
 	proud světla -- projektil
-		- Sesílatel vyšle z dlaně proud světla intenzity ekvivalentní pochodni. Magické světlo může procházet skrz magickou tmu.
+		- Sesílatel vyšle z dlaně proud světla intenzity ekvivalentní pochodni. 
+		- Magické světlo může procházet skrz magickou tmu.
 	cit života -- sesílatel
-		- Sesílatel na chvíli získá magický smysl, kterým vnímá životní energii a přítomnost živých organismů ve svém okolí. Detekuje humanoidy a zvířata. Nedetekuje mrtvé, nemrtvé a neživé.
+		- Sesílatel na chvíli získá magický smysl, kterým vnímá životní energii a přítomnost živých organismů ve svém okolí. 
+		- Detekuje humanoidy a zvířata. Nedetekuje mrtvé, nemrtvé a neživé.
 	cit neživých -- sesílatel
-		- Sesílatel na chvíli získá magický smysl, kterým vnímá imitaci životní energie, jež pohání neživé a odhal tak jejich přítomnost ve svém okolí. Detekuje pouze neživé, ale to v aktivním i dormantním stavu.
+		- Sesílatel na chvíli získá magický smysl, kterým vnímá imitaci životní energie, jež pohání neživé a odhal tak jejich přítomnost ve svém okolí. 
+		- Detekuje pouze neživé, ale to v aktivním i dormantním stavu.
 pokročilá:
 	požehnání přesnosti - jemná motorika -- dotyk -- požehnání
-		- Sesílatel zlepší schopnost **jemné motoriky** cíle. Pomáhá v situacích jako je míření střelných zbraní, odemykání zámků a kapsářství. Doba trvání požehnání podle situace. Všechna požehnání jsou v základu na dotyk.
+		- Sesílatel zlepší schopnost **jemné motoriky** cíle. 
+		- Pomáhá v situacích jako je míření střelných zbraní, odemykání zámků a kapsářství. 
+		- Doba trvání požehnání podle situace. 
+		- Všechna požehnání jsou v základu na dotyk.
 	utlumení bolesti -- dotyk -- požehnání
-		- Sesílatel utlumí vnímání bolesti cílem. Zlepšuje možnost boje se zraněním nebo výslech, uklidnění či ošetření zraněného. Všechna požehnání jsou v základu na dotyk.
+		- Sesílatel utlumí vnímání bolesti cílem. 
+		- Zlepšuje možnost boje se zraněním nebo výslech, uklidnění či ošetření zraněného. 
+		- Všechna požehnání jsou v základu na dotyk.
 	požehnání smyslů -- dotyk -- požehnání
-		- Sesílatel posílí všechny přirozené smysly cíle (sluch, zrak, čich, chuť a hmat). Všechny jsou požehnány jedním kouzlem, které je méně náročné než požehnání zraku a sluchu jednotlivě. Doba trvání požehnání podle situace. Všechna požehnání jsou v základu na dotyk.
+		- Sesílatel posílí všechny přirozené smysly cíle (sluch, zrak, čich, chuť a hmat). 
+		- Všechny jsou požehnány jedním kouzlem, které je méně náročné než požehnání zraku a sluchu jednotlivě. 
+		- Doba trvání požehnání podle situace. 
+		- Všechna požehnání jsou v základu na dotyk.
 	neoslnitelnost -- dotyk -- požehnání
-		- Sesílatel požehná cíl, který získá odolnost vůči oslnění z nadbytku světla. Funguje i v případě požehnání zraku. Doba trvání požehnání podle situace. Všechna požehnání jsou v základu na dotyk.
+		- Sesílatel požehná cíl, který získá odolnost vůči oslnění z nadbytku světla. F
+		- unguje i v případě požehnání zraku. 
+		- Doba trvání požehnání podle situace. 
+		- Všechna požehnání jsou v základu na dotyk.
 	magická zbroj -- dotyk -- požehnání
-		- Sesílatel obklopí sebou zvolený cíl magickou zbrojí. Magická zbroj pohlcuje fyzické zásahy tak jako například kyrys. Magické zbroj má výdrž podle uvážení mastera, ale standardně se může jednat o několik zásahů šipkou z kuše nebo několik seků mečem. Doba trvání magické zbroje, není-li dříve zničena, je přibližně jedna potyčka, boj. Všechna požehnání jsou v základu na dotyk.
+		- Sesílatel obklopí sebou zvolený cíl magickou zbrojí. Magická zbroj pohlcuje fyzické zásahy tak jako například kyrys. 
+		- Magické zbroj má výdrž podle uvážení mastera, ale standardně se může jednat o několik zásahů šipkou z kuše nebo několik seků mečem. 
+		- Doba trvání magické zbroje, není-li dříve zničena, je přibližně jedna potyčka, boj. 
+		- Všechna požehnání jsou v základu na dotyk.
 	narovnání kosti -- dotyk -- léčení
 		- Sesílatel magicky srovná všechny úlomky kosti v ráně v případě otevřených nebo tříštivých zlomenin pro správný ***Srůst kosti.***
 	obnova svalu -- dotyk -- léčení
-		- Sesílatel zhojí, zacelí a obnoví poškozený nebo zcela utržený sval nebo skupinu svalů včetně jejich šlach. Rozsah obnovy určuje náročnost kouzla.
+		- Sesílatel zhojí, zacelí a obnoví poškozený nebo zcela utržený sval nebo skupinu svalů včetně jejich šlach. 
+		- Rozsah obnovy určuje náročnost kouzla.
 	obnova kůže -- dotyk -- léčení
-		- Sesílatel obnoví poškozenou nebo ztracenou kůži, nejčastěji při popáleninách. Rozsah obnovy určuje náročnost kouzla.
+		- Sesílatel obnoví poškozenou nebo ztracenou kůži, nejčastěji při popáleninách. 
+		- Rozsah obnovy určuje náročnost kouzla.
 	uzdrav nemoc -- dotyk -- léčení
-		- Sesílatel uzdraví jednu konkrétní nemoc nebo symptomy nemoci, které se v těle cíle vyskytují. Mezi nemoci spadají například zažívací potíže, chřipka, angína.
+		- Sesílatel uzdraví jednu konkrétní nemoc nebo symptomy nemoci, které se v těle cíle vyskytují. 
+		- Mezi nemoci spadají například zažívací potíže, chřipka, angína.
 	odstraň infekci -- dotyk -- léčení
 		- Sesílatel odstraní z těla cíle zárodečné patogeny a zánět infikovaných ran.
 	odstraň jed -- dotyk -- léčení
 		- Sesílatel odstraní z těla cíle jed. Při sesílání musí sesílatel znát charakter jedu, který chce odstranit.
 	odhal těžkou nemoc -- dohled
-		- Sesílatel odhalí přítomnost a druh těžké nemoci v těle cíle, ať už živém či mrtvém. Mezi těžké nemoci spadají například dýmějový mor, tuberkulóza, černé neštovice. Delší dobu po smrti již nemusí být těžká nemoc odhalitelná.
+		- Sesílatel odhalí přítomnost a druh těžké nemoci v těle cíle, ať už živém či mrtvém. 
+		- Mezi těžké nemoci spadají například dýmějový mor, tuberkulóza, černé neštovice. 
+		- Delší dobu po smrti již nemusí být těžká nemoc odhalitelná.
 	stvoření/povolání středně velkého neživého -- neživý
-		- Sesílatel vytvoří neživého do velikosti velkého chrliče pomocí ***Stvoření středně velkého neživého***. Neživý může být z materiálů dřevo, hlína, kámen nebo kov. Musí mít fyzickou podobnost s živým organismem (například had, kočka, pes, chrlič). Neživý bude stále svázán fyzikálními vlastnostmi svého materiálu a tvaru (například chrlič nebude moct létat, i když má křídla). Po vytvoření neživého (vdechnutí mu života) ho sesílatel může kdykoliv znovu na pohled rozhýbat, ovládat (dávat mu pokyny, neverbální) a opět převést do nehybné formy pomocí ***Povolání neživého.***
+		- Sesílatel vytvoří neživého do velikosti velkého chrliče pomocí ***Stvoření středně velkého neživého***. 
+		- Neživý může být z materiálů dřevo, hlína, kámen nebo kov. Musí mít fyzickou podobnost s živým organismem (například had, kočka, pes, chrlič). 
+		- Neživý bude stále svázán fyzikálními vlastnostmi svého materiálu a tvaru (například chrlič nebude moct létat, i když má křídla). 
+		- Po vytvoření neživého (vdechnutí mu života) ho sesílatel může kdykoliv znovu na pohled rozhýbat, ovládat (dávat mu pokyny, neverbální) a opět převést do nehybné formy pomocí ***Povolání neživého.***
 	stvoření/povolání hejna malých neživých -- neživý
-		- Místo stvoření nebo povolávání jednotlivých malých neživých (do velikosti loutky) je sesílatel může stvořit nebo povolat hromadně. Hromadně (potenciálně i jednotlivce) zvládne na pohled stvořit/povolat malých neživých tolik, kolik jich udrží ve spojených dlaních, nebo deset, cokoliv je z těchto dvou hodnot větší. Celé hejno plní stejný příkaz, ale tento příkaz není potřeba sesílat na každého jednotlivě.
+		- Místo stvoření nebo povolávání jednotlivých malých neživých (do velikosti loutky) je sesílatel může stvořit nebo povolat hromadně. 
+		- Hromadně (potenciálně i jednotlivce) zvládne na pohled stvořit/povolat malých neživých tolik, kolik jich udrží ve spojených dlaních, nebo deset, cokoliv je z těchto dvou hodnot větší. 
+		- Celé hejno plní stejný příkaz, ale tento příkaz není potřeba sesílat na každého jednotlivě.
 	čtení paměti neživého -- dohled
-		- Sesílatel prohledá paměť neživého a získá z ní informace. Neživý je schopný vnímat výrazné osoby a události na místě, kde se nachází, zároveň intenzivně pamatuje jakékoliv přímé interakce s ním samotným v aktivním i dormantním stavu.
+		- Sesílatel prohledá paměť neživého a získá z ní informace. 
+		- Neživý je schopný vnímat výrazné osoby a události na místě, kde se nachází, zároveň intenzivně pamatuje jakékoliv přímé interakce s ním samotným v aktivním i dormantním stavu.
 	ovládnutí neživého -- dohled
-		- Sesílatel ovládne neživého vytvořeného jiným mágem. Umožní sesílateli po ovládnutí dávat neživému příkazy, jako by byl jeho stvořitelem. Šance na ovládnutí závisí na síle vůle sesílatele a stvořitele cílového neživého.
+		- Sesílatel ovládne neživého vytvořeného jiným mágem. 
+		- Umožní sesílateli po ovládnutí dávat neživému příkazy, jako by byl jeho stvořitelem. 
+		- Šance na ovládnutí závisí na síle vůle sesílatele a stvořitele cílového neživého.
 	aura světla -- dohled
-		- Z těla cíle začne vyzařovat aura světla o intenzitě ekvivalentní pochodní. Magické světlo může procházet skrz magickou tmu.
+		- Z těla cíle začne vyzařovat aura světla o intenzitě ekvivalentní pochodní. 
+		- Magické světlo může procházet skrz magickou tmu.
 	meditace -- soustředění
-		- Forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě. Vyžaduje sesílatelovu plnou koncentraci.
+		- Forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě. 
+		- Vyžaduje sesílatelovu plnou koncentraci.
 mistrovská:
 	štěstí -- dotyk -- požehnání
-		- Sesílatel požehná cíl štěstím. Štěstí se může projevovat příhodnou trajektorií vlastních i nepřátelských projektilů a obecně náklonem náhodného elementu ku prospěchu cíle. Doba trvání požehnání podle situace. Všechna požehnání jsou v základu na dotyk.
+		- Sesílatel požehná cíl štěstím. 
+		- Štěstí se může projevovat příhodnou trajektorií vlastních i nepřátelských projektilů a obecně náklonem náhodného elementu ku prospěchu cíle. 
+		- Doba trvání požehnání podle situace. 
+		- Všechna požehnání jsou v základu na dotyk.
 	neúnavnost -- dotyk -- požehnání
-		- Sesílatel požehná cíl schopností nepociťovat únavu. Cíl může neomezeně vykonávat náročné aktivity jako je boj, sprint či sesílání kouzel, bez jakéhokoliv omezení. Po vyprchání efektu požehnání se všechna využitá energie na dluh spotřebuje, což může v extrémních případ vyústit až v okamžitou smrt.
+		- Sesílatel požehná cíl schopností nepociťovat únavu. 
+		- Cíl může neomezeně vykonávat náročné aktivity jako je boj, sprint či sesílání kouzel, bez jakéhokoliv omezení. 
+		- Po vyprchání efektu požehnání se všechna využitá energie na dluh spotřebuje, což může v extrémních případ vyústit až v okamžitou smrt.
 	obnova orgánu -- dotyk -- léčení
-		- Sesílatel zhojí, zacelí a obnoví poškozený nebo zcela zničený orgán. Příklady cílů jsou probodnutá plíce, mozková mrtvice, poškození sítnice nebo vnitřní poranění břišní dutiny. Rozsah obnovy určuje náročnost kouzla.
+		- Sesílatel zhojí, zacelí a obnoví poškozený nebo zcela zničený orgán. 
+		- Příklady cílů jsou probodnutá plíce, mozková mrtvice, poškození sítnice nebo vnitřní poranění břišní dutiny. 
+		- Rozsah obnovy určuje náročnost kouzla.
 	obnova kosti -- dotyk -- léčení
-		- Sesílatel zhojí nebo obnoví závažně poškozenou nebo zcela chybějící kost. Rozsah obnovy určuje náročnost kouzla.
+		- Sesílatel zhojí nebo obnoví závažně poškozenou nebo zcela chybějící kost. 
+		- Rozsah obnovy určuje náročnost kouzla.
 	regenerace -- dotyk -- léčení
-		- Sesílatel posílí přirozenou regenerační schopnost cíle na nadlidskou úroveň. ***Regenerace*** nedokáže řešit akutní stavy je spíše vhodná pro méně závažná, ale rozsáhlá poranění.
+		- Sesílatel posílí přirozenou regenerační schopnost cíle na nadlidskou úroveň. 
+		- ***Regenerace*** nedokáže řešit akutní stavy je spíše vhodná pro méně závažná, ale rozsáhlá poranění.
 	uzdrav těžkou nemoc -- dotyk -- léčení
-		- Sesílatel uzdraví jednu konkrétní těžkou nemoc nebo symptomy těžké nemoci, které se v těle cíle vyskytují. Mezi těžké nemoci spadají například dýmějový mor, tuberkulóza, černé neštovice.
+		- Sesílatel uzdraví jednu konkrétní těžkou nemoc nebo symptomy těžké nemoci, které se v těle cíle vyskytují. 
+		- Mezi těžké nemoci spadají například dýmějový mor, tuberkulóza, černé neštovice.
 	stvoření/povolání velkého neživého -- neživý
-		- Sesílatel vytvoří neživého bez limitu velikosti (velikost neživého určuje náročnost) pomocí ***Stvoření velkého neživého***. Neživý může být z materiálů dřevo, hlína, kámen nebo kov. Musí mít fyzickou podobnost s živým organismem (například socha, medvěd, strom, wyverna). Neživý bude stále svázán fyzikálními vlastnostmi svého materiálu a tvaru (například wyverna nebude moct létat, i když má křídla). Po vytvoření neživého (vdechnutí mu života) ho sesílatel může kdykoliv znovu na pohled rozhýbat, ovládat (dávat mu pokyny, neverbální) a opět převést do nehybné formy pomocí ***Povolání neživého.***
+		- Sesílatel vytvoří neživého bez limitu velikosti (velikost neživého určuje náročnost) pomocí ***Stvoření velkého neživého***. 
+		- Neživý může být z materiálů dřevo, hlína, kámen nebo kov. Musí mít fyzickou podobnost s živým organismem (například socha, medvěd, strom, wyverna). 
+		- Neživý bude stále svázán fyzikálními vlastnostmi svého materiálu a tvaru (například wyverna nebude moct létat, i když má křídla). 
+		- Po vytvoření neživého (vdechnutí mu života) ho sesílatel může kdykoliv znovu na pohled rozhýbat, ovládat (dávat mu pokyny, neverbální) a opět převést do nehybné formy pomocí ***Povolání neživého.***
 	stvoření/povolání hejna středních neživých -- neživý
-		- Místo stvoření nebo povolávání jednotlivých středních neživých (do velikosti velkého chrliče) je sesílatel může stvořit nebo povolat hromadně. Hromadně (potenciálně i jednotlivce) zvládne na pohled stvořit/povolat středně velkých neživých tolik, kolik se jich vejde do prostorné latríny, nebo 7, cokoliv je z těchto dvou hodnot větší. Celé hejno plní stejný příkaz, ale tento příkaz není potřeba sesílat na každého jednotlivě.
+		- Místo stvoření nebo povolávání jednotlivých středních neživých (do velikosti velkého chrliče) je sesílatel může stvořit nebo povolat hromadně. 
+		- Hromadně (potenciálně i jednotlivce) zvládne na pohled stvořit/povolat středně velkých neživých tolik, kolik se jich vejde do prostorné latríny, nebo 7, cokoliv je z těchto dvou hodnot větší. 
+		- Celé hejno plní stejný příkaz, ale tento příkaz není potřeba sesílat na každého jednotlivě.
 	neživá zbroj -- neživý
-		- Sesílatel vytvoří neživého v podobě zbroje, která kopíruje jeho tělo, a hýbe se společně se sesílatelem. Neživý může být z materiálů dřevo, hlína, kámen nebo kov.
+		- Sesílatel vytvoří neživého v podobě zbroje, která kopíruje jeho tělo, a hýbe se společně se sesílatelem. 
+		- Neživý může být z materiálů dřevo, hlína, kámen nebo kov.
 	pomoc živých tvorů -- dohled
-		- Sesílatel se magicky propojí se živými zvířaty v okolí a vnutí jim pocit, že patří do jejich smečky/hejna. V případě ohrožení sesílatele ho zvířata mohou bránit. Lépe funguje na méně inteligentní zvířata, efekt na vyšší savce je menší, efekt na tvora dostatečně inteligentního, aby byl schopen řeči, je zanedbatelný.
+		- Sesílatel se magicky propojí se živými zvířaty v okolí a vnutí jim pocit, že patří do jejich smečky/hejna.
+		-  V případě ohrožení sesílatele ho zvířata mohou bránit. 
+		- Lépe funguje na méně inteligentní zvířata, efekt na vyšší savce je menší, efekt na tvora dostatečně inteligentního, aby byl schopen řeči, je zanedbatelný.
 	značka života -- soustředění
-		- Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv. ***Značka života*** trvá věčně, ale sesílatel současně může mít pouze tolik značek, kolik si dokáže okamžitě kdykoliv vybavit, v případě zapomnění značka zaniká.
-velmistrovská:
-	dlouhodobé požehnání -- požehnání
-		- Sesílatel sešle na cíl jiné požehnání za cenu enormního množství energie. Energie do kouzla vložená se uvolňuje postupně po delší dobu. Doba trvání kouzla záleží na schopnostech sesílatele, rámcově několik dní až několik měsíců.
-	požehnání pohledem -- dohled -- požehnání
-		- Umožní sesílateli sesílat požehnání pohledem místo dotyku. Seslat stejné kouzlo pohledem je asi o trochu náročnější oproti dotyku.
-	aura požehnání -- sesílatel -- požehnání -- soustředění
-		- Sesílatel po dobu udržování kouzla může sesílat zvolené požehnání na všechny živé bytosti ve svém blízkém okolí. Rozsah oblasti kouzla záleží na schopnostech sesílatele, typicky 10 metrů. Síla požehnání a doba trvání kouzla dramaticky zvyšují energetickou náročnost. Vyžaduje sesílatelovu plnou koncentraci.
-	oživení -- dotyk -- léčení
-		- Sesílatel dotykem oživí cíl krátce po jeho smrti. Je potřeba v první řadě odstranit příčinu úmrtí, jinak cíl zemře okamžitě znovu. Delší dobu po smrti již nelze cíl oživit.
-	zhojení -- dotyk -- léčení -- soustředění
-		- Sesílatel cíli po dobu udržování kouzla hojí všechna zranění svalů, kůže, kostí i orgánů. Doplňuje chybějící tělní tekutiny a odstraňuje jedy. Rozsah zranění a doba trvání kouzla dramaticky zvyšují energetickou náročnost, která je už v základu značná. Vyžaduje sesílatelovu plnou koncentraci.
-	dlouhodobé léčení -- léčení
-		- Sesílatel sešle na cíl jiné léčivé kouzlo za cenu enormního množství energie. Energie do kouzla vložená se uvolňuje postupně po delší dobu. Doba trvání kouzla záleží na schopnostech sesílatele, rámcově několik dní až několik měsíců.
-	léčení pohledem -- dohled -- léčení
-		- Umožní sesílateli sesílat léčivá kouzla pohledem místo dotyku. Seslat stejné kouzlo pohledem je asi o polovinu náročnější oproti dotyku.
-	aura léčení -- sesílatel -- léčení -- soustředění
-		- Sesílatel po dobu udržování kouzla může sesílat zvolené léčivé kouzlo na všechny živé bytosti ve svém blízkém okolí. Rozsah oblasti kouzla záleží na schopnostech sesílatele, typicky 10 metrů. Rozsah zranění a doba trvání kouzla dramaticky zvyšují energetickou náročnost. Vyžaduje sesílatelovu plnou koncentraci.
-	stvoření/povolání hejna velkých neživých -- neživý
-		- Místo stvoření nebo povolávání jednotlivých velkých neživých je sesílatel může stvořit nebo povolat hromadně. Hromadně (potenciálně i jednotlivce) zvládne na pohled stvořit/povolat středně velkých neživých tolik, kolik se jich vejde na verandu na Roxaně, nebo 5, cokoliv je z těchto dvou hodnot větší. Celé hejno plní stejný příkaz, ale tento příkaz není potřeba sesílat na každého jednotlivě.
-	hromadné ovládnutí neživého -- dohled
-		- Sesílatel ovládne v okolí všechny neživé vytvořené jinými mágy. Umožní sesílateli po ovládnutí dávat neživým příkazy, jako by byl jeho stvořitelem. Šance na ovládnutí cizích neživých závisí na síle vůle sesílatele a stvořitele cílového neživého.
-	hromadný příkaz neživým -- dohled -- soustředění
-		- Sesílatel může po dobu sesílání kouzla rozkazovat všem neživým ve svém okolí a každému dávat příkazy nezávisle. Množství neživých, které může sesílatel ovládat najednou, je silně závislý na schopnostech uživatele, stejně jako náročnost kouzla. Vyžaduje sesílatelovu plnou koncentraci.
-	ochočení živého tvora -- dohled
-		- Sesílatel se magicky propojí se živými zvířaty v okolí a ochočí si je. Ochočená zvířata budou sesílatele dlouhodobě vnímat pozitivně a snažit se mu vyhovět, ačkoliv špatné zacházení ze strany sesílatele může tento proces rychle zvrátit. Lépe funguje na méně inteligentní zvířata, efekt na vyšší savce je menší, efekt na tvora dostatečně inteligentního, aby byl schopen řeči, je zanedbatelný.
+		- Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv. 
+		- ***Značka života*** trvá věčně, ale sesílatel současně může mít pouze tolik značek, kolik si dokáže okamžitě kdykoliv vybavit, v případě zapomnění značka zaniká. 
+		- Vyžaduje sesílatelovu plnou koncentraci.

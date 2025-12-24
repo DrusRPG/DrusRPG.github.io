@@ -1,12 +1,17 @@
 základní:
 	neslyšitelnost -- sesílatel -- iluze
-		- Sesílatel všechny cíle v okolí ošálí iluzí, která neguje zvuky, které sesílatel vydává. Cíle tak sesílatele neuslyší. Sesílatel si musí být cíle vědom, aby ten byl ovlivněn.
+		- Sesílatel všechny cíle v okolí ošálí iluzí, která neguje zvuky, které sesílatel vydává. Cíle tak sesílatele neuslyší. 
+		- Sesílatel si musí být cíle vědom, aby ten byl ovlivněn.
 	iluze vůně/pachu/chuti -- dohled -- iluze
-		- Sesílatel ošálí cíl iluzí, která způsobí, že cíl cítí sesílatelem zvolený čichový nebo chuťový vjem. Sesílatel může po dobu trvání kouzla vjemy měnit.
+		- Sesílatel ošálí cíl iluzí, která způsobí, že cíl cítí sesílatelem zvolený čichový nebo chuťový vjem. 
+		- Sesílatel může po dobu trvání kouzla vjemy měnit.
 	iluze zvuku -- dohled -- iluze
-		- Sesílatel ošálí cíl iluzí, která způsobí, že cíl slyší sesílatelem zvolený zvukový vjem. Sesílatel může po dobu trvání kouzla vjemy měnit.
+		- Sesílatel ošálí cíl iluzí, která způsobí, že cíl slyší sesílatelem zvolený zvukový vjem. 
+		- Sesílatel může po dobu trvání kouzla vjemy měnit.
 	malá zraková iluze -- dohled -- iluze
-		- Sesílatel ošálí cíl iluzí, která způsobí, že cíl slyší sesílatelem zvolený obraz. Sesílatel může po dobu trvání kouzla vjemy měnit, včetně hýbání daným obrazem. Obraz může mít zhruba velikost člověka.
+		- Sesílatel ošálí cíl iluzí, která způsobí, že cíl slyší sesílatelem zvolený obraz. 
+		- Sesílatel může po dobu trvání kouzla vjemy měnit, včetně hýbání daným obrazem. 
+		- Obraz může mít zhruba velikost člověka.
 	sugesce únavy -- dohled -- sugesce
 		- Sesílatel vnutí cíli pocit únavy, chuti usnout, včetně fyzických projevů jako snížení pozornosti nebo zpomalení reflexů.
 	sugesce povzbuzení -- dohled -- sugesce
@@ -14,34 +19,48 @@ základní:
 	sugesce odhodlání -- dohled -- sugesce
 		- Sesílatel vnutí cíli pocit důležitosti dosáhnout současného cíle, vede k větší rozhodnosti, houževnatosti a pevnější vůli.
 	sugesce myšlenky -- dohled -- sugesce
-		- Sesílatel vnukne cíli danou myšlenku. Pokud je myšlenka v rozporu s přesvědčením nebo přirozeností cíle, rychle ji cíl zavrhne.
+		- Sesílatel vnukne cíli danou myšlenku. 
+		- Pokud je myšlenka v rozporu s přesvědčením nebo přirozeností cíle, rychle ji cíl zavrhne.
 	sugesce strachu -- dohled -- sugesce
-		- Sesílatel vnutí cíli pocit akutního strachu z nebezpečí. Různé cíle mohou na strach reagovat různě.
+		- Sesílatel vnutí cíli pocit akutního strachu z nebezpečí. 
+		- Různé cíle mohou na strach reagovat různě.
 	sugesce klidu -- dohled -- sugesce
-		- Sesílatel vnutí cíli pocit bezpečí a klidu. Mírní vášně, pokud nejsou příliš silné.
+		- Sesílatel vnutí cíli pocit bezpečí a klidu. 
+		- Mírní vášně, pokud nejsou příliš silné.
 	čtení současné myšlenky -- dohled -- mentální_magie
-		- Na krátkou dobu umožní sesílateli znát současné myšlenky cíle. Pokud cíl a sesílatel přemýšlí hodně odlišně, může být pro sesílatele náročné tyto myšlenky interpretovat.
+		- Na krátkou dobu umožní sesílateli znát současné myšlenky cíle. 
+		- Pokud cíl a sesílatel přemýšlí hodně odlišně, může být pro sesílatele náročné tyto myšlenky interpretovat.
 	mentální útok -- dohled -- mentální_magie
-		- Sesílatel současně působí na cíl několika výraznými smyslovými vjemy působícími na všechny smysly. Způsobuje dezorientaci, zkušený mág může silným útokem způsobit cíli mdloby.
+		- Sesílatel současně působí na cíl několika výraznými smyslovými vjemy působícími na všechny smysly. 
+		- Způsobuje dezorientaci, zkušený mág může silným útokem způsobit cíli mdloby.
 	hypnóza - spánek -- hypnóza
-		- Sesílatel udržující s cílem nepřerušený oční kontakt může ovlivnit stav vědomí cíle a využít toho k jeho uspání. Rychlost zhypnotizování a délka efektu závisí na schopnostech sesílatele.
+		- Sesílatel udržující s cílem nepřerušený oční kontakt může ovlivnit stav vědomí cíle a využít toho k jeho uspání. 
+		- Rychlost zhypnotizování a délka efektu závisí na schopnostech sesílatele.
 	telekineze - předmět -- dohled -- soustředění
-		- Umožňuje sesílateli pomalu a plynule pohybovat cílovým předmětem. Pohybování většími objekty je energeticky náročnější. Vyžaduje sesílatelovu plnou pozornost.
+		- Umožňuje sesílateli pomalu a plynule pohybovat cílovým předmětem. 
+		- Pohybování většími objekty je energeticky náročnější. Vyžaduje sesílatelovu plnou pozornost.
 	hromadná telekineze - předměty -- dohled -- soustředění
-		- Sesílatelova ***Telekineze - předmět*** může pomalu a plynule hýbat několika předměty najednou. Počet předmětů a celková váha, se kterými dokáže sesílatel pohybovat, je závislá na schopnostech sesílatele. Vyžaduje sesílatelovu plnou pozornost.
+		- Sesílatelova ***Telekineze - předmět*** může pomalu a plynule hýbat několika předměty najednou. 
+		- Počet předmětů a celková váha, se kterými dokáže sesílatel pohybovat, je závislá na schopnostech sesílatele. Vyžaduje sesílatelovu plnou pozornost.
 	mentální obrana - sugesce a iluze -- dohled
 		- Sesílatel sobě nebo cíli obrní smysly proti kouzlům sugescí a iluzí.
 	meditace -- soustředění
 		- Forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě.
+		- Vyžaduje sesílatelovu plnou koncentraci.
 pokročilá:
 	neviditelnost -- sesílatel -- iluze
-		- Sesílatel všechny cíle v okolí ošálí iluzí, která neguje obrazové vjemy související se sesílatelem. Cíle tak sesílatele neuslyší. Sesílatel si musí být cíle vědom, aby ten byl ovlivněn.
+		- Sesílatel všechny cíle v okolí ošálí iluzí, která neguje obrazové vjemy související se sesílatelem. Cíle tak sesílatele neuslyší. 
+		- Sesílatel si musí být cíle vědom, aby ten byl ovlivněn.
 	velká zraková iluze -- dohled -- iluze
-		- Sesílatel ošálí cíl iluzí, která způsobí, že cíl slyší sesílatelem zvolený obraz. Sesílatel může po dobu trvání kouzla vjemy měnit, včetně hýbání daným obrazem. Obraz může mít zhruba velikost domu.
+		- Sesílatel ošálí cíl iluzí, která způsobí, že cíl slyší sesílatelem zvolený obraz. 
+		- Sesílatel může po dobu trvání kouzla vjemy měnit, včetně hýbání daným obrazem. 
+		- Obraz může mít zhruba velikost domu.
 	iluze hmatového vjemu -- dohled -- iluze
-		- Sesílatel ošálí cíl iluzí, která způsobí, že cíl cítí sesílatelem zvolený hmatový vjem. Sesílatel může po dobu trvání kouzla vjemy měnit.
+		- Sesílatel ošálí cíl iluzí, která způsobí, že cíl cítí sesílatelem zvolený hmatový vjem. 
+		- Sesílatel může po dobu trvání kouzla vjemy měnit.
 	sugesce názoru -- dohled -- sugesce
-		- Sesílatel vnukne cíli shluk myšlenek tvořících nějaký názor. Pokud je většina myšlenek v rozporu s přesvědčením nebo přirozeností cíle, cíl je po krátké době zavrhne.
+		- Sesílatel vnukne cíli shluk myšlenek tvořících nějaký názor. 
+		- Pokud je většina myšlenek v rozporu s přesvědčením nebo přirozeností cíle, cíl je po krátké době zavrhne.
 	sugesce vzteku -- dohled -- sugesce
 		- Sesílatel způsobí cíli vnitřní výbuch hněvu.
 	sugesce přátelství -- dohled -- sugesce
@@ -51,68 +70,74 @@ pokročilá:
 	zmatení -- dohled -- mentální_magie
 		- Sesílatel donutí cíl zapomenout současnou myšlenku a kontext situace, což vede ke zmatení a dezorientaci cíle.
 	čtení nedávné myšlenky -- dohled -- mentální_magie
-		- Sesílatel po dobu trvání kouzla může číst myšlenky, které cíli nedávno proběhly hlavou. Čím větší dojem myšlenka zanechala, tím lépe se hledá. Pokud cíl a sesílatel přemýšlí hodně odlišně, může být pro sesílatele náročné tyto myšlenky interpretovat.
+		- Sesílatel po dobu trvání kouzla může číst myšlenky, které cíli nedávno proběhly hlavou. 
+		- Čím větší dojem myšlenka zanechala, tím lépe se hledá. 
+		- Pokud cíl a sesílatel přemýšlí hodně odlišně, může být pro sesílatele náročné tyto myšlenky interpretovat.
 	výpadek paměti -- dohled -- mentální_magie
-		- Sesílatel cíli přeruší asociace s nějakou vzpomínkou, čímž cíli učiní vybavení si této vzpomínky výrazně těžším. Při opakovaném sesílaní po nějaké době může dojít ke ztrátě této vzpomínky. Naopak pokud cíl zjistí, že si nemůže vzpomenout, a nějakou dobu se snaží, asociace se obnoví.
+		- Sesílatel cíli přeruší asociace s nějakou vzpomínkou, čímž cíli učiní vybavení si této vzpomínky výrazně těžším. 
+		- Při opakovaném sesílaní po nějaké době může dojít ke ztrátě této vzpomínky. Naopak pokud cíl zjistí, že si nemůže vzpomenout, a nějakou dobu se snaží, asociace se obnoví.
 	cit mysli -- sesílatel -- mentální_magie
 		- Po dobu udržování kouzla získává sesílatel magický smysl, kterým dokáže detekovat myslící bytosti kolem sebe.
 	telepatická domluva -- dohled -- mentální_magie
-		- Umožňuje sesílateli a cíli po dobu trvání kouzla číst si navzájem výrazné současné myšlenky. Efektivně tak umožňuje mluvit spolu beze slov. Sesílatel musí cíl vidět, nebo alespoň vědět, kde přesně je, a být blízko.
+		- Umožňuje sesílateli a cíli po dobu trvání kouzla číst si navzájem výrazné současné myšlenky. Efektivně tak umožňuje mluvit spolu beze slov. 
+		- Sesílatel musí cíl vidět, nebo alespoň vědět, kde přesně je, a být blízko.
 	hypnóza - ovládnutí -- hypnóza
-		- Sesílatel udržující s cílem nepřerušený oční kontakt může ovlivnit stav vědomí cíle a využít toho k ovládnutí jeho těla na krátkou dobu. Rychlost zhypnotizování a délka efektu závisí na schopnostech sesílatele. Sesílatel si zpětně může uvědomovat, že byl ovládnut.
+		- Sesílatel udržující s cílem nepřerušený oční kontakt může ovlivnit stav vědomí cíle a využít toho k ovládnutí jeho těla na krátkou dobu. 
+		- Rychlost zhypnotizování a délka efektu závisí na schopnostech sesílatele. 
+		- Sesílatel si zpětně může uvědomovat, že byl ovládnut.
 	hypnóza - amnézie -- hypnóza
-		- Sesílatel udržující s cílem nepřerušený oční kontakt může ovlivnit stav vědomí cíle a využít toho k odstranění nějaké vzpomínky cíle. Rychlost zhypnotizování a rozsah efektu závisí na schopnostech sesílatele. Odstranění některých vzpomínek může mít obrovský vliv na charakter cíle.
+		- Sesílatel udržující s cílem nepřerušený oční kontakt může ovlivnit stav vědomí cíle a využít toho k odstranění nějaké vzpomínky cíle. 
+		- Rychlost zhypnotizování a rozsah efektu závisí na schopnostech sesílatele. 
+		- Odstranění některých vzpomínek může mít obrovský vliv na charakter cíle.
 	telekineze - organismus -- dohled -- soustředění
-		- Umožňuje sesílateli pomalu a plynule pohybovat cílovým organismem. Sesílatel se na cíl musí plně soustředit.
+		- Umožňuje sesílateli pomalu a plynule pohybovat cílovým organismem. 
+		- Sesílatel se na cíl musí plně soustředit.
 	hromadná telekineze - organismy -- dohled
-		- Sesílatelova ***Telekineze - organismus*** může pomalu a plynule hýbat několika organismy najednou. Počet organismy a celková váha, se kterými dokáže sesílatel pohybovat, je závislá na schopnostech sesílatele. Vyžaduje sesílatelovu plnou pozornost.
+		- Sesílatelova ***Telekineze - organismus*** může pomalu a plynule hýbat několika organismy najednou. 
+		- Počet organismů a celková váha, se kterými dokáže sesílatel pohybovat, je závislá na schopnostech sesílatele. 
+		- Vyžaduje sesílatelovu plnou pozornost.
 	pokročilá telekineze - předmět -- dohled
 		- Sesílatelova ***Telekineze - předmět*** či ***Hromadná telekineze - předměty*** je natolik pokročilá, že umožňuje rychlý a neplynulý pohyb předmětem, a nevyžaduje sesílatelovu plnou pozornost.
 	mentální obrana - mentální magie a hypnózy -- dohled
 		- Sesílatel sobě nebo cíli obrní smysly proti kouzlům hypnózy a manipulace s myšlenkami.
 mistrovská:
 	hromadná iluze -- dohled -- iluze
-		- Sesílatel může libovolné kouzlo iluze použít na více cílů v okolí dle své volby. Náročnost iluze a počet cílů dramaticky zvyšují energetickou náročnost kouzla.
+		- Sesílatel může libovolné kouzlo iluze použít na více cílů v okolí dle své volby. 
+		- Náročnost iluze a počet cílů dramaticky zvyšují energetickou náročnost kouzla.
 	hromadná sugesce -- dohled -- sugesce
-		- Sesílatel může libovolné kouzlo sugesce použít na více cílů v okolí dle své volby. Náročnost sugesce a počet cílů dramaticky zvyšují energetickou náročnost kouzla.
+		- Sesílatel může libovolné kouzlo sugesce použít na více cílů v okolí dle své volby. 
+		- Náročnost sugesce a počet cílů dramaticky zvyšují energetickou náročnost kouzla.
 	čtení mysli -- dohled -- mentální_magie
-		- Sesílatel po dobu trvání kouzla může číst libovolné myšlenky a názory cíle. Čím větší dojem myšlenka zanechala, tím lépe se hledá. Pokud cíl a sesílatel přemýšlí hodně odlišně, může být pro sesílatele náročné tyto myšlenky interpretovat.
+		- Sesílatel po dobu trvání kouzla může číst libovolné myšlenky a názory cíle. 
+		- Čím větší dojem myšlenka zanechala, tím lépe se hledá. 
+		- Pokud cíl a sesílatel přemýšlí hodně odlišně, může být pro sesílatele náročné tyto myšlenky interpretovat.
 	telepatická kontrola -- dohled -- mentální_magie
-		- Umožňuje sesílateli po dobu trvání kouzla telepatií podsouvat cíli rozkazy, které cíl musí plnit. Sesílatel musí cíl vidět, nebo alespoň vědět, kde přesně je, a být blízko. Cíl si rozkazy pamatuje a uvědomuje si, že nejedná z vlastní vůle.
+		- Umožňuje sesílateli po dobu trvání kouzla telepatií podsouvat cíli rozkazy, které cíl musí plnit. 
+		- Sesílatel musí cíl vidět, nebo alespoň vědět, kde přesně je, a být blízko. 
+		- Cíl si rozkazy pamatuje a uvědomuje si, že nejedná z vlastní vůle.
 	telepatické propojení -- dohled -- mentální_magie
-		- Umožňuje sesílateli a cíli po dobu dobu trvání kouzla číst si navzájem výrazné současné myšlenky. Efektivně tak umožňuje mluvit spolu beze slov. Sesílatel je s cílem spojen a po dobu trvání kouzla se od sebe mohou libovolně vzdálit.
+		- Umožňuje sesílateli a cíli po dobu dobu trvání kouzla číst si navzájem výrazné současné myšlenky. 
+		- Efektivně tak umožňuje mluvit spolu beze slov. 
+		- Sesílatel je s cílem spojen a po dobu trvání kouzla se od sebe mohou libovolně vzdálit.
 	telepatický prostor -- dohled -- mentální_magie
-		- Umožňuje telepatickou domluvou zahrnout více cílů. Všichni pak uslyší výrazné současné myšlenky všech ostatních.
+		- Umožňuje telepatickou domluvou zahrnout více cílů. 
+		- Všichni pak uslyší výrazné současné myšlenky všech ostatních.
 	hypnóza - přesvědčení -- hypnóza
-		- Sesílatel udržující s cílem nepřerušený oční kontakt může ovlivnit stav vědomí cíle a využít toho k měnění či podsouvání myšlenek a názorů cíli. Pokud nejsou tyto nové myšlenky či názory výrazně v rozporu s přesvědčením nebo přirozeností cíle, pak cíli zůstává navždy. Rychlost zhypnotizování a délka efektu závisí na schopnostech sesílatele. Může mít obrovský vliv na charakter cíle.
+		- Sesílatel udržující s cílem nepřerušený oční kontakt může ovlivnit stav vědomí cíle a využít toho k měnění či podsouvání myšlenek a názorů cíli. 
+		- Pokud nejsou tyto nové myšlenky či názory výrazně v rozporu s přesvědčením nebo přirozeností cíle, pak cíli zůstává navždy. 
+		- Rychlost zhypnotizování a délka efektu závisí na schopnostech sesílatele. 
+		- Může mít obrovský vliv na charakter cíle.
 	pokročilá telekineze - organismus -- dohled
 		- Sesílatelova ***Telekineze - organismus*** či ***Hromadná telekineze - organismy*** je natolik pokročilá, že umožňuje rychlý a neplynulý pohyb organismem, a nevyžaduje sesílatelovu plnou pozornost.
 	telekineze - konstrukt -- dohled -- soustředění
-		- Umožňuje sesílateli telekineticky pohybovat jednotlivými částmi konstruktu tak, že sesílatel imituje přirozený pohyb všěch částí. Vyžaduje sesílatelovu plnou pozornost.
+		- Umožňuje sesílateli telekineticky pohybovat jednotlivými částmi konstruktu tak, že sesílatel imituje přirozený pohyb všěch částí. 
+		- Vyžaduje sesílatelovu plnou pozornost.
 	projekce mysli mimo tělo -- sesílatel -- dohled
-		- Sesílatel přesune své vědomí do bodu či objektu mimo své tělo. Všechny jeho smysly se přesunou do tohoto bodu, je tedy možné např. vidět za roh, a sesílatel může ve svém přesunutém vědomí sesílat jednodušší kouzla. Sesílatelovo tělo po dobu kouzla zůstává v bezvědomí, ovšem poskytuje energii potřebnou k udržování projekce a ostatních kouzel. Při vyčerpání sesílatele dochází k jeho smrti, a sesílatel ve své projekci rostoucí únavu necítí.
+		- Sesílatel přesune své vědomí do bodu či objektu mimo své tělo. 
+		- Všechny jeho smysly se přesunou do tohoto bodu, je tedy možné např. vidět za roh, a sesílatel může ve svém přesunutém vědomí sesílat jednodušší kouzla. 
+		- Sesílatelovo tělo po dobu kouzla zůstává v bezvědomí, ovšem poskytuje energii potřebnou k udržování projekce a ostatních kouzel. 
+		- Při vyčerpání sesílatele dochází k jeho smrti, a sesílatel ve své projekci rostoucí únavu necítí.
 	značka mysli -- soustředění
-		- Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv. ***Značka mysli*** trvá věčně, ale sesílatel současně může mít pouze tolik značek, kolik si dokáže okamžitě kdykoliv vybavit, v případě zapomnění značka zaniká. Vyžaduje sesílatelovu plnou koncentraci.
-velmistrovská:
-	sugesce - přesvědčení -- dohled -- sugesce
-		- Sesílatel může ovlivnit stav vědomí cíle a využít toho k měnění či podsouvání myšlenek a názorů cíli. Pokud nejsou tyto nové myšlenky či názory výrazně v rozporu s přesvědčením nebo přirozeností cíle, pak cíli zůstává navždy. Rychlost sugesce a délka efektu závisí na schopnostech sesílatele. Může mít obrovský vliv na charakter cíle.
-	vícevjemová iluze -- dohled -- iluze
-		- Sesílatel sešle na cíl několik různých iluzí najednou, čímž vytvoří falešný vjem ovlivňující více smyslů. Náročnost iluzí a jejich počet dramaticky zvyšují náročnost kouzla.
-	hypnóza skrz iluzi -- hypnóza -- iluze
-		- Umožní sesílateli přesunout svou schopnost hypnotizovat na svou iluzi. Cíl, který příliš dlouho hledí na libovolný bod iluze, může být zhypnotizován jakýmkoliv hypnotickým kouzlem sesílatele.
-	hromadná mentální magie -- dohled -- mentální_magie
-		- Sesílatel může libovolné kouzlo mentální magie použít na více cílů v okolí dle své volby. Náročnost kouzla a počet cílů dramaticky zvyšují energetickou náročnost kouzla.
-	přenos vzpomínky -- dohled -- mentální_magie
-		- Sesílatel přenese kopii své nebo cizí vzpomínky na svůj cíl. Cíl přejímá vzpomínku se vším všudy, a čím více odlišné jsou podstata a uvažování poskytovatele cílové vzpomínky od jejího příjemce, tím větší rozpor vzpomínka v příjemci vyvolá. Pokud jde příliš silně proti charakteru cíle, časem ji vytěsní. Může mít obrovský vliv na charakter cíle.
-	změna vzpomínky -- dohled -- mentální_magie
-		- Sesílatel cíli změní detaily jeho existující vzpomínky. Cíl přejímá upravenou vzpomínku se vším všudy, a pokud změny nejsou pro cíl příliš rozporuplného charakteru, bude naprosto přesvědčen, že se věci staly tak, jak si je pamatuje. Při větších změnách může mít obrovský vliv na charakter cíle.
-	mentální pevnost -- dohled -- mentální_magie
-		- Sesílatel sobě nebo cíli poskytne obranu proti všem kouzlům magie mysli, která navíc při pokusu ovlivnit cíl vyšle proti zdroji kouzla silný ***mentální útok***. Pokud se potkají 2 mágové s efektem mentální pevnosti a jeden se na druhého pokusí seslat kouzlo z magie mysli, dochází k souboji vůle, který končí okamžitým bezvědomím alespoň jednoho z nich.
-	dlouhodobé telepatické propojení -- dohled -- mentální_magie
-		- Sesílatel dokáže za enormní energetickou cenu seslat ***Mentální propojení*** tak, aby vydrželo dlouho. Délka trvání kouzla závisí na schopnostech sesílatele a pohybuje se od několika hodin až do řádu měsíců.
-	pokročilá telekineze - konstrukt -- dohled
-		- Sesílatelova ***Telekineze - konstrukt*** je natolik pokročilá, že umožňuje konstruktu vyvinout nadliskou sílu a rychlost, a nevyžaduje sesílatelovu plnou pozornost.
-	přenos mysli -- dohled
-		- Sesílatel přesune vědomí cílového organismu do bodu či objektu mimo jeho tělo. Všechny smysly cíle se přesunou do tohoto bodu, je tedy možné např. vidět za roh, a cíl může ve svém přesunutém vědomí sesílat kouzla. Sesílatel po dobu kouzla poskytuje energii potřebnou k udržování projekce, ovšem energetická náročnost kouzel cíle se projevuje na těle cíle a cíl rostoucí únavu ve své projekci nevnímá. Při vyčerpání cíle dochází k jeho smrti.
-		- Toto kouzlo lze seslat za enormní cenu energie rituálně, kdy k projekci dojde na trvalo. V takovém případě cílové vědomí potřebuje jiný zdroj energie, ze kterého čerpat sílu - tu může krátkodobě poskytoval sesílatel. Takto lze přenést vědomí z jednoho těla do druhého, pokud toto druhé tělo nemá vědomí svoje. Přítomnost dvou vědomí v jednom těle většinou vede k zániku či velkému poškození obou.
-		
+		- Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv.
+		- ***Značka mysli*** trvá věčně, ale sesílatel současně může mít pouze tolik značek, kolik si dokáže okamžitě kdykoliv vybavit, v případě zapomnění značka zaniká.
+		- Vyžaduje sesílatelovu plnou koncentraci.
