@@ -1310,42 +1310,42 @@
     🖐️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dotyk&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🥏
+      𖣐
       &lt;span class=&#34;tooltiptext&#34;&gt;Zakřivení&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zmenšení vzdálenosti &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel po dobu udržování kouzla ohýbá prostor mezi 2 místy, která obě vidí, tak, že se k sobě obě místa přiblíží.&lt;br&gt;&lt;br&gt;Lze kupříkladu zúžit široký potok tak, aby ho sesílatel pohodlně překročil apod.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🥏
+      𖣐
       &lt;span class=&#34;tooltiptext&#34;&gt;Zakřivení&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zvětšení vzdálenosti &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel po dobu udržování kouzla ohýbá prostor mezi 2 místy, která obě vidí, tak, že se od sebe obě místa oddálí.&lt;br&gt;&lt;br&gt;Lze například rozšířit dveře, aby jimi sesílatel mohl pronést velký předmět apod.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🥏
+      𖣐
       &lt;span class=&#34;tooltiptext&#34;&gt;Zakřivení&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;změna dráhy objektu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel po dobu udržování kouzla zakřivuje prostor kolem pohybujícího se objektu tak, že dokáže měnit jeho směr.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🥏
+      𖣐
       &lt;span class=&#34;tooltiptext&#34;&gt;Zakřivení&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;přitahující pole &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel vytvoří pole prostoru zakřiveného k centrálnímu bodu. Všechny objekty v poli jsou přitahovány k tomuto středu.&lt;br&gt;&lt;br&gt;Čím blíže je objekt ke středu, tím silněji je přitahován. Pole časem ztrácí na intenzitě.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🥏
+      𖣐
       &lt;span class=&#34;tooltiptext&#34;&gt;Zakřivení&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;odpuzující pole &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel vytvoří pole prostoru zakřiveného od centrálního bodu. Všechny objekty v poli jsou odpuzovány od tohoto středu.&lt;br&gt;&lt;br&gt;Čím blíže je objekt ke středu, tím silněji je odpuzován. Pole časem ztrácí na intenzitě.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🥏
+      𖣐
       &lt;span class=&#34;tooltiptext&#34;&gt;Zakřivení&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;přitažení &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel vytvoří silné zakřivení prostoru mezi sebou a cílem, které vzápětí nechá narovnat, což vytvoří impulz síly, který cíl přitáhne k sesílateli.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
@@ -1408,42 +1408,42 @@
     🧙‍♂️
     &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🥏
+      𖣐
       &lt;span class=&#34;tooltiptext&#34;&gt;Zakřivení&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;odvrácení útoků &lt;span class=&#34;tooltiptext&#34;&gt;Zakřivuje prostor kolem sesílatele tak, aby ho cokoliv pohybující se směrem k němu obtékalo.&lt;br&gt;&lt;br&gt;Např. šípy, které by ho měly zasáhnout, ho minou a pokračují ve své trajektorii za ním.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     🧙‍♂️
     &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🥏
+      𖣐
       &lt;span class=&#34;tooltiptext&#34;&gt;Zakřivení&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zvětšení objektu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel po dobu udržování kouzla zvětšuje cílový objekt.&lt;br&gt;&lt;br&gt;Zvětšování je ve všech směrech stejné, a cílový objekt si ponechá svou hmotnost - v důsledku čehož může být křehčí&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🥏
+      𖣐
       &lt;span class=&#34;tooltiptext&#34;&gt;Zakřivení&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zmenšení objektu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel po dobu udržování kouzla zmenšuje cílový objekt.&lt;br&gt;&lt;br&gt;Zmenšování je ve všech směrech stejné, a cílový objekt si ponechá svou hmotnost - v důsledku čehož může být tvrdší&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🥏
+      𖣐
       &lt;span class=&#34;tooltiptext&#34;&gt;Zakřivení&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;prostorový tunel &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel vytvoří malou červí díru, kterou může projít skrz malé překážky - např. projít stěnou.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🥏
+      𖣐
       &lt;span class=&#34;tooltiptext&#34;&gt;Zakřivení&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;narovnání prostoru &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel v cílové oblasti ostraní všechny efekty kouzel zakřivujících prostor.&lt;br&gt;&lt;br&gt;Dokud tomuto kouzlu sesílatel věnuje plnou pozornost, brání ostatním mágům prostoru v zakřivování cílové oblasti.&lt;br&gt;&lt;br&gt;V takovém případě dochází k souboji vůle mezi sesílatelem a druhým mágem.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🥏
+      𖣐
       &lt;span class=&#34;tooltiptext&#34;&gt;Zakřivení&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;cit prostoru &lt;span class=&#34;tooltiptext&#34;&gt;Po dobu udržování kouzla získává sesílatel magický smysl, kterým dokáže prohledat prostor kolem sebe a zjistit, co se kde kolem něj nachází&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
@@ -1480,21 +1480,21 @@
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🥏
+      𖣐
       &lt;span class=&#34;tooltiptext&#34;&gt;Zakřivení&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;zmenšení organismu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel po dobu udržování kouzla zmenšuje cílový objekt.&lt;br&gt;&lt;br&gt;Zmenšování je ve všech směrech stejné, a cílový objekt si ponechá svou hmotnost - v důsledku čehož může být tvrdší&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🥏
+      𖣐
       &lt;span class=&#34;tooltiptext&#34;&gt;Zakřivení&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;změna tvaru organismu &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel po dobu udržování kouzla mění tvar cílového organismu, kterého se dotýká.&lt;br&gt;&lt;br&gt;Po skončení kouzla se předmět opět vrátí do tvaru, který měl původně.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
     👁️
     &lt;span class=&#34;tooltiptext&#34;&gt;Na Dohled&lt;/span&gt;
 &lt;/span&gt;  &lt;span class=&#34;icon-tooltip&#34;&gt;
-      🥏
+      𖣐
       &lt;span class=&#34;tooltiptext&#34;&gt;Zakřivení&lt;/span&gt;
   &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip&#34;&gt;hromadné přitažení &lt;span class=&#34;tooltiptext&#34;&gt;Sesílatel sešle &lt;em&gt;&lt;strong&gt;Přitažení&lt;/strong&gt;&lt;/em&gt; na několik cílů najednou.&lt;br&gt;&lt;br&gt;Náročnost je úměrná počtu cílů.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;icon-tooltip&#34;&gt;
