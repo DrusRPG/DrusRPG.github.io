@@ -11,7 +11,7 @@ základní:
 		- Sesílatel vytvoří z mrtvoly v dohledu zombie pod kontrolou sesílatele. Zombie je jednoduchý nemrtvý, který se pohybuje typicky pomalu a je schopen vykonávat jen velmi jednoduché příkazy.  Je vhodný jen jako základní služebník, k boji jsou použitelní jen ve velkém počtu. V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu a vyžadují dramaticky více energie.
 	oživ malého tvora -- nemrtvý
 		- Sesílatel z malého mrtvého tvora (do velikosti kočky) vytvoří nemrtvého pod kontrolou sesílatele. Tento tvor je ve vykonávání příkazů omezen inteligencí, jakou měl před smrtí, a fyzickými omezeními.  Pro svou dobrou inteligenci jsou jako služebníci oblíbeni havrani. V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu a vyžadují dramaticky více energie.
-	povolání duše
+	povolání duše -- duše
 		- Sesílatel přivolá vědomí zesnulého cíle a poskytne mu nehmotnou magickou formu schopnou řeči. Povolaná duše nemá žádnou povinnost poslouchat sesílatele ani s ním jinak spolupracovat, k tomu je potřeba seslat ***Spoutání duše ke svojí vůli***.
 	obnov nemrtvého -- dotyk
 		- Sesílatel vyléčí zraněného nemrtvého do neporušeného stavu. Větší zranění a delší doba rozkladu a vyžadují dramaticky vyžadují dramaticky více energie.
@@ -21,11 +21,11 @@ základní:
 		- Sesílatel dorykem očaruje cílovou zbraň magickým jedem, který při zásahu zbraní postupně od místa zranění ochrnuje svaly zasažené bytosti. Lze seslat též dotykem ruky, kdy si lze do role zbraně dosadit sesílatelův nehet. V takovém případě se ale musí dotknout kůže, nefunguje přes textil. Rychlost šíření jedu závisí na rozsahu rány a schopnostech sesílatele.
 	křeč svalu -- dotyk
 		- Sesílatel dotykem donutí cílový kosterní sval se stáhnout a ten přestane fungovat. Nejlépe funguje na část těla (stehno, předloktí...).  Cílit na konkrétní sval/větší množství svalů je náročnější.
-	vysátí života -- dotyk
+	vysátí života -- dotyk -- vysátí
 		- Po dobu trvání kouzla sesílatel vysává životní sílu zasaženého, sobě doplňuje energii. Rychlost vysávání života závisí na schopnostech sesílatele. Životní energie s sebou nese esenci někoho jiného, a to se ve velkém množství má tendenci na sesílateli projevit. Po vysátí stromu bude sesílatel mít zdřevěnělé končetiny, po vysátí někoho opravdu hloupého bude mít nějakou dobu problém se soustředit, při vysátí někoho opravdu nešťastného bude mít sesílatel depresi apod. Při častém vysávání velkého množství energie může dojít k trvalým změnám na sesílateli. Doporučuje se s tímto kouzlem zacházet opatrně a mezi použitími mít alespoň několik dní pauzy.
-	vysátí mrtvého -- dotyk
+	vysátí mrtvého -- dotyk -- vysátí
 		- Sesílatel vysaje zbytkovou životní energii z mrtvého těla (ať už bylo živé nebo nemrtvé), čímž si doplňuje energii. Rychlost vysávání mrtvého závisí na schopnostech sesílatele. Toto tělo se instantně rozpadne na prach a nemůže být nadále použito pro jakákoliv jiná kouzla. Množství energie získané z mrtvol je typicky malé, narozdíl od ***Vysátí života*** ovšem nenese esenci mrtvoly, dá se tedy snadno opakovat bez rizika vedlejších účinků.
-	vysátí nemrtvého -- dotyk
+	vysátí nemrtvého -- dotyk -- vysátí
 		- Sesílatel vysaje z cílového nemrtvého magickou energii, která ho udržuje při neživotě. Sesílateli toto doplňuje energii. Rychlost vysávání nemrtvého závisí na schopnostech sesílatele. Vysátý nemrtvý není tímto kouzlem zničen, pouze převeden zpět do mrtvého stavu. Energie získaná z tohoto kouzla nenese ničí esenci, dá se tedy snadno opakovat bez rizika vedlejších účinků. Pokud se sesílatel snaží vysát nemrtvého patřícího jinému mágovi, dochází k souboji vůle mezi oběma mágy. Schopnost chránit svého nemrtvého před vysátím jiným mágem závisí na schopnostech obou mágů a vzdálenosti majitele a jeho nemrtvého.
 	tma -- dohled
 		- Sesílatel vytvoří v cílovém místě magickou tmu, ve které nikdo nic neuvidí. Běžné zdroje světla (louče, lampy, slunce...) magickou tmu neprosvítí, při kontaktu s magickým světlem vítězí kouzlo schopnějšího mága.
@@ -87,9 +87,36 @@ mistrovská:
 		- Sesílatel po dobu trvání kouzla uvede cílovou bytost do nehybného stavu tím, že cíli okamžitě přestanou fungovat všechny svaly kromě dýchacích. Doba trvání závisí na schopnostech sesílatele. Energetická náročnost závisí na velikosti cílové bytosti.
 	tržná rána -- dohled
 		- Sesílatel pohledem způsobí cíli hlubokou tržnou ránu.
-	vysátí energie pohledem -- dohled
+	vysátí energie pohledem -- dohled -- vysátí
 		- Sesílatel získává možnost sesílat své libovolné vysávající kouzlo pohledem.
 	vidění ve tmě - ostatní -- dotyk
 		- Sesílatel po dobu trvání kouzla dodává cílové bytosti magický zrak, kterým vidí ve tmě (včetně magické tmy) jako za jasného dne. Umožní vybranému cíli vidět ve tmě (včetně magické tmy) jako za jasného dne.
 	značka smrti -- soustředění
 		- Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv. ***Značka smrti*** trvá věčně, ale sesílatel současně může mít pouze tolik značek, kolik si dokáže okamžitě kdykoliv vybavit, v případě zapomnění značka zaniká. Vyžaduje sesílatelovu plnou koncentraci.
+velmistrovská:
+	hromadné prokletí -- prokletí
+		- Sesílatel sešle zvolené prokletí na několik cílů ve svém okolí najednou.  Počet možných cílů závisí na schopnostech uživatele, do základu 4.
+	dlouhodobé prokletí -- prokletí
+		- Sesílatel sešle na cíl jiné prokletí za cenu enormního množství energie. Energie do kouzla vložená se uvolňuje postupně po delší dobu.  Doba trvání kouzla záleží na schopnostech sesílatele, rámcově několik dní až několik měsíců.
+	oživení mága -- nemrtvý
+		- Sesílatel oživí zemřelého mága jako nemrtvého pod kontrolou sesílatele. Nemrtvý si zachová svou znalost magie. Sesílatel musí umět oživit dostatečně velkého nemrtvého, aby mohl kouzlo seslat (na nemrtvého mága krola tedy potřebuje znát kouzlo ***Oživ organismus*** apod.).
+	povolání nemrtvého konstruktu -- nemrtvý
+		- Sesílatel vytvoří z několika mrtvých těl konstrukt, který následně oživí jako nemrtvého.  Tvar a velikost konstruktu závisí pouze na schopnostech a představivosti sesílatele, ovšem je omezen stavem mrtvých těl.  Pokud sesílatel zná kouzlo ***Oživ Člověka*** nebo ***Oživ Organismus***, je možné konstruktu pomocí těchto kouzel ponechat vědomí jednoho zvoleného mrtvého těla, které bylo v konstruktu použito.
+	oživení v jiné formě -- nemrtvý
+		- Sesílatel oživí nemrtvého jiným kouzlem oživujícím neživé, ovšem zvolené mrtvé tělo si přetvoří podle své vůle, může ho části odstranit a podobně.  Pokud oživí formu ve stavu neslučitelné se životem, bude udržování nemrtvého při neživotě vyžadovat velké množství energie.
+	ovládnutí nemrtvého -- dohled
+		- Sesílatel ovládne nemrtvého vytvořeného jiným mágem. Sesílatel nad nemrtvým získá stejnou kontrolu, jako by byl jeho stvořitelem. Šance na ovládnutí závisí na síle vůle sesílatele a stvořitele cílového nemrtvého.
+	kouzlení skrz nemrtvého -- nemrtvý
+		- Sesílatel získá možnost sesílat svá kouzla, jako by byl na místě jím zvoleného nemrtvého, kterého má pod svou kontrolou.
+	vnímání skrze nemrtvého -- soustředění
+		- Sesílatel získá možnost vnímat vše, co vnímá jím zvolený nemrtvý, kterého má pod svou kontrolou.  Týká se všech smyslů, včetně magických.
+	leptavý jed -- jed
+		- Sesílatel sešle zvolené jedové kouzlo, přičemž jeho magický jed získává leptavé vlastnosti.  Leptavý jed se vstřebává i skrze kůži či sliznice, při nadýchání ulpívá v plicích a obtížně se ho zbavuje. I malá expozice tak může mít drastické následky.
+	zástava srdce -- dohled
+		- Sesílatel cíli způsobí zástavu srdce. Pokud cíl nemá více srdcí, smrt nastává téměř okamžitě.
+	hromadná paralýza -- dohled
+		- Sesílatel po dobu trvání kouzla uvede několik cílových bytostí do nehybného stavu tím, že jim okamžitě přestanou fungovat všechny svaly kromě dýchacích. Doba trvání a počet možných cílů závisí na schopnostech sesílatele. Energetická náročnost znatelně roste s celkovou velikostí cílových bytostí.
+	hromadné vysátí energie -- vysátí
+		- Sesílatel získává možnost svým libovolným vysávajícím kouzlem vysávat životní sílu více cílů najednou.  Rychlost vysávání závisí na schopnostech sesílatele. Ačkoliv doplňuje energii velmi rychle, je snadné způsobit si řadu vedlejších účinků z nadbytku životní energie. Při vysávání života se aplikují stejná rizika, jako při kouzlu ***Vysátí života***.
+	dlouhodobá tma -- dohled
+		- Sesílatel vytvoří v cílové oblasti magickou tmu, která, za cenu velkého množství energie, zůstane na cílovém místě po dobu nejméně několika dní. V magické tmě nikdo nic neuvidí. Běžné zdroje světla (louče, lampy, slunce...) magickou tmu neprosvítí, při kontaktu s magickým světlem vítězí kouzlo schopnějšího mága, ovšem i schopnější mág života musí vynaložit na prosvícení dlouhodobé tmy stejné množství energie, jak do tmy bylo vloženo na celou dobu jejího trvání.

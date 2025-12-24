@@ -1,83 +1,110 @@
-Základní:
-	teleportace objektu
-		- sesílatel se dotkne teleportovaného objektu a okamžitě ho přesune na místo, které vidí.
-	přivolání objektu
-		- sesílatel okamžitě přesune objekt, který vidí, ke své ruce.
-	změna tvaru objektu -- zakřivení
-		- sesílatel po dobu udržování kouzla může ohýbat a měnit tvaru objektu, kterého se dotýká. Po skončení kouzla se předmět opět vrátí do tvaru, který měl původně.
-	zmenšení vzdálenosti -- zakřivení
-		- sesílatel po dobu udržování kouzla ohýbá prostor mezi 2 místy, která obě vidí, tak, že se k sobě obě místa přiblíží. Lze kupříkladu zúžit široký potok tak, aby ho sesílatel pohodlně překročil apod.
-	zvětšení vzdálenosti -- zakřivení
-		- sesílatel po dobu udržování kouzla ohýbá prostor mezi 2 místy, která obě vidí, tak, že se od sebe obě místa oddálí. Lze například rozšířit dveře, aby jimi sesílatel mohl pronést velký předmět apod.
-	neprostupná bariéra -- bariéra
-		- sesílatel vytvoří neviditelnou neprostupnou zeď, která absorbuje nárazy předmětů. Každý náraz odčerpává energii kouzla. Pokud kouzlo trvá delší dobu, začne z něj malá část energie mizet i samovolně. Velikost bariéry závisí na schopnostech sesílatele, standardní velikost je kolem 1,5x2m.
-	změna dráhy objektu -- zakřivení
-		- sesílatel po dobu udržování kouzla zakřivuje prostor kolem pohybujícího se objektu tak, že dokáže měnit jeho směr.
+základní:
 	levitace -- sesílatel
-		- sesílatel po dobu udržování kouzla zakřivuje prostor tak, že se vznese do vzduchu a je schopen se rychlostí kroku ve vzduchu i pohybovat.
-	levitace - předmět
-		- sesílatel po dobu udržování kouzla zakřivuje prostor kolem předmětu, který vidí, tak, že se tento předmět vznese do vzduchu a sesílatel je schopen jím rychlostí kroku ve vzduchu i pohybovat.
-	přitahující pole -- zakřivení
-		- sesílatel vytvoří pole prostoru zakřiveného k centrálnímu bodu. Všechny objekty v poli jsou přitahovány k tomuto středu. Čím blíže je objekt ke středu, tím silněji je přitahován. Pole časem ztrácí na intenzitě.
-	odpuzující pole -- zakřivení
-		- sesílatel vytvoří pole prostoru zakřiveného od centrálního bodu. Všechny objekty v poli jsou odpuzovány od tohoto středu. Čím blíže je objekt ke středu, tím silněji je odpuzován. Pole časem ztrácí na intenzitě.
-	přitažení
-		- sesílatel vytvoří silné zakřivení prostoru mezi sebou a cílem, které vzápětí nechá narovnat, což vytvoří impulz síly, který cíl přitáhne k sesílateli
-	odhození
-		- sesílatel vytvoří silné zakřivení prostoru ze svého pohledu za cílem, které vzápětí nechá narovnat, což vytvoří impulz síly, který cíl odhodí od sesílatele
-	sražení
-		- sesílatel vytvoří silné zakřivení prostoru pod cílem, které vzápětí nechá narovnat, což vytvoří impulz síly, který cíl srazí k zemi
+		- Sesílatel po dobu udržování kouzla zakřivuje prostor tak, že se vznese do vzduchu a je schopen se rychlostí kroku ve vzduchu i pohybovat.
+	levitace - předmět -- dohled
+		- Sesílatel po dobu udržování kouzla zakřivuje prostor kolem předmětu, který vidí, tak, že se tento předmět vznese do vzduchu a sesílatel je schopen jím rychlostí kroku ve vzduchu i pohybovat.
+	teleportace objektu -- dotyk
+		- Sesílatel se dotkne teleportovaného objektu a okamžitě ho přesune na místo, které vidí.
+	přivolání objektu -- dohled
+		- Sesílatel okamžitě přesune objekt, který vidí, ke své ruce.
+	neprostupná bariéra -- dohled -- bariéra
+		- Sesílatel vytvoří neviditelnou neprostupnou zeď, která absorbuje nárazy předmětů. Každý náraz odčerpává energii kouzla. Pokud kouzlo trvá delší dobu, začne z něj malá část energie mizet i samovolně. Velikost bariéry závisí na schopnostech sesílatele, standardní velikost je kolem 1,5x2m.
+	změna tvaru objektu -- dotyk -- zakřivení
+		- Sesílatel po dobu udržování kouzla může ohýbat a měnit tvaru objektu, kterého se dotýká. Po skončení kouzla se předmět opět vrátí do tvaru, který měl původně.
+	zmenšení vzdálenosti -- dohled -- zakřivení
+		- Sesílatel po dobu udržování kouzla ohýbá prostor mezi 2 místy, která obě vidí, tak, že se k sobě obě místa přiblíží. Lze kupříkladu zúžit široký potok tak, aby ho sesílatel pohodlně překročil apod.
+	zvětšení vzdálenosti -- dohled -- zakřivení
+		- Sesílatel po dobu udržování kouzla ohýbá prostor mezi 2 místy, která obě vidí, tak, že se od sebe obě místa oddálí. Lze například rozšířit dveře, aby jimi sesílatel mohl pronést velký předmět apod.
+	změna dráhy objektu -- dohled -- zakřivení
+		- Sesílatel po dobu udržování kouzla zakřivuje prostor kolem pohybujícího se objektu tak, že dokáže měnit jeho směr.
+	přitahující pole -- dohled -- zakřivení
+		- Sesílatel vytvoří pole prostoru zakřiveného k centrálnímu bodu. Všechny objekty v poli jsou přitahovány k tomuto středu. Čím blíže je objekt ke středu, tím silněji je přitahován. Pole časem ztrácí na intenzitě.
+	odpuzující pole -- dohled -- zakřivení
+		- Sesílatel vytvoří pole prostoru zakřiveného od centrálního bodu. Všechny objekty v poli jsou odpuzovány od tohoto středu. Čím blíže je objekt ke středu, tím silněji je odpuzován. Pole časem ztrácí na intenzitě.
+	přitažení -- dohled
+		- Sesílatel vytvoří silné zakřivení prostoru mezi sebou a cílem, které vzápětí nechá narovnat, což vytvoří impulz síly, který cíl přitáhne k sesílateli
+	odhození -- dohled
+		- Sesílatel vytvoří silné zakřivení prostoru ze svého pohledu za cílem, které vzápětí nechá narovnat, což vytvoří impulz síly, který cíl odhodí od sesílatele
+	sražení -- dohled
+		- Sesílatel vytvoří silné zakřivení prostoru pod cílem, které vzápětí nechá narovnat, což vytvoří impulz síly, který cíl srazí k zemi
 
-Pokročilá:
-	prostorová trhlina
-		- v homogením materiálu vytvoří trhlinu. Sesílatel může např. nechat prasknout sklo.
-	zacelení trhliny
-		- v homogenním materiálu zacelí trhlinu. Sesílatel může např. zacelit prasklinu ve skle.
-	odpuzující zbroj -- zakřivení
-		- zakřivuje prostor kolem sesílatele tak, že na věci kolem něj působí konstantní síla směrem od sesílatele.
-	teleportace sebe
-		- sesílatel se okamžitě přesune na místo, které vidí.
-	teleportace organismu
-		- sesílatel se dotkne teleportovaného živého cíle a okamžitě ho přesune na místo, které vidí.
-	přivolání organismu
-		- sesílatel okamžitě přesune živý cíl, který vidí, ke své ruce.
-	odvrácení útoků -- zakřivení
-		- zakřivuje prostor kolem sesílatele tak, aby ho cokoliv pohybující se směrem k němu obtékalo - např. šípy, které by ho měly zasáhnout, ho minou a pokračují ve své trajektorii za ním
-	zvětšení objektu -- zakřivení
-		- sesílatel po dobu udržování kouzla zvětšuje cílový objekt. Zvětšování je ve všech směrech stejné, a cílový objekt si ponechá svou hmotnost - v důsledku čehož může být křehčí
-	zmenšení objektu -- zakřivení
-		- sesílatel po dobu udržování kouzla zmenšuje cílový objekt. Zmenšování je ve všech směrech stejné, a cílový objekt si ponechá svou hmotnost - v důsledku čehož může být tvrdší
-	bariéra propouštějící zvuk -- bariéra
-		- vytvoří bariéru podobnou kouzlu neprostupná bariéra, která ovšem oběma směry propouští zvuk.
-	světelná bariéra -- bariéra
-		- vytvoří bariéru podobnou kouzlu neprostupná bariéra, která pohlcuje všechna záření a na pohled se jeví jako dokonale černá plocha.
-	sférická bariéra -- bariéra
-		- vytvoří bariéru podobnou kouzlu neprostupná bariéra, která má tvar koule místo zdi.
+pokročilá:
+	prostorová trhlina -- dohled
+		- V homogením materiálu vytvoří trhlinu. Sesílatel může např. nechat prasknout sklo.
+	zacelení trhliny -- dohled
+		- V homogenním materiálu zacelí trhlinu. Sesílatel může např. zacelit prasklinu ve skle.
+	teleportace sebe -- sesílatel
+		- Sesílatel se okamžitě přesune na místo, které vidí.
+	teleportace organismu -- dotyk
+		- Sesílatel se dotkne teleportovaného živého cíle a okamžitě ho přesune na místo, které vidí.
+	přivolání organismu -- dohled
+		- Sesílatel okamžitě přesune živý cíl, který vidí, ke své ruce.
+	bariéra propouštějící zvuk -- dohled -- bariéra
+		- Vytvoří bariéru podobnou kouzlu neprostupná bariéra, která ovšem oběma směry propouští zvuk.
+	světelná bariéra -- dohled -- bariéra
+		- Vytvoří bariéru podobnou kouzlu neprostupná bariéra, která pohlcuje všechna záření a na pohled se jeví jako dokonale černá plocha.
+	sférická bariéra -- dohled -- bariéra
+		- Vytvoří bariéru podobnou kouzlu neprostupná bariéra, která má tvar koule místo zdi.
+	odpuzující zbroj -- sesílatel -- zakřivení
+		- Zakřivuje prostor kolem sesílatele tak, že na věci kolem něj působí konstantní síla směrem od sesílatele.
+	odvrácení útoků -- sesílatel -- zakřivení
+		- Zakřivuje prostor kolem sesílatele tak, aby ho cokoliv pohybující se směrem k němu obtékalo - např. šípy, které by ho měly zasáhnout, ho minou a pokračují ve své trajektorii za ním
+	zvětšení objektu -- dohled -- zakřivení
+		- Sesílatel po dobu udržování kouzla zvětšuje cílový objekt. Zvětšování je ve všech směrech stejné, a cílový objekt si ponechá svou hmotnost - v důsledku čehož může být křehčí
+	zmenšení objektu -- dohled -- zakřivení
+		- Sesílatel po dobu udržování kouzla zmenšuje cílový objekt. Zmenšování je ve všech směrech stejné, a cílový objekt si ponechá svou hmotnost - v důsledku čehož může být tvrdší
+	prostorový tunel -- dohled -- zakřivení
+		- Sesílatel vytvoří malou červí díru, kterou může projít skrz malé překážky - např. projít stěnou.
+	cit prostoru -- sesílatel
+		- Po dobu udržování kouzla získává sesílatel magický smysl, kterým dokáže prohledat prostor kolem sebe a zjistit, co se kde kolem něj nachází
 	meditace -- soustředění
-		- forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě.
-	prostorový tunel -- zakřivení
-		- sesílatel vytvoří malou červí díru, kterou může projít skrz malé překážky - např. projít stěnou.
-	cit prostoru
-		- pod dobu udržování kouzla získává sesílatel magický smysl, kterým dokáže prohledat prostor kolem sebe a zjistit, co se kde kolem něj nachází
+		- Forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě. Vyžaduje sesílatelovu plnou pozornost.
 
-Mistrovská:
-	zvětšení organismu -- zakřivení
-		- sesílatel po dobu udržování kouzla zvětšuje cílový organismus. Zvětšování je ve všech směrech stejné, a cíl si ponechá svou hmotnost - v důsledku čehož může být zranitelnější
-	zmenšení organismu -- zakřivení
-		- sesílatel po dobu udržování kouzla zmenšuje cílový objekt. Zmenšování je ve všech směrech stejné, a cílový objekt si ponechá svou hmotnost - v důsledku čehož může být tvrdší
-	změna tvaru organismu -- zakřivení
-		- sesílatel po dobu udržování kouzla mění tvar cílového organismu, kterého se dotýká. Po skončení kouzla se předmět opět vrátí do tvaru, který měl původně.
-	bariérové vězení -- bariéra
-		- sesílatel kolem cíle vytvoří bariéru, jejíž tvar kopíruje tvar cíle, a zcela mu tak znemožní se hýbat.
-	jednosměrná bariéra -- bariéra
-		- vytvoří bariéru podobnou kouzlu neprostupná bariéra, která ovšem brání objektům v pohybu pouze jedním směrem.
+mistrovská:
 	teleportační brána -- dohled
-		- vytvoří portál mezi 2 místy, která sesílatel vidí. Jakýkoliv objekt projde portálem na jedné straně se objeví na druhé straně se stejnou rychlostí a směrem, s jakými portálem prošel.
-	hromadné přitažení
+		- Vytvoří portál mezi 2 místy, která sesílatel vidí. Jakýkoliv objekt projde portálem na jedné straně se objeví na druhé straně se stejnou rychlostí a směrem, s jakými portálem prošel.
+	bariérové vězení -- dohled -- bariéra
+		- Sesílatel kolem cíle vytvoří bariéru, jejíž tvar kopíruje tvar cíle, a zcela mu tak znemožní se hýbat.
+	jednosměrná bariéra -- dohled -- bariéra
+		- Vytvoří bariéru podobnou kouzlu neprostupná bariéra, která ovšem brání objektům v pohybu pouze jedním směrem. Pokud objekt nebo organismus prochází z průchozí strany, může se vrátit, dokud se celý neocitne za bariérou a bariéra se pro něj bude chovat elasticky.
+	zvětšení organismu -- dohled -- zakřivení
+		- Sesílatel po dobu udržování kouzla zvětšuje cílový organismus. Zvětšování je ve všech směrech stejné, a cíl si ponechá svou hmotnost - v důsledku čehož může být zranitelnější
+	zmenšení organismu -- dohled -- zakřivení
+		- Sesílatel po dobu udržování kouzla zmenšuje cílový objekt. Zmenšování je ve všech směrech stejné, a cílový objekt si ponechá svou hmotnost - v důsledku čehož může být tvrdší
+	změna tvaru organismu -- dohled -- zakřivení
+		- Sesílatel po dobu udržování kouzla mění tvar cílového organismu, kterého se dotýká. Po skončení kouzla se předmět opět vrátí do tvaru, který měl původně.
+	hromadné přitažení -- dohled
 		- Sesílatel sešle Přitažení na několik cílů najednou. Náročnost je úměrná počtu cílů.
-	hromadné odhození
+	hromadné odhození -- dohled
 		- Sesílatel sešle Odhození na několik cílů najednou. Náročnost je úměrná počtu cílů.
-	hromadné sražení
+	hromadné sražení -- dohled
 		- Sesílatel sešle Sražení na několik cílů najednou. Náročnost je úměrná počtu cílů.
 	značka prostoru -- soustředění
-		- Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv.
+		- Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv. ***Značka prostoru*** trvá věčně, ale sesílatel současně může mít pouze tolik značek, kolik si dokáže okamžitě kdykoliv vybavit, v případě zapomnění značka zaniká. Vyžaduje sesílatelovu plnou koncentraci.
+velmistrovská:
+	teleportace -- dotyk -- paměť
+		- Sesílatel teleportuje sebe, cílový objekt nebo organismus, na místo, které si dobře pamatuje. Teleportace je tím přesnější, čím lepší je sesílatelova vzpomínka na cílové místo. Při teleportaci na místo, které sesílatel nevidí, hrozí kolize s jiným objektem, s nepředvídatelnými destruktivními efekty.
+	přivolání -- paměť
+		- Sesílatel přivolá objekt nebo organismus z místa, které si dobře pamatuje. Přivolání je tím přesnější, čím lepší je sesílatelova vzpomínka na cílové místo. Při přivolávání z místa, které sesílatel nevidí, hrozí přivolání jiného cíle nebo nepřesné přivolání s nepředvídatelnými destruktivními efekty.
+	hromadná teleportace -- dotyk
+		- Sesílatel se dotkne více teleportovaných cílů a okamžitě je přesune na místo, které vidí. Sesílatel musí být schopen teleportovat každý cíl zvlášť (pokud tedy alespoň jeden cíl je organismus, sesílatel musí znát kouzlo ***Teleportace organismu***). Při přivolávání většího množství objemnějších cílů může dojít na cílovém místě ke kolizím s drobnými destruktivními efekty.
+	hromadné přivolání -- dohled
+		- Sesílatel okamžitě přesune více cílů, které vidí, ke své ruce. Sesílatel musí být schopen přivolat každý cíl zvlášť (pokud tedy alespoň jeden cíl je organismus, sesílatel musí znát kouzlo ***Přivolání organismu*** apod.). Při přivolávání většího množství objemnějších cílů může dojít u sesílatele ke kolizím s drobnými destruktivními efekty.
+	teleportační brána -- paměť
+		- Sesílatel vytvoří portál mezi 2 místy, která vidí nebo si je dobře pamatuje. Jakýkoliv objekt projde portálem na jedné straně se objeví na druhé straně se stejnou rychlostí a směrem, s jakými portálem prošel. Lokace portálu na obou stranách je tím přesnější, čím lepší je sesílatelova vzpomínka na cílové místo. Při teleportaci na místo, které sesílatel nevidí, hrozí kolize s jiným objektem, s nepředvídatelnými destruktivními efekty.
+	dlouhodobá teleportační brána -- dohled
+		- Za cenu enormního množství energie sešle kouzlo ***Teleportační brána***, které portál mezi 2 místy otevře na dlouhou dobu. Doba trvání závisí na schopnostech sesílatele, řádově dny až týdny.
+	pohyblivá bariéra -- dohled -- bariéra -- soustředění
+		- Sesílatel sešle bariérové kouzlo, ovšem s tím, že vytvořenou bariérou může silou vůle pohybovat. Po dobu hýbání bariéry vyžaduje sesílatelovu plnou pozornost. 
+	bariérová zbroj -- sesílatel -- bariéra
+		- Vytvoří kolem sesílatele bariéru danou jím zvoleným bariérovým kouzlem, která kopíruje jeho tělo a pohybuje se s ním. V případě, že se sesílatel teleportuje z bariéry pryč, se bariéra okamžitě rozpadne.
+	dlouhodobá bariéra -- dohled -- bariéra
+		- Za cenu enormního množství energie sešle jiné bariérové kouzlo, které bude vyprchávat velmi pomalu. Doba trvání závisí na schopnostech sesílatele, řádově týdny.
+	bariérová kontrukce -- dohled -- bariéra
+		- Sesílatel vytvoří konstrukci z propojených bariér, které všechny vznikají a zanikají zároveň. Bariéry nemusí být propojené fyzicky, lze tedy stejně dobře vyrobit kvádr z bariér jako vyrobit 6 bariér, které se nijak nedotýkají. Množství bariér, které je sesílatel schopen seslat najednou a propojit, je závislé na schopnostech sesílatele, standardně 7. Energetická náročnost je úměrná počtu bariér. K rozbití konstrukce stačí rozbít jednu libovolnou bariéru, ovšem je potřeba vyčerpat energii vloženou do celého kouzla. Každá dílčí bariéra může mít jiné vlastnosti, pokud je sesílatel umí (sesílatel tak může vytvořit několik ***Sférických bariér*** a několik ***Bariér propouštějících zvuk***).
+	kapesní dimenze -- dohled -- zakřivení
+		- Sesílatel zakřiví prostor kolem cíle tak, že pro ostatní cíl prostě zmizí. Dá se použít také tak, že na určitém místě vytvoří zvenku nepřístupnou bublinu odděleného prostoru.
+	dlouhodobé zakřivení prostoru -- dohled -- zakřivení
+		- Za cenu enormního množství energie sešle jiné kouzlo zakřivující prostor, které bude vyprchávat velmi pomalu. Doba trvání závisí na schopnostech sesílatele, řádově hodiny až dny.
+	změna amplitudy vlnění -- dohled
+		- Sesílatel zesílí nebo zeslabí fyzické vlnění (hlas, vlny ve vodě apod.)

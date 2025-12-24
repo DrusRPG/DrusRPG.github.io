@@ -1,43 +1,42 @@
 základní:
-	teleportace objektu
-	přivolání objektu
-	změna tvaru objektu -- zakřivení
-	zmenšení vzdálenosti -- zakřivení
-	zvětšení vzdálenosti -- zakřivení
-	neprostupná bariéra -- bariéra
-	změna dráhy objektu -- zakřivení
 	levitace -- sesílatel
-	levitace - předmět
-	přitahující pole -- zakřivení
-	odpuzující pole -- zakřivení
-	přitažení
-	odhození
-	sražení
+	levitace - předmět -- dohled
+	teleportace objektu -- dotyk
+	přivolání objektu -- dohled
+	neprostupná bariéra -- dohled -- bariéra
+	změna tvaru objektu -- dotyk -- zakřivení
+	zmenšení vzdálenosti -- dohled -- zakřivení
+	zvětšení vzdálenosti -- dohled -- zakřivení
+	změna dráhy objektu -- dohled -- zakřivení
+	přitahující pole -- dohled -- zakřivení
+	odpuzující pole -- dohled -- zakřivení
+	přitažení -- dohled
+	odhození -- dohled
+	sražení -- dohled
 pokročilá:
-	prostorová trhlina
-	zacelení trhliny
-	odpuzující zbroj -- zakřivení
-	teleportace sebe
-	teleportace organismu
-	přivolání organismu
-	odvrácení útoků -- zakřivení
-	zvětšení objektu -- zakřivení
-	zmenšení objektu -- zakřivení
-	bariéra propouštějící zvuk -- bariéra
-	světelná bariéra -- bariéra
-	sférická bariéra -- bariéra
+	prostorová trhlina -- dohled
+	zacelení trhliny -- dohled
+	teleportace sebe -- sesílatel
+	teleportace organismu -- dotyk
+	přivolání organismu -- dohled
+	bariéra propouštějící zvuk -- dohled -- bariéra
+	světelná bariéra -- dohled -- bariéra
+	sférická bariéra -- dohled -- bariéra
+	odpuzující zbroj -- sesílatel -- zakřivení
+	odvrácení útoků -- sesílatel -- zakřivení
+	zvětšení objektu -- dohled -- zakřivení
+	zmenšení objektu -- dohled -- zakřivení
+	prostorový tunel -- dohled -- zakřivení
+	cit prostoru -- sesílatel
 	meditace -- soustředění
-	prostorový tunel -- zakřivení
-	cit prostoru
 mistrovská:
-	zvětšení organismu -- zakřivení
-	zmenšení organismu -- zakřivení
-	změna tvaru organismu -- zakřivení
-	bariérové vězení -- bariéra
-	jednosměrná bariéra -- bariéra
 	teleportační brána -- dohled
-	hromadné přitažení
-	hromadné odhození
-	hromadné sražení
+	bariérové vězení -- dohled -- bariéra
+	jednosměrná bariéra -- dohled -- bariéra
+	zvětšení organismu -- dohled -- zakřivení
+	zmenšení organismu -- dohled -- zakřivení
+	změna tvaru organismu -- dohled -- zakřivení
+	hromadné přitažení -- dohled
+	hromadné odhození -- dohled
+	hromadné sražení -- dohled
 	značka prostoru -- soustředění
-	

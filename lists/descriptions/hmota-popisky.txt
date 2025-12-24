@@ -1,23 +1,23 @@
 základní:
-	ohnivá střela -- oheň
+	ohnivá střela -- projektil -- oheň
 		- Sesílatel vyšle k cíli střelu z hořícího plynu zhruba velikosti pěsti.
 	ohnivá stěna -- dohled -- oheň
 		- Sesílatel v cílovém místě vytvoří stěnu z plamenů. Šíře i výška stěny závisí na schopnostech sesílatele, standardně zhruba 2m šířka a 1,5m výška.
 	ohnivý plášť -- sesílatel -- oheň
-		- Sesílatel se zahalí do pláště z rotujících plamenů, které popálí kohokoliv, kdo se k sesílateli přiblíží - standardní poloměr 1,5m.
+		- Sesílatel se zahalí do pláště z rotujících plamenů, které popálí kohokoliv, kdo se k sesílateli přiblíží. Standardní poloměr 1,5m.
 	ohnivý prstenec -- oheň
 		- Sesílatel vyšle do všech směrů od sebe prstenec plamenů. Výška, do které plameny vystoupají od země, je standardně 1,5m, poloměr prstence závisí na schopnostech sesílatele, standardně 5m.
 	ohnivá zbraň -- dohled -- zbraň -- oheň
 		- Sesílatel očaruje cílovou zbraň magickým ohněm, který kolem zbraně plane, aniž by ji poškozoval. Popálí kohokoliv, koho zbraň zasáhne.
-	proud uhlíků -- oheň
+	proud uhlíků -- projektil -- oheň
 		- Sesílatel po dobu trvání kouzla chrlí proud malých hořících uhlíků, které na místě dopadu zůstávají hořet.
-	ohnivý bič -- oheň
+	ohnivý bič -- projektil -- oheň
 		- Sesílatel z ruky švihne bičem z hořícího materiálu, který omotá a popálí první věc, kterou trefí. Bič okamžitě po seslání kouzla mizí, ale pokud něco trefil, ulpívá na zasaženém místě hmota podobná hořící smůle. Dosah kouzla závisí na schopnostech sesílatele, standardně 5m.
 	zapálení -- dotyk -- oheň
 		- Sesílatel dotykem zapálí cílový objekt (pokud je hořlavý, jinak ho popálí)
 	cit ohně -- sesílatel -- oheň
 		- Sesílatel získá magický smysl, kterým je schopen vnímat, kde a jak v jeho okolí něco hoří.
-	ledová střela -- led
+	ledová střela -- projektil -- led
 		- Sesílatel vyšle k cíli střelu z ledu zhruba velikosti pěsti, může být ostrá nebo tupá.
 	ledová stěna -- dohled -- led
 		- Sesílatel v cílovém místě vytvoří stěnu z bloku kompaktního ledu. Šíře i výška stěny závisí na schopnostech sesílatele, standardně zhruba 2m šířka a 1,5m výška.
@@ -26,7 +26,7 @@ základní:
 	ledová zbraň -- dohled -- zbraň -- led
 		- Sesílatel očaruje cílovou zbraň magickým ledem, který podchlazuje cokoliv, čeho zbraň zasáhne, ovšem za cenu lehkého zatížení zbraně. Podchlazené věci mají tendenci být křehčí a náchylnější na tupé rány.
 	vodní/ledový plášť -- sesílatel -- led -- voda
-		- Sesílatel se zahalí do pláště z rotujících střípků ledu nebo vody, které zasáhnouu kohokoliv, kdo se k sesílateli přiblíží - standardní poloměr 1,5m.
+		- Sesílatel se zahalí do pláště z rotujících střípků ledu nebo vody, které zasáhnouu kohokoliv, kdo se k sesílateli přiblíží. Standardní poloměr 1,5m.
 	déšť -- dohled -- voda
 		- Sesílatel po dobu trvání kouzla vytváří mrak nad sílovou oblastí, ze kterého prší. Intenzita deště, rozsah oblasti a délka trvání kouzla závisí na schopnostech sesílatele.
 	vodní prstenec -- voda
@@ -35,7 +35,7 @@ základní:
 		- Sesílatel dotykem pokryje cílový objekt kompaktní vrstvou ledu.
 	cit vody -- sesílatel -- led -- voda
 		- Sesílatel získá magický smysl, kterým je schopen vnímat přítomnost a stav vody ve všech skupenstvích kolem sebe.
-	poryv větru -- vzduch
+	poryv větru -- projektil -- vzduch
 		- Sesílatel vytvoří v daném místě silný proud větru, který po dobu působení mění směr podle vůle sesílatele.
 	větrný plášť -- sesílatel -- vzduch
 		- Sesílatel se zahalí pláštěm ze silného rotujícího větru, který odhazuje vše, co se k uživateli přiblíží.
@@ -53,7 +53,7 @@ základní:
 		- Sesílatel po dobu trvání kouzla v cílové oblasti mění proudění vzduchu na kvílivý a turbulentní chaotický pohyb. Uvnitř oblasti je kromě větru máloco slyšet a i zvuky vycházející z oblasti ven jsou silně utlumeny. Vyžaduje sesílatelovu plnou koncentraci.
 	cit vzduchu -- sesílatel -- vzduch
 		- Sesílatel získá magický smysl, kterým je schopen vnímat stav vzduchu kolem sebe.
-	kamenná střela -- země
+	kamenná střela -- projektil -- země
 		- Sesílatel vyšle k cíli kamennou střelu zhruba velikosti pěsti, může být ostrá nebo tupá.
 	kamenná kůže -- dohled -- země
 		- Sesílatel pokryje sobě nebo cílovému organismu kůži po celém těle kamennými šupinkami. Šupiny chrání cíl před zraněním, ovšem při nárazu se často odlomí.
@@ -65,22 +65,22 @@ základní:
 		- Sesílatel očaruje cílovou zbraň magickým kamenem, který zbraň obalí a zpevňuje, ovšem za cenu znatelného zatížení zbraně. Zvyšuje pádnou sílu zbraní.
 	pole bahna -- dohled -- země
 		- Sesílatel v cílové oblasti pokryje povrch silnou vrstvou bahna, která se lepí na vše, čeho se dotkne.
-	proud písku -- země
+	proud písku -- projektil -- země
 		- Sesílatel od sebe jedním směrem po dobu trvání kouzla chrlí proud písku, který je hrubý, drsný a dostane se všude ;-) Standardní dosah je 10m.
 	příkop -- dotyk -- země
 		- Sesílatel dotykem přesune zeminu kolem sebe tak, že vytvoří příkop - rozměry závisí na schopnostech sesílatele, standardně zhruba 2m šířka, 1m délka a 1,5m hloubka. Energetická náročnost silně závisí na tvrdosti země.
 	cit země -- sesílatel -- země
 		- Sesílatel získá magický smysl, kterým je schopen vnímat stav země kolem sebe.
-	elektrický výboj -- blesk
+	elektrický výboj -- projektil -- blesk
 		- Sesílatel vyšle k cíli elektrický výboj, který, pokud zasáhne, způsobí elektrický šok. Standardní dosah je 10m.
-	statické pole -- blesk
+	statické pole -- dohled -- blesk
 		- Sesílatel vytvoří v cílové oblasti pole silně polarizovaného vzduchu, které po dobu trvání kouzla přitahuje nebo naopak odpuzuje eletrické výboje.
 pokročilá:
-	proud ohně -- oheň
+	proud ohně -- projektil -- oheň
 		- Sesílatel od sebe jedním směrem po dobu trvání kouzla chrlí proud ohně, který spálí vše v cestě. Standardní dosah je 10m.
-	ohnivá smršť -- oheň
+	ohnivá smršť -- projektil -- oheň
 		- Sesílatel po dobu trvání kouzla chrlí proud střel z hořícího plynu zhruba velikosti pěsti.
-	ohnivá koule -- oheň
+	ohnivá koule -- projektil -- oheň
 		- Sesílatel vyšle k cíli velkou kouli hořícího plynu. Velikost koule závisí na schopnostech sesílatele, standardně 1,5m.
 	hromadná ohnivá zbraň -- dohled -- zbraň -- oheň
 		- Sesílatel očaruje cílové zbraně magickým ohněm, který kolem zbraně plane, aniž by ji poškozoval. Popálí kohokoliv, koho zbraň zasáhne.
@@ -92,13 +92,13 @@ pokročilá:
 		- Sesílatel dotykem zahřívá cílový objekt v celém jeho objemu, až ho roztaví
 	ohnivé vězení -- dohled -- oheň
 		- Sesílatel vytvoří kolem cílového objektu či organismu kulové vězení z plamenů. Cíl nemůže uniknout jinak než za cenu těžkých popálenin či smrti. Zůstat v ohnivém vězení delší dobu způsobí cíli přehřátí organismu, které může vést až ke smrti.
-	proud vody -- voda
+	proud vody -- projektil -- voda
 		- Sesílatel od sebe jedním směrem po dobu trvání kouzla chrlí silný proud vody, která promočí vše v cestě. Standardní dosah je 10m.
 	hromadná ledová zbraň -- dohled -- zbraň -- led
 		- Sesílatel očaruje cílové zbraně magickým ledem, který podchlazuje cokoliv, čeho zbraň zasáhne, ovšem za cenu lehkého zatížení zbraně. Podchlazené věci mají tendenci být křehčí a náchylnější na tupé rány.
 	ledová zbroj -- dohled -- led
 		- Sesílatel sobě nebo cílovému organismu vytvoří zbroj z ledu vytvarovanou podle vůle sesílatele. Nepodchlazuje cíl. Síla zbroje závisí na schopnostech sesílatele. Zbroj má tendenci při ráně tendenci se roztříštit a podchladit útočníkovu zbraň. Podchlazené věci mají tendenci být křehčí a náchylnější na tupé rány.
-	ledová smršť -- led
+	ledová smršť -- projektil -- led
 		- Sesílatel po dobu trvání kouzla chrlí proud ledových střel zhruba velikosti pěsti. Střely mohou být ostré nebi tupé.
 	ledové vězení -- dohled -- led
 		- Sesílatel vytvoří kolem cílového objektu či organismu vězení z ledových sloupů, které cíl znehybní. Zůstat v ledovém vězení delší dobu způsobí cíli omrzliny, které může vést až ke smrti.
@@ -108,7 +108,7 @@ pokročilá:
 		- Sesílatel pohledem pokryje cílový objekt kompaktní vrstvou ledu.
 	podchlazení -- dotyk -- led
 		- Sesílatel dotykem podchlazuje cílový objekt v celém jeho objemu. Podchlazené věci mají tendenci být křehčí a náchylnější na tupé rány.
-	tlaková vlna -- vzduch
+	tlaková vlna -- projektil -- vzduch
 		- Sesílatel od sebe vyšle do zvoleného směru silnou tlakovou vlnu, která odhazuje vše, co se jí dostane do cesty. Standardní dosah je 10m.
 	cyklon -- dohled -- vzduch
 		- Sesílatel vytvoří v cílové oblasti prudce rotující sloupec vzduchu, který zvedá vše v oblasti do vzduchu a odhazuje stranou.
@@ -124,7 +124,7 @@ pokročilá:
 		- Sesílatel vytvoří kolem cílové oblasti sférické pole vysokého tlaku, který výrazně snižuje mísení vzduchu mezi vnější a vnitřní oblastí sféry. Může ochránit např. před jedovatým plynem, písečnou vouří, deštěm nebo ohnivými projektily. Vyžaduje sesílatelovu plnou koncentraci.
 	eroze -- dotyk -- vzduch
 		- Sesílatel dotykem ovládá proudění vzduchu kolem cílového předmětu tak, že výrazně urychluje erozi. Může vést k úplnému rozdrolení předem strukturálně narušených předmětů.
-	kamenná smršť -- země
+	kamenná smršť -- projektil -- země
 		- Sesílatel po dobu trvání kouzla chrlí proud kamenných střel zhruba velikosti pěsti. Střely mohou být ostré nebi tupé.
 	zemětřesení -- dohled -- země -- soustředění
 		- Sesílatel po dobu trvání kouzla vyvolává v cílové oblasti záchvěvy v půdě, které způsobují pohyb zeminy na povrchu. Je v podstatě nemožné v cílové oblasti a okolí pohybovat se bez pádu, a silně poškozuje budovy. Vyžaduje sesílatelovu plnou koncentraci.
@@ -134,15 +134,15 @@ pokročilá:
 		- Sesílatel sobě nebo cílovému organismu vytvoří zbroj z kamene vytvarovanou podle vůle sesílatele. Síla zbroje závisí na schopnostech sesílatele. Zbroj cíl výrazně zatíží, ale dobře chrání proti sečným, bodným i tupým ranám.
 	kamenné vězení -- dohled -- země
 		- Sesílatel vytvoří kolem cílového objektu či organismu vězení z kamenných sloupů, které cíl znehybní.
-	střela balvanem -- země
+	střela balvanem -- projektil -- země
 		- Sesílatel vyšle k cíli velký kamenný projektil. Velikost koule závisí na schopnostech sesílatele, standardně 1,5m.	
 	příkop -- dohled -- země
 		- Sesílatel pohledem přesune zeminu na cílovém místě tak, že vytvoří příkop - rozměry závisí na schopnostech sesílatele, standardně zhruba 2m šířka, 1m délka a 1,5m hloubka. Energetická náročnost silně závisí na tvrdosti země.
 	zkamenění -- dotyk -- země
 		- Sesílatel dotykem pokryje na dobu trvání kouzla cílový objekt či organizmus pevnou vrstvou kamene, která cíl znehybní.
-	blesk -- blesk
+	blesk -- projektil -- blesk
 		- Sesílatel vyšle k cíli silný elektrický výboj, který způsobuje silný elektrický šok a popáleniny.
-	proud výbojů -- blesk
+	proud výbojů -- projektil -- blesk
 		- Sesílatel od sebe jedním směrem po dobu trvání kouzla vysílá každých pár vteřin několik elektrických výbojů, které, pokud zasáhnou, způsobí elektrický šok. Standardní dosah je 10m.
 	meditace -- soustředění
 		- forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě. Vyžaduje sesílatelovu plnou koncentraci.
@@ -173,9 +173,62 @@ mistrovská:
 		- Sesílatel pohledem pokryje na dobu trvání kouzla cílový objekt či organizmus pevnou vrstvou kamene, která cíl znehybní.
 	bouřka -- dohled -- blesk -- soustředění
 		- Sesílatel po dobu trvání kouzla vytváří nad cílovou oblastí silně nabitý oblak, z nějž má možnost každých několik vteřin seslat blesk na jím zvolený cíl v oblasti. Vyžaduje sesílatelovu plnou koncentraci.
-	kulový blesk -- blesk
+	kulový blesk -- projektil -- blesk
 		- Sesílatel vytvoří silně nabitou kouli plazmy, která se chaoticky pohybuje kolem a propálí se prakticky čímkoliv.
-	řetězový blesk -- blesk
+	řetězový blesk -- projektil -- blesk
 		- Sesílatel vytvoří silné statické pole ve tvaru tunelu mezi několika zvolenými cíly, které následně zacílí velmi silným elektrickým výbojem. Ten přeskočí mezi všemi zvolenými cíli.
 	značka hmoty -- soustředění
 		- Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv. Vyžaduje sesílatelovu plnou koncentraci.
+velmistrovská:
+	ohnivý déšť -- dohled -- oheň -- soustředění
+		- Sesílatel po dobu trvání kouzla vytváří ohnivý oblak nad sílovou oblastí, ze kterého prší kusy hořící lepkavé hmoty, která ulpívá na všem, na co dopadne. Intenzita ohně, rozsah oblasti a délka trvání kouzla závisí na schopnostech sesílatele. Vyžaduje sesílatelovu plnou koncentraci.
+	parní bouře -- dohled -- oheň -- voda -- soustředění
+		- Sesílatel v dané oblasti po dobu trvání kouzla vytváří větrnou bouři z vařící páry. Dochází k rychlému přehřátí čehokoliv živého v oblasti s výjimkou těch, kdo jsou pod efektem nějakého kouzla upravujícího teplotu kolem nich - jako jsou třeba ***Ledová zbroj*** nebo ***Ohnivý plášť***. Rozsah oblasti závisí na schopnostech sesílatele. Vyžaduje sesílatelovu plnou koncentraci.
+	požár -- dohled -- oheň -- vzduch -- soustředění
+		- Sesílatel v dané oblasti vytváří ložiska ohně a vítr, který oheň živí, díky čemuž se hoření rychle šíří kamkoliv, kam se sesílateli zamane. Rozsah oblasti závisí na schopnostech sesílatele. Vyžaduje sesílatelovu plnou koncentraci.
+	pyroklastický proud -- projektil -- oheň -- země -- soustředění
+		- Sesílatel od sebe jedním směrem po dobu trvání kouzla velkou rychlostí chrlí proud hořící horniny a sopečného popela. Standardní dosah je 50m.
+	tělo z plamene -- sesílatel -- oheň
+		- Sesílatel si na povrchu těla vytvoří vrstvu magického ohně, do kterého se po dobu trvání kouzla zcela zahalí. V tomto stavu je zcela nedotknutelný ohňem a získává možnost se v hořících oblastech pohybovat nadlidskou rychlostí.
+	mistrovství ohně - magma -- oheň
+		- Sesílatelovo mistrovství ohnivé magie mu umoňuje seslat libovolné ohnivé kouzlo, které umí, s magmatem místo ohně.
+	mistrovství ohně - žár -- oheň
+		- Sesílatelovo mistrovství ohnivé magie mu umoňuje seslat libovolné ohnivé kouzlo, které umí, s plamenem mnohem více horkým, než jaká mají ohnivá kouzla v základu. Tyto plameny žhnou modrým ohněm.
+	záplava -- dohled -- voda -- soustředění
+		- Sesílatel za enormní cenu energie vytváří v cílové oblasti velké množství vody. Voda stoupá odevšud od země rovnoměrně a na rozdíl od většiny ostatních kouzel zůstává několik hodin, než se zase vypaří. To umožňuje její hromadění v cílové oblasti, potenciálně vedoucí k zatopení daného místa. Vyžaduje sesílatelovu plnou koncentraci.
+	krupobití -- dohled -- led -- soustředění
+		- Sesílatel po dobu trvání kouzla vytváří mrak nad sílovou oblastí, ze kterého padají kroupy. Intenzita krupobití, rozsah oblasti a délka trvání kouzla závisí na schopnostech sesílatele. Vyžaduje sesílatelovu plnou koncentraci.
+	blizzard -- dohled -- led -- vzduch -- soustředění
+		- Sesílatel v dané oblasti po dobu trvání kouzla vytváří větrnou bouři nesoucí velké množství sněhu a ledu. V blizzardu je velmi těžké se pohybovat, a hrozí akutní riziko umrznutí. Rozsah oblasti závisí na schopnostech sesílatele. Vyžaduje sesílatelovu plnou koncentraci.
+	sesuv půdy -- dohled -- země -- voda -- soustředění
+		- Sesílatel na cílovou oblast po dobu trvání kouzla sesílá ze sebou zvoleného směru lavinu bahna, která pod sebou postupně pohřbívá vše, co se nedostane dostatečně vysoko. Efekt je zesílen, pokud bahno postupuje z kopce. Rozsah oblasti závisí na schopnostech sesílatele. Vyžaduje sesílatelovu plnou koncentraci.
+	tělo z ledu -- sesílatel -- led
+		- Sesílatel si na povrchu těla vytvoří vrstvu magického ledu, do kterého se po dobu trvání kouzla zcela zahalí. V tomto stavu je zcela nedotknutelný vodou a ledem a získává možnost pomalu procházet bloky ledu bez jejich poškození.
+	tělo z vody -- sesílatel -- voda
+		- Sesílatel si na povrchu těla vytvoří vrstvu magické vody, do které se po dobu trvání kouzla zcela zahalí. V tomto stavu je zcela nedotknutelný vodou a ledem a získává možnost se nadlidskou rychlostí hýbat skrz jakékoliv větší vodní plochy.
+	mistrovství ledu - podchlazení -- led
+		- Sesílatelovo mistrovství ledové magie mu umoňuje seslat libovolné ledové kouzlo, které umí, s ledem mnohem studenějším, než jaká mají ledová kouzla v základu. Jakýkoliv kontakt s takovým ledem způsobuje omrzliny a teplotní šok.
+	mistrovství vody - kyselina -- voda
+		- Sesílatelovo mistrovství vodní magie mu umoňuje seslat libovolné vodní kouzlo, které umí, s žíravou kyselinou místo vody. Koncentrace kyseliny závisí na schopnostech sesílatele.
+	pole tlakových vln -- dohled -- vzduch -- soustředění
+		- Sesílatel v cílové oblasti po dobu trvání kouzla vytváří na sebou zvolených místech tlakové vlny, které se od zvoleného místa rycle šíří všemi směry. Síla vln, rozsah oblasti a frekvence, s jakou je sesílatel schopen tlakové vlny vytvářet, závisí na schopnostech sesílatele, standardně 2 za kolo. Vyžaduje sesílatelovu plnou koncentraci.
+	písečná bouře -- dohled -- země -- vzduch -- soustředění
+		- Sesílatel v dané oblasti po dobu trvání kouzla vytváří větrnou bouři nesoucí velké množství písku. V písečné bouři není vidět, písek obrušuje vše, čeho se dotkne, a zasypává vše v oblasti. Rozsah oblasti závisí na schopnostech sesílatele. Vyžaduje sesílatelovu plnou koncentraci.
+	tělo ze vzduchu -- sesílatel -- vzduch
+		- Sesílatel si na povrchu těla vytvoří vrstvu magicky proudícího větru, do kterého se po dobu trvání kouzla zcela zahalí. V tomto stavu je zcela nedotknutelný vzdušnou magií a získává možnost létat.
+	mistrovství vzduchu - důlní plyn -- vzduch
+		- Sesílatelovo mistrovství větrné magie mu umoňuje seslat libovolné větrné kouzlo, které umí, s dusícím důlním plynem neseným ve větru. Koncentrace důlního plynu závisí na schopnostech sesílatele. Důlní plyn je těžší, než vzduch, a má přirozenou tendenci klesat rychleji.
+	mistrovství vzduchu - mlha -- vzduch
+		- Sesílatelovo mistrovství větrné magie mu umoňuje seslat libovolné větrné kouzlo, které umí, s hustou mlhou místo větru. Mlha máčí věci a silně zhoršuje viditelnost, ale není jinak nijak škodlivá.
+	tektonická trhlina -- dohled -- země -- dohled -- soustředění
+		- Sesílatel otevře širokou puklinu v zemi napříč cílovou oblastí a po dobu trvání kouzla ji rozevírá. Po skončení kouzla se puklina zase zavře a cokoliv, co do ní spadlo, je uvězněno hluboko pod zemí. Rozsah oblasti závisí na schopnostech sesílatele. Vyžaduje sesílatelovu plnou koncentraci.
+	tělo z kamene -- sesílatel -- země
+		- Sesílatel si na povrchu těla vytvoří vrstvu magického kamene, do kterého se po dobu trvání kouzla zcela zahalí. V tomto stavu je zcela nedotknutelný zemními kouzly a získává možnost se na krátkou dobu zanořit do země nebo skály.
+	tělo z písku -- sesílatel -- země
+		- Sesílatel si na povrchu těla vytvoří vrstvu magického tekoucího písku, do kterého se po dobu trvání kouzla zcela zahalí. V tomto stavu je zcela nedotknutelný zemními kouzly a získává možnost se zanořit do písku a cestovat jím pod povrchem.
+	mistrovství země - obsidián -- země
+		- Sesílatelovo mistrovství zemní magie mu umoňuje seslat libovolné zemní kouzlo, které umí, s obsidiánem místo běžného kamene. Obsidián má extrémně ostré hrany a při nárazu se láme do ostrých úlomků. Sesílatelova písečná kouzla vytváří mnohem ostřejší písek než běžně.
+	mistrovství země - diamant -- země
+		- Sesílatelovo mistrovství zemní magie mu umoňuje seslat libovolné zemní kouzlo, které umí, s diamentem místo běžného kamene. Diamant je extrémně tvrdý a jen velmi obtížně zničitelný. Sesílatelova písečná kouzla vytváří hrubší písek než běžně.
+	blesková bouře -- dohled -- blesk -- soustředění
+		- Sesílatel po dobu trvání kouzla vytváří nad cílovou oblastí silně nabitý oblak, z nějž nekontrolovatelně šlehá velké množství blesků, které ničí cokoliv, co zasáhnou. Rozsah oblasti závisí na schopnostech sesílatele. Vyžaduje sesílatelovu plnou koncentraci.
