@@ -27,6 +27,7 @@ pokročilá:
 	zvětšení objektu -- dohled -- zakřivení
 	zmenšení objektu -- dohled -- zakřivení
 	prostorový tunel -- dohled -- zakřivení
+	narovnání prostoru -- dohled -- zakřivení
 	cit prostoru -- sesílatel
 	meditace -- soustředění
 mistrovská:

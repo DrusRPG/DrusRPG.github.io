@@ -77,6 +77,10 @@ pokročilá:
 		- Zmenšování je ve všech směrech stejné, a cílový objekt si ponechá svou hmotnost - v důsledku čehož může být tvrdší
 	prostorový tunel -- dohled -- zakřivení
 		- Sesílatel vytvoří malou červí díru, kterou může projít skrz malé překážky - např. projít stěnou.
+	narovnání prostoru -- dohled -- zakřivení
+		- Sesílatel v cílové oblasti ostraní všechny efekty kouzel zakřivujících prostor.
+		- Dokud tomuto kouzlu sesílatel věnuje plnou pozornost, brání ostatním mágům prostoru v zakřivování cílové oblasti.
+		- V takovém případě dochází k souboji vůle mezi sesílatelem a druhým mágem.
 	cit prostoru -- sesílatel
 		- Po dobu udržování kouzla získává sesílatel magický smysl, kterým dokáže prohledat prostor kolem sebe a zjistit, co se kde kolem něj nachází
 	meditace -- soustředění
