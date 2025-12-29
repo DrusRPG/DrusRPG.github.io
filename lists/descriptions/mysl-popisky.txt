@@ -9,7 +9,7 @@ základní:
 		- Sesílatel ošálí cíl iluzí, která způsobí, že cíl slyší sesílatelem zvolený zvukový vjem. 
 		- Sesílatel může po dobu trvání kouzla vjemy měnit.
 	malá zraková iluze -- dohled -- iluze
-		- Sesílatel ošálí cíl iluzí, která způsobí, že cíl slyší sesílatelem zvolený obraz. 
+		- Sesílatel ošálí cíl iluzí, která způsobí, že cíl vidí sesílatelem zvolený obraz. 
 		- Sesílatel může po dobu trvání kouzla vjemy měnit, včetně hýbání daným obrazem. 
 		- Obraz může mít zhruba velikost člověka.
 	sugesce únavy -- dohled -- sugesce
@@ -49,10 +49,10 @@ základní:
 		- Vyžaduje sesílatelovu plnou koncentraci.
 pokročilá:
 	neviditelnost -- sesílatel -- iluze
-		- Sesílatel všechny cíle v okolí ošálí iluzí, která neguje obrazové vjemy související se sesílatelem. Cíle tak sesílatele neuslyší. 
+		- Sesílatel všechny cíle v okolí ošálí iluzí, která neguje obrazové vjemy související se sesílatelem. Cíle tak sesílatele neuvidí. 
 		- Sesílatel si musí být cíle vědom, aby ten byl ovlivněn.
 	velká zraková iluze -- dohled -- iluze
-		- Sesílatel ošálí cíl iluzí, která způsobí, že cíl slyší sesílatelem zvolený obraz. 
+		- Sesílatel ošálí cíl iluzí, která způsobí, že cíl vidí sesílatelem zvolený obraz. 
 		- Sesílatel může po dobu trvání kouzla vjemy měnit, včetně hýbání daným obrazem. 
 		- Obraz může mít zhruba velikost domu.
 	iluze hmatového vjemu -- dohled -- iluze
