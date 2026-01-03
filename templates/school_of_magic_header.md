@@ -29,3 +29,5 @@ cover:
 ---
 
 <div id="background-overlay" style="background-image: url($IMAGE_SECOND)"></div>
+
+$CONTENTS
