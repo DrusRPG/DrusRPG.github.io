@@ -1,49 +1,49 @@
 základní:
-	neslyšitelnost -- iluze
-	iluze vůně/pachu/chuti -- iluze
-	iluze zvuku -- iluze
-	malá zraková iluze -- iluze
-	sugesce únavy -- sugesce
-	sugesce povzbuzení -- sugesce
-	sugesce odhodlání -- sugesce
-	sugesce myšlenky -- sugesce
-	sugesce strachu -- sugesce
-	sugesce klidu -- sugesce
-	čtení současné myšlenky -- mentální_magie
-	mentální útok -- mentální_magie
+	neslyšitelnost -- sesílatel -- iluze
+	iluze vůně/pachu/chuti -- dohled -- iluze
+	iluze zvuku -- dohled -- iluze
+	malá zraková iluze -- dohled -- iluze
+	sugesce únavy -- dohled -- sugesce
+	sugesce povzbuzení -- dohled -- sugesce
+	sugesce odhodlání -- dohled -- sugesce
+	sugesce myšlenky -- dohled -- sugesce
+	sugesce strachu -- dohled -- sugesce
+	sugesce klidu -- dohled -- sugesce
+	čtení současné myšlenky -- dohled -- mentální_magie
+	mentální útok -- dohled -- mentální_magie
 	hypnóza - spánek -- hypnóza
-	mentální obrana - sugesce a iluze
-	telekineze - předmět -- soustředění
-	hromadná telekineze - předměty -- soustředění
+	telekineze - předmět -- dohled -- soustředění
+	hromadná telekineze - předměty -- dohled -- soustředění
+	mentální obrana - sugesce a iluze -- dohled
 	meditace -- soustředění
 pokročilá:
-	neviditelnost -- iluze
-	velká zraková iluze -- iluze
-	iluze hmatového vjemu -- iluze
-	zmatení -- mentální_magie
-	čtení nedávné myšlenky -- mentální_magie
-	sugesce názoru -- sugesce
-	výpadek paměti -- mentální_magie
-	telepatická domluva
-	cit mysli -- mentální_magie
-	sugesce vzteku -- sugesce
-	sugesce přátelství -- sugesce
-	sugesce odporu -- sugesce 
+	neviditelnost -- sesílatel -- iluze
+	velká zraková iluze -- dohled -- iluze
+	iluze hmatového vjemu -- dohled -- iluze
+	sugesce názoru -- dohled -- sugesce
+	sugesce vzteku -- dohled -- sugesce
+	sugesce přátelství -- dohled -- sugesce
+	sugesce odporu -- dohled -- sugesce
+	zmatení -- dohled -- mentální_magie
+	čtení nedávné myšlenky -- dohled -- mentální_magie
+	výpadek paměti -- dohled -- mentální_magie
+	cit mysli -- sesílatel -- mentální_magie
+	telepatická domluva -- dohled -- mentální_magie
 	hypnóza - ovládnutí -- hypnóza
 	hypnóza - amnézie -- hypnóza
-	mentální obrana - mentální magie a hypnózy
-	telekineze - organismus -- soustředění
-	hromadná telekineze - organismy
-	pokročilá telekineze - předmět
+	telekineze - organismus -- dohled -- soustředění
+	hromadná telekineze - organismy -- dohled
+	pokročilá telekineze - předmět -- dohled
+	mentální obrana - mentální magie a hypnózy -- dohled
 mistrovská:
-	hromadná iluze -- iluze
-	hromadná sugesce -- sugesce
-	čtení mysli -- mentální_magie
-	telepatická kontrola -- mentální_magie
-	telepatické propojení -- mentální_magie
-	telepatický prostor -- mentální_magie
+	hromadná iluze -- dohled -- iluze
+	hromadná sugesce -- dohled -- sugesce
+	čtení mysli -- dohled -- mentální_magie
+	telepatická kontrola -- dohled -- mentální_magie
+	telepatické propojení -- dohled -- mentální_magie
+	telepatický prostor -- dohled -- mentální_magie
 	hypnóza - přesvědčení -- hypnóza
-	pokročilá telekineze - organismus
-	telekineze - konstrukt -- soustředění
-	projekce mysli mimo tělo -- sesílatel
+	pokročilá telekineze - organismus -- dohled
+	telekineze - konstrukt -- dohled -- soustředění
+	projekce mysli mimo tělo -- sesílatel -- dohled
 	značka mysli -- soustředění

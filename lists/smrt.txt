@@ -5,14 +5,14 @@ základní:
 	prokletí čichu -- dohled -- prokletí
 	povolání zombie -- nemrtvý
 	oživ malého tvora -- nemrtvý
-	povolání duše
+	povolání duše -- duše
 	obnov nemrtvého -- dotyk
 	exploze nemrtvého -- dohled
 	paralyzační jed -- dotyk -- zbraň -- jed
 	křeč svalu -- dotyk
-	vysátí života -- dotyk
-	vysátí mrtvého -- dotyk
-	vysátí nemrtvého -- dotyk
+	vysátí života -- dotyk -- vysátí
+	vysátí mrtvého -- dotyk -- vysátí
+	vysátí nemrtvého -- dotyk -- vysátí
 	tma -- dohled
 	cit smrti -- sesílatel
 pokročilá:
@@ -44,6 +44,6 @@ mistrovská:
 	smrtící oblak -- dohled -- jed
 	paralýza -- dohled
 	tržná rána -- dohled
-	vysátí energie pohledem -- dohled
+	vysátí energie pohledem -- dohled -- vysátí
 	vidění ve tmě - ostatní -- dotyk
 	značka smrti -- soustředění

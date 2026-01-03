@@ -1,14 +1,14 @@
 základní:
-	ohnivá střela -- oheň
+	ohnivá střela -- projektil -- oheň
 	ohnivá stěna -- dohled -- oheň
 	ohnivý plášť -- sesílatel -- oheň
 	ohnivý prstenec -- oheň
 	ohnivá zbraň -- dohled -- zbraň -- oheň
-	proud uhlíků -- oheň
-	ohnivý bič -- oheň
+	proud uhlíků -- projektil -- oheň
+	ohnivý bič -- projektil -- oheň
 	zapálení -- dotyk -- oheň
 	cit ohně -- sesílatel -- oheň
-	ledová střela -- led
+	ledová střela -- projektil -- led
 	ledová stěna -- dohled -- led
 	ledový prstenec -- led
 	ledová zbraň -- dohled -- zbraň -- led
@@ -17,7 +17,7 @@ základní:
 	vodní prstenec -- voda
 	zamražení -- dotyk -- led
 	cit vody -- sesílatel -- led -- voda
-	poryv větru -- vzduch
+	poryv větru -- projektil -- vzduch
 	větrný plášť -- sesílatel -- vzduch
 	tlakový prstenec -- vzduch
 	vysušení -- dohled -- vzduch
@@ -26,35 +26,35 @@ základní:
 	protivítr -- dohled -- vzduch
 	meluzína -- dohled -- vzduch -- soustředění
 	cit vzduchu -- sesílatel -- vzduch
-	kamenná střela -- země
+	kamenná střela -- projektil -- země
 	kamenná kůže -- dohled -- země
 	kamenná stěna -- dohled -- země
 	kamenný prstenec -- země
 	kamenná zbraň -- dohled -- zbraň -- země
 	pole bahna -- dohled -- země
-	proud písku -- země
+	proud písku -- projektil -- země
 	příkop -- dotyk -- země
 	cit země -- sesílatel -- země
-	elektrický výboj -- blesk
-	statické pole -- blesk
+	elektrický výboj -- projektil -- blesk
+	statické pole -- dohled -- blesk
 pokročilá:
-	proud ohně -- oheň
-	ohnivá smršť -- oheň
-	ohnivá koule -- oheň
+	proud ohně -- projektil -- oheň
+	ohnivá smršť -- projektil -- oheň
+	ohnivá koule -- projektil -- oheň
 	hromadná ohnivá zbraň -- dohled -- zbraň -- oheň
 	pole ohně -- dohled -- oheň
 	zapálení -- dohled -- oheň
 	roztavení -- dotyk -- oheň
 	ohnivé vězení -- dohled -- oheň
-	proud vody -- voda
+	proud vody -- projektil -- voda
 	hromadná ledová zbraň -- dohled -- zbraň -- led
 	ledová zbroj -- dohled -- led
-	ledová smršť -- led
+	ledová smršť -- projektil -- led
 	ledové vězení -- dohled -- led
 	náledí -- dohled -- led
 	zamražení -- dohled -- led
 	podchlazení -- dotyk -- led
-	tlaková vlna -- vzduch
+	tlaková vlna -- projektil -- vzduch
 	cyklon -- dohled -- vzduch
 	ovládnutí větru -- vzduch -- soustředění
 	kouřová clona -- dohled -- vzduch
@@ -62,16 +62,16 @@ pokročilá:
 	hromadný protivítr -- dohled -- vzduch
 	vzduchová bublina -- dohled -- vzduch -- soustředění
 	eroze -- dotyk -- vzduch
-	kamenná smršť -- země
+	kamenná smršť -- projektil -- země
 	zemětřesení -- dohled -- země -- soustředění
 	hromadná kamenná zbraň -- dohled -- zbraň -- země
 	kamenná zbroj -- dohled -- země
 	kamenné vězení -- dohled -- země
-	střela balvanem -- země
+	střela balvanem -- projektil -- země
 	příkop -- dohled -- země
 	zkamenění -- dotyk -- země
-	blesk -- blesk
-	proud výbojů -- blesk
+	blesk -- projektil -- blesk
+	proud výbojů -- projektil -- blesk
 	meditace -- soustředění
 mistrovská:
 	ovládnutí ohně -- oheň -- soustředění
@@ -87,6 +87,6 @@ mistrovská:
 	tekutý písek -- dohled -- země
 	zkamenění -- dohled -- země
 	bouřka -- dohled -- blesk -- soustředění
-	kulový blesk -- blesk
-	řetězový blesk -- blesk
+	kulový blesk -- projektil -- blesk
+	řetězový blesk -- projektil -- blesk
 	značka hmoty -- soustředění

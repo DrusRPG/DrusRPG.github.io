@@ -1,23 +1,26 @@
 základní:
-	zrychli sebe
-	zrychli objekt -- dohled
+	zrychli sebe -- sesílatel
 	zpomal sebe -- sesílatel
+	zrychli objekt -- dohled
+	zpomal objekt -- dohled
+	zrychli organismus -- dotyk
+	zpomal organismus -- dotyk
 	prodloužení procesu -- dohled
 	zkrácení procesu -- dohled
 	zestárnutí objektu -- dotyk
-	přesunutí sebe v čase -- sesílatel
 	omládnutí objektu -- dotyk
 	náhled do minulosti místa -- nahlížení
 	náhled do minulosti objektu -- nahlížení
-	zrychli organismus -- dotyk
-	zpomal organismus -- dotyk
 	zastavení sebe v čase -- sesílatel
+	přesunutí sebe v čase -- sesílatel
 	změna hlasu -- sesílatel
 pokročilá:
 	zrychli organismus -- dohled
+	zpomal organismus -- dohled
 	zrychli proces -- dohled
 	zpomal proces -- dohled
-	zpomal organismus -- dohled
+	zpomalení místa -- dohled
+	zrychlení místa -- dohled
 	zestárnutí organismu -- dotyk
 	omládnutí organismu -- dotyk
 	zestárnutí objektu -- dohled
@@ -28,17 +31,14 @@ pokročilá:
 	zastavení objektu v čase -- dohled
 	přesunutí objektu v čase -- dohled
 	meditace -- soustředění
-	zpomalení místa -- dohled
-	zrychlení místa -- dohled
 mistrovská:
 	zestárnutí organismu -- dohled
 	omládnutí organismu -- dohled
-	náhled do budoucnosti organismu -- nahlížení
-	náhled do minulosti/budoucnosti pro ostatní
 	zestárnutí místa -- dohled
 	omládnutí místa -- dohled
-	zastavení organismu v čase
-	přesunutí organismu v čase
+	náhled do budoucnosti organismu -- nahlížení
+	náhled do minulosti/budoucnosti pro ostatní -- dotyk -- nahlížení
+	zastavení organismu v čase -- dohled
+	přesunutí organismu v čase -- dohled
 	stázové pole -- dohled
 	značka času -- soustředění
-	

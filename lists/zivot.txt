@@ -1,55 +1,55 @@
 základní:
-	požehnání rychlosti -- požehnání
-	požehnání síly -- požehnání
-	požehnání zraku -- požehnání
-	požehnání sluchu -- požehnání
-	požehnání přitažlivosti -- požehnání
-	požehnání výdrže -- požehnání
-	požehnání zručnosti - koordinace pohybů -- požehnání
-	požehnání neživému -- požehnání
-	zacelení ran -- léčení
-	zastavení krvácení -- léčení
-	srůst kosti -- léčení
-	odhal jed
-	odhal nemoc
-	odhal infekci
-	proud světla
-	stvoření/povolání malého neživého - do velikosti loutky -- neživý
-	příkaz neživému - stráž
-	příkaz neživému - ochrana
-	příkaz neživému - následování
-	zrušení příkazu neživému
-	zapuzení neživého
-	cit života
-	cit neživých
+	požehnání rychlosti -- dotyk -- požehnání
+	požehnání síly -- dotyk -- požehnání
+	požehnání zraku -- dotyk -- požehnání
+	požehnání sluchu -- dotyk -- požehnání
+	požehnání přitažlivosti -- dotyk -- požehnání
+	požehnání výdrže -- dotyk -- požehnání
+	požehnání zručnosti -- dotyk - koordinace pohybů -- požehnání
+	požehnání neživému -- dotyk -- požehnání
+	zacelení ran -- dotyk -- léčení
+	zastavení krvácení -- dotyk -- léčení
+	srůst kosti -- dotyk -- léčení
+	odhal jed -- dohled
+	odhal nemoc -- dohled
+	odhal infekci -- dohled
+	stvoření/povolání malého neživého -- neživý
+	příkaz neživému - stráž -- dohled
+	příkaz neživému - ochrana -- dohled
+	příkaz neživému - následování -- dohled
+	zrušení příkazu neživému -- dohled
+	zapuzení neživého -- dotyk
+	proud světla -- projektil
+	cit života -- sesílatel
+	cit neživých -- sesílatel
 pokročilá:
-	požehnání přesnosti - jemná motorika -- požehnání
-	utlumení bolesti -- požehnání
-	požehnání smyslů -- požehnání
-	neoslnitelnost -- požehnání
-	magická zbroj
-	narovnání kosti -- léčení
-	obnova svalu -- léčení
-	obnova kůže -- léčení
-	uzdrav nemoc -- léčení
-	odhal těžkou nemoc
-	odstraň infekci -- léčení
-	odstraň jed -- léčení
-	meditace -- soustředění
-	stvoření/povolání středně velkého neživého - do velikosti velkého chrliče -- neživý
+	požehnání přesnosti - jemná motorika -- dotyk -- požehnání
+	utlumení bolesti -- dotyk -- požehnání
+	požehnání smyslů -- dotyk -- požehnání
+	neoslnitelnost -- dotyk -- požehnání
+	magická zbroj -- dotyk -- požehnání
+	narovnání kosti -- dotyk -- léčení
+	obnova svalu -- dotyk -- léčení
+	obnova kůže -- dotyk -- léčení
+	uzdrav nemoc -- dotyk -- léčení
+	odstraň infekci -- dotyk -- léčení
+	odstraň jed -- dotyk -- léčení
+	odhal těžkou nemoc -- dohled
+	stvoření/povolání středně velkého neživého -- neživý
 	stvoření/povolání hejna malých neživých -- neživý
-	čtení paměti neživého
-	ovládnutí neživého
-	aura světla
+	čtení paměti neživého -- dohled
+	ovládnutí neživého -- dohled
+	aura světla -- dohled
+	meditace -- soustředění
 mistrovská:
-	štěstí -- požehnání
-	neúnavnost -- požehnání
-	obnova orgánu -- léčení
-	obnova kosti -- léčení
-	regenerace -- léčení
-	uzdrav těžkou nemoc -- léčení
-	pomoc živých tvorů
-	značka života -- soustředění
+	štěstí -- dotyk -- požehnání
+	neúnavnost -- dotyk -- požehnání
+	obnova orgánu -- dotyk -- léčení
+	obnova kosti -- dotyk -- léčení
+	regenerace -- dotyk -- léčení
+	uzdrav těžkou nemoc -- dotyk -- léčení
 	stvoření/povolání velkého neživého -- neživý
 	stvoření/povolání hejna středních neživých -- neživý
 	neživá zbroj -- neživý
+	pomoc živých tvorů -- dohled
+	značka života -- soustředění
