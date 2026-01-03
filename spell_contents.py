@@ -25,7 +25,7 @@ class TooltipTemplate:
 
     def get_tooltip_html(self, name: str) -> str:
         tooltip_out = self.template
-        tooltip_out = tooltip_out.replace("$NAME", name)
+        tooltip_out = tooltip_out.replace("$NAME", capitalize_title(name))
         tooltip_out = tooltip_out.replace("$ICON", TooltipTemplate.spell_tooltips[name])
         return tooltip_out
     
@@ -33,34 +33,43 @@ class TooltipTemplate:
         return " ".join([self.get_tooltip_html(name) for name in names])
     
     spell_tooltips = {
-        "Dotyk": "🖐️",
-        "Dohled": "👁️",
-        "Paměť": "💭",
-        "Sesílatel": "🧙‍♂️",
-        "Zbraň": "🗡️",
-        "Požehnání": "🙏",
-        "Léčení": "❤️",
-        "Neživý": "💀",
-        "Prokletí": "🐈‍⬛",
-        "Nemrtvý": "🧟",
-        "Jed": "☠️",
-        "Hypnóza": "🧿",
-        "Iluze": "🌀",
-        "Sugesce": "💡",
-        "Mentální_magie": "🧠",
-        "Blesk": "⚡",
-        "Oheň": "🔥",
-        "Led": "❄️",
-        "Země": "🪨",
-        "Voda": "💧",
-        "Vzduch": "💨",
-        "Soustředění": "🧘",
-        "Bariéra": "🧱",
-        "Zakřivení": "𖣐",
-        "Nahlížení": "🔮",
-        "Projektil": "🏹",
+        "dotyk": "🖐️",
+        "dohled": "👁️",
+        "paměť": "💭",
+        "sesílatel": "🧙‍♂️",
+        "zbraň": "🗡️",
+        "požehnání": "🙏",
+        "léčení": "❤️",
+        "neživý": "💀",
+        "prokletí": "🐈‍⬛",
+        "nemrtvý": "🧟",
+        "jed": "☠️",
+        "hypnóza": "🧿",
+        "iluze": "🌀",
+        "sugesce": "💡",
+        "mentální magie": "🧠",
+        "blesk": "⚡",
+        "oheň": "🔥",
+        "led": "❄️",
+        "země": "🪨",
+        "voda": "💧",
+        "vzduch": "💨",
+        "soustředění": "🧘",
+        "bariéra": "🧱",
+        "zakřivení": "𖣐",
+        "nahlížení": "🔮",
+        "projektil": "🏹",
+        "duše": "👻",
+        "vysátí": "🧛🏻‍♀️"
     }
 
+
+
+def capitalize_title(title: str):
+    words = re.split(r"([ /])", title)
+    no_capitalize = ["v", "do", "na", "ke", "ve", "k"]
+    result = "".join([word.capitalize() if word not in no_capitalize else word for word in words])
+    return result
 
 
 class SpellLineTemplate:
@@ -105,16 +114,9 @@ class Spell:
 
     def __init__(self, name: str, description_lines: str):
         name_and_modifiers = name.split(" -- ")
-        self.name = Spell.capitalize_name(name_and_modifiers[0])
+        self.name = capitalize_title(name_and_modifiers[0])
         self.modifiers = name_and_modifiers[1:]
         self.description_lines = re.findall(r"\t\t- (.*)\n", description_lines)
-
-    @staticmethod
-    def capitalize_name(name: str) -> str:
-        words = name.split(" ")
-        no_capitalize = ["v", "do", "na"]
-        result = " ".join([word.capitalize() if word not in no_capitalize else word for word in words])
-        return result
 
     def to_markdown(self) -> str:
         icons = Spell.tooltip_template.get_tooltips_html(self.modifiers)
@@ -123,7 +125,7 @@ class Spell:
 
 class SpellCategory:
     def __init__(self, name: str, contents: str):
-        self.name = name
+        self.name = capitalize_title(name)
         spell_names, descriptions = split_by_category(contents, r"\t(\w.*)\n")
         self.spells = [
             Spell(name, description)
@@ -173,22 +175,6 @@ def split_by_category(contents: str, regex: str):
     split_rows = regex_split(contents, regex)
 
     return split_words, split_rows
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
