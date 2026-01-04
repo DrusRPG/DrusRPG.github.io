@@ -85,9 +85,38 @@ class SpellLineTemplate:
     def get_spell_line_md(self, name: str, modifiers: str, description: str) -> str:
         spell_out = self.template
         spell_out = spell_out.replace("$NAME", name)
-        spell_out = spell_out.replace("$ICONS", self.tooltip_template.get_tooltips_html(self.modifiers))
+        spell_out = spell_out.replace("$ICONS", self.tooltip_template.get_tooltips_html(modifiers))
         spell_out = spell_out.replace("$DESCRIPTION", description)
+        spell_out = spell_out.replace("$GLOW_CLASS", SpellLineTemplate.get_glow_class(modifiers))
         return f"* {spell_out}"
+    
+    glow_mapping = {
+        "death_glow": {"prokletí", "nemrtvý", "jed", "neživý", "vysátí", "duše"},
+        "light_glow": {"léčení", "požehnání"},
+        "mental_glow": {"mentální magie", "hypnóza", "iluze", "sugesce", "nahlížení"},
+        "fire_glow": {"oheň"},
+        "ice_glow": {"led"},
+        "lightning_glow": {"blesk"},
+        "earth_glow": {"země"},
+        "water_glow": {"voda"},
+        "air_glow": {"vzduch"},
+    }
+
+    # "paměť": "💭",
+    # "sesílatel": "🧙‍♂️",
+    # "zbraň": "🗡️",
+    # "soustředění": "🧘",
+    # "bariéra": "🧱",
+    # "zakřivení": "𖣐",
+
+
+
+    @staticmethod
+    def get_glow_class(modifiers: list[str]) -> str:
+        for glow_class, keywords in SpellLineTemplate.glow_mapping.items():
+            if any(modifier in keywords for modifier in modifiers):
+                return glow_class
+        return "neutral_glow"
 
 
 # A wrapper for the magic school markdown template, `templates/school_of_magic_header.md`
@@ -241,7 +270,7 @@ def split_by_category(contents: str, regex: str):
 
 
 def main():
-    # input files: (School name, spell list name, first header image, second header image) 
+    # input files: (School name, spell list name, first header image, second header image, permalink to secret) 
     input_files = [
         ("Magie Času", "cas", "clock.jpg", "ancient_times1.jpeg"),
         ("Magie Prostoru", "prostor", "prostor.jpg", "ancient_times2.jpeg"),
