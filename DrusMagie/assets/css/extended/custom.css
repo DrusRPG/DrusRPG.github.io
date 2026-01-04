@@ -4,7 +4,7 @@
     cursor: help; /* Optional: indicates it's interactive */
 }
 
-.icon-tooltip .tooltiptext {
+.icon-tooltip .icon-tooltip-text {
     visibility: hidden;
     width: 120px; /* Adjust as needed */
     background-color: #555;
@@ -22,7 +22,7 @@
 }
 
 /* Arrow for the tooltip */
-.icon-tooltip .tooltiptext::after{
+.icon-tooltip .icon-tooltip-text::after{
     content: "";
     position: absolute;
     top: 100%; /* At the bottom of the tooltip */
@@ -33,10 +33,27 @@
     border-color: #555 transparent transparent transparent;
 }
 
-.icon-tooltip:hover .tooltiptext {
+.icon-tooltip:hover .icon-tooltip-text {
     visibility: visible;
     opacity: 1;
 }
+
+@media (hover: hover){
+    .tooltip:has(.spell_text:hover) .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+@media (hover: none){
+    .tooltip:has(.spell_text:focus) .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+
 
 .tooltip {
     position: relative;
@@ -49,34 +66,60 @@
     width: 400px; /* Adjust as needed */
     background-color: #555;
     color: #fff;
-    text-align: left;
+    text-align: center;
     border-radius: 6px;
-    padding: 5px 0;
+    padding: 5px 5px;
     position: absolute;
     z-index: 1;
-    bottom: 125%; /* Position the tooltip above the icon */
-    left: 15%;
-    margin-left: -60px; /* Half of the width to center it */
+    top: 50%;
+    left: 105%;
+    transform: translateY(-50%); /* Centers it vertically relative to the text */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
     opacity: 0;
-    transition: opacity 0.3s; /* Smooth fade-in */
+    filter: blur(2px);
+    transition: 
+        opacity 0.2s ease,
+        transform 0.2s ease,
+        filter 1s ease;
+    pointer-events: none; /* Prevents the text from blocking the click */
+
 }
+
+@media (max-width: 768px) {
+    .tooltip .tooltiptext {
+        left: 0%;
+        top: 0%;
+        transform: translateY(30px);
+    }
+}
+
+
 
 /* Arrow for the tooltip */
-.tooltip .tooltiptext::after{
+.tooltiptext::after{
     content: "";
     position: absolute;
-    top: 100%; /* At the bottom of the tooltip */
-    left: 2%;
+    top: 47%; /* At the bottom of the tooltip */
+    left: -1%;
     margin-left: -5px;
-    border-width: 5px;
+    border-width: 6px;
     border-style: solid;
-    border-color: #555 transparent transparent transparent;
+    border-color: transparent #555 transparent transparent;
 }
 
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
+
+@media (max-width: 768px) {
+    .tooltiptext::after{
+        top: 0%; /* At the bottom of the tooltip */
+        left: 5%;
+        margin-top: -10px;
+        border-color: transparent transparent #555 transparent;
+    }
 }
+
+
+
 
 
 body {
@@ -104,4 +147,8 @@ body {
     background-repeat: no-repeat;
     animation: 3600s linear 0s 1 aWildDrusHasAppeared;
     z-index: -1;
+}
+
+.anchor, .header-link {
+    display: none !important;
 }

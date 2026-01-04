@@ -38,6 +38,8 @@ params:
   showtoc: false
   tocopen: false
 
+  summaryLength: 50
+
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
