@@ -85,7 +85,7 @@ class SpellLineTemplate:
     def get_spell_line_md(self, name: str, modifiers: str, description: str) -> str:
         spell_out = self.template
         spell_out = spell_out.replace("$NAME", name)
-        spell_out = spell_out.replace("$ICONS", self.tooltip_template.get_tooltips_html(self.modifiers))
+        spell_out = spell_out.replace("$ICONS", self.tooltip_template.get_tooltips_html(modifiers))
         spell_out = spell_out.replace("$DESCRIPTION", description)
         return f"* {spell_out}"
 
