@@ -168,7 +168,7 @@ mistrovská:
 		- Energetická náročnost závisí na velikosti cílové bytosti.
 	tržná rána -- dohled
 		- Sesílatel pohledem způsobí cíli hlubokou tržnou ránu.
-	vysátí energie pohledem -- dohled -- vysátí
+	vysátí energie -- dohled -- vysátí
 		- Sesílatel získává možnost sesílat své libovolné vysávající kouzlo pohledem.
 	vidění ve tmě - ostatní -- dotyk
 		- Sesílatel po dobu trvání kouzla dodává cílové bytosti magický zrak, kterým vidí ve tmě (včetně magické tmy) jako za jasného dne.
@@ -177,3 +177,4 @@ mistrovská:
 		- Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv.
 		- ***Značka smrti*** trvá věčně, ale sesílatel současně může mít pouze tolik značek, kolik si dokáže okamžitě kdykoliv vybavit, v případě zapomnění značka zaniká.
 		- Vyžaduje sesílatelovu plnou koncentraci.
+
