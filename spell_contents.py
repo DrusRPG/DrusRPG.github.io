@@ -1,3 +1,5 @@
+import base64
+import json
 import re
 import pathlib
 
@@ -82,12 +84,13 @@ class SpellLineTemplate:
         self.tooltip_template = TooltipTemplate()
 
     # Get the markdown string for a single spell line, given name, modifiers, and description
-    def get_spell_line_md(self, name: str, modifiers: str, description: str) -> str:
+    def get_spell_line_md(self, name: str, modifiers: str, description: str, is_secret) -> str:
         spell_out = self.template
         spell_out = spell_out.replace("$NAME", name)
         spell_out = spell_out.replace("$ICONS", self.tooltip_template.get_tooltips_html(modifiers))
         spell_out = spell_out.replace("$DESCRIPTION", description)
         spell_out = spell_out.replace("$GLOW_CLASS", SpellLineTemplate.get_glow_class(modifiers))
+        spell_out = spell_out.replace("$SECRET_CLASS", "secret_spell" if is_secret else "")
         return f"* {spell_out}"
     
     glow_mapping = {
@@ -154,7 +157,7 @@ class Spell:
     # A template for a single spell line
     spell_line_template = SpellLineTemplate()
 
-    def __init__(self, name: str, description_lines: str):
+    def __init__(self, name: str, description_lines: str, is_secret: bool = False):
         """
         Create a spell from a part of the spell list file.
         
@@ -167,14 +170,15 @@ class Spell:
         self.name = capitalize_title(name_and_modifiers[0])
         self.modifiers = name_and_modifiers[1:]
         self.description_lines = re.findall(r"\t\t- (.*)\n", description_lines)
+        self.is_secret = is_secret
 
     def to_markdown(self) -> str:
-        return Spell.spell_line_template.get_spell_line_md(self.name, self.modifiers, "<br><br>".join(self.description_lines))
+        return Spell.spell_line_template.get_spell_line_md(self.name, self.modifiers, "<br><br>".join(self.description_lines), self.is_secret)
     
 
 # A spell category - e.g., Základní, Pokročilé, Mistrovské, etc. with all the included spells
 class SpellCategory:
-    def __init__(self, name: str, contents: str):
+    def __init__(self, name: str, contents: str, is_secret: bool):
         """
         Create a spell category (e.g., Základní, Pokročilé, Mistrovské) from a part of the spell list file.
         
@@ -186,14 +190,15 @@ class SpellCategory:
         self.name = capitalize_title(name)
         spell_names, descriptions = split_by_category(contents, r"\t(\w.*)\n")
         self.spells = [
-            Spell(name, description)
+            Spell(name, description, is_secret)
             for name, description in zip(spell_names, descriptions)
         ]
+        self.is_secret = is_secret
 
     # Convert the entire category to markdown. This includes a header and all the spells
     def to_markdown(self) -> str:
         items = [spell.to_markdown() for spell in self.spells]
-        return f"\n## {self.name}\n\n" + "\n".join(items)
+        return f"\n<h2{' class=\"secret_header\"' if self.is_secret else ""}>{self.name}</h2>\n\n" + "\n".join(items)
 
 
 # A full school of magic, with name, images, and all the spell categories
@@ -201,7 +206,7 @@ class SchoolOfMagic:
     # a Hugo markdown template for rendering a magic school
     magic_school_template = MagicSchoolTemplate()
     
-    def __init__(self, name: str, image_first: str, image_second: str, contents: str):
+    def __init__(self, name: str, image_first: str, image_second: str, contents: str, secret_contents: str):
         """
         Docstring for __init__
         
@@ -221,9 +226,9 @@ class SchoolOfMagic:
         # This regex gets all the category names (Základní, Pokročilé, Mistrovské)
         category_names, spells = split_by_category(contents, r"(\w+):\n")
         self.spell_categories = [
-            SpellCategory(category, spell_block)
+            SpellCategory(category, spell_block, False)
             for category, spell_block in zip(category_names, spells)
-        ]
+        ] + [SpellCategory("velmistrovská", base64.b64decode(secret_contents).decode('utf-8')+"\n", is_secret=True)]
 
     # Convert the entire school of magic to markdown
     def to_markdown(self) -> str:
@@ -279,6 +284,7 @@ def main():
         ("Magie Hmoty", "hmota", "matter.jpg", "ancient_times5.jpeg"),
         ("Magie Mysli", "mysl", "neural.jpg", "ancient_times6.jpeg"),
     ]
+    secrets = json.load(open("lists/secrets.json"))
 
     # create the output directory
     out_path = pathlib.Path("DrusMagie/content/magic")
@@ -291,7 +297,8 @@ def main():
             magic_school_name,
             magic_school_image,
             magic_school_image_2,
-            open(f"lists/{magic_school_file}.txt").read()
+            open(f"lists/{magic_school_file}.txt").read(),
+            secrets[magic_school_file]
         )
         # Save the markdown of the magic school
         with open(out_path/f"{magic_school_file}.md", "w") as f:

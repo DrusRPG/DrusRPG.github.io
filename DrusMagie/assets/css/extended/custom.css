@@ -336,3 +336,11 @@ body {
     --sun-size: 18%; /* Larger, glowing sun */
   }
 }
+
+li:has(.secret_spell) {
+    display: none;
+}
+
+.secret_header {
+    display: none;
+}

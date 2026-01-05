@@ -28,6 +28,6 @@ cover:
     hidden: false # only hide on current single page
 ---
 
-<div id="background-overlay" style="background-image: url($IMAGE_SECOND)"></div>
+<div id="background-overlay" style="background-image: url(/images/$IMAGE_SECOND)"></div>
 
 $CONTENTS
