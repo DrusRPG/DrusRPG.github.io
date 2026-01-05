@@ -35,9 +35,9 @@ základní:
 	přitažení -- dohled
 		- Sesílatel vytvoří silné zakřivení prostoru mezi sebou a cílem, které vzápětí nechá narovnat, což vytvoří impulz síly, který cíl přitáhne k sesílateli.
 	odhození -- dohled
-		- sesílatel vytvoří silné zakřivení prostoru ze svého pohledu za cílem, které vzápětí nechá narovnat, což vytvoří impulz síly, který cíl odhodí od sesílatele.
+		- Sesílatel vytvoří silné zakřivení prostoru ze svého pohledu za cílem, které vzápětí nechá narovnat, což vytvoří impulz síly, který cíl odhodí od sesílatele.
 	sražení -- dohled
-		- sesílatel vytvoří silné zakřivení prostoru pod cílem, které vzápětí nechá narovnat, což vytvoří impulz síly, který cíl srazí k zemi.
+		- Sesílatel vytvoří silné zakřivení prostoru pod cílem, které vzápětí nechá narovnat, což vytvoří impulz síly, který cíl srazí k zemi.
 
 pokročilá:
 	prostorová trhlina -- dohled

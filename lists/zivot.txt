@@ -98,7 +98,7 @@ pokročilá:
 		- Všechna požehnání jsou v základu na dotyk.
 	neoslnitelnost -- dotyk -- požehnání
 		- Sesílatel požehná cíl, který získá odolnost vůči oslnění z nadbytku světla. F
-		- unguje i v případě požehnání zraku. 
+		- Funguje i v případě požehnání zraku. 
 		- Doba trvání požehnání podle situace. 
 		- Všechna požehnání jsou v základu na dotyk.
 	magická zbroj -- dotyk -- požehnání
@@ -184,7 +184,7 @@ mistrovská:
 		- Neživý může být z materiálů dřevo, hlína, kámen nebo kov.
 	pomoc živých tvorů -- dohled
 		- Sesílatel se magicky propojí se živými zvířaty v okolí a vnutí jim pocit, že patří do jejich smečky/hejna.
-		-  V případě ohrožení sesílatele ho zvířata mohou bránit. 
+		- V případě ohrožení sesílatele ho zvířata mohou bránit. 
 		- Lépe funguje na méně inteligentní zvířata, efekt na vyšší savce je menší, efekt na tvora dostatečně inteligentního, aby byl schopen řeči, je zanedbatelný.
 	značka života -- soustředění
 		- Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv. 

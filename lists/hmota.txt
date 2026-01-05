@@ -194,7 +194,7 @@ pokročilá:
 		- Sesílatel od sebe jedním směrem po dobu trvání kouzla vysílá každých pár vteřin několik elektrických výbojů, které, pokud zasáhnou, způsobí elektrický šok. 
 		- Standardní dosah je 10m.
 	meditace -- soustředění
-		- forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě. 
+		- Forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě. 
 		- Vyžaduje sesílatelovu plnou koncentraci.
 mistrovská:
 	ovládnutí ohně -- oheň -- soustředění
