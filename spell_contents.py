@@ -91,23 +91,23 @@ class SpellLineTemplate:
         return f"* {spell_out}"
     
     glow_mapping = {
-        "death_glow": {"prokletí", "nemrtvý", "jed", "neživý", "vysátí", "duše"},
-        "light_glow": {"léčení", "požehnání"},
-        "mental_glow": {"mentální magie", "hypnóza", "iluze", "sugesce", "nahlížení"},
+        "death_glow": {"jed", "vysátí", "duše"},
+        "curse_glow": {"prokletí"},
+        "undead_glow": {"nemrtvý"},
+        "blessing_glow": {"požehnání"},
+        "light_glow": {"neživý"},
+        "heal_glow": {"léčení"},
+        "mental_glow": {"mentální magie", "hypnóza", "sugesce", "nahlížení"},
+        "illusion_glow": {"iluze"},
         "fire_glow": {"oheň"},
         "ice_glow": {"led"},
         "lightning_glow": {"blesk"},
         "earth_glow": {"země"},
         "water_glow": {"voda"},
         "air_glow": {"vzduch"},
+        "barrier_glow": {"bariéra"},
+        "distortion_glow": {"zakřivení"},
     }
-
-    # "paměť": "💭",
-    # "sesílatel": "🧙‍♂️",
-    # "zbraň": "🗡️",
-    # "soustředění": "🧘",
-    # "bariéra": "🧱",
-    # "zakřivení": "𖣐",
 
 
 
