@@ -35,7 +35,7 @@ základní:
 		- Pokud se sesílatel snaží zničit nemrtvého patřícího jinému mágovi, dochází k souboji vůle mezi oběma mágy.
 		- Schopnost chránit svého nemrtvého před zničením jiným mágem závisí na schopnostech obou mágů a vzdálenosti majitele a jeho nemrtvého.
 	paralyzační jed -- dotyk -- zbraň -- jed
-		- Sesílatel dorykem očaruje cílovou zbraň magickým jedem, který při zásahu zbraní postupně od místa zranění ochrnuje svaly zasažené bytosti.
+		- Sesílatel dotykem očaruje cílovou zbraň magickým jedem, který při zásahu zbraní postupně od místa zranění ochrnuje svaly zasažené bytosti.
 		- Lze seslat též dotykem ruky, kdy si lze do role zbraně dosadit sesílatelův nehet. V takovém případě se ale musí dotknout kůže, nefunguje přes textil.
 		- Rychlost šíření jedu závisí na rozsahu rány a schopnostech sesílatele.
 	křeč svalu -- dotyk
@@ -177,3 +177,4 @@ mistrovská:
 		- Sesílatel provede na cíli rituál, kterým si ho označí tak, aby na něj nadále byl schopen sesílat kouzla, jako by se ho dotýkal, ať je cíl kdekoliv.
 		- ***Značka smrti*** trvá věčně, ale sesílatel současně může mít pouze tolik značek, kolik si dokáže okamžitě kdykoliv vybavit, v případě zapomnění značka zaniká.
 		- Vyžaduje sesílatelovu plnou koncentraci.
+
