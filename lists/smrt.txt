@@ -83,7 +83,7 @@ pokročilá:
 		- Různé cíle na strach mohou reagovat různě, od úprku přes zamrznutí až po brutální a nekoordinovaný útok.
 		- Doba trvání prokletí závisí na situaci a schopnostech sesílatele.
 	vyčerpání -- dotyk -- prokletí
-		- Sesílatel dotykem po dobu trvání kouzla způsobí cílové bytosti těžkou únavu, která oblivňuje fyzické i mentální schopnosti cíle.
+		- Sesílatel dotykem po dobu trvání kouzla způsobí cílové bytosti těžkou únavu, která ovlivňuje fyzické i mentální schopnosti cíle.
 		- Pokud je cílem mág, vyčerpání mu ztěžuje či zcela brání v kouzlení, ačkoliv fyzicky energii na kouzlení má.
 		- Doba trvání prokletí závisí na situaci a schopnostech sesílatele.
 	zranitelnost -- dohled -- prokletí
@@ -119,8 +119,8 @@ pokročilá:
 		- Rychlost šíření jedu závisí na rozsahu rány a schopnostech sesílatele.
 	dusivý oblak -- dohled -- jed
 		- Sesílatel vytvoří v cílové oblasti magický oblak dráždivého plynu, který dusí ty, kteří se ho nadýchají.
-		- Efekt oblaku je podobný jako kouř z ohně a při krátké expozici se se nemagicky špatně odstraňuje z těla zasaženého, jeho efekt trvá pár dní.
-		- Dokud oblaku sesílatel věnuje plnou pozornost, je schopen držet ho na cílovém místě a pomalu s ním hýbat. Při přerušení koncentrace se oblak volně šíří s větrem a už ho nejde znovy získat pod kontrolu.
+		- Efekt oblaku je podobný jako kouř z ohně a při krátké expozici se nemagicky špatně odstraňuje z těla zasaženého, jeho efekt trvá pár dní.
+		- Dokud oblaku sesílatel věnuje plnou pozornost, je schopen držet ho na cílovém místě a pomalu s ním hýbat. Při přerušení koncentrace se oblak volně šíří s větrem a už ho nejde znovu získat pod kontrolu.
 		- Potence jedu je závislá na schopnostech sesílatele a době expozice.
 	horečka -- dohled
 		- Sesílatel po dobu trvání kouzla způsobí bytosti horečku se všemi jejími projevy jako je únava, zimnice, lehká dezorientace.
@@ -144,7 +144,7 @@ mistrovská:
 		- Sesílatel prokleje cílový organismus tak, že cíl okamžitě ztratí vědomí a není schopen se probrat, dokud prokletí trvá.
 		- Doba trvání prokletí závisí na situaci a schopnostech sesílatele.
 	vyčerpání -- dohled -- prokletí
-		- Sesílatel pohledem po dobu trvání kouzla způsobí cílové bytosti těžkou únavu, která oblivňuje fyzické i mentální schopnosti cíle.
+		- Sesílatel pohledem po dobu trvání kouzla způsobí cílové bytosti těžkou únavu, která ovlivňuje fyzické i mentální schopnosti cíle.
 		- Pokud je cílem mág, vyčerpání mu ztěžuje či zcela brání v kouzlení, ačkoliv fyzicky energii na kouzlení má.
 		- Doba trvání prokletí závisí na situaci a schopnostech sesílatele.
 	oživ organismus -- nemrtvý
@@ -158,9 +158,9 @@ mistrovská:
 		- Nemrtvý bude poslouchat pokyny svého nového pána, jakkoliv mu je pán je schopen předat. Tzn. jiní mágové smrti mohou nemrtvého ovládat myšlenkou, mágové mysli zase třeba sugescemi.
 	smrtící oblak -- dohled -- jed
 		- Sesílatel vytvoří v cílové oblasti magický oblak jedovatého plynu, který otráví ty, kteří se ho nadýchají.
-		- Jed se dobře váže do krve a i při krátké expozici se se nemagicky špatně odstraňuje z těla zasaženého, jeho efekt trvá pár dní.
+		- Jed se dobře váže do krve a i při krátké expozici se nemagicky špatně odstraňuje z těla zasaženého, jeho efekt trvá pár dní.
 		- I pokud je expozice velmi krátká a účinky jedu nejsou smrtící, zasažený trpí neskutečnými bolestmi, které ho vyřazují z běžného provozu.
-		- Dokud oblaku sesílatel věnuje plnou pozornost, je schopen držet ho na cílovém místě a pomalu s ním hýbat. Při přerušení koncentrace se oblak volně šíří s větrem a už ho nejde znovy získat pod kontrolu.
+		- Dokud oblaku sesílatel věnuje plnou pozornost, je schopen držet ho na cílovém místě a pomalu s ním hýbat. Při přerušení koncentrace se oblak volně šíří s větrem a už ho nejde znovu získat pod kontrolu.
 		- Potence jedu je závislá na schopnostech sesílatele a době expozice.
 	paralýza -- dohled
 		- Sesílatel po dobu trvání kouzla uvede cílovou bytost do nehybného stavu tím, že cíli okamžitě přestanou fungovat všechny svaly kromě dýchacích.
