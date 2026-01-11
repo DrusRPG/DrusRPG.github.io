@@ -76,6 +76,11 @@ pokročilá:
 	výpadek paměti -- dohled -- mentální magie
 		- Sesílatel cíli přeruší asociace s nějakou vzpomínkou, čímž cíli učiní vybavení si této vzpomínky výrazně těžším. 
 		- Při opakovaném sesílaní po nějaké době může dojít ke ztrátě této vzpomínky. Naopak pokud cíl zjistí, že si nemůže vzpomenout, a nějakou dobu se snaží, asociace se obnoví.
+	mentální blok -- dotyk -- mentální magie
+		- Sesílatel obrní vzpomínku nebo část vzpomínek cíle tak, aby dlouhodobě představovalo problém pro jiné mágy mysli číst či upravovat vzpomínky a myšlenky týkající se této části mysli cíle.
+		- Pokud jsou cíli čteny bráněné myšlenky jiným mágem mysli, tento mág cítí, že narazil na mentální blok, a cíl cítí, že se mu někdo snaží číst tyto myšlenky.
+		- Při dlouhodobé expozici jinému mágovi mysli může blok nakonec povolit. 
+		- Doba a množství energie, kterou je potřeba vynaložit k proražení bloku, silně závisí na schopnostech sesílatele a útočníka. Obecně je ale mnohem těžší blok prorazit, než vytvořit.
 	cit mysli -- sesílatel -- mentální magie
 		- Po dobu udržování kouzla získává sesílatel magický smysl, kterým dokáže detekovat myslící bytosti kolem sebe.
 	telepatická domluva -- dohled -- mentální magie
