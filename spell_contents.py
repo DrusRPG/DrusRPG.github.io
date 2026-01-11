@@ -52,7 +52,7 @@ class TooltipTemplate:
         "zbraň": "🗡️",
         "požehnání": "🙏",
         "léčení": "❤️",
-        "neživý": "💀",
+        "neživý": "🗿",
         "prokletí": "🐈‍⬛",
         "nemrtvý": "🧟",
         "jed": "☠️",
