@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/gohugoio/hugo:v0.154.5
+      options: --user root
     permissions:
       contents: write
     steps:
