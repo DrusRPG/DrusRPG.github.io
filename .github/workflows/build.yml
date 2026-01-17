@@ -8,9 +8,6 @@ on:
 jobs:
   build_drus_website:
     runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/gohugoio/hugo:v0.154.5
-      options: --user root
     permissions:
       contents: write
     steps:
@@ -19,6 +16,11 @@ jobs:
         with:
           submodules: recursive
           lfs: true
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.154.5'
+          extended: true
       - name: Update apt
         run: sudo apt-get update -qq
       - name: Download Python3
