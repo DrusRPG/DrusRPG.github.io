@@ -5,7 +5,7 @@ základní:
 		- Doba trvání prokletí závisí na situaci a schopnostech sesílatele.
 	nepřesnost -- dohled -- prokletí
 		- Sesílatel zhorší schopnost jemné motoriky cíle. 
-		- Komplikuje schopnosti jako je míření střelných zbraní, odemykání zámků a kapsářství.
+		- Komplikuje akce jako je míření střelných zbraní, odemykání zámků a kapsářství.
 		- Doba trvání prokletí závisí na situaci a schopnostech sesílatele.
 	hluchota -- dohled -- prokletí
 		- Sesílatel prokleje cílovou bytost tak, že po dobu trvání kouzla nic neuslyší.
@@ -17,18 +17,18 @@ základní:
 		- Sesílatel vytvoří z mrtvoly v dohledu zombie pod kontrolou sesílatele.
 		- Zombie je jednoduchý nemrtvý, který se pohybuje typicky pomalu a je schopen vykonávat jen velmi jednoduché příkazy. 
 		- Je vhodný jen jako základní služebník, k boji jsou použitelní jen ve velkém počtu.
-		- V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu a vyžadují dramaticky více energie.
+		- V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu vyžadují dramaticky více energie.
 	oživ malého tvora -- nemrtvý
 		- Sesílatel z malého mrtvého tvora (do velikosti kočky) vytvoří nemrtvého pod kontrolou sesílatele.
 		- Tento tvor je ve vykonávání příkazů omezen inteligencí, jakou měl před smrtí, a fyzickými omezeními. 
 		- Pro svou dobrou inteligenci jsou jako služebníci oblíbeni havrani.
-		- V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu a vyžadují dramaticky více energie.
+		- V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu vyžadují dramaticky více energie.
 	povolání duše -- duše
 		- Sesílatel přivolá vědomí zesnulého cíle a poskytne mu nehmotnou magickou formu schopnou řeči.
 		- Povolaná duše nemá žádnou povinnost poslouchat sesílatele ani s ním jinak spolupracovat, k tomu je potřeba seslat ***Spoutání duše ke svojí vůli***.
 	obnov nemrtvého -- dotyk
 		- Sesílatel vyléčí zraněného nemrtvého do neporušeného stavu.
-		- Větší zranění a delší doba rozkladu a vyžadují dramaticky vyžadují dramaticky více energie.
+		- Větší zranění a delší doba rozkladu vyžadují dramaticky více energie.
 	exploze nemrtvého -- dohled
 		- Sesílatel pohledem zničí nemrtvého, který se rozprskne do sprchy úštěpků tkání a kostí, které mohou zranit cíle v okolí.
 		- Explodovaného nemrtvého nelze obnovit.
@@ -51,7 +51,7 @@ základní:
 		- Sesílatel vysaje zbytkovou životní energii z mrtvého těla (ať už bylo živé nebo nemrtvé), čímž si doplňuje energii.
 		- Rychlost vysávání mrtvého závisí na schopnostech sesílatele.
 		- Toto tělo se instantně rozpadne na prach a nemůže být nadále použito pro jakákoliv jiná kouzla.
-		- Množství energie získané z mrtvol je typicky malé, narozdíl od ***Vysátí života*** ovšem nenese esenci mrtvoly, dá se tedy snadno opakovat bez rizika vedlejších účinků.
+		- Množství energie získané z mrtvol je typicky malé, na rozdíl od ***Vysátí života*** ovšem nenese esenci mrtvoly, dá se tedy snadno opakovat bez rizika vedlejších účinků.
 	vysátí nemrtvého -- dotyk -- vysátí
 		- Sesílatel vysaje z cílového nemrtvého magickou energii, která ho udržuje při neživotě. Sesílateli toto doplňuje energii.
 		- Rychlost vysávání nemrtvého závisí na schopnostech sesílatele.
@@ -87,29 +87,29 @@ pokročilá:
 		- Pokud je cílem mág, vyčerpání mu ztěžuje či zcela brání v kouzlení, ačkoliv fyzicky energii na kouzlení má.
 		- Doba trvání prokletí závisí na situaci a schopnostech sesílatele.
 	zranitelnost -- dohled -- prokletí
-		- Sesílatel prokleje cílovou bytost tak, že jí zásahy zbraněmi a kouzly způsobí větší zranění než by způsobily normálně.
+		- Sesílatel prokleje cílovou bytost tak, že jí zásahy zbraněmi a kouzly způsobí větší zranění, než by způsobily normálně.
 		- Doba trvání prokletí závisí na situaci a schopnostech sesílatele.
 	povolání ghůla -- nemrtvý
 		- Sesílatel vytvoří z mrtvoly v dohledu ghůla pod kontrolou sesílatele.
 		- Ghůl je základní bojový nemrtvý, který v procesu oživování získá ostřejší zuby, prsty se mu přetvoří na kostěné drápy a pánev se překroutí, aby lépe vyhovovala pohybu po čtyřech. 
 		- Ghůl je určen k boji a není vybaven inteligencí na plnění komplikovanějších příkazů. Naopak v boji či při sledování umí dobře fungovat jako smečka.
 		- Ghůlové se rychle pohybují po čtyřech, dobře skáčou a šplhají. Navíc mají zostřené smysly na detekci živých, což jim umožňuje dobře se orientovat i ve tmě, včetně magické tmy.
-		- V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu a vyžadují dramaticky více energie.
+		- V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu vyžadují dramaticky více energie.
 	oživ středně velkého tvora -- nemrtvý
 		- Sesílatel ze středně velkého mrtvého tvora (do velikosti velkého psa) vytvoří nemrtvého pod kontrolou sesílatele.
 		- Tento tvor je ve vykonávání příkazů omezen inteligencí, jakou měl před smrtí, a fyzickými omezeními. 
 		- Pro svou dobrou inteligenci jsou oblíbené psovité a lasicovité šelmy.
-		- V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu a vyžadují dramaticky více energie.
+		- V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu vyžadují dramaticky více energie.
 	spoutání duše ke svojí vůli -- dohled
 		- Sesílatel podstoupí souboj vůle s duší povolanou pomocí kouzla ***Povolání duše***. Pokud uspěje, převede duši pod svou kontrolu.
 		- Duše pod kontrolou sesílatele se mu nemůže vzepřít, odpovídá na jeho otázky a dělá, co jí sesílatel přikáže.
 		- Vzhledem k jejímu nehmotnému stavu je služba od duše limitovaná na příjemného konverzačního partnera.
 	oživ člověka -- nemrtvý
 		- Sesílatel z mrtvého humanoida vytvoří nemrtvého pod kontrolou sesílatele.
-		- Tímto kouzlem je možno oživit libovolného inteligentního humanoida velikostně srovnatelného s člověkem (orka ještě ano, krola už ne)
+		- Tímto kouzlem je možno oživit libovolného inteligentního humanoida velikostně srovnatelného s člověkem (orka ještě ano, krola už ne).
 		- Cílový nemrtvý je ve vykonávání příkazů omezen inteligencí, jakou měl před smrtí, a fyzickými omezeními.
 		- Nemrtvý si zachovává mundání schopnosti, které měl před smrtí (kovář bude umět stále stejně vykovat meč apod.), ale nevztahuje se na schopnost nemrtvých mágů kouzlit.
-		- V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu a vyžadují dramaticky více energie.
+		- V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu vyžadují dramaticky více energie.
 	jed do nemrtvého -- dohled -- jed
 		- Sesílatel pohledem sešle jedové kouzlo, které zná, na nemrtvého pod svou kontrolou.
 		- Všechna zranění nemrtvým způsobená budou otrávená a exploze takového nemrtvého rozmetá jed po okolí.
@@ -133,7 +133,7 @@ pokročilá:
 	vidění ve tmě -- sesílatel
 		- Sesílatel získá magický zrak, kterým vidí ve tmě (včetně magické tmy) jako za jasného dne.
 	meditace -- soustředění
-		- Forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě.
+		- Forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba dvěma hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě.
 		- Vyžaduje sesílatelovu plnou koncentraci.
 mistrovská:
 	neštěstí -- dohled -- prokletí
@@ -151,7 +151,7 @@ mistrovská:
 		- Sesílatel z libovolně velkého mrtvého tvora (velikost nemrtvého určuje náročnost) vytvoří nemrtvého pod kontrolou sesílatele.
 		- Tento tvor je ve vykonávání příkazů omezen inteligencí, jakou měl před smrtí, a fyzickými omezeními. 
 		- Umožňuje oživit i inteligentní či pseudo-inteligentní humanoidy znatelně větší než člověk (krol, trol).
-		- V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu a vyžadují dramaticky více energie.
+		- V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu vyžadují dramaticky více energie.
 	spoutání duše/nemrtvého k vůli jiného -- dohled
 		- Sesílatel se vzdá kontroly nad duší nebo nemrtvým a přiváže ho k vůli někoho jiného.
 		- Novým pánem nemrtvého může být kdokoliv, nemusí ovládat magii smrti. Převést nemrtvého pod kontrolu kontramága stále vyžaduje nejdříve kontramága prokouzlit do bezvědomí.

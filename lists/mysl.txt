@@ -121,7 +121,7 @@ mistrovská:
 		- Sesílatel musí cíl vidět, nebo alespoň vědět, kde přesně je, a být blízko. 
 		- Cíl si rozkazy pamatuje a uvědomuje si, že nejedná z vlastní vůle.
 	telepatické propojení -- dohled -- mentální magie
-		- Umožňuje sesílateli a cíli po dobu dobu trvání kouzla číst si navzájem výrazné současné myšlenky. 
+		- Umožňuje sesílateli a cíli po dobu trvání kouzla číst si navzájem výrazné současné myšlenky. 
 		- Efektivně tak umožňuje mluvit spolu beze slov. 
 		- Sesílatel je s cílem spojen a po dobu trvání kouzla se od sebe mohou libovolně vzdálit.
 	telepatický prostor -- dohled -- mentální magie
@@ -135,7 +135,7 @@ mistrovská:
 	pokročilá telekineze - organismus -- dohled
 		- Sesílatelova ***Telekineze - organismus*** či ***Hromadná telekineze - organismy*** je natolik pokročilá, že umožňuje rychlý a neplynulý pohyb organismem, a nevyžaduje sesílatelovu plnou pozornost.
 	telekineze - konstrukt -- dohled -- soustředění
-		- Umožňuje sesílateli telekineticky pohybovat jednotlivými částmi konstruktu tak, že sesílatel imituje přirozený pohyb všěch částí. 
+		- Umožňuje sesílateli telekineticky pohybovat jednotlivými částmi konstruktu tak, že sesílatel imituje přirozený pohyb všech částí. 
 		- Vyžaduje sesílatelovu plnou pozornost.
 	projekce mysli mimo tělo -- sesílatel -- dohled
 		- Sesílatel přesune své vědomí do bodu či objektu mimo své tělo. 

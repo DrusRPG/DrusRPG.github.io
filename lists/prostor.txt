@@ -16,7 +16,7 @@ základní:
 		- Pokud kouzlo trvá delší dobu, začne z něj malá část energie mizet i samovolně. 
 		- Velikost bariéry závisí na schopnostech sesílatele, standardní velikost je kolem 1,5x2m.
 	změna tvaru objektu -- dotyk -- zakřivení
-		- Sesílatel po dobu udržování kouzla může ohýbat a měnit tvaru objektu, kterého se dotýká. 
+		- Sesílatel po dobu udržování kouzla může ohýbat a měnit tvar objektu, kterého se dotýká. 
 		- Po skončení kouzla se předmět opět vrátí do tvaru, který měl původně.
 	zmenšení vzdálenosti -- dohled -- zakřivení
 		- Sesílatel po dobu udržování kouzla ohýbá prostor mezi 2 místy, která obě vidí, tak, že se k sobě obě místa přiblíží. 
@@ -41,7 +41,7 @@ základní:
 
 pokročilá:
 	prostorová trhlina -- dohled
-		- V homogením materiálu vytvoří trhlinu. 
+		- V homogenním materiálu vytvoří trhlinu. 
 		- Sesílatel může např. nechat prasknout sklo.
 	zacelení trhliny -- dohled
 		- V homogenním materiálu zacelí trhlinu. 
@@ -71,18 +71,18 @@ pokročilá:
 		- Např. šípy, které by ho měly zasáhnout, ho minou a pokračují ve své trajektorii za ním.
 	zvětšení objektu -- dohled -- zakřivení
 		- Sesílatel po dobu udržování kouzla zvětšuje cílový objekt. 
-		- Zvětšování je ve všech směrech stejné, a cílový objekt si ponechá svou hmotnost - v důsledku čehož může být křehčí
+		- Zvětšování je ve všech směrech stejné, a cílový objekt si ponechá svou hmotnost - v důsledku čehož může být křehčí.
 	zmenšení objektu -- dohled -- zakřivení
 		- Sesílatel po dobu udržování kouzla zmenšuje cílový objekt. 
-		- Zmenšování je ve všech směrech stejné, a cílový objekt si ponechá svou hmotnost - v důsledku čehož může být tvrdší
+		- Zmenšování je ve všech směrech stejné, a cílový objekt si ponechá svou hmotnost - v důsledku čehož může být tvrdší.
 	prostorový tunel -- dohled -- zakřivení
 		- Sesílatel vytvoří malou červí díru, kterou může projít skrz malé překážky - např. projít stěnou.
 	narovnání prostoru -- dohled -- zakřivení
-		- Sesílatel v cílové oblasti ostraní všechny efekty kouzel zakřivujících prostor.
+		- Sesílatel v cílové oblasti odstraní všechny efekty kouzel zakřivujících prostor.
 		- Dokud tomuto kouzlu sesílatel věnuje plnou pozornost, brání ostatním mágům prostoru v zakřivování cílové oblasti.
 		- V takovém případě dochází k souboji vůle mezi sesílatelem a druhým mágem.
 	cit prostoru -- sesílatel
-		- Po dobu udržování kouzla získává sesílatel magický smysl, kterým dokáže prohledat prostor kolem sebe a zjistit, co se kde kolem něj nachází
+		- Po dobu udržování kouzla získává sesílatel magický smysl, kterým dokáže prohledat prostor kolem sebe a zjistit, co se kde kolem něj nachází.
 	meditace -- soustředění
 		- Forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě.
 		- Vyžaduje sesílatelovu plnou pozornost.
@@ -90,7 +90,7 @@ pokročilá:
 mistrovská:
 	teleportační brána -- dohled
 		- Vytvoří portál mezi 2 místy, která sesílatel vidí. 
-		- Jakýkoliv objekt projde portálem na jedné straně se objeví na druhé straně se stejnou rychlostí a směrem, s jakými portálem prošel.
+		- Jakýkoliv objekt, který projde portálem na jedné straně se objeví na druhé straně se stejnou rychlostí a směrem, s jakými portálem prošel.
 	bariérové vězení -- dohled -- bariéra
 		- Sesílatel kolem cíle vytvoří bariéru, jejíž tvar kopíruje tvar cíle, a zcela mu tak znemožní se hýbat.
 	jednosměrná bariéra -- dohled -- bariéra
@@ -104,7 +104,7 @@ mistrovská:
 		- Zmenšování je ve všech směrech stejné, a cílový objekt si ponechá svou hmotnost - v důsledku čehož může být tvrdší
 	změna tvaru organismu -- dohled -- zakřivení
 		- Sesílatel po dobu udržování kouzla mění tvar cílového organismu, kterého se dotýká. 
-		- Po skončení kouzla se předmět opět vrátí do tvaru, který měl původně.
+		- Po skončení kouzla se organismus opět vrátí do tvaru, který měl původně.
 	hromadné přitažení -- dohled
 		- Sesílatel sešle ***Přitažení*** na několik cílů najednou. 
 		- Náročnost je úměrná počtu cílů.

@@ -70,14 +70,14 @@ pokročilá:
 		- Větší omládnutí vyžaduje dramaticky více energie.
 	náhled do budoucnosti objektu -- nahlížení
 		- Sesílatel vidí vizi, v níž nahlíží na to, co se bude dít s daným objektem v sesílatelem zvolené budoucnosti. 
-		- Pokud budoucnost závisí na rozhodnutí jakýchkoliv osob a není pevně daná, zobrazují se všechny možnosti. To vede k tomu, že budoucnost leckdy působí zcela zamlžěně a nezřetelně. 
+		- Pokud budoucnost závisí na rozhodnutí jakýchkoliv osob a není pevně daná, zobrazují se všechny možnosti. To vede k tomu, že budoucnost leckdy působí zcela zamlženě a nezřetelně. 
 		- Zkušení mágové ale dokáží rozeznat, pokud je nějaká možnost výrazně pravděpodobnější než ostatní. 
-		- Vzdálenější minulost vyžaduje dramaticky více energie.
+		- Vzdálenější budoucnost vyžaduje dramaticky více energie.
 	náhled do budoucnosti místa -- nahlížení
 		- Sesílatel vidí vizi, v níž nahlíží na to, co se bude dít na daném místě v sesílatelem zvolené budoucnosti. 
-		- Pokud budoucnost závisí na rozhodnutí jakýchkoliv osob a není pevně daná, zobrazují se všechny možnosti. To vede k tomu, že budoucnost leckdy působí zcela zamlžěně a nezřetelně. 
+		- Pokud budoucnost závisí na rozhodnutí jakýchkoliv osob a není pevně daná, zobrazují se všechny možnosti. To vede k tomu, že budoucnost leckdy působí zcela zamlženě a nezřetelně. 
 		- Zkušení mágové ale dokáží rozeznat, pokud je nějaká možnost výrazně pravděpodobnější než ostatní. 
-		- Vzdálenější minulost vyžaduje dramaticky více energie.
+		- Vzdálenější budoucnost vyžaduje dramaticky více energie.
 	náhled do minulosti organismu -- nahlížení
 		- Sesílatel vidí vizi, v níž nahlíží na to, co se dělo s cílovým organismem v sesílatelem zvolené minulosti. 
 		- Nelze použít ke stopování cíle bez dalších znalostí okolností. 
@@ -112,8 +112,8 @@ mistrovská:
 		- Zkušení mágové ale dokáží rozeznat, pokud je nějaká možnost výrazně pravděpodobnější než ostatní. 
 		- Vzdálenější minulost vyžaduje dramaticky více energie.
 	náhled do minulosti/budoucnosti pro ostatní -- dotyk -- nahlížení
-		- Sesílatel umožní cílovém organismu nahlížet na stejnou vizi, kterou má sesílatel v rámci sesílaného náhledového kouzla. 
-		- Pokud cílový organismus má jak vizi ovlivnit, ovlivní jí to pro oba pozorovatele.
+		- Sesílatel umožní cílovému organismu nahlížet na stejnou vizi, kterou má sesílatel v rámci sesílaného náhledového kouzla. 
+		- Pokud cílový organismus má jak vizi ovlivnit, ovlivní ji to pro oba pozorovatele.
 	zastavení organismu v čase -- dohled
 		- Sesílatel pro cílový organismus na krátkou chvíli zastaví plynutí času. 
 		- Cíl zamrzne na místě, nemůže být nijak zraněn a ani většina jiných interakcí na něj nebude mít efekt. 

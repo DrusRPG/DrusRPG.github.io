@@ -33,4 +33,22 @@
         }
         return hash;
     }
+
+    const image = document.getElementsByClassName('entry-cover')[0].childNodes[0];
+    let clickCount = 0;
+    image.addEventListener('click', () => {
+        clickCount++;
+        if (clickCount === 10) {
+            runSpecialCode();
+        }
+    });
+
+    function runSpecialCode() {
+        for (let el of document.getElementsByClassName('secret_spell')) {
+            el.parentNode.style.display = 'list-item';
+        }
+        for (let el of document.getElementsByClassName("secret_header")){
+            el.style.display = 'block';
+        }
+    }
 </script>
