@@ -8,6 +8,8 @@ on:
 jobs:
   build_drus_website:
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/gohugoio/hugo:v0.154.5
     permissions:
       contents: write
     steps:
@@ -20,8 +22,8 @@ jobs:
         run: sudo apt-get update -qq
       - name: Download Python3
         run: sudo apt-get install -q python3
-      - name: Download Hugo
-        run: sudo snap install hugo
+      # - name: Download Hugo
+      #   run: sudo snap install hugo
       - name: Change dir
         run: cd $GITHUB_WORKSPACE
       - name: Update spell contents
