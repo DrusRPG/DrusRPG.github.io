@@ -26,10 +26,10 @@ základní:
 	povolání duše -- duše
 		- Sesílatel přivolá vědomí zesnulého cíle a poskytne mu nehmotnou magickou formu schopnou řeči.
 		- Povolaná duše nemá žádnou povinnost poslouchat sesílatele ani s ním jinak spolupracovat, k tomu je potřeba seslat ***Spoutání duše ke svojí vůli***.
-	obnov nemrtvého -- dotyk
+	obnov nemrtvého -- dotyk -- nemrtvý
 		- Sesílatel vyléčí zraněného nemrtvého do neporušeného stavu.
 		- Větší zranění a delší doba rozkladu vyžadují dramaticky více energie.
-	exploze nemrtvého -- dohled
+	exploze nemrtvého -- dohled -- nemrtvý
 		- Sesílatel pohledem zničí nemrtvého, který se rozprskne do sprchy úštěpků tkání a kostí, které mohou zranit cíle v okolí.
 		- Explodovaného nemrtvého nelze obnovit.
 		- Pokud se sesílatel snaží zničit nemrtvého patřícího jinému mágovi, dochází k souboji vůle mezi oběma mágy.
@@ -100,7 +100,7 @@ pokročilá:
 		- Tento tvor je ve vykonávání příkazů omezen inteligencí, jakou měl před smrtí, a fyzickými omezeními. 
 		- Pro svou dobrou inteligenci jsou oblíbené psovité a lasicovité šelmy.
 		- V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu vyžadují dramaticky více energie.
-	spoutání duše ke svojí vůli -- dohled
+	spoutání duše ke svojí vůli -- dohled -- duše
 		- Sesílatel podstoupí souboj vůle s duší povolanou pomocí kouzla ***Povolání duše***. Pokud uspěje, převede duši pod svou kontrolu.
 		- Duše pod kontrolou sesílatele se mu nemůže vzepřít, odpovídá na jeho otázky a dělá, co jí sesílatel přikáže.
 		- Vzhledem k jejímu nehmotnému stavu je služba od duše limitovaná na příjemného konverzačního partnera.
@@ -110,7 +110,7 @@ pokročilá:
 		- Cílový nemrtvý je ve vykonávání příkazů omezen inteligencí, jakou měl před smrtí, a fyzickými omezeními.
 		- Nemrtvý si zachovává mundání schopnosti, které měl před smrtí (kovář bude umět stále stejně vykovat meč apod.), ale nevztahuje se na schopnost nemrtvých mágů kouzlit.
 		- V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu vyžadují dramaticky více energie.
-	jed do nemrtvého -- dohled -- jed
+	jed do nemrtvého -- dohled -- jed -- nemrtvý
 		- Sesílatel pohledem sešle jedové kouzlo, které zná, na nemrtvého pod svou kontrolou.
 		- Všechna zranění nemrtvým způsobená budou otrávená a exploze takového nemrtvého rozmetá jed po okolí.
 	smrtelný jed -- dotyk -- zbraň -- jed
@@ -152,7 +152,7 @@ mistrovská:
 		- Tento tvor je ve vykonávání příkazů omezen inteligencí, jakou měl před smrtí, a fyzickými omezeními. 
 		- Umožňuje oživit i inteligentní či pseudo-inteligentní humanoidy znatelně větší než člověk (krol, trol).
 		- V rámci oživování sesílatel může poškozené tělo vyléčit do neživota-schopného stavu, větší zranění a delší doba rozkladu vyžadují dramaticky více energie.
-	spoutání duše/nemrtvého k vůli jiného -- dohled
+	spoutání duše/nemrtvého k vůli jiného -- dohled -- nemrtvý -- duše
 		- Sesílatel se vzdá kontroly nad duší nebo nemrtvým a přiváže ho k vůli někoho jiného.
 		- Novým pánem nemrtvého může být kdokoliv, nemusí ovládat magii smrti. Převést nemrtvého pod kontrolu kontramága stále vyžaduje nejdříve kontramága prokouzlit do bezvědomí.
 		- Nemrtvý bude poslouchat pokyny svého nového pána, jakkoliv mu je pán je schopen předat. Tzn. jiní mágové smrti mohou nemrtvého ovládat myšlenkou, mágové mysli zase třeba sugescemi.
