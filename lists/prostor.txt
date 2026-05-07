@@ -38,7 +38,6 @@ základní:
 		- Sesílatel vytvoří silné zakřivení prostoru ze svého pohledu za cílem, které vzápětí nechá narovnat, což vytvoří impulz síly, který cíl odhodí od sesílatele.
 	sražení -- dohled
 		- Sesílatel vytvoří silné zakřivení prostoru pod cílem, které vzápětí nechá narovnat, což vytvoří impulz síly, který cíl srazí k zemi.
-
 pokročilá:
 	prostorová trhlina -- dohled
 		- V homogenním materiálu vytvoří trhlinu. 
@@ -86,7 +85,6 @@ pokročilá:
 	meditace -- soustředění
 		- Forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě.
 		- Vyžaduje sesílatelovu plnou pozornost.
-
 mistrovská:
 	teleportační brána -- dohled
 		- Vytvoří portál mezi 2 místy, která sesílatel vidí. 
