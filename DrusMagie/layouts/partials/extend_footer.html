@@ -1,4 +1,29 @@
 <script>
+    const SPELL_SHOW_CHANCE = 0.001;
+    let allSpellsRevealed = false;
+
+    // Mwahahahahaha
+    function updateSpellVisibility() {
+        if (allSpellsRevealed) return;
+
+        const elements = document.getElementsByClassName('secret_spell');
+        let visible_count = 0;
+
+        for (let el of elements) {
+            if (Math.random() < SPELL_SHOW_CHANCE) {
+                el.parentNode.style.display = 'list-item';
+                visible_count++;
+            } else {
+                el.parentNode.style.display = 'none';
+            }
+        }
+
+        for (let el of document.getElementsByClassName("secret_header")) {
+            el.style.display = visible_count > 0 ? 'block' : 'none';
+        }
+    }
+
+    /* Old day-based selection:
     document.addEventListener("DOMContentLoaded", function() {
         const now = new Date();
         const selection = (now.getDay() * 24 + now.getHours()) % 16;
@@ -15,11 +40,10 @@
                 el.parentNode.style.display = 'none';
             }
         }
-        
+
         for (let el of document.getElementsByClassName("secret_header")){
             el.style.display = visible_count > 0 ? 'block' : 'none';
         }
-
     });
 
     function generateHash(text) {
@@ -33,6 +57,12 @@
         }
         return hash;
     }
+    */
+
+    document.addEventListener("DOMContentLoaded", function () {
+        updateSpellVisibility();
+        setInterval(updateSpellVisibility, 10000);
+    });
 
     const image = document.getElementsByClassName('entry-cover')[0].childNodes[0];
     let clickCount = 0;
@@ -44,10 +74,11 @@
     });
 
     function runSpecialCode() {
+        allSpellsRevealed = true;
         for (let el of document.getElementsByClassName('secret_spell')) {
             el.parentNode.style.display = 'list-item';
         }
-        for (let el of document.getElementsByClassName("secret_header")){
+        for (let el of document.getElementsByClassName("secret_header")) {
             el.style.display = 'block';
         }
     }
