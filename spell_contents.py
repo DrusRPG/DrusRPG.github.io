@@ -2,6 +2,7 @@ import base64
 import json
 import re
 import pathlib
+import contramagic_tree
 
 
     
@@ -303,6 +304,9 @@ def main():
         # Save the markdown of the magic school
         with open(out_path/f"{magic_school_file}.md", "w") as f:
             f.write(school.to_markdown())
+
+    with open(out_path / "kontramagove.md", "w") as f:
+        f.write(contramagic_tree.generate_contramagic_page())
 
 if __name__ == "__main__":
     main()
