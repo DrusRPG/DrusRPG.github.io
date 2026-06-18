@@ -136,28 +136,28 @@
 }
 
 .skill-circle.color-defense+.skill-label {
-    background: rgb(38, 56, 88);
-    border-color: blue;
+    background: rgb(30, 45, 70);
+    border-color: #0000cc;
 }
 
 .skill-circle.color-cancel+.skill-label {
-    background: rgb(77, 38, 42);
-    border-color: red;
+    background: rgb(62, 30, 34);
+    border-color: #cc0000;
 }
 
 .skill-circle.color-sense+.skill-label {
-    background: rgb(30, 70, 80);
-    border-color: cyan;
+    background: rgb(24, 56, 64);
+    border-color: #00cccc;
 }
 
 .skill-circle.color-ritual+.skill-label {
-    background: rgb(84, 63, 42);
-    border-color: orange;
+    background: rgb(67, 50, 34);
+    border-color: #cc8400;
 }
 
 .skill-circle.color-tracking+.skill-label {
-    background: rgb(38, 70, 42);
-    border-color: green;
+    background: rgb(30, 56, 34);
+    border-color: #006600;
 }
 
 .skill-tree-svg {
@@ -204,7 +204,7 @@
 .skill-tree-section-label {
     position: absolute;
     left: 0;
-    color: #AAA;
+    color: #888;
     white-space: nowrap;
     pointer-events: none;
     transform: translateY(-50%) rotate(-90deg);

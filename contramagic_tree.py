@@ -13,19 +13,19 @@ DIVIDER_ROWS = [370, 700]
 CORNER_RADIUS = 20
 
 COLOR_BG = {
-    "defense": "rgb(38,56,88)",
-    "cancel": "rgb(77,38,42)",
-    "sense": "rgb(30,70,80)",
-    "ritual": "rgb(84,63,42)",
-    "tracking": "rgb(38,70,42)",
+    "defense": "rgb(30,45,70)",
+    "cancel": "rgb(62,30,34)",
+    "sense": "rgb(24,56,64)",
+    "ritual": "rgb(67,50,34)",
+    "tracking": "rgb(30,56,34)",
 }
 
 CATEGORY_COLOR = {
-    "defense": "blue",
-    "cancel": "red",
-    "sense": "cyan",
-    "ritual": "orange",
-    "tracking": "green",
+    "defense": "#0000cc",
+    "cancel": "#cc0000",
+    "sense": "#00cccc",
+    "ritual": "#cc8400",
+    "tracking": "#006600",
 }
 
 
