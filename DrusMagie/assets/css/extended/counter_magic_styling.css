@@ -219,3 +219,11 @@
         width: 200px;
     }
 }
+
+.skill-node-secret {
+    display: none;
+}
+
+.skill-arrow-secret {
+    display: none;
+}

@@ -78,4 +78,3 @@ Mistrovská:
 		- Kontramág skrze svou znalost konkrétní školy magie může za velkého soustředění potlačit svou ochranu proti kouzlům této školy.
 		- Tohoto potlačení trvá chvíli dosáhnout a stejně tak nemizí okamžitě na povel. Nelze tak třeba získat svou pasivní obranu hned, když kontramág cítí, že je na něj směřováno škodlivé kouzlo.
 		- Vyžaduje lehké soustředění.
-		

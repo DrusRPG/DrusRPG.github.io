@@ -1,5 +1,7 @@
+import base64
 import json
 import math
+import re
 import spell_contents
 
 CANVAS_WIDTH = 1000
@@ -10,6 +12,7 @@ NODE_Y_RADIUS = (
     NODE_RADIUS * GRID_ASPECT
 )  # circle Y-extent in SVG units differs from X due to non-square grid
 DIVIDER_ROWS = [370, 700]
+SECRET_DIVIDER_ROW = 1020
 CORNER_RADIUS = 20
 
 COLOR_BG = {
@@ -44,6 +47,7 @@ GLOW_CLASS_BY_ROW = {
     3: "glow-mid",
     4: "glow-huge",
     5: "glow-huge",
+    6: "glow-huge",
 }
 
 
@@ -71,8 +75,9 @@ def build_absolute_html(nodes, descriptions):
             f"{'<br><br>' + desc_html if desc_html else ''}"
             f"</div>"
         )
+        secret_class = " skill-node-secret" if node.get("secret") else ""
         pieces.append(
-            f'<div class="skill-node" style="left:{left}%;top:{top}%;">'
+            f'<div class="skill-node{secret_class}" style="left:{left}%;top:{top}%;">'
             f'<div class="skill-circle color-{color}{glow_class_str}" style="--glow-color:{glow_color};border-color:{CATEGORY_COLOR[color]};background:{bg};">{icon_html}</div>'
             f'<span class="skill-label">{name}</span>'
             f"{popup_html}"
@@ -130,7 +135,7 @@ def _cubic_bezier(sx, sy, ex, ey, src_dir, dst_approach_dir, handle_scale=0.4):
 def build_svg_overlay(nodes):
     node_by_id = {n["id"]: n for n in nodes}
     parts = [
-        f'<svg viewBox="0 0 {CANVAS_WIDTH} {CANVAS_HEIGHT}" preserveAspectRatio="none" class="skill-tree-svg" xmlns="http://www.w3.org/2000/svg">',
+        f'<svg viewBox="0 0 {CANVAS_WIDTH} {CANVAS_HEIGHT}" preserveAspectRatio="none" overflow="visible" class="skill-tree-svg" xmlns="http://www.w3.org/2000/svg">',
         "<defs>",
         '<path d="M0,0 L0,6 L8,3 z" fill="context-stroke"/></marker></defs>',
     ]
@@ -138,6 +143,7 @@ def build_svg_overlay(nodes):
     for node in nodes:
         dst_cx = node["pos_x"]
         dst_cy = node_cy(node["pos_y"])
+        dst_secret = node.get("secret", False)
         for dep in node.get("depends_on", []):
             src = node_by_id[dep["id"]]
             src_color = CATEGORY_COLOR[src["category"]]
@@ -182,13 +188,17 @@ def build_svg_overlay(nodes):
             else:
                 d = build_arrow_path([(sx, sy), (ex, ey)])
             if d:
+                secret_attr = ' class="skill-arrow-secret"' if dst_secret else ""
                 parts.append(
-                    f'<path d="{d}" stroke="{src_color}" stroke-width="2" fill="none" marker-end="url(#arrow)"/>'
+                    f'<path{secret_attr} d="{d}" stroke="{src_color}" stroke-width="2" fill="none" marker-end="url(#arrow)"/>'
                 )
     for y in DIVIDER_ROWS:
         parts.append(
             f'<line x1="0" y1="{y}" x2="{CANVAS_WIDTH}" y2="{y}" class="skill-tree-divider-line"/>'
         )
+    parts.append(
+        f'<line x1="0" y1="{SECRET_DIVIDER_ROW}" x2="{CANVAS_WIDTH}" y2="{SECRET_DIVIDER_ROW}" class="skill-tree-divider-line skill-arrow-secret"/>'
+    )
     parts.append("</svg>")
     return "".join(parts)
 
@@ -208,6 +218,12 @@ def build_section_labels_html():
             f"<strong>{label}</strong>"
             f"</div>"
         )
+    secret_center_pct = 1100 / 10
+    parts.append(
+        f'<div class="skill-tree-section-label skill-node-secret" style="top:{secret_center_pct:.1f}%;">'
+        f"<strong>Velmistrovská</strong>"
+        f"</div>"
+    )
     return "".join(parts)
 
 
@@ -215,16 +231,32 @@ def generate_contramagic_page():
     template = open("templates/school_of_magic_header.md").read()
     nodes = load_nodes()
     descriptions = spell_contents.parse_contramagic_descriptions()
+    secrets = json.load(open("lists/secrets.json"))
+    secret_layout = json.loads(
+        base64.b64decode(secrets["kontramagie_layout"]).decode("utf-8")
+    )
+    if isinstance(secret_layout, dict):
+        secret_layout = [secret_layout]
+    for node in secret_layout:
+        node["secret"] = True
+        nodes.append(node)
+    secret_text = base64.b64decode(secrets["kontramagie"]).decode("utf-8") + "\n"
+    names, desc_blocks = spell_contents.split_by_category(secret_text, r"\t(\w.*)\n")
+    for name, desc_block in zip(names, desc_blocks):
+        descriptions[spell_contents.capitalize_title(name)] = re.findall(
+            r"\t\t- (.*)\n", desc_block
+        )
     contents = (
         '<div class="skill-tree-container"><div class="skill-tree-grid">'
         + build_svg_overlay(nodes)
         + build_absolute_html(nodes, descriptions)
         + build_section_labels_html()
         + "</div></div>"
+        + '<div class="skill-node-secret" style="height:20vh;"></div>'
     )
     return (
         template.replace("$NAME", "Kontramágové")
         .replace("$IMAGE_FIRST", "kontramag.png")
-        .replace("$IMAGE_SECOND", "ancient_times1.jpg")
+        .replace("$IMAGE_SECOND", "better_times.jpg")
         .replace("$CONTENTS", contents)
     )
