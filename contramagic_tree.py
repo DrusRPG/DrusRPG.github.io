@@ -7,7 +7,7 @@ GRID_ASPECT = 0.7  # must match CSS aspect-ratio of .skill-tree-grid
 NODE_Y_RADIUS = (
     NODE_RADIUS * GRID_ASPECT
 )  # circle Y-extent in SVG units differs from X due to non-square grid
-DIVIDER_ROWS = [350, 720]
+DIVIDER_ROWS = [370, 710]
 CORNER_RADIUS = 20
 
 COLOR_ICON = {
@@ -21,7 +21,7 @@ COLOR_ICON = {
 COLOR_BG = {
     "blue": "rgb(38,56,88)",
     "red": "rgb(77,38,42)",
-    "black": "rgb(32,32,34)",
+    "black": "rgb(180, 180, 180)",
     "orange": "rgb(84,63,42)",
     "green": "rgb(38,70,42)",
 }
@@ -32,26 +32,44 @@ def load_nodes(path="lists/kontramagove.json"):
 
 
 def node_cy(row_y):
-    return 100 + row_y * 180
+    return 100 + row_y * 165
+
+
+GLOW_CLASS_BY_ROW = {
+    0: "glow-low",
+    1: "glow-low",
+    2: "glow-mid",
+    3: "glow-mid",
+    4: "glow-huge",
+    5: "glow-huge",
+}
+
+GLOW_COLOR_OVERRIDE = {
+    "black": "rgb(140,140,140)",
+}
 
 
 def build_absolute_html(nodes):
     pieces = []
     for node in nodes:
         cx = node["pos_x"]
-        cy = node_cy(node["pos_y"])
+        pos_y = node["pos_y"]
+        cy = node_cy(pos_y)
         left = (cx - NODE_RADIUS) / 10
-        top = (cy - NODE_RADIUS) / 10
+        top = (cy - NODE_Y_RADIUS) / 10
         color = node.get("border_color", "#888")
         name = node["name"]
-        icon = COLOR_ICON.get(color, "")
-        bg = COLOR_BG.get(color, "rgba(0,0,0,0.3)")
+        icon = COLOR_ICON[color]
+        bg = COLOR_BG[color]
         icon_html = (
             f'<img class="skill-icon" src="/icons/{icon}" alt="">' if icon else ""
         )
+        glow_class = GLOW_CLASS_BY_ROW.get(pos_y, "")
+        glow_class_str = f" {glow_class}" if glow_class else ""
+        glow_color = GLOW_COLOR_OVERRIDE.get(color, color)
         pieces.append(
             f'<div class="skill-node" style="left:{left}%;top:{top}%;">'
-            f'<div class="skill-circle color-{color}" style="border-color:{color};background:{bg};">{icon_html}</div>'
+            f'<div class="skill-circle color-{color}{glow_class_str}" style="--glow-color:{glow_color};border-color:{color};background:{bg};">{icon_html}</div>'
             f'<span class="skill-label">{name}</span>'
             f"</div>"
         )
@@ -79,6 +97,16 @@ def build_arrow_path(waypoints):
     return " ".join(d)
 
 
+def _ellipse_border(cx, cy, dx, dy, rx, ry):
+    """Return the point on the ellipse border at (cx,cy) in direction (dx,dy)."""
+    length = (dx * dx + dy * dy) ** 0.5
+    if not length:
+        return cx, cy
+    ndx, ndy = dx / length, dy / length
+    t = 1.0 / ((ndx / rx) ** 2 + (ndy / ry) ** 2) ** 0.5
+    return cx + ndx * t, cy + ndy * t
+
+
 def build_svg_overlay(nodes):
     node_by_id = {n["id"]: n for n in nodes}
     parts = [
@@ -86,25 +114,29 @@ def build_svg_overlay(nodes):
         '<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">',
         '<path d="M0,0 L0,6 L8,3 z" fill="context-stroke"/></marker></defs>',
     ]
-    for y in DIVIDER_ROWS:
-        parts.append(
-            f'<line x1="0" y1="{y}" x2="{CANVAS_WIDTH}" y2="{y}" class="skill-tree-divider-line"/>'
-        )
+
     for node in nodes:
         dst_cx = node["pos_x"]
         dst_cy = node_cy(node["pos_y"])
-        dst_top = dst_cy - NODE_RADIUS
         for dep in node.get("depends_on", []):
             src = node_by_id[dep["id"]]
             src_color = src.get("border_color", "#888")
             src_cx = src["pos_x"]
             src_cy = node_cy(src["pos_y"])
-            src_bottom = src_cy - NODE_RADIUS + 2 * NODE_Y_RADIUS
-            d = build_arrow_path([(src_cx, src_bottom), (dst_cx, dst_top)])
+            dx, dy = dst_cx - src_cx, dst_cy - src_cy
+            sx, sy = _ellipse_border(src_cx, src_cy, dx, dy, NODE_RADIUS, NODE_Y_RADIUS)
+            ex, ey = _ellipse_border(
+                dst_cx, dst_cy, -dx, -dy, NODE_RADIUS, NODE_Y_RADIUS
+            )
+            d = build_arrow_path([(sx, sy), (ex, ey)])
             if d:
                 parts.append(
                     f'<path d="{d}" stroke="{src_color}" stroke-width="2" fill="none" marker-end="url(#arrow)"/>'
                 )
+    for y in DIVIDER_ROWS:
+        parts.append(
+            f'<line x1="0" y1="{y}" x2="{CANVAS_WIDTH}" y2="{y}" class="skill-tree-divider-line"/>'
+        )
     parts.append("</svg>")
     return "".join(parts)
 
