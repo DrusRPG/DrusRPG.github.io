@@ -1,4 +1,5 @@
 import json
+import math
 import spell_contents
 
 CANVAS_WIDTH = 1000
@@ -118,6 +119,21 @@ def _ellipse_border(cx, cy, dx, dy, rx, ry):
     return cx + ndx * t, cy + ndy * t
 
 
+def _angle_to_dir(angle_deg):
+    """0=right, 90=down, 180=left, 270=up (SVG convention, Y-down)."""
+    rad = math.radians(angle_deg)
+    return math.cos(rad), math.sin(rad)
+
+
+def _cubic_bezier(sx, sy, ex, ey, src_dir, dst_approach_dir, handle_scale=0.4):
+    """Return SVG 'd' for a cubic bezier. dst_approach_dir is the direction from outside INTO the target."""
+    dist = ((ex - sx) ** 2 + (ey - sy) ** 2) ** 0.5
+    h = dist * handle_scale
+    c1x, c1y = sx + src_dir[0] * h, sy + src_dir[1] * h
+    c2x, c2y = ex + dst_approach_dir[0] * h, ey + dst_approach_dir[1] * h
+    return f"M {sx:.2f} {sy:.2f} C {c1x:.2f} {c1y:.2f} {c2x:.2f} {c2y:.2f} {ex:.2f} {ey:.2f}"
+
+
 def build_svg_overlay(nodes):
     node_by_id = {n["id"]: n for n in nodes}
     parts = [
@@ -135,11 +151,43 @@ def build_svg_overlay(nodes):
             src_cx = src["pos_x"]
             src_cy = node_cy(src["pos_y"])
             dx, dy = dst_cx - src_cx, dst_cy - src_cy
-            sx, sy = _ellipse_border(src_cx, src_cy, dx, dy, NODE_RADIUS, NODE_Y_RADIUS)
-            ex, ey = _ellipse_border(
-                dst_cx, dst_cy, -dx, -dy, NODE_RADIUS, NODE_Y_RADIUS
-            )
-            d = build_arrow_path([(sx, sy), (ex, ey)])
+            src_angle = dep.get("source_angle")
+            dst_angle = dep.get("target_angle")
+
+            if src_angle is not None:
+                src_dir = _angle_to_dir(src_angle)
+                sx, sy = _ellipse_border(
+                    src_cx, src_cy, src_dir[0], src_dir[1], NODE_RADIUS, NODE_Y_RADIUS
+                )
+            else:
+                src_dir = _norm(dx, dy)
+                sx, sy = _ellipse_border(
+                    src_cx, src_cy, dx, dy, NODE_RADIUS, NODE_Y_RADIUS
+                )
+
+            if dst_angle is not None:
+                # target_angle = direction from target center to entry point;
+                # arrow approaches from outside so its travel direction is the opposite
+                entry_dir = _angle_to_dir(dst_angle)
+                ex, ey = _ellipse_border(
+                    dst_cx,
+                    dst_cy,
+                    entry_dir[0],
+                    entry_dir[1],
+                    NODE_RADIUS,
+                    NODE_Y_RADIUS,
+                )
+                dst_approach_dir = (entry_dir[0], entry_dir[1])
+            else:
+                ex, ey = _ellipse_border(
+                    dst_cx, dst_cy, -dx, -dy, NODE_RADIUS, NODE_Y_RADIUS
+                )
+                dst_approach_dir = _norm(-dx, -dy)
+
+            if src_angle is not None or dst_angle is not None:
+                d = _cubic_bezier(sx, sy, ex, ey, src_dir, dst_approach_dir)
+            else:
+                d = build_arrow_path([(sx, sy), (ex, ey)])
             if d:
                 parts.append(
                     f'<path d="{d}" stroke="{src_color}" stroke-width="2" fill="none" marker-end="url(#arrow)"/>'
