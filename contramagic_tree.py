@@ -12,20 +12,20 @@ NODE_Y_RADIUS = (
 DIVIDER_ROWS = [370, 700]
 CORNER_RADIUS = 20
 
-COLOR_ICON = {
-    "blue": "defense.png",
-    "red": "cancel.png",
-    "black": "sense.png",
-    "orange": "ritual.png",
-    "green": "tracking.png",
+COLOR_BG = {
+    "defense": "rgb(38,56,88)",
+    "cancel": "rgb(77,38,42)",
+    "sense": "rgb(30,70,80)",
+    "ritual": "rgb(84,63,42)",
+    "tracking": "rgb(38,70,42)",
 }
 
-COLOR_BG = {
-    "blue": "rgb(38,56,88)",
-    "red": "rgb(77,38,42)",
-    "black": "rgb(50, 50, 50)",
-    "orange": "rgb(84,63,42)",
-    "green": "rgb(38,70,42)",
+CATEGORY_COLOR = {
+    "defense": "blue",
+    "cancel": "red",
+    "sense": "cyan",
+    "ritual": "orange",
+    "tracking": "green",
 }
 
 
@@ -46,10 +46,6 @@ GLOW_CLASS_BY_ROW = {
     5: "glow-huge",
 }
 
-GLOW_COLOR_OVERRIDE = {
-    "black": "rgb(140,140,140)",
-}
-
 
 def build_absolute_html(nodes, descriptions):
     pieces = []
@@ -59,17 +55,14 @@ def build_absolute_html(nodes, descriptions):
         cy = node_cy(pos_y)
         left = (cx - NODE_RADIUS) / 10
         top = (cy - NODE_Y_RADIUS) / 10
-        color = node.get("border_color", "#888")
+        color = node["category"]
         name = node["name"]
         node_id = node["id"]
-        icon = COLOR_ICON[color]
         bg = COLOR_BG[color]
-        icon_html = (
-            f'<img class="skill-icon" src="/icons/{icon}" alt="">' if icon else ""
-        )
+        icon_html = f'<img class="skill-icon" src="/icons/{color}.png" alt="">'
         glow_class = GLOW_CLASS_BY_ROW.get(pos_y, "")
         glow_class_str = f" {glow_class}" if glow_class else ""
-        glow_color = GLOW_COLOR_OVERRIDE.get(color, color)
+        glow_color = CATEGORY_COLOR[color]
         desc_lines = descriptions.get(node_id, [])
         desc_html = "<br><br>".join(desc_lines)
         popup_html = (
@@ -80,7 +73,7 @@ def build_absolute_html(nodes, descriptions):
         )
         pieces.append(
             f'<div class="skill-node" style="left:{left}%;top:{top}%;">'
-            f'<div class="skill-circle color-{color}{glow_class_str}" style="--glow-color:{glow_color};border-color:{color};background:{bg};">{icon_html}</div>'
+            f'<div class="skill-circle color-{color}{glow_class_str}" style="--glow-color:{glow_color};border-color:{CATEGORY_COLOR[color]};background:{bg};">{icon_html}</div>'
             f'<span class="skill-label">{name}</span>'
             f"{popup_html}"
             f"</div>"
@@ -147,7 +140,7 @@ def build_svg_overlay(nodes):
         dst_cy = node_cy(node["pos_y"])
         for dep in node.get("depends_on", []):
             src = node_by_id[dep["id"]]
-            src_color = src.get("border_color", "#888")
+            src_color = CATEGORY_COLOR[src["category"]]
             src_cx = src["pos_x"]
             src_cy = node_cy(src["pos_y"])
             dx, dy = dst_cx - src_cx, dst_cy - src_cy
