@@ -1,266 +1,266 @@
 [
     {
-        "id": "ruseni_kouzel_sebeobrana",
+        "id": "Rušení Kouzel - Sebeobrana",
         "name": "Sebeobrana",
-        "pos_x": 350,
+        "pos_x": 400,
         "pos_y": 0,
         "border_color": "red",
         "depends_on": []
     },
     {
-        "id": "cit_magie_okoli",
+        "id": "Cit Magie - Okolí",
         "name": "Okolí",
-        "pos_x": 650,
+        "pos_x": 700,
         "pos_y": 0,
         "border_color": "black",
         "depends_on": []
     },
     {
-        "id": "pasivni_obrana",
+        "id": "Pasivní Obrana",
         "name": "Pasivní obrana",
-        "pos_x": 100,
+        "pos_x": 200,
         "pos_y": 1,
         "border_color": "blue",
         "depends_on": [
             {
-                "id": "ruseni_kouzel_sebeobrana"
+                "id": "Rušení Kouzel - Sebeobrana"
             }
         ]
     },
     {
-        "id": "ruseni_kouzel_okoli",
+        "id": "Rušení Kouzel - Okolí",
         "name": "Okolí",
-        "pos_x": 350,
+        "pos_x": 400,
         "pos_y": 1,
         "border_color": "red",
         "depends_on": [
             {
-                "id": "cit_magie_okoli"
+                "id": "Cit Magie - Okolí"
             },
             {
-                "id": "ruseni_kouzel_sebeobrana"
+                "id": "Rušení Kouzel - Sebeobrana"
             }
         ]
     },
     {
-        "id": "cit_magie_vice_kouzel",
+        "id": "Cit Magie - Více Kouzel",
         "name": "Více kouzel",
         "pos_x": 900,
         "pos_y": 1,
         "border_color": "black",
         "depends_on": [
             {
-                "id": "cit_magie_okoli"
+                "id": "Cit Magie - Okolí"
             }
         ]
     },
     {
-        "id": "ruseni_kouzel_existujici_kouzlo",
+        "id": "Rušení Kouzel - Existující Kouzlo",
         "name": "Existující kouzlo",
-        "pos_x": 200,
+        "pos_x": 300,
         "pos_y": 2,
         "border_color": "red",
         "depends_on": [
             {
-                "id": "ruseni_kouzel_okoli"
+                "id": "Rušení Kouzel - Okolí"
             }
         ]
     },
     {
-        "id": "cit_magie_uroven_kouzla",
+        "id": "Cit Magie - Úroveň Kouzla",
         "name": "Úroveň kouzla",
-        "pos_x": 450,
+        "pos_x": 500,
         "pos_y": 2,
         "border_color": "black",
         "depends_on": [
             {
-                "id": "cit_magie_okoli"
+                "id": "Cit Magie - Okolí"
             }
         ]
     },
     {
-        "id": "cit_magie_skola_kouzla",
+        "id": "Cit Magie - Škola Kouzla",
         "name": "Škola kouzla",
-        "pos_x": 650,
+        "pos_x": 700,
         "pos_y": 2,
         "border_color": "black",
         "depends_on": [
             {
-                "id": "cit_magie_okoli"
+                "id": "Cit Magie - Okolí"
             }
         ]
     },
     {
-        "id": "stopovani_magie",
+        "id": "Stopování Magie",
         "name": "Základy",
         "pos_x": 900,
         "pos_y": 2,
         "border_color": "green",
         "depends_on": [
             {
-                "id": "cit_magie_vice_kouzel"
+                "id": "Cit Magie - Více Kouzel"
             },
             {
-                "id": "ruseni_kouzel_okoli"
+                "id": "Rušení Kouzel - Okolí"
             }
         ]
     },
     {
-        "id": "pasivni_obrana_okoli",
+        "id": "Pasivní Obrana - Okolí",
         "name": "Okolí",
-        "pos_x": 100,
+        "pos_x": 200,
         "pos_y": 3,
         "border_color": "blue",
         "depends_on": [
             {
-                "id": "pasivni_obrana"
+                "id": "Pasivní Obrana"
             },
             {
-                "id": "ruseni_kouzel_existujici_kouzlo"
+                "id": "Rušení Kouzel - Existující Kouzlo"
             }
         ]
     },
     {
-        "id": "cit_magie_kouzla_konkretni_skoly",
+        "id": "Cit Magie - Kouzla Konkrétní Školy",
         "name": "Kouzla konkrétní školy",
-        "pos_x": 450,
+        "pos_x": 500,
         "pos_y": 3,
         "border_color": "black",
         "depends_on": [
             {
-                "id": "cit_magie_skola_kouzla"
+                "id": "Cit Magie - Škola Kouzla"
             }
         ]
     },
     {
-        "id": "cit_magie_otisk_maga",
+        "id": "Cit Magie - Otisk Mága",
         "name": "Otisk mága",
-        "pos_x": 650,
+        "pos_x": 700,
         "pos_y": 3,
         "border_color": "black",
         "depends_on": [
             {
-                "id": "stopovani_magie"
+                "id": "Stopování Magie"
             }
         ]
     },
     {
-        "id": "stopovani_magie_skola_kouzla",
+        "id": "Stopování Magie - Škola Kouzla",
         "name": "Škola kouzla",
         "pos_x": 900,
         "pos_y": 3,
         "border_color": "green",
         "depends_on": [
             {
-                "id": "stopovani_magie"
+                "id": "Stopování Magie"
             },
             {
-                "id": "cit_magie_skola_kouzla"
+                "id": "Cit Magie - Škola Kouzla"
             }
         ]
     },
     {
-        "id": "ruseni_kouzel_vice_kouzel_konkretni_skoly",
+        "id": "Rušení Kouzel - Více Kouzel Konkrétní Školy",
         "name": "Více kouzel konkrétní školy",
-        "pos_x": 350,
+        "pos_x": 400,
         "pos_y": 4,
         "border_color": "red",
         "depends_on": [
             {
-                "id": "ruseni_kouzel_okoli"
+                "id": "Rušení Kouzel - Okolí"
             },
             {
-                "id": "cit_magie_kouzla_konkretni_skoly"
+                "id": "Cit Magie - Kouzla Konkrétní Školy"
             }
         ]
     },
     {
-        "id": "cit_magie_otisk_maga_skrz_znacku",
+        "id": "Cit Magie - Otisk Mága Skrz Značku",
         "name": "Otisk mága skrz Značku",
-        "pos_x": 650,
+        "pos_x": 700,
         "pos_y": 4,
         "border_color": "black",
         "depends_on": [
             {
-                "id": "cit_magie_otisk_maga"
+                "id": "Cit Magie - Otisk Mága"
             }
         ]
     },
     {
-        "id": "stopovani_magie_otisk_maga",
+        "id": "Stopování Magie - Otisk Mága",
         "name": "Otisk Mága",
         "pos_x": 900,
         "pos_y": 4,
         "border_color": "green",
         "depends_on": [
             {
-                "id": "cit_magie_otisk_maga"
+                "id": "Cit Magie - Otisk Mága"
             },
             {
-                "id": "stopovani_magie_skola_kouzla"
+                "id": "Stopování Magie - Škola Kouzla"
             }
         ]
     },
     {
-        "id": "pasivni_obrana_vyjimka_kouzel_konkretni_skoly",
+        "id": "Pasivní Obrana - Výjimka Kouzel Konkrétní Školy",
         "name": "Výjimky",
-        "pos_x": 100,
+        "pos_x": 200,
         "pos_y": 5,
         "border_color": "blue",
         "depends_on": [
             {
-                "id": "pasivni_obrana_okoli"
+                "id": "Pasivní Obrana - Okolí"
             },
             {
-                "id": "cit_magie_kouzla_konkretni_skoly"
+                "id": "Cit Magie - Kouzla Konkrétní Školy"
             }
         ]
     },
     {
-        "id": "ritualni_obrana",
+        "id": "Rituální Obrana",
         "name": "Obrana",
-        "pos_x": 350,
+        "pos_x": 400,
         "pos_y": 5,
         "border_color": "orange",
         "depends_on": [
             {
-                "id": "ruseni_kouzel_vice_kouzel_konkretni_skoly"
+                "id": "Rušení Kouzel - Více Kouzel Konkrétní Školy"
             },
             {
-                "id": "pasivni_obrana_okoli"
+                "id": "Pasivní Obrana - Okolí"
             }
         ]
     },
     {
-        "id": "ruseni_kouzel_vice_kouzel",
+        "id": "Rušení Kouzel - Více Kouzel",
         "name": "Více Kouzel",
         "pos_x": 600,
         "pos_y": 5,
         "border_color": "red",
         "depends_on": [
             {
-                "id": "ruseni_kouzel_vice_kouzel_konkretni_skoly"
+                "id": "Rušení Kouzel - Více Kouzel Konkrétní Školy"
             },
             {
-                "id": "ruseni_kouzel_existujici_kouzlo"
+                "id": "Rušení Kouzel - Existující Kouzlo"
             }
         ]
     },
     {
-        "id": "ritualni_cit_magie",
+        "id": "Rituální Cit Magie",
         "name": "Cit magie",
-        "pos_x": 850,
+        "pos_x": 800,
         "pos_y": 5,
         "border_color": "orange",
         "depends_on": [
             {
-                "id": "cit_magie_kouzla_konkretni_skoly"
+                "id": "Cit Magie - Kouzla Konkrétní Školy"
             },
             {
-                "id": "stopovani_magie_skola_kouzla"
+                "id": "Stopování Magie - Škola Kouzla"
             },
             {
-                "id": "cit_magie_otisk_maga"
+                "id": "Cit Magie - Otisk Mága"
             }
         ]
     }

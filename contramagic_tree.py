@@ -1,4 +1,5 @@
 import json
+import spell_contents
 
 CANVAS_WIDTH = 1000
 CANVAS_HEIGHT = 1000
@@ -7,7 +8,7 @@ GRID_ASPECT = 0.7  # must match CSS aspect-ratio of .skill-tree-grid
 NODE_Y_RADIUS = (
     NODE_RADIUS * GRID_ASPECT
 )  # circle Y-extent in SVG units differs from X due to non-square grid
-DIVIDER_ROWS = [370, 710]
+DIVIDER_ROWS = [370, 700]
 CORNER_RADIUS = 20
 
 COLOR_ICON = {
@@ -21,7 +22,7 @@ COLOR_ICON = {
 COLOR_BG = {
     "blue": "rgb(38,56,88)",
     "red": "rgb(77,38,42)",
-    "black": "rgb(180, 180, 180)",
+    "black": "rgb(50, 50, 50)",
     "orange": "rgb(84,63,42)",
     "green": "rgb(38,70,42)",
 }
@@ -49,7 +50,7 @@ GLOW_COLOR_OVERRIDE = {
 }
 
 
-def build_absolute_html(nodes):
+def build_absolute_html(nodes, descriptions):
     pieces = []
     for node in nodes:
         cx = node["pos_x"]
@@ -59,6 +60,7 @@ def build_absolute_html(nodes):
         top = (cy - NODE_Y_RADIUS) / 10
         color = node.get("border_color", "#888")
         name = node["name"]
+        node_id = node["id"]
         icon = COLOR_ICON[color]
         bg = COLOR_BG[color]
         icon_html = (
@@ -67,10 +69,19 @@ def build_absolute_html(nodes):
         glow_class = GLOW_CLASS_BY_ROW.get(pos_y, "")
         glow_class_str = f" {glow_class}" if glow_class else ""
         glow_color = GLOW_COLOR_OVERRIDE.get(color, color)
+        desc_lines = descriptions.get(node_id, [])
+        desc_html = "<br><br>".join(desc_lines)
+        popup_html = (
+            f'<div class="skill-popup">'
+            f"<strong>{node_id}</strong>"
+            f"{'<br><br>' + desc_html if desc_html else ''}"
+            f"</div>"
+        )
         pieces.append(
             f'<div class="skill-node" style="left:{left}%;top:{top}%;">'
             f'<div class="skill-circle color-{color}{glow_class_str}" style="--glow-color:{glow_color};border-color:{color};background:{bg};">{icon_html}</div>'
             f'<span class="skill-label">{name}</span>'
+            f"{popup_html}"
             f"</div>"
         )
     return "".join(pieces)
@@ -111,7 +122,7 @@ def build_svg_overlay(nodes):
     node_by_id = {n["id"]: n for n in nodes}
     parts = [
         f'<svg viewBox="0 0 {CANVAS_WIDTH} {CANVAS_HEIGHT}" preserveAspectRatio="none" class="skill-tree-svg" xmlns="http://www.w3.org/2000/svg">',
-        '<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">',
+        "<defs>",
         '<path d="M0,0 L0,6 L8,3 z" fill="context-stroke"/></marker></defs>',
     ]
 
@@ -141,13 +152,33 @@ def build_svg_overlay(nodes):
     return "".join(parts)
 
 
+def build_section_labels_html():
+    # Section boundaries in SVG units, converted to % (canvas height = 1000)
+    sections = [
+        (0, DIVIDER_ROWS[0], "Základní (1)"),
+        (DIVIDER_ROWS[0], DIVIDER_ROWS[1], "Pokročilá (2)"),
+        (DIVIDER_ROWS[1], CANVAS_HEIGHT, "Mistrovská (3)"),
+    ]
+    parts = []
+    for y0, y1, label in sections:
+        center_pct = (y0 + y1) / 2 / 10
+        parts.append(
+            f'<div class="skill-tree-section-label" style="top:{center_pct}%;">'
+            f"<strong>{label}</strong>"
+            f"</div>"
+        )
+    return "".join(parts)
+
+
 def generate_contramagic_page():
     template = open("templates/school_of_magic_header.md").read()
     nodes = load_nodes()
+    descriptions = spell_contents.parse_contramagic_descriptions()
     contents = (
         '<div class="skill-tree-container"><div class="skill-tree-grid">'
         + build_svg_overlay(nodes)
-        + build_absolute_html(nodes)
+        + build_absolute_html(nodes, descriptions)
+        + build_section_labels_html()
         + "</div></div>"
     )
     return (

@@ -2,7 +2,6 @@ import base64
 import json
 import re
 import pathlib
-import contramagic_tree
 
 
     
@@ -275,8 +274,22 @@ def split_by_category(contents: str, regex: str):
 
 
 
+def parse_contramagic_descriptions(path="lists/kontramagie.txt"):
+    contents = open(path).read()
+    result = {}
+    _, category_blocks = split_by_category(contents, r"(\w+):\n")
+    for block in category_blocks:
+        names, desc_blocks = split_by_category(block, r"\t(\w.*)\n")
+        for name, desc_block in zip(names, desc_blocks):
+            key = capitalize_title(name)
+            lines = re.findall(r"\t\t- (.*)\n", desc_block)
+            result[key] = lines
+    return result
+
+
 def main():
-    # input files: (School name, spell list name, first header image, second header image, permalink to secret) 
+    import contramagic_tree
+    # input files: (School name, spell list name, first header image, second header image, permalink to secret)
     input_files = [
         ("Magie Času", "cas", "clock.jpg", "ancient_times1.jpeg"),
         ("Magie Prostoru", "prostor", "prostor.jpg", "ancient_times2.jpeg"),

@@ -44,23 +44,52 @@
 }
 
 @keyframes glow-pulse-low {
-    0%, 100% { box-shadow: 0 0 5px 1px var(--glow-color); }
-    50%       { box-shadow: 0 0 12px 4px var(--glow-color); }
+
+    0%,
+    100% {
+        box-shadow: 0 0 5px 1px var(--glow-color);
+    }
+
+    50% {
+        box-shadow: 0 0 12px 4px var(--glow-color);
+    }
 }
 
 @keyframes glow-pulse-mid {
-    0%, 100% { box-shadow: 0 0 14px 4px var(--glow-color); }
-    50%       { box-shadow: 0 0 32px 10px var(--glow-color); }
+
+    0%,
+    100% {
+        box-shadow: 0 0 14px 4px var(--glow-color);
+    }
+
+    50% {
+        box-shadow: 0 0 32px 10px var(--glow-color);
+    }
 }
 
 @keyframes glow-pulse-huge {
-    0%, 100% { box-shadow: 0 0 28px 8px var(--glow-color); }
-    50%       { box-shadow: 0 0 60px 22px var(--glow-color); }
+
+    0%,
+    100% {
+        box-shadow: 0 0 28px 8px var(--glow-color);
+    }
+
+    50% {
+        box-shadow: 0 0 60px 22px var(--glow-color);
+    }
 }
 
-.skill-circle.glow-low::after  { animation: glow-pulse-low  2.5s ease-in-out infinite; }
-.skill-circle.glow-mid::after  { animation: glow-pulse-mid  2.0s ease-in-out infinite; }
-.skill-circle.glow-huge::after { animation: glow-pulse-huge 1.8s ease-in-out infinite; }
+.skill-circle.glow-low::after {
+    animation: glow-pulse-low 2.5s ease-in-out infinite;
+}
+
+.skill-circle.glow-mid::after {
+    animation: glow-pulse-mid 2.0s ease-in-out infinite;
+}
+
+.skill-circle.glow-huge::after {
+    animation: glow-pulse-huge 1.8s ease-in-out infinite;
+}
 
 .skill-node:hover .skill-circle.glow-low::after,
 .skill-node:hover .skill-circle.glow-mid::after,
@@ -83,7 +112,7 @@
 }
 
 .skill-circle.color-black .skill-icon {
-    filter: brightness(0.2);
+    filter: brightness(0.9);
 }
 
 .skill-circle.color-orange .skill-icon {
@@ -117,7 +146,7 @@
 }
 
 .skill-circle.color-black+.skill-label {
-    background: #888;
+    background: #222;
     border-color: #000;
 }
 
@@ -144,4 +173,49 @@
     stroke: #888;
     stroke-width: 1;
     stroke-dasharray: 4 4;
+}
+
+.skill-popup {
+    visibility: hidden;
+    opacity: 0;
+    filter: blur(2px);
+    position: absolute;
+    left: 110%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 10px;
+    z-index: 10;
+    pointer-events: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: opacity 0.2s ease, filter 1s ease;
+}
+
+.skill-node:hover .skill-popup {
+    visibility: visible;
+    opacity: 1;
+    filter: blur(0);
+}
+
+.skill-tree-section-label {
+    position: absolute;
+    left: 0;
+    color: #AAA;
+    white-space: nowrap;
+    pointer-events: none;
+    transform: translateY(-50%) rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+@media (max-width: 768px) {
+    .skill-popup {
+        left: 0;
+        top: 100%;
+        transform: none;
+        width: 200px;
+    }
 }

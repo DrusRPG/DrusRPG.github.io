@@ -1,0 +1,81 @@
+Základní:
+	cit magie - okolí
+		- Kontramág si vycvičil cit, kterým vnímá magii ve svém okolí. Toto kontramága nijak nevysiluje.
+		- Rozsah okolí, ve kterém mahii vnímá, závisí na schopnostech kontramága. Toto rozemzí se typicky pohybuje mezi malými desítkami a stovkami metrů.
+		- Čím blíže se kouzlo odehrává, tím lépe je schopen kontramág toto kouzlo zaměřit.
+	cit magie - více kouzel
+		- Kontramág se skrz svůj cit magie naučil rozeznávat jednotlivá kouzla od sebe, pokud se jich v jeho okolí kouzlí víc.
+	rušení kouzel - sebeobrana
+		- Kontramág zruší kouzlo sesílané na něj samotného v době jeho sesílání.
+		- Energetická náročnost zrušení kouzla závisí na schopnostech kontramága a mága sesílajícího kouzlo, ale zpravidla je o trochu jednodušší kouzlo zrušit než seslat.
+	rušení kouzel - okolí
+		- Kontramág zruší kouzlo sesílané ve svém okolí v době sesílání tohoto kouzla.
+		- Energetická náročnost zrušení kouzla závisí na schopnostech kontramága a mága sesílajícího kouzlo, ale zpravidla je o trochu jednodušší kouzlo zrušit než seslat.
+	pasivní obrana
+		- Kontramág ruší kouzla sesílaná na něj samotného zcela instiktivně, aniž by se na to musel jakkoliv soustředit.
+		- Energetická náročnost zrušení kouzla závisí na schopnostech kontramága a mága sesílajícího kouzlo, ale zpravidla je o trochu jednodušší kouzlo zrušit než seslat.
+
+Pokročilá:
+	rušení kouzel - existující kouzlo
+		- Kontramág zruší již probíhající kouzlo, tedy zruší kouzlo až po jeho seslání.
+		- Energetická náročnost zrušení kouzla závisí na schopnostech kontramága a mága sesílajícího kouzlo, ale zpravidla je existující kouzlo zhruba stejně náročné zrušit, jako bylo ho seslat.
+	cit magie - úroveň kouzla
+		- Kontramág se skrz svůj cit magie naučil rozeznávat úroveň sesílaného kouzla. Rozezná tak třeba základní kouzlo od pokročilého, a to i v případě, že je do základního kouzla vloženo více energie, než je typické.
+	cit magie - škola kouzla
+		- Kontramág se skrz svůj cit magie naučil rozeznávat školu sesílaného kouzla. Rozezná tak třeba kouzla magie času od magie smrti apod.
+	cit magie - kouzla konkrétní školy
+		- Kontramág se specializuje na rozeznávání kouzel jedné konkrétní školy - např. tedy kouzel magie času. Z této školy od sebe rozezná jednotlivá kouzla v době, kdy jsou kouzlena. Rozezná tedy například, jestli mág času svůj cíl zpomaluje nebo zrychluje apod.
+		- Tuto schopnost se lze naučit vícekrát pro různé školy magie. Nejvíce tedy 6x.
+	stopování magie
+		- Kontramág se skrz svůj cit magie naučil vnímat zbytkovou magii a jemně tak cítit stopy kouzel, která na daném místě byla seslána v nedávné minulosti.
+		- maximální doba, po které je kontramág stále ještě kouzlo rozeznat, závisí na jeho schopnostech a síle daného kouzla. Maximálně ale několik dní.
+		- vyžaduje značné soustředění.
+	stopování magie - škola kouzla
+		- Kontramág se při stopování magie naučil rozeznávat stopy kouzel jednotlivých magických škol od sebe. Pozná tak třeba, že na daném místě bylo nedávno sesláno kouzlo magie života.
+		- Pokud zároveň ovládá ***cit magie - kouzla konkrétní školy*** se zaměřením na školu daného kouzla, je schopen přesně určit, o jaké kouzlo se jednalo.
+		- vyžaduje značné soustředění.
+	cit magie - otisk mága
+		- Kontramág se naučil vnímat v kouzlech jakýsi "magický podpis" jejich sesílatele. Při stopování kouzel pozná, která kouzla kouzlil tentýž mág.
+		- Pokud si jeho otisk dokáže zapamatovat, pozná ho, pokud se s kouzlem daného mága potká znovu.
+	pasivní obrana - okolí
+		- Kontramág zcela instiktivně ruší magii ve svém blízkém okolí, včetně již existujících kouzel.
+		- Rozsah okolí závisí na schopnostech kontramága, ale typicky se pohybuje v malých desítkách centimetrů kolem kontramágova těla.
+
+Mistrovská:
+	rušení kouzel - více kouzel konkrétní školy
+		- Kontramág může zrušit 2 kouzla stejné školy, na jejíž cítění je specializovaný, sesílaná najednou nebo v podobný čas.
+		- Pokud tedy ovládá třeba ***Cit magie - kouzla konkrétní školy*** se zaměřením na magii hmoty, může zrušit 2 kouzla magie hmoty najednou.
+		- pokud zároveň ovládá ***Rušení kouzel - existující kouzlo***, může jedno z rušených kouzel být již sesláno.
+		- velmi zkušení kontramágové dokáží zrušit i 3 kouzla stejné školy, pokud žádné z nich není vyšší než pokročilé úrovně.
+		- Energetická náročnost je součtem náročností rušení každého z těchto kouzel.
+	rušení kouzel - více kouzel
+		- Kontramág může zrušit 2 kouzla, na jejichž školy je specializovaný, sesílaná najednou nebo v podobný čas.
+		- Pokud tedy ovládá třeba ***Cit magie - kouzla konkrétní školy*** se zaměřením na magii hmoty a na magii mysli, může zrušit 1 kouzlo magie hmoty a 1 kouzlo magie mysli najednou.
+		- velmi zkušení kontramágové dokáží zrušit i 3 kouzla škol, které jsou jim známé, pokud žádné z nich není vyšší než pokročilé úrovně.
+		- Energetická náročnost je součtem náročností rušení každého z těchto kouzel.
+	cit magie - otisk mága skrz značku
+		- Kontramág dokáže vnímat magii, kterou sesílá mág, jehož otisk kontramág poznává, skrze předmět, na kterém má mág magickou značku.
+		- Pokud má kontramág nějaký jiný cit magie (***Cit magie - škola kouzla*** apod.), je schopen z těchto efektů těžit i při vnímání mága skrze značku.
+		- Pro účely rušení nebo stopování magie ale značka nefunguje podobně, jako by mág byl kontramágovi blízko
+	stopování magie - otisk mága
+		- Kontramág, který se naučí rozeznávat otisk nějakého mága, je schopen tento otisk použít při stopování magie.
+		- Pokud se někde hodně kouzlilo, je schopen rychle určit, která kouzla tam kouzlil tento mág.
+		- Pokud je navíc v přítomnosti tohoto mága, je schopen ze stop magie na mágovi samotném schopen určit, kdy v poseldních dnech kouzlil a jak moc.
+		- Pokud zároveň ovládá ***cit magie - kouzla konkrétní školy*** se zaměřením na školu daná kouzla, je schopen přesně určit, o jaká kouzla se jednalo.
+		- vyžaduje značné soustředění
+	rituální cit magie
+		- Kontramág ve stavu podobném meditaci je schopen svůj cit magie rozšířit na území s přibližně 10x větším poloměrem, než je jeho standardní cit schopen zachytit.
+		- Pokud má kontramág nějaký jiný cit magie (***Cit magie - škola kouzla*** apod.), je schopen z těchto efektů těžit i při tomto rituálu.
+		- Pro účely rušení nebo stopování magie ale značka nefunguje podobně, jako by mágové, které cítí kouzlit, byli kontramágovi blízko
+		- Vyžaduje plné soustředění, schopnější kontramágové jsou v tomto stavu mluvit, ale ne vnímat okolí jinak, než svým citem magie (tedy třeba nemohou vnímat hovor nazpátek)
+	rituální obrana
+		- Kontramág ve stavu podobném meditaci je schopen svou pasivní obranu rozšířit na mnohem větší území - řádově malé desítky metrů kolem sebe.
+		- Mágové v této oblasti po dobu trvání tohot rituálu nemohou nic seslat a i již existující kouzla jsou rušena.
+		- Energetická náročnost je součtem náročností rušení každého z těchto kouzel.
+		- K vyčerpání kontramága při tomto rituálu může dojít velmi rychle, až skokově - v takovém případě tělo upadá do šoku a rituál tak většinou končí.
+		- Vyžaduje plné soustředění, schopnější kontramágové jsou v tomto stavu mluvit, ale ne vnímat okolí jinak, než svým citem magie (tedy třeba nemohou vnímat hovor nazpátek)
+	pasivní obrana - výjimka kouzel konkrétní školy
+		- Kontramág skrze svou znalost konkrétní školy magie může za velkého soustředění potlačit svou ochranu proti kouzlům této školy.
+		- Tohoto potlačení trvá chvíli dosáhnout a stejně tak nemizí okamžitě na povel. Nelze tak třeba získat svou pasivní obranu hned, když kontramág cítí, že je na něj směřováno škodlivé kouzlo.
+		- Vyžaduje lehké soustředění.
+		
