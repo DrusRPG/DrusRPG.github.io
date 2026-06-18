@@ -1,1 +1,261 @@
-[]
+[
+    {
+        "id": "ruseni_kouzel_sebeobrana",
+        "name": "Sebeobrana",
+        "pos_x": 350,
+        "pos_y": 0,
+        "border_color": "red",
+        "depends_on": []
+    },
+    {
+        "id": "cit_magie_okoli",
+        "name": "Okolí",
+        "pos_x": 650,
+        "pos_y": 0,
+        "border_color": "black",
+        "depends_on": []
+    },
+    {
+        "id": "pasivni_obrana",
+        "name": "Pasivní obrana",
+        "pos_x": 100,
+        "pos_y": 1,
+        "border_color": "blue",
+        "depends_on": [
+            {
+                "id": "ruseni_kouzel_sebeobrana"
+            }
+        ]
+    },
+    {
+        "id": "ruseni_kouzel_okoli",
+        "name": "Okolí",
+        "pos_x": 500,
+        "pos_y": 1,
+        "border_color": "red",
+        "depends_on": [
+            {
+                "id": "cit_magie_okoli"
+            },
+            {
+                "id": "ruseni_kouzel_sebeobrana"
+            }
+        ]
+    },
+    {
+        "id": "cit_magie_vice_kouzel",
+        "name": "Více kouzel",
+        "pos_x": 900,
+        "pos_y": 1,
+        "border_color": "black",
+        "depends_on": [
+            {
+                "id": "cit_magie_okoli"
+            }
+        ]
+    },
+    {
+        "id": "cit_magie_uroven_kouzla",
+        "name": "Úroveň kouzla",
+        "pos_x": 200,
+        "pos_y": 2,
+        "border_color": "black",
+        "depends_on": [
+            {
+                "id": "cit_magie_okoli"
+            }
+        ]
+    },
+    {
+        "id": "cit_magie_skola_kouzla",
+        "name": "Škola kouzla",
+        "pos_x": 400,
+        "pos_y": 2,
+        "border_color": "black",
+        "depends_on": [
+            {
+                "id": "cit_magie_okoli"
+            }
+        ]
+    },
+    {
+        "id": "ruseni_kouzel_existujici_kouzlo",
+        "name": "Existující kouzlo",
+        "pos_x": 600,
+        "pos_y": 2,
+        "border_color": "red",
+        "depends_on": [
+            {
+                "id": "ruseni_kouzel_okoli"
+            }
+        ]
+    },
+    {
+        "id": "stopovani_magie",
+        "name": "Stopování magie",
+        "pos_x": 900,
+        "pos_y": 2,
+        "border_color": "green",
+        "depends_on": [
+            {
+                "id": "cit_magie_vice_kouzel"
+            }
+        ]
+    },
+    {
+        "id": "pasivni_obrana_okoli",
+        "name": "Okolí",
+        "pos_x": 100,
+        "pos_y": 3,
+        "border_color": "blue",
+        "depends_on": [
+            {
+                "id": "pasivni_obrana"
+            },
+            {
+                "id": "ruseni_kouzel_existujici_kouzlo"
+            }
+        ]
+    },
+    {
+        "id": "cit_magie_kouzla_konkretni_skoly",
+        "name": "Kouzla konkrétní školy",
+        "pos_x": 300,
+        "pos_y": 3,
+        "border_color": "black",
+        "depends_on": [
+            {
+                "id": "cit_magie_skola_kouzla"
+            }
+        ]
+    },
+    {
+        "id": "cit_magie_otisk_maga",
+        "name": "Otisk mága",
+        "pos_x": 600,
+        "pos_y": 3,
+        "border_color": "black",
+        "depends_on": [
+            {
+                "id": "stopovani_magie"
+            }
+        ]
+    },
+    {
+        "id": "stopovani_magie_skola_kouzla",
+        "name": "Škola kouzla",
+        "pos_x": 900,
+        "pos_y": 3,
+        "border_color": "green",
+        "depends_on": [
+            {
+                "id": "stopovani_magie"
+            },
+            {
+                "id": "cit_magie_skola_kouzla"
+            }
+        ]
+    },
+    {
+        "id": "ruseni_kouzel_vice_kouzel_konkretni_skoly",
+        "name": "Více kouzel konkrétní školy",
+        "pos_x": 300,
+        "pos_y": 4,
+        "border_color": "red",
+        "depends_on": [
+            {
+                "id": "ruseni_kouzel_okoli"
+            },
+            {
+                "id": "cit_magie_kouzla_konkretni_skoly"
+            }
+        ]
+    },
+    {
+        "id": "cit_magie_otisk_maga_skrz_znacku",
+        "name": "Otisk mága skrz Značku",
+        "pos_x": 600,
+        "pos_y": 4,
+        "border_color": "black",
+        "depends_on": [
+            {
+                "id": "cit_magie_otisk_maga"
+            }
+        ]
+    },
+    {
+        "id": "stopovani_magie_otisk_maga",
+        "name": "Otisk Mága",
+        "pos_x": 900,
+        "pos_y": 4,
+        "border_color": "green",
+        "depends_on": [
+            {
+                "id": "cit_magie_otisk_maga_skrz_znacku"
+            },
+            {
+                "id": "stopovani_magie_skola_kouzla"
+            }
+        ]
+    },
+    {
+        "id": "pasivni_obrana_vyjimka_kouzel_konkretni_skoly",
+        "name": "Výjimky",
+        "pos_x": 100,
+        "pos_y": 5,
+        "border_color": "blue",
+        "depends_on": [
+            {
+                "id": "pasivni_obrana_okoli"
+            },
+            {
+                "id": "cit_magie_kouzla_konkretni_skoly"
+            }
+        ]
+    },
+    {
+        "id": "ritualni_obrana",
+        "name": "Obrana",
+        "pos_x": 350,
+        "pos_y": 5,
+        "border_color": "orange",
+        "depends_on": [
+            {
+                "id": "ruseni_kouzel_vice_kouzel_konkretni_skoly"
+            },
+            {
+                "id": "pasivni_obrana_okoli"
+            }
+        ]
+    },
+    {
+        "id": "ruseni_kouzel_vice_kouzel",
+        "name": "Více Kouzel",
+        "pos_x": 650,
+        "pos_y": 5,
+        "border_color": "red",
+        "depends_on": [
+            {
+                "id": "ruseni_kouzel_vice_kouzel_konkretni_skoly"
+            }
+        ]
+    },
+    {
+        "id": "ritualni_cit_magie",
+        "name": "Cit magie",
+        "pos_x": 900,
+        "pos_y": 5,
+        "border_color": "orange",
+        "depends_on": [
+            {
+                "id": "cit_magie_kouzla_konkretni_skoly"
+            },
+            {
+                "id": "stopovani_magie_skola_kouzla"
+            },
+            {
+                "id": "cit_magie_otisk_maga"
+            }
+        ]
+    }
+]

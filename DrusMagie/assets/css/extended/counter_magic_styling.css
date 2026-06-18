@@ -1,23 +1,96 @@
 .skill-tree-container {
     position: relative;
     width: 100%;
+    overflow: visible;
 }
 
 .skill-tree-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(6, 200px);
+    position: relative;
+    width: match-parent;
+    aspect-ratio: 0.7;
+    transform-origin: top left;
 }
 
-.skill-box {
+.skill-node {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    container-type: inline-size;
+}
+
+.skill-circle {
+    width: 100%;
+    height: 100cqi;
+    border-radius: 50%;
     border: 3px solid;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.skill-icon {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}
+
+.skill-circle.color-blue .skill-icon {
+    filter: brightness(0) saturate(100%) invert(13%) sepia(100%) saturate(7498%) hue-rotate(248deg) brightness(114%) contrast(145%);
+}
+
+.skill-circle.color-red .skill-icon {
+    filter: brightness(0) saturate(100%) invert(15%) sepia(100%) saturate(7500%) hue-rotate(0deg) brightness(100%) contrast(120%);
+}
+
+.skill-circle.color-black .skill-icon {
+    filter: brightness(0);
+}
+
+.skill-circle.color-orange .skill-icon {
+    filter: brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(15deg);
+}
+
+.skill-circle.color-green .skill-icon {
+    filter: sepia(1) saturate(10) hue-rotate(50deg);
+}
+
+.skill-label {
+    display: block;
     text-align: center;
-    padding: 8px;
-    background: rgba(0, 0, 0, 0.3);
     color: white;
+    margin-top: 4px;
+    font-size: 0.85em;
+    white-space: nowrap;
+    padding: 2px 8px;
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+.skill-circle.color-blue + .skill-label {
+    background: rgb(38,56,88);
+    border-color: blue;
+}
+
+.skill-circle.color-red + .skill-label {
+    background: rgb(77,38,42);
+    border-color: red;
+}
+
+.skill-circle.color-black + .skill-label {
+    background: rgb(32,32,34);
+    border-color: #555;
+}
+
+.skill-circle.color-orange + .skill-label {
+    background: rgb(84,63,42);
+    border-color: orange;
+}
+
+.skill-circle.color-green + .skill-label {
+    background: rgb(38,70,42);
+    border-color: green;
 }
 
 .skill-tree-svg {
