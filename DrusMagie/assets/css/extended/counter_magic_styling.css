@@ -18,10 +18,12 @@
     align-items: center;
     width: 15%;
     container-type: inline-size;
+    isolation: isolate;
 }
 
 .skill-circle {
     position: relative;
+    z-index: 3;
     width: 100%;
     height: 100cqi;
     border-radius: 50%;
@@ -31,13 +33,58 @@
     justify-content: center;
 }
 
-.skill-circle.glow-low::after,
-.skill-circle.glow-mid::after,
-.skill-circle.glow-huge::after,
-.skill-circle.glow-insane::after {
+.skill-glow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100cqi;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.school-arc-ring-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100cqi;
+    z-index: 2;
+    overflow: visible;
+    pointer-events: none;
+}
+
+.school-arc-ring {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    transition: transform 0.35s ease;
+    transform: scale(0.65);
+    transform-origin: center;
+}
+
+.skill-node:hover .school-arc-ring {
+    transform: scale(0.95);
+}
+
+.arc-sector {
+    opacity: 0.9;
+}
+
+.arc-icon {
+    opacity: 0;
+    transition: opacity 0.2s ease 0.15s;
+}
+
+.skill-node:hover .arc-icon {
+    opacity: 1;
+}
+
+.skill-glow::after {
     content: '';
     position: absolute;
-    inset: -3px;
+    inset: 0;
     border-radius: 50%;
     pointer-events: none;
     opacity: 0.25;
@@ -93,27 +140,24 @@
 }
 
 
-.skill-circle.glow-low::after {
+.skill-glow.glow-low::after {
     animation: glow-pulse-low 2.5s ease-in-out infinite;
 }
 
-.skill-circle.glow-mid::after {
+.skill-glow.glow-mid::after {
     animation: glow-pulse-mid 2.0s ease-in-out infinite;
 }
 
-.skill-circle.glow-huge::after {
+.skill-glow.glow-huge::after {
     animation: glow-pulse-huge 1.8s ease-in-out infinite;
 }
 
-.skill-circle.glow-insane::after {
+.skill-glow.glow-insane::after {
     animation: glow-pulse-insane 1.6s ease-in-out infinite;
 }
 
 
-.skill-node:hover .skill-circle.glow-low::after,
-.skill-node:hover .skill-circle.glow-mid::after,
-.skill-node:hover .skill-circle.glow-huge::after,
-.skill-node:hover .skill-circle.glow-insane::after {
+.skill-node:hover .skill-glow::after {
     opacity: 1;
 }
 
@@ -121,25 +165,33 @@
     width: 70%;
     height: 70%;
     object-fit: contain;
+    /* Force hardware acceleration to strip subpixel rendering */
+    transform: translateZ(0);
+    will-change: transform;
 }
 
-.skill-circle.color-defense .skill-icon {
+
+.arc-color-defense .arc-icon {
     filter: brightness(0) saturate(100%) invert(13%) sepia(100%) saturate(7498%) hue-rotate(248deg) brightness(114%) contrast(145%);
 }
 
-.skill-circle.color-cancel .skill-icon {
+.skill-circle.color-cancel .skill-icon,
+.arc-color-cancel .arc-icon {
     filter: brightness(0) saturate(100%) invert(15%) sepia(100%) saturate(7500%) hue-rotate(0deg) brightness(100%) contrast(120%);
 }
 
-.skill-circle.color-sense .skill-icon {
+.skill-circle.color-sense .skill-icon,
+.arc-color-sense .arc-icon {
     filter: brightness(0) invert(1) sepia(1) saturate(10) hue-rotate(150deg);
 }
 
-.skill-circle.color-ritual .skill-icon {
+.skill-circle.color-ritual .skill-icon,
+.arc-color-ritual .arc-icon {
     filter: brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(15deg);
 }
 
-.skill-circle.color-tracking .skill-icon {
+.skill-circle.color-tracking .skill-icon,
+.arc-color-tracking .arc-icon {
     filter: sepia(1) saturate(10) hue-rotate(50deg);
 }
 
@@ -153,6 +205,7 @@
     padding: 2px 8px;
     border: 2px solid;
     border-radius: 8px;
+    z-index: 3;
 }
 
 .skill-circle.color-defense+.skill-label {
@@ -213,6 +266,10 @@
     pointer-events: none;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     transition: opacity 0.2s ease, filter 1s ease;
+}
+
+.skill-node:hover {
+    z-index: 100;
 }
 
 .skill-node:hover .skill-popup {

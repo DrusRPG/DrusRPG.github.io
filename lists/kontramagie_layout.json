@@ -125,6 +125,7 @@
         "name": "Kouzla konkrétní školy",
         "pos_x": 50,
         "pos_y": 59.5,
+        "learned_per_school": true,
         "depends_on": [
             {
                 "id": "Cit Magie - Škola Kouzla"
@@ -164,6 +165,7 @@
         "name": "Více kouzel konkrétní školy",
         "pos_x": 40,
         "pos_y": 76.5,
+        "learned_per_school": true,
         "depends_on": [
             {
                 "id": "Rušení Kouzel - Okolí"

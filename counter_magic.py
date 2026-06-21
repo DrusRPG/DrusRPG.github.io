@@ -5,6 +5,34 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 
+_SCHOOLS_ARC = [
+    "cas",
+    "prostor",
+    "zivot",
+    "smrt",
+    "hmota",
+    "mysl",
+]
+
+
+def _arc_sector_path(
+    start_deg: float, end_deg: float, r_inner: float, r_outer: float
+) -> str:
+    sa, ea = math.radians(start_deg), math.radians(end_deg)
+    large = 1 if (end_deg - start_deg) > 180 else 0
+    xi1, yi1 = math.cos(sa) * r_inner, math.sin(sa) * r_inner
+    xo1, yo1 = math.cos(sa) * r_outer, math.sin(sa) * r_outer
+    xo2, yo2 = math.cos(ea) * r_outer, math.sin(ea) * r_outer
+    xi2, yi2 = math.cos(ea) * r_inner, math.sin(ea) * r_inner
+    return (
+        f"M {xi1:.4f} {yi1:.4f} "
+        f"L {xo1:.4f} {yo1:.4f} "
+        f"A {r_outer:.4f} {r_outer:.4f} 0 {large} 1 {xo2:.4f} {yo2:.4f} "
+        f"L {xi2:.4f} {yi2:.4f} "
+        f"A {r_inner:.4f} {r_inner:.4f} 0 {large} 0 {xi1:.4f} {yi1:.4f} Z"
+    )
+
+
 @dataclass
 class CounterMagicConfig:
     canvas_width: int = 100
@@ -15,7 +43,7 @@ class CounterMagicConfig:
     secret_divider_row: int = 102
     color_bg: dict = field(
         default_factory=lambda: {
-            "defense": "rgb(30,45,70)",
+            "defense": "rgb(20,25,90)",
             "cancel": "rgb(62,30,34)",
             "sense": "rgb(24,56,64)",
             "ritual": "rgb(67,50,34)",
@@ -51,6 +79,36 @@ class CounterMagicHTML:
     def __init__(self, config: CounterMagicConfig):
         self._config = config
 
+    def _create_school_arc_ring(self, color: str) -> str:
+        n = len(_SCHOOLS_ARC)
+        sector_deg = 270 / n
+        sector_offset = 135
+        gap_deg = 4
+        r_inner, r_outer = 1.05, 1.75
+        icon_r = (r_inner + r_outer) / 2
+        icon_size = (r_outer - r_inner) * 0.85
+        fill = self._config.color_bg[color]
+        stroke = self._config.category_color[color]
+        parts = [
+            f'<div class="school-arc-ring-wrapper arc-color-{color}"><svg class="school-arc-ring" viewBox="-1 -1 2 2" overflow="visible">'
+        ]
+        for i, key in enumerate(_SCHOOLS_ARC):
+            start = sector_offset + i * sector_deg + gap_deg / 2
+            end = sector_offset + (i + 1) * sector_deg - gap_deg / 2
+            mid_rad = math.radians((start + end) / 2)
+            ix = math.cos(mid_rad) * icon_r
+            iy = math.sin(mid_rad) * icon_r
+            d = _arc_sector_path(start, end, r_inner, r_outer)
+            half = icon_size / 2
+            parts.append(
+                f'<path class="arc-sector" d="{d}" fill="{fill}" stroke="{stroke}" stroke-width="0.05"/>'
+                f'<image class="arc-icon" href="/icons/{key}.png" '
+                f'x="{ix - half:.4f}" y="{iy - half:.4f}" '
+                f'width="{icon_size:.4f}" height="{icon_size:.4f}"/>'
+            )
+        parts.append("</svg></div>")
+        return "".join(parts)
+
     def _create_circles(self, nodes, spell_dict: dict[str, common.Spell]):
         pieces = []
         for node in nodes:
@@ -64,7 +122,6 @@ class CounterMagicHTML:
             bg = self._config.color_bg[color]
             icon_html = f'<img class="skill-icon" src="/icons/{color}.png" alt="">'
             glow_class = self._config.get_glow_class(cy)
-            glow_class_str = f" {glow_class}" if glow_class else ""
             glow_color = self._config.category_color[color]
             spell = spell_dict[node_id]
             desc_html = spell.formatted_description()
@@ -75,9 +132,17 @@ class CounterMagicHTML:
                 f"</div>"
             )
             secret_class = " skill-node-secret" if spell.secret else ""
+            arc_ring = (
+                self._create_school_arc_ring(color)
+                if node.get("learned_per_school")
+                else ""
+            )
+            glow_div = f'<div class="skill-glow {glow_class}" style="--glow-color:{glow_color};"></div>'
             pieces.append(
                 f'<div class="skill-node{secret_class}" style="left:{left}%;top:{top}%;">'
-                f'<div class="skill-circle color-{color}{glow_class_str}" style="--glow-color:{glow_color};border-color:{self._config.category_color[color]};background:{bg};">{icon_html}</div>'
+                f"{glow_div}"
+                f"{arc_ring}"
+                f'<div class="skill-circle color-{color}" style="border-color:{self._config.category_color[color]};background:{bg};">{icon_html}</div>'
                 f'<span class="skill-label">{name}</span>'
                 f"{popup_html}"
                 f"</div>"
