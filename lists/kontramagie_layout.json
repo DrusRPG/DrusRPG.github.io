@@ -208,6 +208,7 @@
         "name": "Výjimky",
         "pos_x": 20,
         "pos_y": 93,
+        "learned_per_school": true,
         "depends_on": [
             {
                 "id": "Pasivní Obrana - Okolí"
