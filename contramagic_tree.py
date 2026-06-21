@@ -67,7 +67,7 @@ def build_absolute_html(nodes, descriptions: dict[str, common.Spell]):
         glow_class_str = f" {glow_class}" if glow_class else ""
         glow_color = CATEGORY_COLOR[color]
         spell = descriptions[node_id]
-        desc_html = "<br><br>".join(spell.description)
+        desc_html = spell.formatted_description()
         popup_html = (
             f'<div class="skill-popup">'
             f"<strong>{node_id}</strong>"

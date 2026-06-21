@@ -16,6 +16,10 @@ class Spell(NamedTuple):
     tags: list[str]
     description: list[str]
 
+    def formatted_description(self) -> str:
+        joined = "<br><br>".join(self.description)
+        return re.sub(r"\*\*\*(.*?)\*\*\*", r"<strong>\1</strong>", joined)
+
 
 MagicCategory = list[Spell]
 

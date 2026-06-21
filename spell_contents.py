@@ -114,7 +114,7 @@ _magic_school_template = MagicSchoolTemplate()
 
 def spell_to_markdown(spell: common.Spell, is_secret: bool = False) -> str:
     return _spell_line_template.get_spell_line_md(
-        spell.name, spell.tags, "<br><br>".join(spell.description), is_secret
+        spell.name, spell.tags, spell.formatted_description(), is_secret
     )
 
 
