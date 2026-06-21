@@ -1,7 +1,6 @@
-import base64
-import json
 import re
 import pathlib
+import common
 
 
     
@@ -228,7 +227,7 @@ class SchoolOfMagic:
         self.spell_categories = [
             SpellCategory(category, spell_block, False)
             for category, spell_block in zip(category_names, spells)
-        ] + [SpellCategory("velmistrovská", base64.b64decode(secret_contents).decode('utf-8')+"\n", is_secret=True)]
+        ] + [SpellCategory("velmistrovská", secret_contents+"\n", is_secret=True)]
 
     # Convert the entire school of magic to markdown
     def to_markdown(self) -> str:
@@ -298,8 +297,6 @@ def main():
         ("Magie Hmoty", "hmota", "matter.jpg", "ancient_times5.jpeg"),
         ("Magie Mysli", "mysl", "neural.jpg", "ancient_times6.jpeg"),
     ]
-    secrets = json.load(open("lists/secrets.json"))
-
     # create the output directory
     out_path = pathlib.Path("DrusMagie/content/magic")
     out_path.mkdir(parents=True, exist_ok=True)
@@ -312,7 +309,7 @@ def main():
             magic_school_image,
             magic_school_image_2,
             open(f"lists/{magic_school_file}.txt").read(),
-            secrets[magic_school_file]
+            common.parse_secrets([magic_school_file])[0]
         )
         # Save the markdown of the magic school
         with open(out_path/f"{magic_school_file}.md", "w") as f:

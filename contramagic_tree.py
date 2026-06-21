@@ -1,7 +1,7 @@
-import base64
 import json
 import math
 import re
+import common
 import spell_contents
 
 CANVAS_WIDTH = 1000
@@ -231,16 +231,14 @@ def generate_contramagic_page():
     template = open("templates/school_of_magic_header.md").read()
     nodes = load_nodes()
     descriptions = spell_contents.parse_contramagic_descriptions()
-    secrets = json.load(open("lists/secrets.json"))
-    secret_layout = json.loads(
-        base64.b64decode(secrets["kontramagie_layout"]).decode("utf-8")
-    )
+    secret_layout_str, secret_text_raw = common.parse_secrets("kontramagie_layout", "kontramagie")
+    secret_layout = json.loads(secret_layout_str)
     if isinstance(secret_layout, dict):
         secret_layout = [secret_layout]
     for node in secret_layout:
         node["secret"] = True
         nodes.append(node)
-    secret_text = base64.b64decode(secrets["kontramagie"]).decode("utf-8") + "\n"
+    secret_text = secret_text_raw + "\n"
     names, desc_blocks = spell_contents.split_by_category(secret_text, r"\t(\w.*)\n")
     for name, desc_block in zip(names, desc_blocks):
         descriptions[spell_contents.capitalize_title(name)] = re.findall(
