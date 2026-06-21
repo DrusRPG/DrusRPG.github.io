@@ -1,8 +1,7 @@
 import json
 import math
-import re
 import common
-import spell_contents
+from pathlib import Path
 
 CANVAS_WIDTH = 1000
 CANVAS_HEIGHT = 1000
@@ -51,7 +50,7 @@ GLOW_CLASS_BY_ROW = {
 }
 
 
-def build_absolute_html(nodes, descriptions):
+def build_absolute_html(nodes, descriptions: dict[str, common.Spell]):
     pieces = []
     for node in nodes:
         cx = node["pos_x"]
@@ -67,8 +66,8 @@ def build_absolute_html(nodes, descriptions):
         glow_class = GLOW_CLASS_BY_ROW.get(pos_y, "")
         glow_class_str = f" {glow_class}" if glow_class else ""
         glow_color = CATEGORY_COLOR[color]
-        desc_lines = descriptions.get(node_id, [])
-        desc_html = "<br><br>".join(desc_lines)
+        spell = descriptions[node_id]
+        desc_html = "<br><br>".join(spell.description)
         popup_html = (
             f'<div class="skill-popup">'
             f"<strong>{node_id}</strong>"
@@ -230,7 +229,11 @@ def build_section_labels_html():
 def generate_contramagic_page():
     template = open("templates/school_of_magic_header.md").read()
     nodes = load_nodes()
-    descriptions = spell_contents.parse_contramagic_descriptions()
+    descriptions = {
+        spell.name: spell
+        for spells in common.parse_magic_file(Path("lists/kontramagie.txt")).values()
+        for spell in spells
+    }
     secret_layout_str, secret_text_raw = common.parse_secrets("kontramagie_layout", "kontramagie")
     secret_layout = json.loads(secret_layout_str)
     if isinstance(secret_layout, dict):
@@ -238,12 +241,8 @@ def generate_contramagic_page():
     for node in secret_layout:
         node["secret"] = True
         nodes.append(node)
-    secret_text = secret_text_raw + "\n"
-    names, desc_blocks = spell_contents.split_by_category(secret_text, r"\t(\w.*)\n")
-    for name, desc_block in zip(names, desc_blocks):
-        descriptions[spell_contents.capitalize_title(name)] = re.findall(
-            r"\t\t- (.*)\n", desc_block
-        )
+    for spell in common.parse_spell_block(secret_text_raw + "\n"):
+        descriptions[spell.name] = spell
     contents = (
         '<div class="skill-tree-container"><div class="skill-tree-grid">'
         + build_svg_overlay(nodes)
