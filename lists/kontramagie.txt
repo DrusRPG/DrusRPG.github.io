@@ -70,7 +70,7 @@ Mistrovská:
 		- Vyžaduje plné soustředění, schopnější kontramágové jsou v tomto stavu mluvit, ale ne vnímat okolí jinak, než svým citem magie (tedy třeba nemohou vnímat hovor nazpátek)
 	rituální obrana
 		- Kontramág ve stavu podobném meditaci je schopen svou pasivní obranu rozšířit na mnohem větší území - řádově malé desítky metrů kolem sebe.
-		- Mágové v této oblasti po dobu trvání tohot rituálu nemohou nic seslat a i již existující kouzla jsou rušena.
+		- Mágové v této oblasti po dobu trvání tohoto rituálu nemohou nic seslat a i již existující kouzla jsou rušena.
 		- Energetická náročnost je součtem náročností rušení každého z těchto kouzel.
 		- K vyčerpání kontramága při tomto rituálu může dojít velmi rychle, až skokově - v takovém případě tělo upadá do šoku a rituál tak většinou končí.
 		- Vyžaduje plné soustředění, schopnější kontramágové jsou v tomto stavu mluvit, ale ne vnímat okolí jinak, než svým citem magie (tedy třeba nemohou vnímat hovor nazpátek)

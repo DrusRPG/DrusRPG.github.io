@@ -33,7 +33,8 @@
 
 .skill-circle.glow-low::after,
 .skill-circle.glow-mid::after,
-.skill-circle.glow-huge::after {
+.skill-circle.glow-huge::after,
+.skill-circle.glow-insane::after {
     content: '';
     position: absolute;
     inset: -3px;
@@ -79,6 +80,19 @@
     }
 }
 
+@keyframes glow-pulse-insane {
+
+    0%,
+    100% {
+        box-shadow: 0 0 45px 16px var(--glow-color);
+    }
+
+    50% {
+        box-shadow: 0 0 120px 40px var(--glow-color);
+    }
+}
+
+
 .skill-circle.glow-low::after {
     animation: glow-pulse-low 2.5s ease-in-out infinite;
 }
@@ -91,9 +105,15 @@
     animation: glow-pulse-huge 1.8s ease-in-out infinite;
 }
 
+.skill-circle.glow-insane::after {
+    animation: glow-pulse-insane 1.6s ease-in-out infinite;
+}
+
+
 .skill-node:hover .skill-circle.glow-low::after,
 .skill-node:hover .skill-circle.glow-mid::after,
-.skill-node:hover .skill-circle.glow-huge::after {
+.skill-node:hover .skill-circle.glow-huge::after,
+.skill-node:hover .skill-circle.glow-insane::after {
     opacity: 1;
 }
 
@@ -171,8 +191,8 @@
 
 .skill-tree-divider-line {
     stroke: #888;
-    stroke-width: 1;
-    stroke-dasharray: 4 4;
+    stroke-width: 0.1;
+    stroke-dasharray: 0.4 0.4;
 }
 
 .skill-popup {

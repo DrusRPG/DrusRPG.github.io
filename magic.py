@@ -98,42 +98,20 @@ class SpellLineTemplate:
         return "neutral_glow"
 
 
-# A wrapper for the magic school markdown template, `templates/school_of_magic_header.md`
-class MagicSchoolTemplate:
-    def __init__(self):
-        self.template = open("templates/school_of_magic_header.md").read()
-
-    def get_school_markdown(
-        self, name: str, image_first: str, image_second: str, contents: str
-    ) -> str:
-        replacements = {
-            "NAME": name,
-            "IMAGE_FIRST": image_first,
-            "IMAGE_SECOND": image_second,
-            "CONTENTS": contents,
-        }
-        school_out = self.template
-        for key, value in replacements.items():
-            school_out = school_out.replace(f"${key}", value)
-        return school_out
-
-
 _spell_line_template = SpellLineTemplate()
-_magic_school_template = MagicSchoolTemplate()
+_magic_school_template = common.MagicSchoolTemplate()
 
 
-def spell_to_markdown(spell: common.Spell, is_secret: bool = False) -> str:
+def spell_to_markdown(spell: common.Spell) -> str:
     return _spell_line_template.get_spell_line_md(
-        spell.name, spell.tags, spell.formatted_description(), is_secret
+        spell.name, spell.tags, spell.formatted_description(), spell.secret
     )
 
 
-def category_to_markdown(
-    name: str, spells: list[common.Spell], is_secret: bool = False
-) -> str:
-    items = [spell_to_markdown(spell, is_secret) for spell in spells]
+def category_to_markdown(name: str, spell_category: common.SpellCategory) -> str:
+    items = [spell_to_markdown(spell) for spell in spell_category.spells]
     return (
-        f"\n<h2{' class="secret_header"' if is_secret else ''}>{common.capitalize_title(name)}</h2>\n\n"
+        f"\n<h2{' class="secret_header"' if spell_category.is_secret() else ''}>{common.capitalize_title(name)}</h2>\n\n"
         + "\n".join(items)
     )
 
@@ -143,11 +121,10 @@ def school_to_markdown(
     image_first: str,
     image_second: str,
     spells_by_tier: dict[str, list[common.Spell]],
-    secret_spells: list[common.Spell],
 ) -> str:
     categories_md = [
         category_to_markdown(tier, spells) for tier, spells in spells_by_tier.items()
-    ] + [category_to_markdown("velmistrovská", secret_spells, is_secret=True)]
+    ]
     return _magic_school_template.get_school_markdown(
         name=name,
         image_first=image_first,
@@ -174,12 +151,16 @@ def main():
         magic_school_image,
         magic_school_image_2,
     ) in input_files:
+        spells = common.parse_magic_file(pathlib.Path(f"lists/{magic_school_file}.txt"))
+        spells_secret = common.parse_magic_file_s(
+            common.parse_secrets(magic_school_file), secret=True
+        )
+
         md = school_to_markdown(
             magic_school_name,
             magic_school_image,
             magic_school_image_2,
-            common.parse_magic_file(pathlib.Path(f"lists/{magic_school_file}.txt")),
-            common.parse_spell_block(common.parse_secrets(magic_school_file) + "\n"),
+            spells.spells() | spells_secret.spells(),
         )
         with open(out_path / f"{magic_school_file}.md", "w") as f:
             f.write(md)
