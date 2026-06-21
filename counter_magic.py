@@ -31,10 +31,6 @@ CATEGORY_COLOR = {
 }
 
 
-def load_nodes(path="lists/kontramagove.json"):
-    return json.load(open(path))
-
-
 def node_cy(row_y):
     return 100 + row_y * 165
 
@@ -226,15 +222,17 @@ def build_section_labels_html():
     return "".join(parts)
 
 
-def generate_contramagic_page():
+def generate_counter_magic_page():
     template = open("templates/school_of_magic_header.md").read()
-    nodes = load_nodes()
+    nodes = json.load(open("lists/kontramagie_layout.json"))
     descriptions = {
         spell.name: spell
         for spells in common.parse_magic_file(Path("lists/kontramagie.txt")).values()
         for spell in spells
     }
-    secret_layout_str, secret_text_raw = common.parse_secrets("kontramagie_layout", "kontramagie")
+    secret_layout_str, secret_text_raw = common.parse_secrets(
+        "kontramagie_layout", "kontramagie"
+    )
     secret_layout = json.loads(secret_layout_str)
     if isinstance(secret_layout, dict):
         secret_layout = [secret_layout]
@@ -257,3 +255,10 @@ def generate_contramagic_page():
         .replace("$IMAGE_SECOND", "better_times.jpg")
         .replace("$CONTENTS", contents)
     )
+
+
+def main():
+    out_path = Path("DrusMagie/content/magic")
+    out_path.mkdir(parents=True, exist_ok=True)
+    with open(out_path / "kontramagie.md", "w") as f:
+        f.write(generate_counter_magic_page())

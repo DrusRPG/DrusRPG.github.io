@@ -44,7 +44,7 @@ class TooltipTemplate:
         "nahlížení": "🔮",
         "projektil": "🏹",
         "duše": "👻",
-        "vysátí": "🧛🏻‍♀️"
+        "vysátí": "🧛🏻‍♀️",
     }
 
 
@@ -54,13 +54,21 @@ class SpellLineTemplate:
         self.template = open("templates/spell_line.html").read().replace("\n", "")
         self.tooltip_template = TooltipTemplate()
 
-    def get_spell_line_md(self, name: str, modifiers: list[str], description: str, is_secret: bool) -> str:
+    def get_spell_line_md(
+        self, name: str, modifiers: list[str], description: str, is_secret: bool
+    ) -> str:
         spell_out = self.template
         spell_out = spell_out.replace("$NAME", name)
-        spell_out = spell_out.replace("$ICONS", self.tooltip_template.get_tooltips_html(modifiers))
+        spell_out = spell_out.replace(
+            "$ICONS", self.tooltip_template.get_tooltips_html(modifiers)
+        )
         spell_out = spell_out.replace("$DESCRIPTION", description)
-        spell_out = spell_out.replace("$GLOW_CLASS", SpellLineTemplate.get_glow_class(modifiers))
-        spell_out = spell_out.replace("$SECRET_CLASS", "secret_spell" if is_secret else "")
+        spell_out = spell_out.replace(
+            "$GLOW_CLASS", SpellLineTemplate.get_glow_class(modifiers)
+        )
+        spell_out = spell_out.replace(
+            "$SECRET_CLASS", "secret_spell" if is_secret else ""
+        )
         return f"* {spell_out}"
 
     glow_mapping = {
@@ -95,12 +103,14 @@ class MagicSchoolTemplate:
     def __init__(self):
         self.template = open("templates/school_of_magic_header.md").read()
 
-    def get_school_markdown(self, name: str, image_first: str, image_second: str, contents: str) -> str:
+    def get_school_markdown(
+        self, name: str, image_first: str, image_second: str, contents: str
+    ) -> str:
         replacements = {
             "NAME": name,
             "IMAGE_FIRST": image_first,
             "IMAGE_SECOND": image_second,
-            "CONTENTS": contents
+            "CONTENTS": contents,
         }
         school_out = self.template
         for key, value in replacements.items():
@@ -118,26 +128,35 @@ def spell_to_markdown(spell: common.Spell, is_secret: bool = False) -> str:
     )
 
 
-def category_to_markdown(name: str, spells: list[common.Spell], is_secret: bool = False) -> str:
+def category_to_markdown(
+    name: str, spells: list[common.Spell], is_secret: bool = False
+) -> str:
     items = [spell_to_markdown(spell, is_secret) for spell in spells]
-    return f"\n<h2{' class=\"secret_header\"' if is_secret else ""}>{common.capitalize_title(name)}</h2>\n\n" + "\n".join(items)
+    return (
+        f"\n<h2{' class="secret_header"' if is_secret else ''}>{common.capitalize_title(name)}</h2>\n\n"
+        + "\n".join(items)
+    )
 
 
-def school_to_markdown(name: str, image_first: str, image_second: str, spells_by_tier: dict[str, list[common.Spell]], secret_spells: list[common.Spell]) -> str:
+def school_to_markdown(
+    name: str,
+    image_first: str,
+    image_second: str,
+    spells_by_tier: dict[str, list[common.Spell]],
+    secret_spells: list[common.Spell],
+) -> str:
     categories_md = [
-        category_to_markdown(tier, spells)
-        for tier, spells in spells_by_tier.items()
+        category_to_markdown(tier, spells) for tier, spells in spells_by_tier.items()
     ] + [category_to_markdown("velmistrovská", secret_spells, is_secret=True)]
     return _magic_school_template.get_school_markdown(
         name=name,
         image_first=image_first,
         image_second=image_second,
-        contents="\n\n".join(categories_md)
+        contents="\n\n".join(categories_md),
     )
 
 
 def main():
-    import contramagic_tree
     input_files = [
         ("Magie Času", "cas", "clock.jpg", "ancient_times1.jpeg"),
         ("Magie Prostoru", "prostor", "prostor.jpg", "ancient_times2.jpeg"),
@@ -149,7 +168,12 @@ def main():
     out_path = pathlib.Path("DrusMagie/content/magic")
     out_path.mkdir(parents=True, exist_ok=True)
 
-    for magic_school_name, magic_school_file, magic_school_image, magic_school_image_2 in input_files:
+    for (
+        magic_school_name,
+        magic_school_file,
+        magic_school_image,
+        magic_school_image_2,
+    ) in input_files:
         md = school_to_markdown(
             magic_school_name,
             magic_school_image,
@@ -159,9 +183,3 @@ def main():
         )
         with open(out_path / f"{magic_school_file}.md", "w") as f:
             f.write(md)
-
-    with open(out_path / "kontramagove.md", "w") as f:
-        f.write(contramagic_tree.generate_contramagic_page())
-
-if __name__ == "__main__":
-    main()

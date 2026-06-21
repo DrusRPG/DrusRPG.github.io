@@ -240,7 +240,14 @@
         "pos_y": 5,
         "depends_on": [
             {
-                "id": "Rušení Kouzel - Více Kouzel Konkrétní Školy"
+                "id": "Rušení Kouzel - Více Kouzel Konkrétní Školy",
+                "source_angle": 39,
+                "target_angle": 221
+            },
+            {
+                "id": "Rušení Kouzel - Více Kouzel Konkrétní Školy",
+                "source_angle": 43,
+                "target_angle": 217
             },
             {
                 "id": "Rušení Kouzel - Existující Kouzlo"

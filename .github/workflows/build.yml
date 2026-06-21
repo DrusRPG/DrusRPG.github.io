@@ -29,8 +29,8 @@ jobs:
       #   run: sudo snap install hugo
       - name: Change dir
         run: cd $GITHUB_WORKSPACE
-      - name: Update spell contents
-        run: python3 spell_contents.py
+      - name: Create the spells & counter spells lists!
+        run: python3 main.py
       - name: Build server
         run: cd DrusMagie && hugo --baseURL "https://drusrpg.github.io"
       - name: Upload to github
