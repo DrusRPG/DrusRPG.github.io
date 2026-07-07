@@ -62,7 +62,7 @@ základní:
 	tma -- dohled
 		- Sesílatel vytvoří v cílovém místě magickou tmu, ve které nikdo nic neuvidí.
 		- Běžné zdroje světla (louče, lampy, slunce...) magickou tmu neprosvítí, při kontaktu s magickým světlem vítězí kouzlo schopnějšího mága.
-	cit smrti -- sesílatel
+	cit smrti -- sesílatel -- informace
 		- Sesílatel na chvíli získá magický smysl, kterým vnímá přítomnost smrti ve svém okolí. 
 		- Odhalí mrtvoly, nemrtvé, duše, a výrazná místa nedávné smrti v okolí.
 pokročilá:

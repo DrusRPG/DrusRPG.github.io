@@ -42,7 +42,7 @@ základní:
 	hromadná telekineze - předměty -- dohled -- soustředění
 		- Sesílatelova ***Telekineze - předmět*** může pomalu a plynule hýbat několika předměty najednou. 
 		- Počet předmětů a celková váha, se kterými dokáže sesílatel pohybovat, je závislá na schopnostech sesílatele. Vyžaduje sesílatelovu plnou pozornost.
-	mentální obrana - sugesce a iluze -- dohled
+	mentální obrana - sugesce a iluze -- dohled -- mentální obrana
 		- Sesílatel sobě nebo cíli obrní smysly proti kouzlům sugescí a iluzí.
 	meditace -- soustředění
 		- Forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě.
@@ -76,7 +76,7 @@ pokročilá:
 	výpadek paměti -- dohled -- mentální magie
 		- Sesílatel cíli přeruší asociace s nějakou vzpomínkou, čímž cíli učiní vybavení si této vzpomínky výrazně těžším. 
 		- Při opakovaném sesílaní po nějaké době může dojít ke ztrátě této vzpomínky. Naopak pokud cíl zjistí, že si nemůže vzpomenout, a nějakou dobu se snaží, asociace se obnoví.
-	mentální blok -- dotyk -- mentální magie
+	mentální blok -- dotyk -- mentální magie -- mentální obrana
 		- Sesílatel obrní vzpomínku nebo část vzpomínek cíle tak, aby dlouhodobě představovalo problém pro jiné mágy mysli číst či upravovat vzpomínky a myšlenky týkající se této části mysli cíle.
 		- Pokud jsou cíli čteny bráněné myšlenky jiným mágem mysli, tento mág cítí, že narazil na mentální blok, a cíl cítí, že se mu někdo snaží číst tyto myšlenky.
 		- Při dlouhodobé expozici jinému mágovi mysli může blok nakonec povolit. 
@@ -103,7 +103,7 @@ pokročilá:
 		- Vyžaduje sesílatelovu plnou pozornost.
 	pokročilá telekineze - předmět -- dohled
 		- Sesílatelova ***Telekineze - předmět*** či ***Hromadná telekineze - předměty*** je natolik pokročilá, že umožňuje rychlý a neplynulý pohyb předmětem, a nevyžaduje sesílatelovu plnou pozornost.
-	mentální obrana - mentální magie a hypnózy -- dohled
+	mentální obrana - mentální magie a hypnózy -- dohled -- mentální obrana
 		- Sesílatel sobě nebo cíli obrní smysly proti kouzlům hypnózy a manipulace s myšlenkami.
 mistrovská:
 	hromadná iluze -- dohled -- iluze

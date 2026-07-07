@@ -3,11 +3,11 @@ základní:
 		- Sesílatel po dobu udržování kouzla zakřivuje prostor tak, že se vznese do vzduchu a je schopen se rychlostí kroku ve vzduchu i pohybovat.
 	levitace - předmět -- dohled
 		- Sesílatel po dobu udržování kouzla zakřivuje prostor kolem předmětu, který vidí, tak, že se tento předmět vznese do vzduchu a sesílatel je schopen jím rychlostí kroku ve vzduchu i pohybovat.
-	teleportace objektu -- dotyk
+	teleportace objektu -- dotyk -- teleportace
 		- Sesílatel se dotkne teleportovaného objektu a okamžitě ho přesune na místo, které vidí.
 		- Na místě, ze kterého cíl zmizí, dojde k malé implozi doprovázené zvukem hromu. Síla tohoto efektu závisí na velikosti cíle.
 		- Na místě, ve kterém se cíl objeví, dojde k odtlačení všeho, co tam bylo, aby vznikl prostor pro cíl.
-	přivolání objektu -- dohled
+	přivolání objektu -- dohled -- teleportace
 		- Sesílatel okamžitě přesune objekt, který vidí, ke své ruce.
 		- Na místě, ze kterého cíl zmizí, dojde k malé implozi doprovázené zvukem hromu. Síla tohoto efektu závisí na velikosti cíle.
 		- Na místě, ve kterém se cíl objeví, dojde k odtlačení všeho, co tam bylo, aby vznikl prostor pro cíl.
@@ -45,15 +45,15 @@ pokročilá:
 	zacelení trhliny -- dohled
 		- V homogenním materiálu zacelí trhlinu. 
 		- Sesílatel může např. zacelit prasklinu ve skle.
-	teleportace sebe -- sesílatel
+	teleportace sebe -- sesílatel -- teleportace
 		- Sesílatel se okamžitě přesune na místo, které vidí.
 		- Na místě, ze kterého sesílatel zmizí, dojde k malé implozi doprovázené zvukem hromu. Síla tohoto efektu závisí na velikosti sesílatele.
 		- Na místě, ve kterém se sesílatel objeví, dojde k odtlačení všeho, co tam bylo, aby vznikl prostor pro sesílatele.
-	teleportace organismu -- dotyk
+	teleportace organismu -- dotyk -- teleportace
 		- Sesílatel se dotkne teleportovaného živého cíle a okamžitě ho přesune na místo, které vidí.
 		- Na místě, ze kterého cíl zmizí, dojde k malé implozi doprovázené zvukem hromu. Síla tohoto efektu závisí na velikosti cíle.
 		- Na místě, ve kterém se cíl objeví, dojde k odtlačení všeho, co tam bylo, aby vznikl prostor pro cíl.
-	přivolání organismu -- dohled
+	přivolání organismu -- dohled -- teleportace
 		- Sesílatel okamžitě přesune živý cíl, který vidí, ke své ruce.
 		- Na místě, ze kterého cíl zmizí, dojde k malé implozi doprovázené zvukem hromu. Síla tohoto efektu závisí na velikosti cíle.
 		- Na místě, ve kterém se cíl objeví, dojde k odtlačení všeho, co tam bylo, aby vznikl prostor pro cíl.
@@ -80,13 +80,13 @@ pokročilá:
 		- Sesílatel v cílové oblasti odstraní všechny efekty kouzel zakřivujících prostor.
 		- Dokud tomuto kouzlu sesílatel věnuje plnou pozornost, brání ostatním mágům prostoru v zakřivování cílové oblasti.
 		- V takovém případě dochází k souboji vůle mezi sesílatelem a druhým mágem.
-	cit prostoru -- sesílatel
+	cit prostoru -- sesílatel -- informace
 		- Po dobu udržování kouzla získává sesílatel magický smysl, kterým dokáže prohledat prostor kolem sebe a zjistit, co se kde kolem něj nachází.
 	meditace -- soustředění
 		- Forma magií řízeného odpočinku. Každá hodina meditace odpovídá zhruba 2 hodinám spánku, ovšem nemůže spánek nahradit dlouhodobě.
 		- Vyžaduje sesílatelovu plnou pozornost.
 mistrovská:
-	teleportační brána -- dohled
+	teleportační brána -- dohled -- teleportace
 		- Vytvoří portál mezi 2 místy, která sesílatel vidí. 
 		- Jakýkoliv objekt, který projde portálem na jedné straně se objeví na druhé straně se stejnou rychlostí a směrem, s jakými portálem prošel.
 	bariérové vězení -- dohled -- bariéra

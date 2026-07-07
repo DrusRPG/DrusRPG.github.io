@@ -62,23 +62,23 @@ základní:
 		- Neživý může být z materiálů dřevo, hlína, kámen nebo kov. Musí mít fyzickou podobnost s živým organismem (například brouk, loutka, pták, krysa). 
 		- Neživý bude stále svázán fyzikálními vlastnostmi svého materiálu a tvaru (například pták nebude moct létat, i když má křídla). 
 		- Po vytvoření neživého (vdechnutí mu života) ho sesílatel může kdykoliv znovu na pohled rozhýbat, ovládat (dávat mu pokyny, neverbální) a opět převést do nehybné formy pomocí ***Povolání neživého.***
-	příkaz neživému - stráž -- dohled
+	příkaz neživému - stráž -- dohled -- neživý
 		- Sesílatel dá neživému příkaz, který platí až do ***Zrušení příkazu neživému***. Neživý bude střežit nějaké místo nebo předmět zvolený sesílatelem, a v případě ohrožení ho začne fyzicky bránit.
-	příkaz neživému - ochrana -- dohled
+	příkaz neživému - ochrana -- dohled -- neživý
 		- Sesílatel dá neživému příkaz, který platí až do ***Zrušení příkazu neživému***. Neživý bude chránit osobu zvolenou sesílatelem, a v případě ohrožení ji začne fyzicky bránit.
-	příkaz neživému - následování -- dohled
+	příkaz neživému - následování -- dohled -- neživý
 		- Sesílatel dá neživému příkaz, který platí až do ***Zrušení příkazu neživému***. Neživý bude následovat nebo pronásledovat osobu nebo zvíře, které sesílatel zvolil.
-	zrušení příkazu neživému -- dohled
+	zrušení příkazu neživému -- dohled -- neživý
 		- Sesílatel zruší dříve seslaný ***Příkaz neživému***, funguje na vlastní i cizí neživé (úspěch závisí na síle mága a neživého)
-	zapuzení neživého -- dotyk
+	zapuzení neživého -- dotyk -- neživý
 		- Sesílatel dotykem převede neživého zpět do dormantní (neaktivní) formy.
 	proud světla -- projektil
 		- Sesílatel vyšle z dlaně proud světla intenzity ekvivalentní pochodni. 
 		- Magické světlo může procházet skrz magickou tmu.
-	cit života -- sesílatel
+	cit života -- sesílatel -- informace
 		- Sesílatel na chvíli získá magický smysl, kterým vnímá životní energii a přítomnost živých organismů ve svém okolí. 
 		- Detekuje humanoidy a zvířata. Nedetekuje mrtvé, nemrtvé a neživé.
-	cit neživých -- sesílatel
+	cit neživých -- sesílatel -- informace -- neživý
 		- Sesílatel na chvíli získá magický smysl, kterým vnímá imitaci životní energie, jež pohání neživé a odhalí tak jejich přítomnost ve svém okolí. 
 		- Detekuje pouze neživé, ale to v aktivním i dormantním stavu.
 pokročilá:
@@ -134,10 +134,10 @@ pokročilá:
 		- Místo stvoření nebo povolávání jednotlivých malých neživých (do velikosti loutky) je sesílatel může stvořit nebo povolat hromadně. 
 		- Hromadně (potenciálně i jednotlivce) zvládne na pohled stvořit/povolat malých neživých tolik, kolik jich udrží ve spojených dlaních, nebo deset, cokoliv je z těchto dvou hodnot větší. 
 		- Celé hejno plní stejný příkaz, ale tento příkaz není potřeba sesílat na každého jednotlivě.
-	čtení paměti neživého -- dohled
+	čtení paměti neživého -- dohled -- neživý
 		- Sesílatel prohledá paměť neživého a získá z ní informace. 
 		- Neživý je schopný vnímat výrazné osoby a události na místě, kde se nachází, zároveň intenzivně pamatuje jakékoliv přímé interakce s ním samotným v aktivním i dormantním stavu.
-	ovládnutí neživého -- dohled
+	ovládnutí neživého -- dohled -- neživý
 		- Sesílatel ovládne neživého vytvořeného jiným mágem. 
 		- Umožní sesílateli po ovládnutí dávat neživému příkazy, jako by byl jeho stvořitelem. 
 		- Šance na ovládnutí závisí na síle vůle sesílatele a stvořitele cílového neživého.

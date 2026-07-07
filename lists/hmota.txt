@@ -20,7 +20,7 @@ základní:
 		- Dosah kouzla závisí na schopnostech sesílatele, standardně 5m.
 	zapálení -- dotyk -- oheň
 		- Sesílatel dotykem zapálí cílový objekt (pokud je hořlavý, jinak ho popálí)
-	cit ohně -- sesílatel -- oheň
+	cit ohně -- sesílatel -- oheň -- informace
 		- Sesílatel získá magický smysl, kterým je schopen vnímat, kde a jak v jeho okolí něco hoří.
 	ledová střela -- projektil -- led
 		- Sesílatel vyšle k cíli střelu z ledu zhruba velikosti pěsti, může být ostrá nebo tupá.
@@ -44,7 +44,7 @@ základní:
 		- Výška, do které voda vystoupá od země, je standardně 1,5m, poloměr prstence závisí na schopnostech sesílatele, standardně 5m.
 	zamražení -- dotyk -- led
 		- Sesílatel dotykem pokryje cílový objekt kompaktní vrstvou ledu.
-	cit vody -- sesílatel -- led -- voda
+	cit vody -- sesílatel -- led -- voda -- informace
 		- Sesílatel získá magický smysl, kterým je schopen vnímat přítomnost a stav vody ve všech skupenstvích kolem sebe.
 	poryv větru -- projektil -- vzduch
 		- Sesílatel vytvoří v daném místě silný proud větru, který po dobu působení mění směr podle vůle sesílatele.
@@ -66,7 +66,7 @@ základní:
 		- Sesílatel po dobu trvání kouzla v cílové oblasti mění proudění vzduchu na kvílivý a turbulentní chaotický pohyb. 
 		- Uvnitř oblasti je kromě větru máloco slyšet a i zvuky vycházející z oblasti ven jsou silně utlumeny. 
 		- Vyžaduje sesílatelovu plnou koncentraci.
-	cit vzduchu -- sesílatel -- vzduch
+	cit vzduchu -- sesílatel -- vzduch -- informace
 		- Sesílatel získá magický smysl, kterým je schopen vnímat stav vzduchu kolem sebe.
 	kamenná střela -- projektil -- země
 		- Sesílatel vyšle k cíli kamennou střelu zhruba velikosti pěsti, může být ostrá nebo tupá.
@@ -90,7 +90,7 @@ základní:
 		- Sesílatel dotykem přesune zeminu kolem sebe tak, že vytvoří příkop.
 		- Rozměry závisí na schopnostech sesílatele, standardně zhruba 2m šířka, 1m délka a 1,5m hloubka. 
 		- Energetická náročnost silně závisí na tvrdosti země.
-	cit země -- sesílatel -- země
+	cit země -- sesílatel -- země -- informace
 		- Sesílatel získá magický smysl, kterým je schopen vnímat stav země kolem sebe.
 	elektrický výboj -- projektil -- blesk
 		- Sesílatel vyšle k cíli elektrický výboj, který, pokud zasáhne, způsobí elektrický šok. 
