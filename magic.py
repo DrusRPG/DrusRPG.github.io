@@ -32,6 +32,7 @@ class TooltipTemplate:
         "iluze": "🌀",
         "sugesce": "💡",
         "mentální magie": "🧠",
+        "mentální obrana": "🛡️",
         "blesk": "⚡",
         "oheň": "🔥",
         "led": "❄️",
@@ -45,6 +46,12 @@ class TooltipTemplate:
         "projektil": "🏹",
         "duše": "👻",
         "vysátí": "🧛🏻‍♀️",
+        "zpomalení": "🐢",
+        "zrychlení": "🐇",
+        "informace": "🔍",
+        "teleportace": "🌀",
+        "zestárnutí": "👴",
+        "omládnutí": "👶",
     }
 
 
@@ -69,6 +76,7 @@ class SpellLineTemplate:
         spell_out = spell_out.replace(
             "$SECRET_CLASS", "secret_spell" if is_secret else ""
         )
+        spell_out = spell_out.replace("$TAGS", ",".join(modifiers))
         return f"* {spell_out}"
 
     glow_mapping = {
@@ -116,51 +124,118 @@ def category_to_markdown(name: str, spell_category: common.SpellCategory) -> str
     )
 
 
+def filter_bar_to_html(filter_tags: list[str]) -> str:
+    tooltip_template = _spell_line_template.tooltip_template
+    buttons = "".join(
+        f'<button class="filter-btn active" data-filter="{tag}">'
+        f"{tooltip_template.get_tooltip_html(tag)}</button>"
+        for tag in filter_tags
+    )
+    return f'<div class="spell-filter-bar" data-filters="{",".join(filter_tags)}">{buttons}</div>'
+
+
 def school_to_markdown(
     name: str,
     image_first: str,
     image_second: str,
     spells_by_tier: dict[str, list[common.Spell]],
+    filter_tags: list[str] | None = None,
 ) -> str:
     categories_md = [
         category_to_markdown(tier, spells) for tier, spells in spells_by_tier.items()
     ]
+    filter_bar = filter_bar_to_html(filter_tags) + "\n\n" if filter_tags else ""
     return _magic_school_template.get_school_markdown(
         name=name,
         image_first=image_first,
         image_second=image_second,
-        contents="\n\n".join(categories_md),
+        contents=filter_bar + "\n\n".join(categories_md),
     )
 
 
+class MagicSettings:
+    def __init__(
+        self,
+        header: str,
+        filename: str,
+        image_first: str,
+        image_second: str,
+        filter_tags: list[str],
+    ):
+        self.header = header
+        self.filename = filename
+        self.image_first = image_first
+        self.image_second = image_second
+        self.filter_tags = filter_tags
+
+
 def main():
-    input_files = [
-        ("Magie Času", "cas", "clock.jpg", "ancient_times1.jpeg"),
-        ("Magie Prostoru", "prostor", "prostor.jpg", "ancient_times2.jpeg"),
-        ("Magie Života", "zivot", "light.jpg", "ancient_times3.jpeg"),
-        ("Magie Smrti", "smrt", "dark.jpg", "ancient_times4.jpeg"),
-        ("Magie Hmoty", "hmota", "matter.jpg", "ancient_times5.jpeg"),
-        ("Magie Mysli", "mysl", "neural.jpg", "ancient_times6.jpeg"),
+    school_settings = [
+        MagicSettings(
+            "Magie Času",
+            "cas",
+            "clock.jpg",
+            "ancient_times1.jpeg",
+            [
+                "nahlížení",
+                "zrychlení",
+                "zpomalení",
+                "zestárnutí",
+                "omládnutí",
+                "teleportace",
+            ],
+        ),
+        MagicSettings(
+            "Magie Prostoru",
+            "prostor",
+            "prostor.jpg",
+            "ancient_times2.jpeg",
+            ["bariéra", "zakřivení", "teleportace"],
+        ),
+        MagicSettings(
+            "Magie Života",
+            "zivot",
+            "light.jpg",
+            "ancient_times3.jpeg",
+            ["požehnání", "léčení", "informace", "neživý", "informace"],
+        ),
+        MagicSettings(
+            "Magie Smrti",
+            "smrt",
+            "dark.jpg",
+            "ancient_times4.jpeg",
+            ["prokletí", "jed", "nemrtvý", "duše", "vysátí"],
+        ),
+        MagicSettings(
+            "Magie Hmoty",
+            "hmota",
+            "matter.jpg",
+            "ancient_times5.jpeg",
+            ["projektil", "oheň", "vzduch", "země", "voda", "led", "blesk"],
+        ),
+        MagicSettings(
+            "Magie Mysli",
+            "mysl",
+            "neural.jpg",
+            "ancient_times6.jpeg",
+            ["mentální magie", "hypnóza", "sugesce", "iluze", "mentální obrana"],
+        ),
     ]
     out_path = pathlib.Path("DrusMagie/content/magic")
     out_path.mkdir(parents=True, exist_ok=True)
 
-    for (
-        magic_school_name,
-        magic_school_file,
-        magic_school_image,
-        magic_school_image_2,
-    ) in input_files:
-        spells = common.parse_magic_file(pathlib.Path(f"lists/{magic_school_file}.txt"))
+    for s in school_settings:
+        spells = common.parse_magic_file(pathlib.Path(f"lists/{s.filename}.txt"))
         spells_secret = common.parse_magic_file_s(
-            common.parse_secrets(magic_school_file), secret=True
+            common.parse_secrets(s.filename), secret=True
         )
 
         md = school_to_markdown(
-            magic_school_name,
-            magic_school_image,
-            magic_school_image_2,
+            s.header,
+            s.image_first,
+            s.image_second,
             spells.spells() | spells_secret.spells(),
+            s.filter_tags,
         )
-        with open(out_path / f"{magic_school_file}.md", "w") as f:
+        with open(out_path / f"{s.filename}.md", "w") as f:
             f.write(md)

@@ -64,6 +64,38 @@
         setInterval(updateSpellVisibility, 10000);
     });
 
+    function applySpellFilters(bar) {
+        const fullSet = bar.dataset.filters.split(",");
+        const active = new Set(
+            Array.from(bar.querySelectorAll(".filter-btn.active")).map((b) => b.dataset.filter)
+        );
+        document.querySelectorAll(".tooltip[data-tags]").forEach((spell) => {
+            const tags = spell.dataset.tags.split(",").filter(Boolean);
+            const relevant = tags.filter((t) => fullSet.includes(t));
+            const visible =
+                relevant.length === 0 ? active.size === fullSet.length : relevant.some((t) => active.has(t));
+            spell.closest("li").classList.toggle("filter-hidden", !visible);
+        });
+    }
+
+    document.querySelectorAll(".spell-filter-bar").forEach((bar) => {
+        const buttons = Array.from(bar.querySelectorAll(".filter-btn"));
+        buttons.forEach((btn) => {
+            btn.addEventListener("click", () => {
+                const allActive = buttons.every((b) => b.classList.contains("active"));
+                if (allActive) {
+                    buttons.forEach((b) => b.classList.toggle("active", b === btn));
+                } else {
+                    btn.classList.toggle("active");
+                    if (!buttons.some((b) => b.classList.contains("active"))) {
+                        buttons.forEach((b) => b.classList.add("active"));
+                    }
+                }
+                applySpellFilters(bar);
+            });
+        });
+    });
+
     const image = document.getElementsByClassName('entry-cover')[0].childNodes[0];
     let clickCount = 0;
     image.addEventListener('click', () => {

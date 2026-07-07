@@ -1,89 +1,103 @@
 .icon-tooltip {
-    position: relative;
-    display: inline-block; /* Allows the icon to sit naturally in text flow */
-    cursor: help; /* Optional: indicates it's interactive */
+  position: relative;
+  display: inline-block;
+  /* Allows the icon to sit naturally in text flow */
+  cursor: help;
+  /* Optional: indicates it's interactive */
 }
 
 .icon-tooltip .icon-tooltip-text {
-    visibility: hidden;
-    width: 120px; /* Adjust as needed */
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 2;
-    bottom: 125%; /* Position the tooltip above the icon */
-    left: 50%;
-    margin-left: -60px; /* Half of the width to center it */
-    opacity: 0;
-    transition: opacity 0.3s; /* Smooth fade-in */
+  visibility: hidden;
+  width: 120px;
+  /* Adjust as needed */
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 2;
+  bottom: 125%;
+  /* Position the tooltip above the icon */
+  left: 50%;
+  margin-left: -60px;
+  /* Half of the width to center it */
+  opacity: 0;
+  transition: opacity 0.3s;
+  /* Smooth fade-in */
 }
 
 /* Arrow for the tooltip */
-.icon-tooltip .icon-tooltip-text::before{
-    content: "";
-    position: absolute;
-    top: 100%; /* At the bottom of the tooltip */
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-    z-index: 0;
+.icon-tooltip .icon-tooltip-text::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+  z-index: 0;
 }
 
-.icon-tooltip:hover .icon-tooltip-text {
+.icon-tooltip:hover .icon-tooltip-text,
+.filter-btn:hover .icon-tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (hover: hover) {
+  .tooltip:has(.spell_text:hover) .tooltiptext {
     visibility: visible;
     opacity: 1;
+    filter: blur(0);
+  }
 }
 
-@media (hover: hover){
-    .tooltip:has(.spell_text:hover) .tooltiptext {
-        visibility: visible;
-        opacity: 1;
-        filter: blur(0);
-    }
-}
-@media (hover: none){
-    .tooltip:has(.spell_text:focus) .tooltiptext {
-        visibility: visible;
-        opacity: 1;
-        filter: blur(0);
-    }
+@media (hover: none) {
+  .tooltip:has(.spell_text:focus) .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+    filter: blur(0);
+  }
 }
 
 
 
 .tooltip {
-    position: relative;
-    display: inline-block; /* Allows the icon to sit naturally in text flow */
-    cursor: help; /* Optional: indicates it's interactive */
+  position: relative;
+  display: inline-block;
+  /* Allows the icon to sit naturally in text flow */
+  cursor: help;
+  /* Optional: indicates it's interactive */
 }
 
 .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 400px; /* Adjust as needed */
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 5px;
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    left: 105%;
-    transform: translateY(-50%); /* Centers it vertically relative to the text */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  width: 400px;
+  /* Adjust as needed */
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 105%;
+  transform: translateY(-50%);
+  /* Centers it vertically relative to the text */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 
-    opacity: 0;
-    filter: blur(2px);
-    transition: 
-        opacity 0.2s ease,
-        transform 0.2s ease,
-        filter 1s ease;
-    pointer-events: none; /* Prevents the text from blocking the click */
+  opacity: 0;
+  filter: blur(2px);
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease,
+    filter 1s ease;
+  pointer-events: none;
+  /* Prevents the text from blocking the click */
 
 }
 
@@ -92,41 +106,51 @@
 
 
 @keyframes pulse {
-  0% { box-shadow: 0 0 15px rgba(157, 80, 187, 0.4); }
-  50% { box-shadow: 0 0 25px rgba(148, 63, 181, 0.7); }
-  100% { box-shadow: 0 0 15px rgba(157, 80, 187, 0.4); }
+  0% {
+    box-shadow: 0 0 15px rgba(157, 80, 187, 0.4);
+  }
+
+  50% {
+    box-shadow: 0 0 25px rgba(148, 63, 181, 0.7);
+  }
+
+  100% {
+    box-shadow: 0 0 15px rgba(157, 80, 187, 0.4);
+  }
 }
 
 @media (max-width: 768px) {
-    .tooltip .tooltiptext {
-        left: 0%;
-        top: 0%;
-        transform: translateY(30px);
-    }
+  .tooltip .tooltiptext {
+    left: 0%;
+    top: 0%;
+    transform: translateY(30px);
+  }
 }
 
 
 
 /* Arrow for the tooltip */
-.tooltiptext::after{
-    content: "";
-    position: absolute;
-    top: 47%; /* At the bottom of the tooltip */
-    left: -1%;
-    margin-left: -5px;
-    border-width: 6px;
-    border-style: solid;
-    border-color: transparent #555 transparent transparent;
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 47%;
+  /* At the bottom of the tooltip */
+  left: -1%;
+  margin-left: -5px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent #555 transparent transparent;
 }
 
 
 @media (max-width: 768px) {
-    .tooltiptext::after{
-        top: 0%; /* At the bottom of the tooltip */
-        left: 5%;
-        margin-top: -10px;
-        border-color: transparent transparent #555 transparent;
-    }
+  .tooltiptext::after {
+    top: 0%;
+    /* At the bottom of the tooltip */
+    left: 5%;
+    margin-top: -10px;
+    border-color: transparent transparent #555 transparent;
+  }
 }
 
 
@@ -134,34 +158,36 @@
 
 
 body {
-    position: relative;
+  position: relative;
 }
 
 
 @keyframes aWildDrusHasAppeared {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 #background-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    animation: 3600s linear 0s 1 aWildDrusHasAppeared;
-    z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  animation: 3600s linear 0s 1 aWildDrusHasAppeared;
+  z-index: -1;
 }
 
-.anchor, .header-link {
-    display: none !important;
+.anchor,
+.header-link {
+  display: none !important;
 }
 
 
@@ -171,113 +197,237 @@ body {
 /* --- Keyframes Definitions --- */
 
 @keyframes death-glow {
-  0%, 100% { box-shadow: 0 0 12px rgba(75, 0, 130, 0.6), inset 0 0 5px #38003d; }
-  50% { box-shadow: 0 0 28px rgba(20, 20, 20, 1), inset 0 0 12px #000000; }
+
+  0%,
+  100% {
+    box-shadow: 0 0 12px rgba(75, 0, 130, 0.6), inset 0 0 5px #38003d;
+  }
+
+  50% {
+    box-shadow: 0 0 28px rgba(20, 20, 20, 1), inset 0 0 12px #000000;
+  }
 }
 
 @keyframes curse-glow {
-  0%, 100% { box-shadow: 0 0 12px rgba(0, 0, 0, 0.8), inset 0 0 10px #707070; }
-  50% { box-shadow: 0 0 28px rgb(0, 0, 0), inset 0 0 15px #ff000d; }
+
+  0%,
+  100% {
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.8), inset 0 0 10px #707070;
+  }
+
+  50% {
+    box-shadow: 0 0 28px rgb(0, 0, 0), inset 0 0 15px #ff000d;
+  }
 }
 
 @keyframes undead-glow {
-  0%, 100% { box-shadow: 0 0 12px rgba(67, 92, 0, 0.8), inset 0 0 5px #325800; }
-  50% { box-shadow: 0 0 28px rgb(119, 128, 0), inset 0 0 12px #09ff00; }
+
+  0%,
+  100% {
+    box-shadow: 0 0 12px rgba(67, 92, 0, 0.8), inset 0 0 5px #325800;
+  }
+
+  50% {
+    box-shadow: 0 0 28px rgb(119, 128, 0), inset 0 0 12px #09ff00;
+  }
 }
 
 @keyframes light-glow {
-  0%, 100% { box-shadow: 0 0 15px rgba(255, 215, 0, 0.5); }
-  50% { box-shadow: 0 0 35px rgba(255, 247, 209, 0.9), 0 0 15px #fff; }
+
+  0%,
+  100% {
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+  }
+
+  50% {
+    box-shadow: 0 0 35px rgba(255, 247, 209, 0.9), 0 0 15px #fff;
+  }
 }
 
 @keyframes mental-glow {
-  0%, 100% { box-shadow: 0 0 15px rgba(157, 80, 187, 0.4); }
-  50% { box-shadow: 0 0 25px rgba(157, 80, 187, 0.7); }
+
+  0%,
+  100% {
+    box-shadow: 0 0 15px rgba(157, 80, 187, 0.4);
+  }
+
+  50% {
+    box-shadow: 0 0 25px rgba(157, 80, 187, 0.7);
+  }
 }
 
 @keyframes illusion-glow {
-  0%, 100% { box-shadow: 0 0 15px rgba(0, 179, 179, 0.8); }
-  50% { box-shadow: 0 0 25px rgba(126, 0, 243, 0.9); }
+
+  0%,
+  100% {
+    box-shadow: 0 0 15px rgba(0, 179, 179, 0.8);
+  }
+
+  50% {
+    box-shadow: 0 0 25px rgba(126, 0, 243, 0.9);
+  }
 }
 
 @keyframes suggestion-glow {
-  0%, 100% { box-shadow: 0 0 15px rgba(204, 0, 255, 0.9); }
-  50% { box-shadow: 0 0 25px rgba(126, 0, 243, 0.9); }
+
+  0%,
+  100% {
+    box-shadow: 0 0 15px rgba(204, 0, 255, 0.9);
+  }
+
+  50% {
+    box-shadow: 0 0 25px rgba(126, 0, 243, 0.9);
+  }
 }
 
 @keyframes fire-glow {
-  0%, 100% { box-shadow: 0 0 15px rgba(255, 69, 0, 0.6); }
-  50% { box-shadow: 0 0 35px rgba(255, 140, 0, 0.9), inset 0 0 10px #ff4500; }
+
+  0%,
+  100% {
+    box-shadow: 0 0 15px rgba(255, 69, 0, 0.6);
+  }
+
+  50% {
+    box-shadow: 0 0 35px rgba(255, 140, 0, 0.9), inset 0 0 10px #ff4500;
+  }
 }
 
 @keyframes ice-glow {
-  0%, 100% { box-shadow: 0 0 12px rgba(255, 255, 255, 0.9); }
-  50% { box-shadow: 0 0 25px rgba(130, 224, 255, 0.8), inset 0 0 8px #fff; }
+
+  0%,
+  100% {
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.9);
+  }
+
+  50% {
+    box-shadow: 0 0 25px rgba(130, 224, 255, 0.8), inset 0 0 8px #fff;
+  }
 }
 
 @keyframes heal-glow {
-  0%, 100% { box-shadow: 0 0 12px rgba(255, 0, 0, 0.9); }
-  50% { box-shadow: 0 0 25px rgba(255, 0, 179, 0.8), inset 0 0 8px #ff0000; }
+
+  0%,
+  100% {
+    box-shadow: 0 0 12px rgba(255, 0, 0, 0.9);
+  }
+
+  50% {
+    box-shadow: 0 0 25px rgba(255, 0, 179, 0.8), inset 0 0 8px #ff0000;
+  }
 }
 
 
 @keyframes lightning-glow {
-  0%, 6%, 22%, 28%, 66%, 72%, 88%, 94%, 100% { box-shadow: 0 0 15px rgba(251, 251, 174); }
-  2%, 24%, 68%, 90% { box-shadow: 0 0 35px rgba(238, 246, 1), inset 0 0 10px rgb(255, 238, 0); }
+
+  0%,
+  6%,
+  22%,
+  28%,
+  66%,
+  72%,
+  88%,
+  94%,
+  100% {
+    box-shadow: 0 0 15px rgba(251, 251, 174);
+  }
+
+  2%,
+  24%,
+  68%,
+  90% {
+    box-shadow: 0 0 35px rgba(238, 246, 1), inset 0 0 10px rgb(255, 238, 0);
+  }
 }
 
 @keyframes earth-glow {
-  0%, 100% { box-shadow: 0 0 10px rgba(66, 36, 22, 0.8); }
-  50% { box-shadow: 0 0 20px rgba(176, 76, 1, 0.7); }
+
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgba(66, 36, 22, 0.8);
+  }
+
+  50% {
+    box-shadow: 0 0 20px rgba(176, 76, 1, 0.7);
+  }
 }
 
 @keyframes water-glow {
-  0%, 100% { box-shadow: 0 0 15px rgba(0, 0, 255, 0.4); }
-  50% { box-shadow: 0 0 30px rgba(30, 144, 255, 0.8); }
+
+  0%,
+  100% {
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.4);
+  }
+
+  50% {
+    box-shadow: 0 0 30px rgba(30, 144, 255, 0.8);
+  }
 }
 
 @keyframes air-glow {
-  0%, 100% { box-shadow: 0 0 10px rgba(255, 243, 133, 0.7); }
-  50% { box-shadow: 0 0 25px rgba(255, 255, 255, 0.7); }
+
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgba(255, 243, 133, 0.7);
+  }
+
+  50% {
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.7);
+  }
 }
 
 @keyframes neutral-glow {
-  0%, 100% { box-shadow: 0 0 12px rgba(90, 90, 90, 0.5); }
-  50% { box-shadow: 0 0 28px rgba(161, 161, 78, 0.8); }
+
+  0%,
+  100% {
+    box-shadow: 0 0 12px rgba(90, 90, 90, 0.5);
+  }
+
+  50% {
+    box-shadow: 0 0 28px rgba(161, 161, 78, 0.8);
+  }
 }
 
 @keyframes glitch {
   0% {
-    
+
     text-shadow: #ff4500 0px 0 0, #7700ff -0px 0 0;
   }
+
   7% {
-      text-shadow: #ff4500 5px 0 0, #7700ff -5px 0 0;
+    text-shadow: #ff4500 5px 0 0, #7700ff -5px 0 0;
   }
+
   10% {
     text-shadow: #ff4500 0px 0 0, #7700ff -0px 0 0;
   }
+
   27% {
     text-shadow: #ff4500 0px 0 0, #7700ff -0px 0 0;
   }
+
   30% {
     text-shadow: #ff4500 -3px 5px 0, #7700ff 2px 1px 0;
   }
+
   35% {
     text-shadow: #ff4500 0px 0 0, #7700ff -0px 0 0;
   }
+
   52% {
     opacity: 1;
     text-shadow: #ff4500 0px 0 0, #7700ff -0px 0 0;
   }
+
   55% {
     opacity: 1.0;
     text-shadow: #ff4500 2px 3px 0, #7700ff 4px 0 0;
   }
+
   60% {
     opacity: 1;
     text-shadow: #ff4500 0px 0 0, #7700ff -0px 0 0;
   }
+
   100% {
     opacity: 1;
     text-shadow: #ff4500 0px 0 0, #7700ff -0px 0 0;
@@ -287,27 +437,73 @@ body {
 
 /* --- Utility Classes --- */
 
-.death_glow { animation: death-glow 5s infinite ease-in-out; }
-.undead_glow { animation: undead-glow 5s infinite ease-in-out; }
-.curse_glow { animation: curse-glow 5s infinite ease-in-out; }
-.light_glow { animation: light-glow 3s infinite ease-in-out; }
-.mental_glow { animation: mental-glow 3s infinite ease-in-out; }
-.illusion_glow { animation: illusion-glow 3s infinite ease-in-out; }
-.suggestion_glow { animation: suggestion-glow 3s infinite ease-in-out; }
-.fire_glow { animation: fire-glow 2s infinite ease-in-out; }
-.ice_glow { animation: ice-glow 4s infinite ease-in-out; }
-.lightning_glow { animation: lightning-glow 5s infinite linear; }
-.earth_glow { animation: earth-glow 6s infinite ease-in-out; }
-.water_glow { animation: water-glow 4s infinite ease-in-out; }
-.air_glow { animation: air-glow 2s infinite ease-in-out; }
-.neutral_glow { animation: neutral-glow 5s infinite ease-in-out; }
-.barrier_glow {
-  background: radial-gradient(circle, rgba(173,216,230,0.4) 0%, rgba(135,206,250,0.2) 70%, rgba(0,191,255,0.1) 100%);
+.death_glow {
+  animation: death-glow 5s infinite ease-in-out;
 }
+
+.undead_glow {
+  animation: undead-glow 5s infinite ease-in-out;
+}
+
+.curse_glow {
+  animation: curse-glow 5s infinite ease-in-out;
+}
+
+.light_glow {
+  animation: light-glow 3s infinite ease-in-out;
+}
+
+.mental_glow {
+  animation: mental-glow 3s infinite ease-in-out;
+}
+
+.illusion_glow {
+  animation: illusion-glow 3s infinite ease-in-out;
+}
+
+.suggestion_glow {
+  animation: suggestion-glow 3s infinite ease-in-out;
+}
+
+.fire_glow {
+  animation: fire-glow 2s infinite ease-in-out;
+}
+
+.ice_glow {
+  animation: ice-glow 4s infinite ease-in-out;
+}
+
+.lightning_glow {
+  animation: lightning-glow 5s infinite linear;
+}
+
+.earth_glow {
+  animation: earth-glow 6s infinite ease-in-out;
+}
+
+.water_glow {
+  animation: water-glow 4s infinite ease-in-out;
+}
+
+.air_glow {
+  animation: air-glow 2s infinite ease-in-out;
+}
+
+.neutral_glow {
+  animation: neutral-glow 5s infinite ease-in-out;
+}
+
+.barrier_glow {
+  background: radial-gradient(circle, rgba(173, 216, 230, 0.4) 0%, rgba(135, 206, 250, 0.2) 70%, rgba(0, 191, 255, 0.1) 100%);
+}
+
 .distortion_glow {
   animation: glitch 2s infinite;
 }
-.heal_glow { animation: heal-glow 4s infinite ease-in-out; }
+
+.heal_glow {
+  animation: heal-glow 4s infinite ease-in-out;
+}
 
 
 @property --sun-size {
@@ -315,32 +511,76 @@ body {
   inherits: false;
   initial-value: 10%;
 }
+
 .blessing_glow {
-  background: radial-gradient(
-    circle at 20% 20%, 
-    #edd980b0 0%,    /* Dimmed sun core */
-    #cfa126b0 var(--sun-size),   /* Muted gold aura */
-    #0459bbb0 calc(2*var(--sun-size)),   /* Deep night blue transition */
-    #00147ab0 100%   /* Very dark base for text contrast */
-  );
-  
+  background: radial-gradient(circle at 20% 20%,
+      #edd980b0 0%,
+      /* Dimmed sun core */
+      #cfa126b0 var(--sun-size),
+      /* Muted gold aura */
+      #0459bbb0 calc(2*var(--sun-size)),
+      /* Deep night blue transition */
+      #00147ab0 100%
+      /* Very dark base for text contrast */
+    );
+
   /* Make the background larger than the viewport to allow movement */
   animation: scaleSun 10s ease-in-out infinite alternate;
 }
 
 @keyframes scaleSun {
   0% {
-    --sun-size: 8%;  /* Small, dimmed sun */
+    --sun-size: 8%;
+    /* Small, dimmed sun */
   }
+
   100% {
-    --sun-size: 18%; /* Larger, glowing sun */
+    --sun-size: 18%;
+    /* Larger, glowing sun */
   }
 }
 
 li:has(.secret_spell) {
-    display: none;
+  display: none;
 }
 
 .secret_header {
-    display: none;
+  display: none;
+}
+
+li.filter-hidden {
+  display: none !important;
+}
+
+.spell-filter-bar {
+  display: inline-flex;
+  margin-bottom: 1em;
+}
+
+.filter-btn {
+  background: #555;
+  padding: 0.4em 0.8em;
+  font-size: 1.1em;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0.4;
+  transition: background 0.15s, opacity 0.15s;
+}
+
+.filter-btn:hover {
+  background: #888;
+}
+
+.filter-btn.active {
+  opacity: 1;
+}
+
+.filter-btn:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.filter-btn:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
