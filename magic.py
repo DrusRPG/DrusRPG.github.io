@@ -197,7 +197,7 @@ def main():
             "zivot",
             "light.jpg",
             "ancient_times3.jpeg",
-            ["požehnání", "léčení", "informace", "neživý", "informace"],
+            ["požehnání", "léčení", "informace", "neživý"],
         ),
         MagicSettings(
             "Magie Smrti",
