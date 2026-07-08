@@ -563,17 +563,23 @@ li.filter-hidden {
   font-size: 1.1em;
   line-height: 1;
   cursor: pointer;
-  opacity: 0.4;
-  transition: background 0.15s, opacity 0.15s;
-}
-
-.filter-btn:hover {
-  background: #888;
+  transition: background 0.15s;
 }
 
 .filter-btn.active {
-  opacity: 1;
+  background: #888;
 }
+
+.filter-btn:hover {
+  background: #777;
+}
+
+.filter-btn.active:hover {
+  background: #aaa;
+}
+
+
+
 
 .filter-btn:first-child {
   border-top-left-radius: 6px;
