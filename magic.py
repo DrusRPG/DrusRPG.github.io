@@ -211,7 +211,7 @@ def main():
             "hmota",
             "matter.jpg",
             "ancient_times5.jpeg",
-            ["projektil", "oheň", "vzduch", "země", "voda", "led", "blesk"],
+            ["projektil", "zbraň", "oheň", "vzduch", "země", "voda", "led", "blesk"],
         ),
         MagicSettings(
             "Magie Mysli",
