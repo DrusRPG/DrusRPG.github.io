@@ -66,6 +66,42 @@ function makeListNode(header, contents, top) {
     return matchSpellListHeader(header) ? new SpellList(header, contents, top) : new List(header, contents, top);
 }
 
+// CharacterSpells: groups consecutive top-level SpellLists that appear in ascending
+// tier order (základní -> pokročilá -> mistrovská -> velmistrovská) into one <ul>,
+// each tier rendered as a nested <li>.
+function CharacterSpells(spellLists) {
+    this.contents = spellLists.map(function (sl) { sl.top = false; return sl; });
+}
+CharacterSpells.prototype.to_html = function () {
+    return '<ul>' + this.contents.map(function (c) { return c.to_html(); }).join('') + '</ul>';
+};
+function combineSpellLists(tokens) {
+    var result = [];
+    var i = 0;
+    while (i < tokens.length) {
+        var t = tokens[i];
+        if (t instanceof SpellList && t.match) {
+            var run = [t];
+            var lastTier = SPELL_TIERS.indexOf(t.match.label);
+            var j = i + 1;
+            while (j < tokens.length && tokens[j] instanceof SpellList && tokens[j].match &&
+                SPELL_TIERS.indexOf(tokens[j].match.label) > lastTier) {
+                lastTier = SPELL_TIERS.indexOf(tokens[j].match.label);
+                run.push(tokens[j]);
+                j++;
+            }
+            if (run.length > 1) {
+                result.push(new CharacterSpells(run));
+                i = j;
+                continue;
+            }
+        }
+        result.push(t);
+        i++;
+    }
+    return result;
+}
+
 // LineBreak: a visual gap between two blank-line-separated blocks.
 function LineBreak() {}
 LineBreak.prototype.to_html = function () {
@@ -130,7 +166,7 @@ function parseCharacterText(text) {
         }
         return node;
     }
-    return tokens.map(simplify);
+    return combineSpellLists(tokens.map(simplify));
 }
 
 function renderCharacterHierarchy(text, container) {
