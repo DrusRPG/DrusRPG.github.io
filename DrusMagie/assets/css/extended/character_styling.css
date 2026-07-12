@@ -140,10 +140,13 @@
   }
 
   /* .main reserves a full viewport height (100vh) for the sticky footer
-     layout - on paper that pads out a whole trailing blank page. */
+     layout - on paper that pads out a whole trailing blank page. @page
+     margin is 0 (see above), so this padding is the only thing standing
+     between the text and the paper edge - sized to a typical printer's
+     minimum unprintable border. */
   body:has(.character-text) .main {
     min-height: 0;
-    padding: 8px;
+    padding: 12mm;
   }
 
   /* The site's default heading margins are sized for a spacious web page,
