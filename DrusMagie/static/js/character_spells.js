@@ -3538,5 +3538,5 @@ function parse_spell_name(spell_name) {
             return candidate.html;
         }
     }
-    return '<span class="spell-parse-error">Kouzlo se nepodařilo najít: ' + escapeHtml(spell_name) + '</span>';
+    return '<span>Error</span>';
 }

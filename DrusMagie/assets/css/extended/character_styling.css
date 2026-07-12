@@ -119,3 +119,56 @@
   color: #e53935;
   font-weight: bold;
 }
+
+@media print {
+  /* @page margin:0 is what actually suppresses the browser's own
+     title/url header and date/page-count footer - it only draws those
+     inside the page margin, so zeroing it removes them. */
+  @page {
+    margin: 0;
+  }
+
+  body:has(.character-text) .header,
+  body:has(.character-text) .footer,
+  body:has(.character-text) .top-link,
+  body:has(.character-text) .post-footer {
+    display: none !important;
+  }
+
+  body:has(.character-text) ul.spell-tier-list>li::after {
+    display: none;
+  }
+
+  /* .main reserves a full viewport height (100vh) for the sticky footer
+     layout - on paper that pads out a whole trailing blank page. */
+  body:has(.character-text) .main {
+    min-height: 0;
+    padding: 8px;
+  }
+
+  /* The site's default heading margins are sized for a spacious web page,
+     not a printed sheet - Chrome's default 1in print margins already eat
+     a lot of the page, so trim this to buy back room and avoid a spell
+     list spilling a line or two onto an otherwise-empty trailing page. */
+  body:has(.character-text) .post-title {
+    margin: 0 0 8px;
+  }
+
+  body:has(.character-text) .character-text li {
+    margin: 0;
+  }
+
+  body:has(.character-text) .character-gap {
+    height: 0.4em;
+  }
+
+  /* .tooltiptext (the spell-description popup) and .icon-tooltip-text (the
+     icon-name popup) sit invisible behind every spell via filter/blur +
+     position:absolute. Chrome's print engine has a bug where enough of
+     these on one page (~12+) silently spawns a blank trailing page, even
+     though nothing is actually rendered from them - drop them for print. */
+  body:has(.character-text) .tooltiptext,
+  body:has(.character-text) .icon-tooltip-text {
+    display: none !important;
+  }
+}
