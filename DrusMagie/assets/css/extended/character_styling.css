@@ -39,6 +39,10 @@
   margin: 0.1em 0;
 }
 
+.character-text li > ul {
+  margin: 0;
+}
+
 /* Tree connector lines between spell tiers (základní/pokročilá/mistrovská/...)
    only - not between the spells listed inside each tier. Each tier <li> gets
    a dot, and a vertical trunk connecting it to its neighboring tiers. The

@@ -11,27 +11,43 @@ function escapeHtml(s) {
     return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
+// Extract "(...)" comments from anywhere in a line: strips them out of the
+// text and returns the concatenated inner contents separately.
+function extractComment(text) {
+    var comments = [];
+    var clean = text.replace(/\s*\(([^)]*)\)/g, function (_, inner) {
+        comments.push(inner);
+        return '';
+    }).trim();
+    return { text: clean, comment: comments.join(' ') };
+}
+function commentHtml(comment) {
+    return comment ? ' <i style="color:gray">(' + escapeHtml(comment) + ')</i>' : '';
+}
+
 // Line: a leaf entry with no children. Renders <p> at the top level, <li> when nested.
-function Line(text, top) {
+function Line(text, top, comment) {
     this.text = text;
     this.top = !!top;
+    this.comment = comment || '';
 }
 Line.prototype.to_html = function () {
     var tag = this.top ? 'h3' : 'li';
     var content = this.isSpell ? parse_spell_name(this.text) : escapeHtml(this.text);
-    return '<' + tag + '>' + content + '</' + tag + '>';
+    return '<' + tag + '>' + content + commentHtml(this.comment) + '</' + tag + '>';
 };
 
 // List: a header line followed by nested content, rendered as one unit
 // (top level: <h3>header</h3><ul>...</ul>, nested: <li>header<ul>...</ul></li>).
-function List(header, contents, top) {
+function List(header, contents, top, comment) {
     this.header = header;
     this.contents = contents || [];
     this.top = !!top;
+    this.comment = comment || '';
 }
 List.prototype.to_html = function () {
     var openTag = this.top ? 'h3' : 'li';
-    var html = '<' + openTag + '>' + escapeHtml(this.header) + (this.top ? '</' + openTag + '>' : '');
+    var html = '<' + openTag + '>' + escapeHtml(this.header) + commentHtml(this.comment) + (this.top ? '</' + openTag + '>' : '');
     if (this.contents.length) {
         html += '<ul>' + this.contents.map(function (c) { return c.to_html(); }).join('') + '</ul>';
     }
@@ -53,8 +69,8 @@ function matchSpellListHeader(text) {
     if (idx === -1) return null;
     return { label: SPELL_TIER_DISPLAY[idx], number: m[2] };
 }
-function SpellList(header, contents, top) {
-    List.call(this, header, contents, top);
+function SpellList(header, contents, top, comment) {
+    List.call(this, header, contents, top, comment);
     this.match = matchSpellListHeader(header);
 }
 SpellList.prototype = Object.create(List.prototype);
@@ -62,7 +78,8 @@ SpellList.prototype.constructor = SpellList;
 SpellList.prototype.to_html = function () {
     var openTag = this.top ? 'h3' : 'li';
     var headerHtml = '<b>' + escapeHtml(this.match.label) + '</b>' +
-        (this.match.number ? ' <i style="color:gray">' + escapeHtml(this.match.number) + '</i>' : '');
+        (this.match.number ? ' <i style="color:gray">' + escapeHtml(this.match.number) + '</i>' : '') +
+        commentHtml(this.comment);
     var html = '<' + openTag + '>' + headerHtml + (this.top ? '</' + openTag + '>' : '');
     if (this.contents.length) {
         html += '<ul>' + this.contents.map(function (c) { return c.to_html(); }).join('') + '</ul>';
@@ -70,8 +87,8 @@ SpellList.prototype.to_html = function () {
     if (!this.top) html += '</li>';
     return html;
 };
-function makeListNode(header, contents, top) {
-    return matchSpellListHeader(header) ? new SpellList(header, contents, top) : new List(header, contents, top);
+function makeListNode(header, contents, top, comment) {
+    return matchSpellListHeader(header) ? new SpellList(header, contents, top, comment) : new List(header, contents, top, comment);
 }
 
 // CharacterSpells: groups consecutive top-level SpellLists that appear in ascending
@@ -135,7 +152,8 @@ function parseCharacterText(text) {
         var indent = 0;
         while (s.slice(0, 4) === '    ') { indent++; s = s.slice(4); }
         while (s[0] === '\t') { indent++; s = s.slice(1); }
-        lines.push({ indent: indent, text: stripLineDecorations(s), gapBefore: blanks >= 2 });
+        var parsed = extractComment(stripLineDecorations(s));
+        lines.push({ indent: indent, text: parsed.text, comment: parsed.comment, gapBefore: blanks >= 2 });
         blanks = 0;
     });
 
@@ -148,7 +166,7 @@ function parseCharacterText(text) {
         }
         if (line.indent === 0) {
             stack = [];
-            var node = makeListNode(line.text, [], true);
+            var node = makeListNode(line.text, [], true, line.comment);
             tokens.push(node);
             stack.push(node);
             return;
@@ -165,7 +183,7 @@ function parseCharacterText(text) {
             if (!lastChild) {
                 // ponytail: no enclosing top-level line to nest under (e.g. text starts indented) -
                 // fall back to a fresh top-level entry instead of crashing.
-                lastChild = makeListNode(line.text, [], true);
+                lastChild = makeListNode(line.text, [], true, line.comment);
                 tokens.push(lastChild);
                 stack = [lastChild];
                 return;
@@ -173,7 +191,7 @@ function parseCharacterText(text) {
             stack.push(lastChild);
             target = lastChild;
         }
-        var newNode = makeListNode(line.text, []);
+        var newNode = makeListNode(line.text, [], false, line.comment);
         if (target instanceof SpellList) newNode.isSpell = true;
         target.contents.push(newNode);
     });
@@ -183,7 +201,7 @@ function parseCharacterText(text) {
         if (node instanceof List) {
             node.contents = node.contents.map(simplify);
             if (!node.contents.length && !node.top && !(node instanceof SpellList && node.match)) {
-                var line = new Line(node.header);
+                var line = new Line(node.header, false, node.comment);
                 line.isSpell = node.isSpell;
                 return line;
             }
