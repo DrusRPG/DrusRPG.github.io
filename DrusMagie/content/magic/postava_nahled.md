@@ -33,7 +33,10 @@ function Line(text, top, comment) {
 }
 Line.prototype.to_html = function () {
     var tag = this.top ? 'h3' : 'li';
-    var content = this.isSpell ? parse_spell_name(this.text) : escapeHtml(this.text);
+    // Spell HTML is shared with the public school pages and may carry the
+    // secret_spell class, which the site-wide reveal script force-hides -
+    // strip it so a character's own sheet always shows its spells in full.
+    var content = this.isSpell ? parse_spell_name(this.text).replace(/\bsecret_spell\b/g, '') : escapeHtml(this.text);
     return '<' + tag + '>' + content + commentHtml(this.comment) + '</' + tag + '>';
 };
 
