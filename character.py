@@ -8,7 +8,8 @@ import magic
 
 def normalize(s: str) -> str:
     stripped = "".join(
-        c for c in unicodedata.normalize("NFD", s.lower().strip())
+        c
+        for c in unicodedata.normalize("NFD", s.lower().strip())
         if unicodedata.category(c) != "Mn"
     )
     return unicodedata.normalize("NFC", stripped)
@@ -52,7 +53,7 @@ function parse_spell_name(spell_name) {{
             return candidate.html;
         }}
     }}
-    return '<span>Error</span>';
+    return '<span class="spell-parse-error">Kouzlo se nepodařilo najít: ' + escapeHtml(spell_name) + '</span>';
 }}
 """
 
