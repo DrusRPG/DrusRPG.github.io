@@ -591,3 +591,9 @@ li.filter-hidden {
   border-bottom-right-radius: 6px;
 }
 
+.home-group-divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
+

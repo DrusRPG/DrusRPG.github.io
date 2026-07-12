@@ -150,6 +150,7 @@ def school_to_markdown(
         image_first=image_first,
         image_second=image_second,
         contents=filter_bar + "\n\n".join(categories_md),
+        nav_group="Magie",
     )
 
 

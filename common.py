@@ -92,13 +92,19 @@ class MagicSchoolTemplate:
         self.template = open("templates/school_of_magic_header.md").read()
 
     def get_school_markdown(
-        self, name: str, image_first: str, image_second: str, contents: str
+        self,
+        name: str,
+        image_first: str,
+        image_second: str,
+        contents: str,
+        nav_group: str,
     ) -> str:
         replacements = {
             "NAME": name,
             "IMAGE_FIRST": image_first,
             "IMAGE_SECOND": image_second,
             "CONTENTS": contents,
+            "NAV_GROUP": nav_group,
         }
         school_out = self.template
         for key, value in replacements.items():

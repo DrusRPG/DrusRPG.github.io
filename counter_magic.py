@@ -362,6 +362,7 @@ def generate_counter_magic_page():
         image_first="kontramag.png",
         image_second="better_times.jpg",
         contents=contents,
+        nav_group="Kontramágové",
     )
 
 
