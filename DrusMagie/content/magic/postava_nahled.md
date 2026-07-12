@@ -37,6 +37,35 @@ List.prototype.to_html = function () {
     return html;
 };
 
+// SpellList: like List, but header is "LABEL" or "LABEL: N" (LABEL one of the
+// spell tiers) - rendered as bold label + italic gray number instead of plain text.
+var SPELL_TIERS = ['základní', 'pokročilá', 'mistrovská', 'velmistrovská'];
+function matchSpellListHeader(text) {
+    var m = /^(základní|pokročilá|mistrovská|velmistrovská)(?:\s*:\s*(\d+))?$/.exec(text.trim());
+    if (!m) return null;
+    return { label: m[1], number: m[2] };
+}
+function SpellList(header, contents, top) {
+    List.call(this, header, contents, top);
+    this.match = matchSpellListHeader(header);
+}
+SpellList.prototype = Object.create(List.prototype);
+SpellList.prototype.constructor = SpellList;
+SpellList.prototype.to_html = function () {
+    var openTag = this.top ? 'p' : 'li';
+    var headerHtml = '<b>' + escapeHtml(this.match.label) + '</b>' +
+        (this.match.number ? ' <i style="color:gray">' + escapeHtml(this.match.number) + '</i>' : '');
+    var html = '<' + openTag + '>' + headerHtml + (this.top ? '</' + openTag + '>' : '');
+    if (this.contents.length) {
+        html += '<ul>' + this.contents.map(function (c) { return c.to_html(); }).join('') + '</ul>';
+    }
+    if (!this.top) html += '</li>';
+    return html;
+};
+function makeListNode(header, contents, top) {
+    return matchSpellListHeader(header) ? new SpellList(header, contents, top) : new List(header, contents, top);
+}
+
 // LineBreak: a visual gap between two blank-line-separated blocks.
 function LineBreak() {}
 LineBreak.prototype.to_html = function () {
@@ -65,7 +94,7 @@ function parseCharacterText(text) {
         }
         if (line.indent === 0) {
             stack = [];
-            var node = new List(line.text, [], true);
+            var node = makeListNode(line.text, [], true);
             tokens.push(node);
             stack.push(node);
             return;
@@ -82,7 +111,7 @@ function parseCharacterText(text) {
             if (!lastChild) {
                 // ponytail: no enclosing top-level line to nest under (e.g. text starts indented) -
                 // fall back to a fresh top-level entry instead of crashing.
-                lastChild = new List(line.text, [], true);
+                lastChild = makeListNode(line.text, [], true);
                 tokens.push(lastChild);
                 stack = [lastChild];
                 return;
@@ -90,7 +119,7 @@ function parseCharacterText(text) {
             stack.push(lastChild);
             target = lastChild;
         }
-        target.contents.push(new List(line.text, []));
+        target.contents.push(makeListNode(line.text, []));
     });
 
     // Collapse List nodes with no children into plain Line tokens.
