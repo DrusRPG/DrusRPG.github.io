@@ -114,6 +114,16 @@ LineBreak.prototype.to_html = function () {
     return '<div class="character-gap"></div>';
 };
 
+// Strip a leading "- " bullet marker and/or a trailing ":" (with any
+// surrounding whitespace) from a line's text.
+function stripLineDecorations(text) {
+    var s = text.trim();
+    if (s === '-') return '';
+    if (s.slice(0, 2) === '- ') s = s.slice(2).trim();
+    if (s.slice(-1) === ':') s = s.slice(0, -1).trim();
+    return s;
+}
+
 function parseCharacterText(text) {
     var lines = [];
     var blanks = 0;
@@ -123,7 +133,7 @@ function parseCharacterText(text) {
         var indent = 0;
         while (s.slice(0, 4) === '    ') { indent++; s = s.slice(4); }
         while (s[0] === '\t') { indent++; s = s.slice(1); }
-        lines.push({ indent: indent, text: s.trim(), gapBefore: blanks >= 2 });
+        lines.push({ indent: indent, text: stripLineDecorations(s), gapBefore: blanks >= 2 });
         blanks = 0;
     });
 
@@ -168,7 +178,7 @@ function parseCharacterText(text) {
     function simplify(node) {
         if (node instanceof List) {
             node.contents = node.contents.map(simplify);
-            if (!node.contents.length && !node.top) return new Line(node.header);
+            if (!node.contents.length && !node.top && !(node instanceof SpellList && node.match)) return new Line(node.header);
         }
         return node;
     }
