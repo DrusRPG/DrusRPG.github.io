@@ -40,10 +40,16 @@ List.prototype.to_html = function () {
 // SpellList: like List, but header is "LABEL" or "LABEL: N" (LABEL one of the
 // spell tiers) - rendered as bold label + italic gray number instead of plain text.
 var SPELL_TIERS = ['základní', 'pokročilá', 'mistrovská', 'velmistrovská'];
+var SPELL_TIER_DISPLAY = ['Základní', 'Pokročilá', 'Mistrovská', 'Velmistrovská'];
+function normalizeTier(s) {
+    return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+}
 function matchSpellListHeader(text) {
-    var m = /^(základní|pokročilá|mistrovská|velmistrovská)(?:\s*:\s*(\d+))?$/.exec(text.trim());
+    var m = /^([^:]+?)(?:\s*:\s*(\d+))?$/.exec(text.trim());
     if (!m) return null;
-    return { label: m[1], number: m[2] };
+    var idx = SPELL_TIERS.map(normalizeTier).indexOf(normalizeTier(m[1]));
+    if (idx === -1) return null;
+    return { label: SPELL_TIER_DISPLAY[idx], number: m[2] };
 }
 function SpellList(header, contents, top) {
     List.call(this, header, contents, top);
@@ -82,11 +88,11 @@ function combineSpellLists(tokens) {
         var t = tokens[i];
         if (t instanceof SpellList && t.match) {
             var run = [t];
-            var lastTier = SPELL_TIERS.indexOf(t.match.label);
+            var lastTier = SPELL_TIER_DISPLAY.indexOf(t.match.label);
             var j = i + 1;
             while (j < tokens.length && tokens[j] instanceof SpellList && tokens[j].match &&
-                SPELL_TIERS.indexOf(tokens[j].match.label) > lastTier) {
-                lastTier = SPELL_TIERS.indexOf(tokens[j].match.label);
+                SPELL_TIER_DISPLAY.indexOf(tokens[j].match.label) > lastTier) {
+                lastTier = SPELL_TIER_DISPLAY.indexOf(tokens[j].match.label);
                 run.push(tokens[j]);
                 j++;
             }
