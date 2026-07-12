@@ -53,6 +53,7 @@ List.prototype.to_html = function () {
 // spell tiers) - rendered as bold label + italic gray number instead of plain text.
 var SPELL_TIERS = ['základní', 'pokročilá', 'mistrovská', 'velmistrovská'];
 var SPELL_TIER_DISPLAY = ['Základní', 'Pokročilá', 'Mistrovská', 'Velmistrovská'];
+var SPELL_TIER_CLASS = ['tier-label-zakladni', 'tier-label-pokrocila', 'tier-label-mistrovska', 'tier-label-velmistrovska'];
 function normalizeTier(s) {
     return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
 }
@@ -71,7 +72,8 @@ SpellList.prototype = Object.create(List.prototype);
 SpellList.prototype.constructor = SpellList;
 SpellList.prototype.to_html = function () {
     var openTag = this.top ? 'h3' : 'li';
-    var headerHtml = '<b>' + escapeHtml(this.match.label) + '</b>' +
+    var tierIdx = SPELL_TIER_DISPLAY.indexOf(this.match.label);
+    var headerHtml = '<b class="' + SPELL_TIER_CLASS[tierIdx] + '">' + escapeHtml(this.match.label) + '</b>' +
         (this.match.number ? ' <i style="color:gray">' + escapeHtml(this.match.number) + '</i>' : '') +
         commentHtml(this.comment);
     var html = '<' + openTag + '>' + headerHtml + (this.top ? '</' + openTag + '>' : '');

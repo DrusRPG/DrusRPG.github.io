@@ -39,7 +39,7 @@
   margin: 0.1em 0;
 }
 
-.character-text li > ul {
+.character-text li>ul {
   margin: 0;
 }
 
@@ -54,7 +54,7 @@
   padding-left: 1.2em;
 }
 
-.character-text ul.spell-tier-list > li {
+.character-text ul.spell-tier-list>li {
   position: relative;
   margin: 0;
 }
@@ -62,11 +62,11 @@
 /* Nested spell <ul> inside each tier <li> carries a default bottom margin,
    which sits outside the <li> box and breaks the trunk line's continuity
    between tiers - zero it so the line spans the true distance to the next dot. */
-.character-text ul.spell-tier-list > li > ul {
+.character-text ul.spell-tier-list>li>ul {
   margin: 0;
 }
 
-.character-text ul.spell-tier-list > li::before {
+.character-text ul.spell-tier-list>li::before {
   content: "";
   position: absolute;
   top: 0.6em;
@@ -79,7 +79,7 @@
   z-index: 1;
 }
 
-.character-text ul.spell-tier-list > li::after {
+.character-text ul.spell-tier-list>li::after {
   content: "";
   position: absolute;
   /* Overlap 1px past the li's own box on both ends so adjoining segments
@@ -90,10 +90,32 @@
   border-left: 1px solid var(--border);
 }
 
-.character-text ul.spell-tier-list > li:first-child::after {
+.character-text ul.spell-tier-list>li:first-child::after {
   top: 0.6em;
 }
 
-.character-text ul.spell-tier-list > li:last-child::after {
+.character-text ul.spell-tier-list>li:last-child::after {
   bottom: calc(100% - 0.6em);
+}
+
+.tier-label-zakladni {
+  color: #4caf50;
+}
+
+.tier-label-pokrocila {
+  color: #d4b106;
+}
+
+.tier-label-mistrovska {
+  color: #e07b00;
+}
+
+.tier-label-velmistrovska {
+  color: #ff1e00;
+  text-shadow: 0 0 3px rgba(255, 0, 0, 0.6);
+}
+
+.spell-parse-error {
+  color: #e53935;
+  font-weight: bold;
 }
