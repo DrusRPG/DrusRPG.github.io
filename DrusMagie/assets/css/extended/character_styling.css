@@ -1,0 +1,95 @@
+.character-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+
+.character-input textarea {
+  width: 100%;
+  padding: 0.6em;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--entry);
+  color: var(--content);
+  font: inherit;
+  resize: vertical;
+}
+
+.character-input button {
+  align-self: flex-start;
+  background: #555;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1.2em;
+  border-radius: var(--radius);
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.character-input button:hover {
+  background: #777;
+}
+
+.character-gap {
+  height: 1em;
+}
+
+.character-text li {
+  margin: 0.1em 0;
+}
+
+/* Tree connector lines between spell tiers (základní/pokročilá/mistrovská/...)
+   only - not between the spells listed inside each tier. Each tier <li> gets
+   a dot, and a vertical trunk connecting it to its neighboring tiers. The
+   trunk is drawn per-<li>, clipped to the dot's vertical center on the first
+   and last tier, so it doesn't poke out above/below the whole group. */
+.character-text ul.spell-tier-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.character-text ul.spell-tier-list > li {
+  position: relative;
+  margin: 0;
+}
+
+/* Nested spell <ul> inside each tier <li> carries a default bottom margin,
+   which sits outside the <li> box and breaks the trunk line's continuity
+   between tiers - zero it so the line spans the true distance to the next dot. */
+.character-text ul.spell-tier-list > li > ul {
+  margin: 0;
+}
+
+.character-text ul.spell-tier-list > li::before {
+  content: "";
+  position: absolute;
+  top: 0.6em;
+  left: calc(-0.75em - 3px);
+  width: 6px;
+  height: 6px;
+  margin-top: -3px;
+  border-radius: 50%;
+  background: var(--secondary);
+  z-index: 1;
+}
+
+.character-text ul.spell-tier-list > li::after {
+  content: "";
+  position: absolute;
+  /* Overlap 1px past the li's own box on both ends so adjoining segments
+     never leave a subpixel-rounding gap where they meet. */
+  top: -1px;
+  bottom: -1px;
+  left: -0.75em;
+  border-left: 1px solid var(--border);
+}
+
+.character-text ul.spell-tier-list > li:first-child::after {
+  top: 0.6em;
+}
+
+.character-text ul.spell-tier-list > li:last-child::after {
+  bottom: calc(100% - 0.6em);
+}

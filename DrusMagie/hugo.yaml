@@ -73,6 +73,7 @@ params:
   customCSS:
     - assets/css/extended/custom.css
     - assets/css/extended/counter_magic_styling.css
+    - assets/css/extended/character_styling.css
 
   # for search
   # https://fusejs.io/api/options.html

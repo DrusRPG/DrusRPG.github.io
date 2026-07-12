@@ -16,19 +16,19 @@ function Line(text, top) {
     this.top = !!top;
 }
 Line.prototype.to_html = function () {
-    var tag = this.top ? 'p' : 'li';
+    var tag = this.top ? 'h3' : 'li';
     return '<' + tag + '>' + escapeHtml(this.text) + '</' + tag + '>';
 };
 
 // List: a header line followed by nested content, rendered as one unit
-// (top level: <p>header</p><ul>...</ul>, nested: <li>header<ul>...</ul></li>).
+// (top level: <h3>header</h3><ul>...</ul>, nested: <li>header<ul>...</ul></li>).
 function List(header, contents, top) {
     this.header = header;
     this.contents = contents || [];
     this.top = !!top;
 }
 List.prototype.to_html = function () {
-    var openTag = this.top ? 'p' : 'li';
+    var openTag = this.top ? 'h3' : 'li';
     var html = '<' + openTag + '>' + escapeHtml(this.header) + (this.top ? '</' + openTag + '>' : '');
     if (this.contents.length) {
         html += '<ul>' + this.contents.map(function (c) { return c.to_html(); }).join('') + '</ul>';
@@ -58,7 +58,7 @@ function SpellList(header, contents, top) {
 SpellList.prototype = Object.create(List.prototype);
 SpellList.prototype.constructor = SpellList;
 SpellList.prototype.to_html = function () {
-    var openTag = this.top ? 'p' : 'li';
+    var openTag = this.top ? 'h3' : 'li';
     var headerHtml = '<b>' + escapeHtml(this.match.label) + '</b>' +
         (this.match.number ? ' <i style="color:gray">' + escapeHtml(this.match.number) + '</i>' : '');
     var html = '<' + openTag + '>' + headerHtml + (this.top ? '</' + openTag + '>' : '');
@@ -79,7 +79,7 @@ function CharacterSpells(spellLists) {
     this.contents = spellLists.map(function (sl) { sl.top = false; return sl; });
 }
 CharacterSpells.prototype.to_html = function () {
-    return '<ul>' + this.contents.map(function (c) { return c.to_html(); }).join('') + '</ul>';
+    return '<ul class="spell-tier-list">' + this.contents.map(function (c) { return c.to_html(); }).join('') + '</ul>';
 };
 function combineSpellLists(tokens) {
     var result = [];
@@ -172,7 +172,15 @@ function parseCharacterText(text) {
         }
         return node;
     }
-    return combineSpellLists(tokens.map(simplify));
+    // Combine tier runs at every nesting level, not just the top one, so a
+    // nested spell-tier header run also collapses into a CharacterSpells block.
+    function combineSpellListsDeep(list) {
+        list.forEach(function (t) {
+            if (t instanceof List) t.contents = combineSpellListsDeep(t.contents);
+        });
+        return combineSpellLists(list);
+    }
+    return combineSpellListsDeep(tokens.map(simplify));
 }
 
 function renderCharacterHierarchy(text, container) {
@@ -194,7 +202,20 @@ function renderCharacterHierarchy(text, container) {
         var binary = atob(b64);
         var bytes = Uint8Array.from(binary, function (c) { return c.charCodeAt(0); });
         var text = new TextDecoder().decode(bytes);
-        renderCharacterHierarchy(text, el);
+
+        // First non-empty line is the character's name: pull it out for the
+        // title/header and parse the rest as the character body.
+        var lines = text.split('\n');
+        var nameIdx = lines.findIndex(function (l) { return l.trim() !== ''; });
+        var name = nameIdx !== -1 ? lines[nameIdx].trim() : '';
+        if (nameIdx !== -1) lines.splice(nameIdx, 1);
+
+        if (name) {
+            document.title = name;
+            var titleEl = document.querySelector('.post-title');
+            if (titleEl) titleEl.textContent = name;
+        }
+        renderCharacterHierarchy(lines.join('\n'), el);
     } catch (e) {
         el.textContent = 'Neplatný odkaz na postavu.';
     }
