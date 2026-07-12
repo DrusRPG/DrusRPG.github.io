@@ -2,5 +2,6 @@
 DrusMagie/.hugo_build.lock
 DrusMagie/public
 DrusMagie/resources
+DrusMagie/content
 .claude/*
 __pycache__

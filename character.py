@@ -1,5 +1,6 @@
 import json
 import pathlib
+import shutil
 import unicodedata
 import common
 import magic
@@ -61,6 +62,11 @@ def main():
     out_path = pathlib.Path("DrusMagie/static/js")
     out_path.mkdir(parents=True, exist_ok=True)
     (out_path / "character_spells.js").write_text(generate_js(index))
+
+    content_path = pathlib.Path("DrusMagie/content/magic")
+    content_path.mkdir(parents=True, exist_ok=True)
+    for name in ("postava.md", "postava_nahled.md"):
+        shutil.copyfile(f"templates/{name}", content_path / name)
 
 
 if __name__ == "__main__":
