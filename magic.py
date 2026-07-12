@@ -169,58 +169,60 @@ class MagicSettings:
         self.filter_tags = filter_tags
 
 
+school_settings = [
+    MagicSettings(
+        "Magie Času",
+        "cas",
+        "clock.jpg",
+        "ancient_times1.jpeg",
+        [
+            "nahlížení",
+            "zrychlení",
+            "zpomalení",
+            "zestárnutí",
+            "omládnutí",
+            "teleportace",
+        ],
+    ),
+    MagicSettings(
+        "Magie Prostoru",
+        "prostor",
+        "prostor.jpg",
+        "ancient_times2.jpeg",
+        ["bariéra", "zakřivení", "teleportace"],
+    ),
+    MagicSettings(
+        "Magie Života",
+        "zivot",
+        "light.jpg",
+        "ancient_times3.jpeg",
+        ["požehnání", "léčení", "informace", "neživý"],
+    ),
+    MagicSettings(
+        "Magie Smrti",
+        "smrt",
+        "dark.jpg",
+        "ancient_times4.jpeg",
+        ["prokletí", "jed", "nemrtvý", "duše", "vysátí"],
+    ),
+    MagicSettings(
+        "Magie Hmoty",
+        "hmota",
+        "matter.jpg",
+        "ancient_times5.jpeg",
+        ["projektil", "zbraň", "oheň", "vzduch", "země", "voda", "led", "blesk"],
+    ),
+    MagicSettings(
+        "Magie Mysli",
+        "mysl",
+        "neural.jpg",
+        "ancient_times6.jpeg",
+        ["mentální magie", "hypnóza", "sugesce", "iluze", "mentální obrana"],
+    ),
+]
+
+
 def main():
-    school_settings = [
-        MagicSettings(
-            "Magie Času",
-            "cas",
-            "clock.jpg",
-            "ancient_times1.jpeg",
-            [
-                "nahlížení",
-                "zrychlení",
-                "zpomalení",
-                "zestárnutí",
-                "omládnutí",
-                "teleportace",
-            ],
-        ),
-        MagicSettings(
-            "Magie Prostoru",
-            "prostor",
-            "prostor.jpg",
-            "ancient_times2.jpeg",
-            ["bariéra", "zakřivení", "teleportace"],
-        ),
-        MagicSettings(
-            "Magie Života",
-            "zivot",
-            "light.jpg",
-            "ancient_times3.jpeg",
-            ["požehnání", "léčení", "informace", "neživý"],
-        ),
-        MagicSettings(
-            "Magie Smrti",
-            "smrt",
-            "dark.jpg",
-            "ancient_times4.jpeg",
-            ["prokletí", "jed", "nemrtvý", "duše", "vysátí"],
-        ),
-        MagicSettings(
-            "Magie Hmoty",
-            "hmota",
-            "matter.jpg",
-            "ancient_times5.jpeg",
-            ["projektil", "zbraň", "oheň", "vzduch", "země", "voda", "led", "blesk"],
-        ),
-        MagicSettings(
-            "Magie Mysli",
-            "mysl",
-            "neural.jpg",
-            "ancient_times6.jpeg",
-            ["mentální magie", "hypnóza", "sugesce", "iluze", "mentální obrana"],
-        ),
-    ]
     out_path = pathlib.Path("DrusMagie/content/magic")
     out_path.mkdir(parents=True, exist_ok=True)
 

@@ -5,6 +5,7 @@ hiddenInHomeList: true
 
 <div id="character-text" class="character-text"></div>
 
+<script src="/js/character_spells.js"></script>
 <script>
 function escapeHtml(s) {
     return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -17,7 +18,8 @@ function Line(text, top) {
 }
 Line.prototype.to_html = function () {
     var tag = this.top ? 'h3' : 'li';
-    return '<' + tag + '>' + escapeHtml(this.text) + '</' + tag + '>';
+    var content = this.isSpell ? parse_spell_name(this.text) : escapeHtml(this.text);
+    return '<' + tag + '>' + content + '</' + tag + '>';
 };
 
 // List: a header line followed by nested content, rendered as one unit
@@ -171,14 +173,20 @@ function parseCharacterText(text) {
             stack.push(lastChild);
             target = lastChild;
         }
-        target.contents.push(makeListNode(line.text, []));
+        var newNode = makeListNode(line.text, []);
+        if (target instanceof SpellList) newNode.isSpell = true;
+        target.contents.push(newNode);
     });
 
     // Collapse List nodes with no children into plain Line tokens.
     function simplify(node) {
         if (node instanceof List) {
             node.contents = node.contents.map(simplify);
-            if (!node.contents.length && !node.top && !(node instanceof SpellList && node.match)) return new Line(node.header);
+            if (!node.contents.length && !node.top && !(node instanceof SpellList && node.match)) {
+                var line = new Line(node.header);
+                line.isSpell = node.isSpell;
+                return line;
+            }
         }
         return node;
     }
