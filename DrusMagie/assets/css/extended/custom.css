@@ -590,3 +590,40 @@ li.filter-hidden {
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
 }
+
+.character-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+
+.character-input textarea {
+  width: 100%;
+  padding: 0.6em;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--entry);
+  color: var(--content);
+  font: inherit;
+  resize: vertical;
+}
+
+.character-input button {
+  align-self: flex-start;
+  background: #555;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1.2em;
+  border-radius: var(--radius);
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.character-input button:hover {
+  background: #777;
+}
+
+.character-text {
+  white-space: pre-wrap;
+}
