@@ -121,6 +121,7 @@
 }
 
 @media print {
+
   /* @page margin:0 is what actually suppresses the browser's own
      title/url header and date/page-count footer - it only draws those
      inside the page margin, so zeroing it removes them. */
@@ -135,8 +136,22 @@
     display: none !important;
   }
 
+  /* Browsers skip background colors and borders derived from theme vars
+     when printing unless explicitly told to keep them - without this the
+     tier dot (a background-color circle) and trunk line (a border-left)
+     both vanish on the printed sheet. */
+  body:has(.character-text) ul.spell-tier-list>li::before,
   body:has(.character-text) ul.spell-tier-list>li::after {
-    display: none;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  body:has(.character-text) ul.spell-tier-list>li::before {
+    background: #000;
+  }
+
+  body:has(.character-text) ul.spell-tier-list>li::after {
+    border-left-color: #000;
   }
 
   /* .main reserves a full viewport height (100vh) for the sticky footer
@@ -163,6 +178,11 @@
 
   body:has(.character-text) .character-gap {
     height: 0.4em;
+  }
+
+  .tier-label-velmistrovska {
+    color: #ff1e00;
+    text-shadow: 0 0 0px;
   }
 
   /* .tooltiptext (the spell-description popup) and .icon-tooltip-text (the
