@@ -17,42 +17,45 @@ function commentHtml(comment) {
 }
 
 // Line: a leaf entry with no children. Renders <p> at the top level, <li> when nested.
-function Line(text, top, comment) {
-    this.text = text;
-    this.top = !!top;
-    this.comment = comment || '';
+class Line {
+    constructor(text, top, comment) {
+        this.text = text;
+        this.top = !!top;
+        this.comment = comment || '';
+    }
+    to_html() {
+        var tag = this.top ? 'h3' : 'li';
+        // Spell HTML is shared with the public school pages and may carry the
+        // secret_spell class, which the site-wide reveal script force-hides -
+        // strip it so a character's own sheet always shows its spells in full.
+        var content = this.isSpell ? parse_spell_name(this.text).replace(/\bsecret_spell\b/g, '') : escapeHtml(this.text);
+        return '<' + tag + '>' + content + commentHtml(this.comment) + '</' + tag + '>';
+    }
 }
-Line.prototype.to_html = function () {
-    var tag = this.top ? 'h3' : 'li';
-    // Spell HTML is shared with the public school pages and may carry the
-    // secret_spell class, which the site-wide reveal script force-hides -
-    // strip it so a character's own sheet always shows its spells in full.
-    var content = this.isSpell ? parse_spell_name(this.text).replace(/\bsecret_spell\b/g, '') : escapeHtml(this.text);
-    return '<' + tag + '>' + content + commentHtml(this.comment) + '</' + tag + '>';
-};
 
 // List: a header line followed by nested content, rendered as one unit
 // (top level: <h3>header</h3><ul>...</ul>, nested: <li>header<ul>...</ul></li>).
-function List(header, contents, top, comment) {
-    this.header = header;
-    this.contents = contents || [];
-    this.top = !!top;
-    this.comment = comment || '';
-}
-List.prototype.to_html = function () {
-    var openTag = this.top ? 'h3' : 'li';
-    var html = '<' + openTag + '>' + escapeHtml(this.header) + commentHtml(this.comment) + (this.top ? '</' + openTag + '>' : '');
-    if (this.contents.length) {
-        html += '<ul>' + this.contents.map(function (c) { return c.to_html(); }).join('') + '</ul>';
+class List {
+    constructor(header, contents, top, comment) {
+        this.header = header;
+        this.contents = contents || [];
+        this.top = !!top;
+        this.comment = comment || '';
     }
-    if (!this.top) html += '</li>';
-    return html;
-};
+    to_html() {
+        var openTag = this.top ? 'h3' : 'li';
+        var html = '<' + openTag + '>' + escapeHtml(this.header) + commentHtml(this.comment) + (this.top ? '</' + openTag + '>' : '');
+        if (this.contents.length) {
+            html += '<ul>' + this.contents.map(function (c) { return c.to_html(); }).join('') + '</ul>';
+        }
+        if (!this.top) html += '</li>';
+        return html;
+    }
+}
 
 // SpellList: like List, but header is "LABEL" or "LABEL: N" (LABEL one of the
 // spell tiers) - rendered as bold label + italic gray number instead of plain text.
-var SPELL_TIERS = ['základní', 'pokročilá', 'mistrovská', 'velmistrovská'];
-var SPELL_TIER_DISPLAY = ['Základní', 'Pokročilá', 'Mistrovská', 'Velmistrovská'];
+var SPELL_TIERS = ['Základní', 'Pokročilá', 'Mistrovská', 'Velmistrovská'];
 var SPELL_TIER_CLASS = ['tier-label-zakladni', 'tier-label-pokrocila', 'tier-label-mistrovska', 'tier-label-velmistrovska'];
 function normalizeTier(s) {
     return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
@@ -62,27 +65,29 @@ function matchSpellListHeader(text) {
     if (!m) return null;
     var idx = SPELL_TIERS.map(normalizeTier).indexOf(normalizeTier(m[1]));
     if (idx === -1) return null;
-    return { label: SPELL_TIER_DISPLAY[idx], number: m[2] };
+    return { label: SPELL_TIERS[idx], number: m[2] };
 }
-function SpellList(header, contents, top, comment) {
-    List.call(this, header, contents, top, comment);
-    this.match = matchSpellListHeader(header);
+class SpellList {
+    constructor(header, contents, top, comment) {
+        List.call(this, header, contents, top, comment);
+        this.match = matchSpellListHeader(header);
+    }
+    to_html() {
+        var openTag = this.top ? 'h3' : 'li';
+        var tierIdx = SPELL_TIERS.indexOf(this.match.label);
+        var headerHtml = '<b class="' + SPELL_TIER_CLASS[tierIdx] + '">' + escapeHtml(this.match.label) + '</b>' +
+            (this.match.number ? ' <i style="color:gray">' + escapeHtml(this.match.number) + '</i>' : '') +
+            commentHtml(this.comment);
+        var html = '<' + openTag + '>' + headerHtml + (this.top ? '</' + openTag + '>' : '');
+        if (this.contents.length) {
+            html += '<ul>' + this.contents.map(function (c) { return c.to_html(); }).join('') + '</ul>';
+        }
+        if (!this.top) html += '</li>';
+        return html;
+    }
 }
 SpellList.prototype = Object.create(List.prototype);
-SpellList.prototype.constructor = SpellList;
-SpellList.prototype.to_html = function () {
-    var openTag = this.top ? 'h3' : 'li';
-    var tierIdx = SPELL_TIER_DISPLAY.indexOf(this.match.label);
-    var headerHtml = '<b class="' + SPELL_TIER_CLASS[tierIdx] + '">' + escapeHtml(this.match.label) + '</b>' +
-        (this.match.number ? ' <i style="color:gray">' + escapeHtml(this.match.number) + '</i>' : '') +
-        commentHtml(this.comment);
-    var html = '<' + openTag + '>' + headerHtml + (this.top ? '</' + openTag + '>' : '');
-    if (this.contents.length) {
-        html += '<ul>' + this.contents.map(function (c) { return c.to_html(); }).join('') + '</ul>';
-    }
-    if (!this.top) html += '</li>';
-    return html;
-};
+;
 function makeListNode(header, contents, top, comment) {
     return matchSpellListHeader(header) ? new SpellList(header, contents, top, comment) : new List(header, contents, top, comment);
 }
@@ -90,12 +95,14 @@ function makeListNode(header, contents, top, comment) {
 // CharacterSpells: groups consecutive top-level SpellLists that appear in ascending
 // tier order (základní -> pokročilá -> mistrovská -> velmistrovská) into one <ul>,
 // each tier rendered as a nested <li>.
-function CharacterSpells(spellLists) {
-    this.contents = spellLists.map(function (sl) { sl.top = false; return sl; });
+class CharacterSpells {
+    constructor(spellLists) {
+        this.contents = spellLists.map(function (sl) { sl.top = false; return sl; });
+    }
+    to_html() {
+        return '<ul class="spell-tier-list">' + this.contents.map(function (c) { return c.to_html(); }).join('') + '</ul>';
+    }
 }
-CharacterSpells.prototype.to_html = function () {
-    return '<ul class="spell-tier-list">' + this.contents.map(function (c) { return c.to_html(); }).join('') + '</ul>';
-};
 function combineSpellLists(tokens) {
     var result = [];
     var i = 0;
@@ -124,10 +131,12 @@ function combineSpellLists(tokens) {
 }
 
 // LineBreak: a visual gap between two blank-line-separated blocks.
-function LineBreak() {}
-LineBreak.prototype.to_html = function () {
-    return '<div class="character-gap"></div>';
-};
+class LineBreak {
+    constructor() { }
+    to_html() {
+        return '<div class="character-gap"></div>';
+    }
+}
 
 // Strip a leading "- " bullet marker and/or a trailing ":" (with any
 // surrounding whitespace) from a line's text.
