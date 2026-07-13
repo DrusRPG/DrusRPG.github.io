@@ -33,11 +33,15 @@
 
 .character-history-controls {
   display: flex;
+  align-items: stretch;
   gap: 0.8em;
+  height: 2.4em;
 }
 
 .character-history-controls select {
   flex: 1;
+  box-sizing: border-box;
+  height: 100%;
   background: #555;
   color: #fff;
   border: none;
@@ -50,6 +54,32 @@
 
 .character-history-controls select:hover {
   background: #777;
+}
+
+.character-history-controls .icon-btn {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  aspect-ratio: 1 / 1;
+  height: 100%;
+  background: #555;
+  border: none;
+  padding: 0;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.character-history-controls .icon-btn:hover {
+  background: #777;
+}
+
+.character-history-controls .icon-btn img {
+  width: 55%;
+  height: 55%;
+  object-fit: contain;
 }
 
 .character-gap {

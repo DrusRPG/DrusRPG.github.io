@@ -75,3 +75,9 @@ function saveCharacterVersion(name, b64url) {
     history[name].push(b64url);
     localStorage.setItem('characterHistory', JSON.stringify(history));
 }
+
+function deleteCharacter(name) {
+    var history = getCharacterHistory();
+    delete history[name];
+    localStorage.setItem('characterHistory', JSON.stringify(history));
+}
