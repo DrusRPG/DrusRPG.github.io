@@ -2,10 +2,6 @@ function escapeHtml(s) {
     return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-
-
-
-
 function createGroupsBy(list, predicateFunc, createFunc) {
     const result = [];
     let i = 0;
@@ -27,23 +23,26 @@ function createGroupsBy(list, predicateFunc, createFunc) {
 }
 
 
+
 // LineBreak: a visual gap between two blank-line-separated blocks.
 class LineBreak {
-    constructor() { }
     to_html() {
         return '<div class="character-gap"></div>';
     }
 }
-// SpellList: like List, but header is "LABEL" or "LABEL: N" (LABEL one of the
-// spell tiers) - rendered as bold label + italic gray number instead of plain text.
+
+// SpellList headers look like "LABEL" or "LABEL: N" (LABEL one of the spell
+// tiers) - rendered as bold label + italic gray number instead of plain text.
 const SPELL_TIERS = ['Základní', 'Pokročilá', 'Mistrovská', 'Velmistrovská'];
 const SPELL_TIER_CLASS = ['tier-label-zakladni', 'tier-label-pokrocila', 'tier-label-mistrovska', 'tier-label-velmistrovska'];
+
+// Line: a parsed line - leading "- " bullet and trailing ":" stripped, "(...)"
+// comment extracted. Renders as <h3> at the top level, <li> when nested.
 class Line {
-    constructor(contents, indent) {
-        // Parse a string into a line: This means stripping (XX: and - XX; then extracting the comment if there is one)
-        var data = extractComment(stripLineDecorations(this.contents));
+    constructor(text, indent) {
+        var data = Line.extractComment(Line.stripLineDecorations(text));
         this.text = data.text;
-        this.comment = data.comment
+        this.comment = data.comment;
         this.indent = indent;
     }
 
@@ -63,9 +62,16 @@ class Line {
     static stripLineDecorations(text) {
         var s = text.trim();
         if (s === '-') return '';
-        if (s.slice(0, 1) === '-') s = s.slice(1).trim();
+        if (s.slice(0, 2) === '- ') s = s.slice(2).trim();
         if (s.slice(-1) === ':') s = s.slice(0, -1).trim();
         return s;
+    }
+
+    static commentHtml(comment) {
+        return comment ? ' <i style="color:gray">(' + escapeHtml(comment) + ')</i>' : '';
+    }
+    static normalizeTier(s) {
+        return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
     }
 
     isSpellCategory() {
@@ -73,85 +79,31 @@ class Line {
     }
 
     static asSpellCategory(text) {
-        var norm_text = text.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+        var norm_text = Line.normalizeTier(text);
         var m = /^([^:]+?)(?:\s*:\s*(\d+))?$/.exec(norm_text);
         if (!m) return null;
-        var idx = SPELL_TIERS.map(normalizeTier).indexOf(normalizeTier(m[1]));
+        var idx = SPELL_TIERS.map(Line.normalizeTier).indexOf(m[1]);
         if (idx === -1) return null;
         return { label: SPELL_TIERS[idx], number: m[2] };
     }
 
-    static parseSpellCategory(text) {
-        var m = Line.asSpellCategory(text);
+    spellCategoryHtml() {
+        var m = Line.asSpellCategory(this.text);
         var tierIdx = SPELL_TIERS.indexOf(m.label);
-        var headerHtml = '<b class="' + SPELL_TIER_CLASS[tierIdx] + '">' + escapeHtml(m.label) + '</b>' +
-            (this.match.number ? ' <i style="color:gray">' + escapeHtml(m.number) + '</i>' : '') +
-            commentHtml(this.comment);
-        var html = '<' + openTag + '>' + headerHtml + (this.top ? '</' + openTag + '>' : '');
-        if (this.contents.length) {
-            html += '<ul>' + this.contents.map(function (c) { return c.to_html(); }).join('') + '</ul>';
-        }
-        if (!this.top) html += '</li>';
-        return html;
+        return '<b class="' + SPELL_TIER_CLASS[tierIdx] + '">' + escapeHtml(m.label) + '</b>' +
+            (m.number ? ' <i style="color:gray">' + escapeHtml(m.number) + '</i>' : '');
     }
 
-    to_html(top_level, parse_as_spell_category, parse_as_spell) {
+    to_html(top_level, parse_as_spell, parse_as_spell_category) {
         var tag = top_level ? 'h3' : 'li';
-        var content = parse_as_spell ? parseSpellName(this.text) : (parse_as_spell_category ? parseSpellCategory(this.text) : escapeHtml(this.text));
-        return '<' + tag + '>' + content + commentHtml(this.comment) + '</' + tag + '>';
-    }
-
-    static commentHtml(comment) {
-        return comment ? ' <i style="color:gray">(' + escapeHtml(comment) + ')</i>' : '';
+        var content = parse_as_spell ? parseSpellName(this.text) : (parse_as_spell_category ? this.spellCategoryHtml() : escapeHtml(this.text));
+        return '<' + tag + '>' + content + Line.commentHtml(this.comment) + '</' + tag + '>';
     }
 }
-class IndentedBlock {
-    constructor(lines) {
-        var indent = lines[0].indent;
-        for (var i = 0; i < lines.length; i++) {
-            indent = Math.min(indent, lines[i].indent);
-        }
-        for (var i = 0; i < lines.length; i++) {
-            lines[i].indent -= indent;
-        }
-        this.lines = combineSpellLists(combineIndentedBlocksToLists(mergeIndentedBlocks(lines)));
-        this.indent = indent;
-    }
 
-    //Merge runs of indented lines into IndentedBlock tokens, so that the next stage can parse them as a unit instead of line-by-line.
-    static mergeIndentedBlocks(tokens) {
-        return createGroupsBy(tokens, function (t) { return t instanceof RawLine && t.indent > 0; }, function (group) { return new IndentedBlock(group); });
-    }
-    static combineIndentedBlocksToLists(tokens) {
-        var result = [];
-
-        for (var i = 0; i < tokens.length; i++) {
-            var t1 = tokens[i];
-            var t2 = tokens[i + 1] ?? null;
-
-            if (t2 instanceof IndentedBlock) {
-                if (t1 instanceof RawLine) {
-                    result.push(new List(t1.parseRawLine(), t2.lines));
-                } else {
-                    result.push(new Error("Odsazený seznam bez nadpisu."));
-                }
-                i++;
-            }
-            else {
-                result.push(t);
-            }
-        }
-        return result;
-    }
-    static combineSpellLists(tokens) {
-        return createGroupsBy(tokens, function (t) { return t instanceof List && t.isSpellList(); }, function (group) { return new CharacterSpells(group); });
-    }
-
-    to_html(is_spell_list) {
-        return '<ul>' + this.lines.map(function (c) { return c.to_html(false, is_spell_list); }).join('') + '</ul>';
-    }
-}
-class Error {
+// ParseError: a malformed piece of input (e.g. an indented block with no
+// header line above it) rendered inline instead of aborting the whole page.
+class ParseError {
     constructor(message) {
         this.message = message;
     }
@@ -160,91 +112,94 @@ class Error {
     }
 }
 
-
-
-
-
 // List: a header line followed by nested content, rendered as one unit
 // (top level: <h3>header</h3><ul>...</ul>, nested: <li>header<ul>...</ul></li>).
 class List {
-    constructor(header, contents) {
+    constructor(header, block) {
         this.header = header;
-        this.block = new IndentedBlock(contents);
+        this.block = block;
+        if (this.isSpellList()) {
+            this.block.lines.forEach(function (l) { l.isSpell = true; });
+        }
     }
     isSpellList() {
         return this.header.isSpellCategory();
     }
     to_html(top_level) {
-        return this.header.to_html(top_level, false) + this.block.to_html(this.isSpellList());
+        var tag = top_level ? 'h3' : 'li';
+        var is_spell_list = this.isSpellList();
+        var headerContent = is_spell_list ? this.header.spellCategoryHtml() : escapeHtml(this.header.text);
+        var html = '<' + tag + '>' + headerContent + Line.commentHtml(this.header.comment) + (top_level ? '</' + tag + '>' : '');
+        if (this.block.lines.length) {
+            html += '<ul>' + this.block.lines.map(function (c) {
+                console.log('Rendering child: ', c);
+                if (c instanceof IndentedBlock) {
+                    console.log('IndentedBlock child: ', c);
+                }
+                return c.to_html(false, is_spell_list, false);
+            }).join('') + '</ul>';
+        }
+        if (!top_level) html += '</li>';
+        return html;
     }
 }
 
-
-// CharacterSpells: groups consecutive top-level SpellLists that appear in ascending
-// tier order (základní -> pokročilá -> mistrovská -> velmistrovská) into one <ul>,
-// each tier rendered as a nested <li>.
+// CharacterSpells: groups consecutive SpellLists (at any nesting depth) into
+// one <ul class="spell-tier-list">, each tier rendered as a nested <li>.
 class CharacterSpells {
-    constructor(spellLists) {
-        this.contents = spellLists.map(function (sl) { sl.top = false; return sl; });
+    constructor(lists) {
+        this.contents = lists;
     }
-    to_html(top_level) {
-        return '<ul class="spell-tier-list">' + this.contents.map(function (c) { return c.to_html(top_level); }).join('') + '</ul>';
+    to_html() {
+        return '<ul class="spell-tier-list">' + this.contents.map(function (c) { return c.to_html(false); }).join('') + '</ul>';
     }
 }
 
+// IndentedBlock: turns a flat run of Line/LineBreak tokens (all sharing a
+// common indent level) into the structured nodes above.
+class IndentedBlock {
+    constructor(tokens) {
+        var rawIndents = tokens.filter(function (t) { return t instanceof Line; }).map(function (t) { return t.indent; });
+        var indent = rawIndents.length ? Math.min.apply(null, rawIndents) : 0;
+        tokens.forEach(function (t) { if (t instanceof Line) t.indent -= indent; });
+        this.lines = IndentedBlock.combineSpellLists(IndentedBlock.processEmptySpellCategories(IndentedBlock.combineIndentedBlocksToLists(IndentedBlock.mergeIndentedBlocks(tokens))));
+    }
 
+    // Merge runs of indented lines into IndentedBlock tokens, so that the next stage can parse them as a unit instead of line-by-line.
+    static mergeIndentedBlocks(tokens) {
+        return createGroupsBy(tokens, function (t) { return t instanceof Line && t.indent > 0; }, function (group) { return new IndentedBlock(group); });
+    }
 
+    static combineIndentedBlocksToLists(tokens) {
+        var result = [];
+        for (var i = 0; i < tokens.length; i++) {
+            var t1 = tokens[i];
+            var t2 = tokens[i + 1] ?? null;
 
+            if (t2 instanceof IndentedBlock) {
+                if (t1 instanceof Line) {
+                    result.push(new List(t1, t2));
+                } else {
+                    result.push(new ParseError('Odsazený seznam bez nadpisu.'));
+                }
+                i++;
+            } else {
+                result.push(t1);
+            }
+        }
+        return result;
+    }
 
+    static processEmptySpellCategories(tokens) {
+        return tokens.map(function (t) {
+            if (t instanceof Line && t.isSpellCategory()) {
+                return new List(t, new IndentedBlock([]));
+            }
+            return t;
+        });
+    }
 
-
-// tokens.forEach(function (t) {
-//     // Indent = 0 if LineBreak, else line indent
-//     var current_indent = t instanceof RawLine ? t.indent : 0;
-//     // A list has ended
-//     if (current_indent < last_indent) {
-//         result.push(List(last_line, buildTree(indented_lines)));
-//         indented_lines = [];
-//         last_indent = current_indent;
-//         last_line = t;
-//     }
-
-
-
-
-//     var parsed = extractComment(stripLineDecorations(t.contents));
-//     if (t.indent === 0) {
-//         stack = [];
-//         var node = makeListNode(parsed.text, [], true, parsed.comment);
-//         result.push(node);
-//         stack.push(node);
-//         return;
-//     }
-//     var level = t.indent;
-//     if (level > stack.length + 1) level = stack.length + 1;
-//     var target;
-//     if (level <= stack.length) {
-//         stack.length = level;
-//         target = stack[level - 1];
-//     } else {
-//         var parent = stack.length ? stack[stack.length - 1] : null;
-//         var lastChild = parent && parent.contents.length ? parent.contents[parent.contents.length - 1] : null;
-//         if (!lastChild) {
-//             // ponytail: no enclosing top-level line to nest under (e.g. text starts indented) -
-//             // fall back to a fresh top-level entry instead of crashing.
-//             lastChild = makeListNode(parsed.text, [], true, parsed.comment);
-//             result.push(lastChild);
-//             stack = [lastChild];
-//             return;
-//         }
-//         stack.push(lastChild);
-//         target = lastChild;
-//     }
-//     var newNode = makeListNode(parsed.text, [], false, parsed.comment);
-//     if (target instanceof SpellList) newNode.isSpell = true;
-//     target.contents.push(newNode);
-// });
-// return result.map(simplify);
-//}
-
-
+    static combineSpellLists(tokens) {
+        return createGroupsBy(tokens, function (t) { return t instanceof List && t.isSpellList(); }, function (group) { return new CharacterSpells(group); });
+    }
+}

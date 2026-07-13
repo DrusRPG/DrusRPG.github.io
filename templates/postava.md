@@ -1,5 +1,6 @@
 ---
 title: "Postava"
+navGroup: "Postava"
 ---
 
 <div class="character-input">

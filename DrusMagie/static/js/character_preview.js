@@ -19,7 +19,7 @@ function characterFileToTokens(text) {
             }
             return;
         }
-        var s = raw.replace('\t', '    ');
+        var s = raw.replace(/\t/g, '    ');
         var indent = 0;
         for (var i = 0; i < s.length; i++) {
             if (s[i] === ' ') {
@@ -31,7 +31,7 @@ function characterFileToTokens(text) {
         indent = Math.ceil(indent / 4);
 
         if (blanks >= 2) tokens.push(new LineBreak());
-        tokens.push(new RawLine(s, indent));
+        tokens.push(new Line(s, indent));
         blanks = 0;
     });
     return tokens;
@@ -57,17 +57,18 @@ function main() {
             return;
         }
 
-        var name = tokens[0];
+        var name = tokens[0].text.trim();
         tokens.splice(0, 1);
         document.title = name;
         var titleEl = document.querySelector('.post-title');
         if (titleEl) titleEl.textContent = name;
 
-        var tree = new List(null, tokens);
+        var block = new IndentedBlock(tokens);
         // 6) Render the whole hierarchy to HTML.
-        el.innerHTML = tree.to_html();
+        el.innerHTML = block.lines.map(function (t) { return t.to_html(true); }).join('');
     } catch (e) {
-        el.textContent = 'Neplatný odkaz na postavu.';
+        el.textContent = 'Neplatný odkaz na postavu. ' + e.toString();
+        throw e;
     }
 }
 main();
