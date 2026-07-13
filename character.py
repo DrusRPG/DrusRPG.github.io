@@ -62,14 +62,17 @@ function parseSpellName(spell_name) {{
 
 def main():
     index = build_spell_index()
-    out_path = pathlib.Path("DrusMagie/static/js")
-    out_path.mkdir(parents=True, exist_ok=True)
-    (out_path / "character_spells.js").write_text(generate_js(index))
 
     content_path = pathlib.Path("DrusMagie/content/magic")
     content_path.mkdir(parents=True, exist_ok=True)
-    for name in ("postava.md", "postava_nahled.md"):
-        shutil.copyfile(f"templates/{name}", content_path / name)
+    shutil.copyfile("templates/postava.md", content_path / "postava.md")
+
+    nahled = (
+        pathlib.Path("templates/postava_nahled.md")
+        .read_text()
+        .replace("$SPELL_LOOKUP_JS", generate_js(index))
+    )
+    (content_path / "postava_nahled.md").write_text(nahled)
 
 
 if __name__ == "__main__":
