@@ -28,7 +28,7 @@ function characterFileToTokens(text) {
                 break;
             }
         }
-        indent = Math.ceil(indent / 4);
+        indent = Math.floor(indent / 4);
 
         if (blanks >= 2) tokens.push(new LineBreak());
         tokens.push(new Line(s, indent));

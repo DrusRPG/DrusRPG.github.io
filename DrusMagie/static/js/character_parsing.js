@@ -87,18 +87,28 @@ class Line {
         return { label: SPELL_TIERS[idx], number: m[2] };
     }
 
-    spellCategoryHtml() {
+    spellCategoryHtml(count) {
         var m = Line.asSpellCategory(this.text);
         var tierIdx = SPELL_TIERS.indexOf(m.label);
+        var number = m.number ?? count.toString();
         return '<b class="' + SPELL_TIER_CLASS[tierIdx] + '">' + escapeHtml(m.label) + '</b>' +
-            (m.number ? ' <i style="color:gray">' + escapeHtml(m.number) + '</i>' : '');
+            (number ? ' <i style="color:gray">' + escapeHtml(number) + '</i>' : '');
     }
 
-    to_html(top_level, parse_as_spell, parse_as_spell_category) {
+    to_html_default(top_level) {
         var tag = top_level ? 'h3' : 'li';
-        var content = parse_as_spell ? parseSpellName(this.text) : (parse_as_spell_category ? this.spellCategoryHtml() : escapeHtml(this.text));
-        return '<' + tag + '>' + content + Line.commentHtml(this.comment) + '</' + tag + '>';
+        return '<' + tag + '>' + escapeHtml(this.text) + Line.commentHtml(this.comment) + '</' + tag + '>';
     }
+
+    to_html_spell() {
+        return '<li>' + parseSpellName(this.text) + Line.commentHtml(this.comment) + '</li>';
+    }
+
+    to_html_spell_category(spell_count) {
+        return this.spellCategoryHtml(spell_count);
+    }
+
+
 }
 
 // ParseError: a malformed piece of input (e.g. an indented block with no
@@ -128,17 +138,9 @@ class List {
     to_html(top_level) {
         var tag = top_level ? 'h3' : 'li';
         var is_spell_list = this.isSpellList();
-        var headerContent = is_spell_list ? this.header.spellCategoryHtml() : escapeHtml(this.header.text);
+        var headerContent = is_spell_list ? this.header.to_html_spell_category(this.block.line_count()) : escapeHtml(this.header.text);
         var html = '<' + tag + '>' + headerContent + Line.commentHtml(this.header.comment) + (top_level ? '</' + tag + '>' : '');
-        if (this.block.lines.length) {
-            html += '<ul>' + this.block.lines.map(function (c) {
-                console.log('Rendering child: ', c);
-                if (c instanceof IndentedBlock) {
-                    console.log('IndentedBlock child: ', c);
-                }
-                return c.to_html(false, is_spell_list, false);
-            }).join('') + '</ul>';
-        }
+        html += is_spell_list ? this.block.to_html_spell_list() : this.block.to_html(false);
         if (!top_level) html += '</li>';
         return html;
     }
@@ -201,5 +203,28 @@ class IndentedBlock {
 
     static combineSpellLists(tokens) {
         return createGroupsBy(tokens, function (t) { return t instanceof List && t.isSpellList(); }, function (group) { return new CharacterSpells(group); });
+    }
+
+    to_html(top_level, is_spell_list = false) {
+        if (this.lines.length) {
+            return '<ul>' + this.lines.map(function (c) {
+                if (c instanceof Line) {
+                    if (is_spell_list) return c.to_html_spell();
+                    return c.to_html_default(false);
+                } else {
+                    // Else: List, ParseError, CharacterSpells or IndentedBlock. All just have a to_html() method, so we can just call it recursively.
+                    return c.to_html(false);
+                }
+            }).join('') + '</ul>';
+        }
+        return "";
+    }
+
+    to_html_spell_list() {
+        return this.to_html(false, true);
+    }
+
+    line_count() {
+        return this.lines.length;
     }
 }
