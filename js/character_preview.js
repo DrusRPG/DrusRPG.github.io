@@ -58,7 +58,7 @@ async function main() {
             editLink.className = 'edit-character-link';
             editLink.title = 'Upravit postavu';
             var editIcon = document.createElement('img');
-            editIcon.src = '/icons/edit_character.png';
+            editIcon.src = '/icons/character_edit.png';
             editIcon.alt = 'Upravit';
             editIcon.className = 'edit-character-icon';
             editLink.appendChild(editIcon);

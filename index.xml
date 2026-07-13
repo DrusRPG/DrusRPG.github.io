@@ -4116,6 +4116,7 @@ function parseSpellName(spell_name) {
       &lt;option value=&#34;&#34;&gt;(aktuální vstup)&lt;/option&gt;
     &lt;/select&gt;
     &lt;select id=&#34;version-select&#34; style=&#34;display:none;&#34;&gt;&lt;/select&gt;
+    &lt;button id=&#34;delete-character-btn&#34; class=&#34;icon-btn&#34; title=&#34;Smazat postavu&#34; style=&#34;display:none;&#34;&gt;&lt;img src=&#34;https://drusrpg.github.io/icons/character_delete.png&#34; alt=&#34;Smazat&#34;&gt;&lt;/button&gt;
   &lt;/div&gt;
   &lt;textarea id=&#34;character-description&#34; rows=&#34;16&#34; placeholder=&#34;Popis postavy...&#34;&gt;&lt;/textarea&gt;
   &lt;button id=&#34;preview-character-btn&#34;&gt;Zobrazit náhled&lt;/button&gt;

@@ -8,6 +8,7 @@ if (text) {
 var characterHistory = getCharacterHistory();
 var characterSelect = document.getElementById('character-select');
 var versionSelect = document.getElementById('version-select');
+var deleteBtn = document.getElementById('delete-character-btn');
 
 function firstLineName(text) {
     return (text.split('\n')[0] || '').trim();
@@ -38,8 +39,10 @@ characterSelect.addEventListener('change', function () {
     var name = characterSelect.value;
     if (!name) {
         versionSelect.style.display = 'none';
+        deleteBtn.style.display = 'none';
         return;
     }
+    deleteBtn.style.display = '';
     populateVersions(name);
     if (versionSelect.options.length) {
         versionSelect.selectedIndex = versionSelect.options.length - 1;
@@ -115,6 +118,19 @@ document.getElementById('character-description').addEventListener('keydown', fun
         this.selectionEnd = end + lines.length;
     }
 });
+deleteBtn.addEventListener('click', function () {
+    var name = characterSelect.value;
+    if (!name) return;
+    if (!window.confirm('Tímto smažete všechny verze této postavy. Opravdu chcete pokračovat?')) return;
+    deleteCharacter(name);
+    characterHistory = getCharacterHistory();
+    characterSelect.querySelector('option[value="' + CSS.escape(name) + '"]').remove();
+    characterSelect.value = '';
+    versionSelect.innerHTML = '';
+    versionSelect.style.display = 'none';
+    deleteBtn.style.display = 'none';
+});
+
 document.getElementById('preview-character-btn').addEventListener('click', async function () {
     var text = document.getElementById('character-description').value;
     var b64url = await base64UrlEncodeCompressed(text);
