@@ -129,6 +129,7 @@ deleteBtn.addEventListener('click', function () {
     versionSelect.innerHTML = '';
     versionSelect.style.display = 'none';
     deleteBtn.style.display = 'none';
+    document.getElementById('character-description').value = '';
 });
 
 document.getElementById('preview-character-btn').addEventListener('click', async function () {
