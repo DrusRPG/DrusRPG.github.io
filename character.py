@@ -28,7 +28,9 @@ def build_spell_index() -> dict[str, list[dict]]:
                 name_key = normalize(spell.name)
                 # spell_to_markdown() prefixes "* " for the bulleted list rendering;
                 # strip it since here the HTML is inlined inside character text.
-                html = magic.spell_to_markdown(spell)[2:]
+                # Strip the secret_spell class: this JS is public and must not
+                # reveal which spells came from the secret lists.
+                html = magic.spell_to_markdown(spell)[2:].replace("secret_spell", "")
                 index.setdefault(name_key, []).append(
                     {"tags": [normalize(t) for t in spell.tags], "html": html}
                 )
@@ -42,7 +44,7 @@ var SPELL_LOOKUP = {lookup_json};
 function normalize(s) {{
     return s.normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase().trim();
 }}
-function parse_spell_name(spell_name) {{
+function parseSpellName(spell_name) {{
     var parts = spell_name.split('--').map(normalize);
     var name = parts[0];
     var tags = parts.slice(1);
