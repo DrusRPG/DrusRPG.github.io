@@ -1,12 +1,3 @@
-// 1) Decode the base64url-encoded character text from the URL param.
-function decodeCharacterFile(b64url) {
-    var b64 = b64url.replace(/-/g, '+').replace(/_/g, '/');
-    while (b64.length % 4) b64 += '=';
-    var binary = atob(b64);
-    var bytes = Uint8Array.from(binary, function (c) { return c.charCodeAt(0); });
-    return new TextDecoder().decode(bytes);
-}
-
 // 2) Basic lexing: flat token stream of raw lines (with indent) and blank-gap
 // markers. No structure, no comment/decoration parsing yet.
 function characterFileToTokens(text) {
@@ -47,7 +38,7 @@ function main() {
         return;
     }
     try {
-        var text = decodeCharacterFile(b64url);
+        var text = base64UrlDecode(b64url);
         // 2) Basic lexing: flat token stream of raw lines (with indent) and blank-gap
         var tokens = characterFileToTokens(text);
 
@@ -61,7 +52,19 @@ function main() {
         tokens.splice(0, 1);
         document.title = name;
         var titleEl = document.querySelector('.post-title');
-        if (titleEl) titleEl.textContent = name;
+        if (titleEl) {
+            titleEl.textContent = name;
+            var editLink = document.createElement('a');
+            editLink.href = '/magic/postava/?c=' + encodeURIComponent(b64url);
+            editLink.className = 'edit-character-link';
+            editLink.title = 'Upravit postavu';
+            var editIcon = document.createElement('img');
+            editIcon.src = '/icons/edit_character.png';
+            editIcon.alt = 'Upravit';
+            editIcon.className = 'edit-character-icon';
+            editLink.appendChild(editIcon);
+            titleEl.appendChild(editLink);
+        }
 
         var block = new IndentedBlock(tokens);
         // 6) Render the whole hierarchy to HTML.

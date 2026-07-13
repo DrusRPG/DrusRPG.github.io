@@ -8,7 +8,12 @@ navGroup: "Postava"
   <button id="preview-character-btn">Zobrazit náhled</button>
 </div>
 
+<script src="/js/common.js"></script>
 <script>
+var initialParam = getQueryParam('c');
+if (initialParam) {
+    document.getElementById('character-description').value = base64UrlDecode(initialParam);
+}
 document.getElementById('character-description').addEventListener('keydown', function (e) {
     if (e.key === 'Tab') {
         e.preventDefault();
@@ -19,10 +24,7 @@ document.getElementById('character-description').addEventListener('keydown', fun
 });
 document.getElementById('preview-character-btn').addEventListener('click', function () {
     var text = document.getElementById('character-description').value;
-    var bytes = new TextEncoder().encode(text);
-    var binary = '';
-    bytes.forEach(function (b) { binary += String.fromCharCode(b); });
-    var b64url = btoa(binary).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+    var b64url = base64UrlEncode(text);
     window.location.href = '/magic/postava_nahled/?c=' + encodeURIComponent(b64url);
 });
 </script>

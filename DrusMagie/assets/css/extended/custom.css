@@ -1,3 +1,19 @@
+.edit-character-link {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.edit-character-icon {
+  height: 1em;
+  vertical-align: middle;
+  filter: invert(35%);
+}
+
+.dark .edit-character-icon {
+  filter: invert(65%);
+}
+
 .icon-tooltip {
   position: relative;
   display: inline-block;
@@ -596,4 +612,3 @@ li.filter-hidden {
   border-top: 1px solid var(--border);
   margin: 2rem 0;
 }
-
