@@ -50,6 +50,7 @@ function main() {
 
         var name = tokens[0].text.trim();
         tokens.splice(0, 1);
+        saveCharacterVersion(name, b64url);
         document.title = name;
         var titleEl = document.querySelector('.post-title');
         if (titleEl) {

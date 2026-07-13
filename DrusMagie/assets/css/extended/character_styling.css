@@ -31,6 +31,27 @@
   background: #777;
 }
 
+.character-history-controls {
+  display: flex;
+  gap: 0.8em;
+}
+
+.character-history-controls select {
+  flex: 1;
+  background: #555;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1.2em;
+  border-radius: var(--radius);
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.character-history-controls select:hover {
+  background: #777;
+}
+
 .character-gap {
   height: 1em;
 }

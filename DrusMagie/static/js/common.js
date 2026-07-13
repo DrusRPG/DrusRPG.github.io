@@ -19,3 +19,20 @@ function base64UrlDecode(b64url) {
     var bytes = Uint8Array.from(binary, function (c) { return c.charCodeAt(0); });
     return new TextDecoder().decode(bytes);
 }
+
+// Local (per-browser) version history of characters: { name: [b64url, ...] }
+function getCharacterHistory() {
+    try {
+        return JSON.parse(localStorage.getItem('characterHistory') || '{}');
+    } catch (e) {
+        return {};
+    }
+}
+
+function saveCharacterVersion(name, b64url) {
+    if (!name) return;
+    var history = getCharacterHistory();
+    if (!history[name]) history[name] = [];
+    history[name].push(b64url);
+    localStorage.setItem('characterHistory', JSON.stringify(history));
+}
