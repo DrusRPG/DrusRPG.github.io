@@ -52,6 +52,7 @@ class TooltipTemplate:
         "teleportace": "🌀",
         "zestárnutí": "👴",
         "omládnutí": "👶",
+        "telekineze": "🎈",
     }
 
 
@@ -218,7 +219,14 @@ school_settings = [
         "mysl",
         "neural.jpg",
         "ancient_times6.jpeg",
-        ["mentální magie", "hypnóza", "sugesce", "iluze", "mentální obrana"],
+        [
+            "mentální magie",
+            "hypnóza",
+            "sugesce",
+            "iluze",
+            "mentální obrana",
+            "telekineze",
+        ],
     ),
 ]
 

@@ -36,10 +36,10 @@ základní:
 	hypnóza - spánek -- hypnóza
 		- Sesílatel udržující s cílem nepřerušený oční kontakt může ovlivnit stav vědomí cíle a využít toho k jeho uspání. 
 		- Rychlost zhypnotizování a délka efektu závisí na schopnostech sesílatele.
-	telekineze - předmět -- dohled -- soustředění
+	telekineze - předmět -- dohled -- soustředění -- telekineze
 		- Umožňuje sesílateli pomalu a plynule pohybovat cílovým předmětem. 
 		- Pohybování většími objekty je energeticky náročnější. Vyžaduje sesílatelovu plnou pozornost.
-	hromadná telekineze - předměty -- dohled -- soustředění
+	hromadná telekineze - předměty -- dohled -- soustředění -- telekineze
 		- Sesílatelova ***Telekineze - předmět*** může pomalu a plynule hýbat několika předměty najednou. 
 		- Počet předmětů a celková váha, se kterými dokáže sesílatel pohybovat, je závislá na schopnostech sesílatele. Vyžaduje sesílatelovu plnou pozornost.
 	mentální obrana - sugesce a iluze -- dohled -- mentální obrana
@@ -94,14 +94,14 @@ pokročilá:
 		- Sesílatel udržující s cílem nepřerušený oční kontakt může ovlivnit stav vědomí cíle a využít toho k odstranění nějaké vzpomínky cíle. 
 		- Rychlost zhypnotizování a rozsah efektu závisí na schopnostech sesílatele. 
 		- Odstranění některých vzpomínek může mít obrovský vliv na charakter cíle.
-	telekineze - organismus -- dohled -- soustředění
+	telekineze - organismus -- dohled -- soustředění -- telekineze
 		- Umožňuje sesílateli pomalu a plynule pohybovat cílovým organismem. 
 		- Sesílatel se na cíl musí plně soustředit.
-	hromadná telekineze - organismy -- dohled
+	hromadná telekineze - organismy -- dohled -- telekineze
 		- Sesílatelova ***Telekineze - organismus*** může pomalu a plynule hýbat několika organismy najednou. 
 		- Počet organismů a celková váha, se kterými dokáže sesílatel pohybovat, je závislá na schopnostech sesílatele. 
 		- Vyžaduje sesílatelovu plnou pozornost.
-	pokročilá telekineze - předmět -- dohled
+	pokročilá telekineze - předmět -- dohled -- telekineze
 		- Sesílatelova ***Telekineze - předmět*** či ***Hromadná telekineze - předměty*** je natolik pokročilá, že umožňuje rychlý a neplynulý pohyb předmětem, a nevyžaduje sesílatelovu plnou pozornost.
 	mentální obrana - mentální magie a hypnózy -- dohled -- mentální obrana
 		- Sesílatel sobě nebo cíli obrní smysly proti kouzlům hypnózy a manipulace s myšlenkami.
@@ -132,9 +132,9 @@ mistrovská:
 		- Pokud nejsou tyto nové myšlenky či názory výrazně v rozporu s přesvědčením nebo přirozeností cíle, pak cíli zůstává navždy. 
 		- Rychlost zhypnotizování a délka efektu závisí na schopnostech sesílatele. 
 		- Může mít obrovský vliv na charakter cíle.
-	pokročilá telekineze - organismus -- dohled
+	pokročilá telekineze - organismus -- dohled -- telekineze
 		- Sesílatelova ***Telekineze - organismus*** či ***Hromadná telekineze - organismy*** je natolik pokročilá, že umožňuje rychlý a neplynulý pohyb organismem, a nevyžaduje sesílatelovu plnou pozornost.
-	telekineze - konstrukt -- dohled -- soustředění
+	telekineze - konstrukt -- dohled -- soustředění -- telekineze
 		- Umožňuje sesílateli telekineticky pohybovat jednotlivými částmi konstruktu tak, že sesílatel imituje přirozený pohyb všech částí. 
 		- Vyžaduje sesílatelovu plnou pozornost.
 	projekce mysli mimo tělo -- sesílatel -- dohled

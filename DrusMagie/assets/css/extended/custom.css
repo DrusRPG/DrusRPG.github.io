@@ -574,7 +574,7 @@ li.filter-hidden {
 }
 
 .filter-btn {
-  background: #555;
+  background: #333;
   padding: 0.4em 0.8em;
   font-size: 1.1em;
   line-height: 1;
@@ -583,11 +583,11 @@ li.filter-hidden {
 }
 
 .filter-btn.active {
-  background: #888;
+  background: #555;
 }
 
 .filter-btn:hover {
-  background: #777;
+  background: #666;
 }
 
 .filter-btn.active:hover {
