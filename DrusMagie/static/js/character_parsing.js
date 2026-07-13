@@ -207,7 +207,7 @@ class IndentedBlock {
 
     to_html(top_level, is_spell_list = false) {
         if (this.lines.length) {
-            return '<ul>' + this.lines.map(function (c) {
+            return (top_level ? '' : '<ul>') + this.lines.map(function (c) {
                 if (c instanceof Line) {
                     if (is_spell_list) return c.to_html_spell();
                     return c.to_html_default(top_level);
@@ -215,7 +215,7 @@ class IndentedBlock {
                     // Else: List, ParseError, CharacterSpells or IndentedBlock. All just have a to_html() method, so we can just call it recursively.
                     return c.to_html(top_level);
                 }
-            }).join('') + '</ul>';
+            }).join('') + (top_level ? '' : '</ul>');
         }
         return "";
     }
