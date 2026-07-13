@@ -29,16 +29,14 @@ function characterFileToTokens(text) {
 }
 
 
-function main() {
-    var params = new URLSearchParams(window.location.search);
-    var b64url = params.get('c');
+async function main() {
     var el = document.getElementById('character-text');
-    if (!b64url) {
+    var text = await readCharacterParam();
+    if (!text) {
         el.textContent = 'Žádný popis postavy nebyl zadán.';
         return;
     }
     try {
-        var text = base64UrlDecode(b64url);
         // 2) Basic lexing: flat token stream of raw lines (with indent) and blank-gap
         var tokens = characterFileToTokens(text);
 
@@ -50,13 +48,13 @@ function main() {
 
         var name = tokens[0].text.trim();
         tokens.splice(0, 1);
-        saveCharacterVersion(name, b64url);
+        saveCharacterVersion(name, base64UrlEncode(text));
         document.title = name;
         var titleEl = document.querySelector('.post-title');
         if (titleEl) {
             titleEl.textContent = name;
             var editLink = document.createElement('a');
-            editLink.href = '/magic/postava/?c=' + encodeURIComponent(b64url);
+            editLink.href = '/magic/postava/?cz=' + encodeURIComponent(await base64UrlEncodeCompressed(text));
             editLink.className = 'edit-character-link';
             editLink.title = 'Upravit postavu';
             var editIcon = document.createElement('img');

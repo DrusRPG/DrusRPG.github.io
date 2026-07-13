@@ -1,6 +1,8 @@
-var initialParam = getQueryParam('c');
-if (initialParam) {
-    document.getElementById('character-description').value = base64UrlDecode(initialParam);
+(async function () {
+
+var text = await readCharacterParam();
+if (text) {
+    document.getElementById('character-description').value = text;
 }
 
 var characterHistory = getCharacterHistory();
@@ -77,8 +79,10 @@ document.getElementById('character-description').addEventListener('keydown', fun
         this.selectionStart = this.selectionEnd = start + 1;
     }
 });
-document.getElementById('preview-character-btn').addEventListener('click', function () {
+document.getElementById('preview-character-btn').addEventListener('click', async function () {
     var text = document.getElementById('character-description').value;
-    var b64url = base64UrlEncode(text);
-    window.location.href = '/magic/postava_nahled/?c=' + encodeURIComponent(b64url);
+    var b64url = await base64UrlEncodeCompressed(text);
+    window.location.href = '/magic/postava_nahled/?cz=' + encodeURIComponent(b64url);
 });
+
+})();
