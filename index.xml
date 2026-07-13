@@ -4,11 +4,6 @@
     <title>Drus</title>
     <link>https://drusrpg.github.io/</link>
     <description>Recent content on Drus</description>
-    <image>
-      <title>Drus</title>
-      <url>https://drusrpg.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://drusrpg.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <atom:link href="https://drusrpg.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -546,6 +541,35 @@
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip secret_spell&#34; data-tags=&#34;dohled,soustředění,neživý&#34;&gt;    &lt;span class=&#34;spell_text&#34; tabindex=&#34;0&#34;&gt;        Hromadný Příkaz Neživým    &lt;/span&gt;    &lt;span class=&#34;spell_icons&#34;&gt;        &lt;span class=&#34;icon-tooltip&#34;&gt;    👁️    &lt;span class=&#34;icon-tooltip-text&#34;&gt;        Dohled    &lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;icon-tooltip&#34;&gt;    🧘    &lt;span class=&#34;icon-tooltip-text&#34;&gt;        Soustředění    &lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;icon-tooltip&#34;&gt;    🗿    &lt;span class=&#34;icon-tooltip-text&#34;&gt;        Neživý    &lt;/span&gt;&lt;/span&gt;    &lt;/span&gt;    &lt;span class=&#34;tooltiptext light_glow&#34;&gt;        Sesílatel může po dobu sesílání kouzla rozkazovat všem neživým ve svém okolí a každému dávat příkazy nezávisle. Množství neživých, které může sesílatel ovládat najednou, je silně závislý na schopnostech uživatele, stejně jako náročnost kouzla. Vyžaduje sesílatelovu plnou koncentraci.    &lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span data-html=&#34;true&#34; class=&#34;tooltip secret_spell&#34; data-tags=&#34;dohled&#34;&gt;    &lt;span class=&#34;spell_text&#34; tabindex=&#34;0&#34;&gt;        Ochočení Živého Tvora    &lt;/span&gt;    &lt;span class=&#34;spell_icons&#34;&gt;        &lt;span class=&#34;icon-tooltip&#34;&gt;    👁️    &lt;span class=&#34;icon-tooltip-text&#34;&gt;        Dohled    &lt;/span&gt;&lt;/span&gt;    &lt;/span&gt;    &lt;span class=&#34;tooltiptext neutral_glow&#34;&gt;        Sesílatel se magicky propojí se živými zvířaty v okolí a ochočí si je. Ochočená zvířata budou sesílatele dlouhodobě vnímat pozitivně a snažit se mu vyhovět, ačkoliv špatné zacházení ze strany sesílatele může tento proces rychle zvrátit. Lépe funguje na méně inteligentní zvířata, efekt na vyšší savce je menší, efekt na tvora dostatečně inteligentního, aby byl schopen řeči, je zanedbatelný.    &lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Náhled postavy</title>
+      <link>https://drusrpg.github.io/magic/postava_nahled/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://drusrpg.github.io/magic/postava_nahled/</guid>
+      <description>&lt;div id=&#34;character-text&#34; class=&#34;character-text&#34;&gt;&lt;/div&gt;
+&lt;script src=&#34;https://drusrpg.github.io/js/common.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://drusrpg.github.io/js/character_spells.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://drusrpg.github.io/js/character_parsing.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://drusrpg.github.io/js/character_preview.js&#34;&gt;&lt;/script&gt;</description>
+    </item>
+    <item>
+      <title>Postava</title>
+      <link>https://drusrpg.github.io/magic/postava/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://drusrpg.github.io/magic/postava/</guid>
+      <description>&lt;div class=&#34;character-input&#34;&gt;
+  &lt;div class=&#34;character-history-controls&#34;&gt;
+    &lt;select id=&#34;character-select&#34;&gt;
+      &lt;option value=&#34;&#34;&gt;(aktuální vstup)&lt;/option&gt;
+    &lt;/select&gt;
+    &lt;select id=&#34;version-select&#34; style=&#34;display:none;&#34;&gt;&lt;/select&gt;
+  &lt;/div&gt;
+  &lt;textarea id=&#34;character-description&#34; rows=&#34;16&#34; placeholder=&#34;Popis postavy...&#34;&gt;&lt;/textarea&gt;
+  &lt;button id=&#34;preview-character-btn&#34;&gt;Zobrazit náhled&lt;/button&gt;
+&lt;/div&gt;
+&lt;script src=&#34;https://drusrpg.github.io/js/common.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://drusrpg.github.io/js/character.js&#34;&gt;&lt;/script&gt;</description>
     </item>
   </channel>
 </rss>

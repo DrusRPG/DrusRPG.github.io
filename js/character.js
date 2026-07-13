@@ -1,0 +1,84 @@
+var initialParam = getQueryParam('c');
+if (initialParam) {
+    document.getElementById('character-description').value = base64UrlDecode(initialParam);
+}
+
+var characterHistory = getCharacterHistory();
+var characterSelect = document.getElementById('character-select');
+var versionSelect = document.getElementById('version-select');
+
+function firstLineName(text) {
+    return (text.split('\n')[0] || '').trim();
+}
+
+function addCharacterOption(name) {
+    var opt = document.createElement('option');
+    opt.value = name;
+    opt.textContent = name;
+    characterSelect.appendChild(opt);
+}
+
+Object.keys(characterHistory).sort().forEach(addCharacterOption);
+
+function populateVersions(name) {
+    versionSelect.innerHTML = '';
+    var versions = characterHistory[name] || [];
+    versions.forEach(function (b64url, i) {
+        var opt = document.createElement('option');
+        opt.value = b64url;
+        opt.textContent = 'v' + (i + 1);
+        versionSelect.appendChild(opt);
+    });
+    versionSelect.style.display = versions.length ? '' : 'none';
+}
+
+characterSelect.addEventListener('change', function () {
+    var name = characterSelect.value;
+    if (!name) {
+        versionSelect.style.display = 'none';
+        return;
+    }
+    populateVersions(name);
+    if (versionSelect.options.length) {
+        versionSelect.selectedIndex = versionSelect.options.length - 1;
+        versionSelect.dispatchEvent(new Event('change'));
+    }
+});
+
+versionSelect.addEventListener('change', function () {
+    var textarea = document.getElementById('character-description');
+    var currentText = textarea.value;
+    var currentName = firstLineName(currentText);
+    var selectedName = characterSelect.value;
+    if (currentText && currentName && currentName !== selectedName) {
+        saveCharacterVersion(currentName, base64UrlEncode(currentText));
+        characterHistory = getCharacterHistory();
+        if (!Array.from(characterSelect.options).some(function (o) { return o.value === currentName; })) {
+            addCharacterOption(currentName);
+        }
+    }
+    textarea.value = base64UrlDecode(versionSelect.value);
+});
+
+var descriptionTextarea = document.getElementById('character-description');
+function fitTextareaToViewport() {
+    descriptionTextarea.style.height = 'auto';
+    var maxHeight = window.innerHeight - descriptionTextarea.getBoundingClientRect().top - 250;
+    descriptionTextarea.style.height = Math.max(200, maxHeight) + 'px';
+}
+window.addEventListener('resize', fitTextareaToViewport);
+fitTextareaToViewport();
+
+document.getElementById('character-description').addEventListener('keydown', function (e) {
+    if (e.key === 'Tab') {
+        e.preventDefault();
+        var start = this.selectionStart, end = this.selectionEnd;
+        this.value = this.value.slice(0, start) + '\t' + this.value.slice(end);
+        this.selectionStart = this.selectionEnd = start + 1;
+    }
+});
+document.getElementById('preview-character-btn').addEventListener('click', function () {
+    var text = document.getElementById('character-description').value;
+    var b64url = base64UrlEncode(text);
+    window.location.href = '/magic/postava_nahled/?c=' + encodeURIComponent(b64url);
+});
