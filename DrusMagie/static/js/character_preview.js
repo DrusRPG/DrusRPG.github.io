@@ -69,7 +69,7 @@ function main() {
 
         var block = new IndentedBlock(tokens);
         // 6) Render the whole hierarchy to HTML.
-        el.innerHTML = block.lines.map(function (t) { return t.to_html(true); }).join('');
+        el.innerHTML = block.to_html(true);
     } catch (e) {
         el.textContent = 'Neplatný odkaz na postavu. ' + e.toString();
         throw e;
