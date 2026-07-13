@@ -1,0 +1,106 @@
+{{- define "main" }}
+
+{{- if (and site.Params.profileMode.enabled .IsHome) }}
+{{- partial "index_profile.html" . }}
+{{- else }} {{/* if not profileMode */}}
+
+{{- if not .IsHome | and .Title }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+{{- end }}
+
+{{- if .Content }}
+<div class="post-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" }}
+
+{{- $paginator := .Paginate $pages }}
+
+{{- if and site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
+{{- partial "home_info.html" . }}
+{{- end }}
+
+{{- $magiePages := where $paginator.Pages "Params.navGroup" "=" "Magie" }}
+{{- $kontramagiePages := where $paginator.Pages "Params.navGroup" "=" "Kontramágové" }}
+{{- $postavaPages := where $paginator.Pages "Params.navGroup" "=" "Postava" }}
+{{- $otherPages := where $paginator.Pages "Params.navGroup" "not in" (slice "Magie" "Kontramágové" "Postava") }}
+
+{{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
+{{- $groupIndex := 0 }}
+{{- range slice $magiePages $kontramagiePages $postavaPages $otherPages }}
+{{- $groupPages := . }}
+{{- if gt (len $groupPages) 0 }}
+{{- if gt $groupIndex 0 }}
+<hr class="home-group-divider">
+{{- end }}
+{{- range $index, $page := $groupPages }}
+
+{{- $class := "post-entry" }}
+{{- if (and (eq $paginator.PageNumber 1) (eq $groupIndex 0) (eq $index 0) (not $user_preferred)) }}
+{{- $class = "first-entry" }}
+{{- end }}
+
+<article class="{{ $class }}">
+  {{- $isHidden := ($page.Param "cover.hiddenInList") | default ($page.Param "cover.hidden") | default false }}
+  {{- partial "cover.html" (dict "cxt" $page "IsSingle" false "isHidden" $isHidden) }}
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">
+      {{- $page.Title }}
+    </h2>
+  </header>
+  {{- if (ne ($page.Param "hideSummary") true) }}
+  <div class="entry-content">
+    <p>{{ $page.Summary | plainify | htmlUnescape }}{{ if $page.Truncated }}...{{ end }}</p>
+  </div>
+  {{- end }}
+  {{- if not ($page.Param "hideMeta") }}
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" $page -}}
+  </footer>
+  {{- end }}
+  <a class="entry-link" aria-label="post link to {{ $page.Title | plainify }}" href="{{ $page.Permalink }}"></a>
+</article>
+{{- end }}
+{{- $groupIndex = add $groupIndex 1 }}
+{{- end }}
+{{- end }}
+
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
+      «&nbsp;{{ i18n "prev_page" }}&nbsp;
+      {{- if (.Param "ShowPageNums") }}
+      {{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}
+      {{- end }}
+    </a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">
+      {{- i18n "next_page" }}&nbsp;
+      {{- if (.Param "ShowPageNums") }}
+      {{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}
+      {{- end }}&nbsp;»
+    </a>
+    {{- end }}
+  </nav>
+</footer>
+{{- end }}
+
+{{- end }}{{/* end profileMode */}}
+
+{{- end }}{{- /* end main */ -}}

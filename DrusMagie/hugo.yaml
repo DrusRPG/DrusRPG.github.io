@@ -17,7 +17,7 @@ params:
   #description: "ExampleSite description"
   keywords: [Hue Hue Hue]
   #author: Me
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  #images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -43,17 +43,13 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/favicon/icon_128.png"
+    favicon16x16: "/favicon/icon_16.png"
+    favicon32x32: "/static/favicon/icon_32.png"
+    apple_touch_icon: "/favicon/icon_128.png"
 
   label:
     text: "Přehled"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
-
 
   # home-info mode
   homeInfoParams:
@@ -73,6 +69,7 @@ params:
   customCSS:
     - assets/css/extended/custom.css
     - assets/css/extended/counter_magic_styling.css
+    - assets/css/extended/character_styling.css
 
   # for search
   # https://fusejs.io/api/options.html

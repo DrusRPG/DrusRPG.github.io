@@ -1,7 +1,7 @@
 .vscode
 DrusMagie/.hugo_build.lock
 DrusMagie/public
-DrusMagie/content
 DrusMagie/resources
+DrusMagie/content
 .claude/*
 __pycache__

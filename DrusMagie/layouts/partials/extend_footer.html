@@ -96,14 +96,17 @@
         });
     });
 
-    const image = document.getElementsByClassName('entry-cover')[0].childNodes[0];
-    let clickCount = 0;
-    image.addEventListener('click', () => {
-        clickCount++;
-        if (clickCount === 10) {
-            runSpecialCode();
-        }
-    });
+    const images = document.getElementsByClassName('entry-cover')[0];
+    if (images) {
+        const image = images.childNodes[0];
+        let clickCount = 0;
+        image.addEventListener('click', () => {
+            clickCount++;
+            if (clickCount === 10) {
+                runSpecialCode();
+            }
+        });
+    }
 
     function runSpecialCode() {
         allSpellsRevealed = true;

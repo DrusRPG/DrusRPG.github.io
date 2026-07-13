@@ -1,0 +1,218 @@
+.character-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+
+.character-input textarea {
+  width: 100%;
+  padding: 0.6em;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--entry);
+  color: var(--content);
+  font: inherit;
+  resize: vertical;
+}
+
+.character-input button {
+  align-self: flex-start;
+  background: #555;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1.2em;
+  border-radius: var(--radius);
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.character-input button:hover {
+  background: #777;
+}
+
+.character-history-controls {
+  display: flex;
+  gap: 0.8em;
+}
+
+.character-history-controls select {
+  flex: 1;
+  background: #555;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1.2em;
+  border-radius: var(--radius);
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.character-history-controls select:hover {
+  background: #777;
+}
+
+.character-gap {
+  height: 1em;
+}
+
+.character-text li {
+  margin: 0.1em 0;
+}
+
+.character-text li>ul {
+  margin: 0;
+}
+
+/* Tree connector lines between spell tiers (základní/pokročilá/mistrovská/...)
+   only - not between the spells listed inside each tier. Each tier <li> gets
+   a dot, and a vertical trunk connecting it to its neighboring tiers. The
+   trunk is drawn per-<li>, clipped to the dot's vertical center on the first
+   and last tier, so it doesn't poke out above/below the whole group. */
+.character-text ul.spell-tier-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.character-text ul.spell-tier-list>li {
+  position: relative;
+  margin: 0;
+}
+
+/* Nested spell <ul> inside each tier <li> carries a default bottom margin,
+   which sits outside the <li> box and breaks the trunk line's continuity
+   between tiers - zero it so the line spans the true distance to the next dot. */
+.character-text ul.spell-tier-list>li>ul {
+  margin: 0;
+}
+
+.character-text ul.spell-tier-list>li::before {
+  content: "";
+  position: absolute;
+  top: 0.6em;
+  left: calc(-0.75em - 3px);
+  width: 6px;
+  height: 6px;
+  margin-top: -3px;
+  border-radius: 50%;
+  background: var(--secondary);
+  z-index: 1;
+}
+
+.character-text ul.spell-tier-list>li::after {
+  content: "";
+  position: absolute;
+  /* Overlap 1px past the li's own box on both ends so adjoining segments
+     never leave a subpixel-rounding gap where they meet. */
+  top: -1px;
+  bottom: -1px;
+  left: -0.75em;
+  border-left: 1px solid var(--border);
+}
+
+.character-text ul.spell-tier-list>li:first-child::after {
+  top: 0.6em;
+}
+
+.character-text ul.spell-tier-list>li:last-child::after {
+  bottom: calc(100% - 0.6em);
+}
+
+.tier-label-zakladni {
+  color: #4caf50;
+}
+
+.tier-label-pokrocila {
+  color: #d4b106;
+}
+
+.tier-label-mistrovska {
+  color: #e07b00;
+}
+
+.tier-label-velmistrovska {
+  color: #ff1e00;
+  text-shadow: 0 0 3px rgba(255, 0, 0, 0.6);
+}
+
+.spell-parse-error {
+  color: #e53935;
+  font-weight: bold;
+}
+
+@media print {
+
+  /* @page margin:0 is what actually suppresses the browser's own
+     title/url header and date/page-count footer - it only draws those
+     inside the page margin, so zeroing it removes them. */
+  @page {
+    margin: 0;
+  }
+
+  body:has(.character-text) .header,
+  body:has(.character-text) .footer,
+  body:has(.character-text) .top-link,
+  body:has(.character-text) .post-footer {
+    display: none !important;
+  }
+
+  /* Browsers skip background colors and borders derived from theme vars
+     when printing unless explicitly told to keep them - without this the
+     tier dot (a background-color circle) and trunk line (a border-left)
+     both vanish on the printed sheet. */
+  body:has(.character-text) ul.spell-tier-list>li::before,
+  body:has(.character-text) ul.spell-tier-list>li::after {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  body:has(.character-text) ul.spell-tier-list>li::before {
+    background: #000;
+  }
+
+  body:has(.character-text) ul.spell-tier-list>li::after {
+    border-left-color: #000;
+  }
+
+  /* .main reserves a full viewport height (100vh) for the sticky footer
+     layout - on paper that pads out a whole trailing blank page. @page
+     margin is 0 (see above), so this padding is the only thing standing
+     between the text and the paper edge - sized to a typical printer's
+     minimum unprintable border. */
+  body:has(.character-text) .main {
+    min-height: 0;
+    padding: 12mm;
+  }
+
+  /* The site's default heading margins are sized for a spacious web page,
+     not a printed sheet - Chrome's default 1in print margins already eat
+     a lot of the page, so trim this to buy back room and avoid a spell
+     list spilling a line or two onto an otherwise-empty trailing page. */
+  body:has(.character-text) .post-title {
+    margin: 0 0 8px;
+  }
+
+  body:has(.character-text) .character-text li {
+    margin: 0;
+  }
+
+  body:has(.character-text) .character-gap {
+    height: 0.4em;
+  }
+
+  .tier-label-velmistrovska {
+    color: #ff1e00;
+    text-shadow: 0 0 0px;
+  }
+
+  /* .tooltiptext (the spell-description popup) and .icon-tooltip-text (the
+     icon-name popup) sit invisible behind every spell via filter/blur +
+     position:absolute. Chrome's print engine has a bug where enough of
+     these on one page (~12+) silently spawns a blank trailing page, even
+     though nothing is actually rendered from them - drop them for print. */
+  body:has(.character-text) .tooltiptext,
+  body:has(.character-text) .icon-tooltip-text {
+    display: none !important;
+  }
+}
